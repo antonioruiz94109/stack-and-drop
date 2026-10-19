@@ -16,7 +16,7 @@
     p { margin: 0; }
     .muted { color: #a1a1aa; }
     .notice { font-size: 14px; margin-top: 16px; color: #d4d4d8; max-width: 80ch; }
-    .filters { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; background: #18181b; border: 1px solid #27272a; border-radius: 12px; padding: 16px; }
+    .filters { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 16px; background: #18181b; border: 1px solid #27272a; border-radius: 12px; padding: 16px; }
     label { display: block; font-size: 12px; text-transform: uppercase; letter-spacing: .05em; color: #a1a1aa; margin-bottom: 8px; }
     select, button { font: inherit; font-size: 14px; min-height: 44px; border: 1px solid #3f3f46; border-radius: 8px; background: #09090b; color: #f4f4f5; padding: 8px 12px; }
     select { width: 100%; }
@@ -54,9 +54,17 @@
       <div class="badge">Community learning project · Catalog updated <span id="last-updated">…</span></div>
       <h1>CadenceIndex</h1>
       <p class="muted">Road and trail running shoes, from zero drop to higher drop, at a glance.</p>
-      <p class="notice">All 17 entries link to manufacturer sources. Missing specifications and source inconsistencies are noted on each card. Listed prices are in USD, not live offers; sizes and colorways may vary.</p>
+      <p class="notice">All entries link to manufacturer sources. Men’s and women’s versions are listed separately, with 17 of each. Missing specifications and source inconsistencies are noted on each card. Listed prices are in USD, not live offers; sizes and colorways may vary.</p>
     </header>
     <section class="filters" aria-label="Filter shoes">
+      <div>
+        <label for="filter-gender">Men’s / Women’s</label>
+        <select id="filter-gender">
+          <option value="all">All versions</option>
+          <option value="men">Men’s</option>
+          <option value="women">Women’s</option>
+        </select>
+      </div>
       <div>
         <label for="filter-brand">Brand</label>
         <select id="filter-brand">
@@ -83,6 +91,9 @@
           <option value="speed">Speedwork / tempo</option>
           <option value="daily">Daily training / long runs</option>
           <option value="trail">Trail running / hiking</option>
+          <option value="walking">Walking</option>
+          <option value="gym">Gym & training</option>
+          <option value="support">Support</option>
         </select>
       </div>
       <div>
@@ -124,22 +135,27 @@
     }
 
     function renderShoes() {
+      const gender = document.getElementById('filter-gender').value;
       const brand = document.getElementById('filter-brand').value;
       const drop = document.getElementById('filter-drop').value;
       const use = document.getElementById('filter-use').value;
       const weight = document.getElementById('filter-weight').value;
       const filtered = allShoes.filter(shoe => {
+        if (gender !== 'all' && shoe.gender !== gender) return false;
         if (brand !== 'all' && shoe.brand !== brand) return false;
         if (drop === 'zero' && shoe.drop_mm !== 0) return false;
         if (drop === 'low' && (shoe.drop_mm < 1 || shoe.drop_mm > 6)) return false;
         if (drop === 'high' && (!Number.isFinite(shoe.drop_mm) || shoe.drop_mm <= 6)) return false;
+        if (use === 'walking' && !/Walking/i.test(shoe.use_case)) return false;
+        if (use === 'gym' && !/Gym/i.test(shoe.use_case)) return false;
+        if (use === 'support' && !/Support/i.test(shoe.use_case)) return false;
         if (use === 'trail' && !/Trail|Hiking/i.test(shoe.use_case)) return false;
         if (use === 'speed' && !/Speedwork|Tempo|Intervals/i.test(shoe.use_case)) return false;
         if (use === 'daily' && !/Zone 2|Daily|Long Run/i.test(shoe.use_case)) return false;
         if (weight !== 'all' && (!Number.isFinite(shoe.weight_oz) || shoe.weight_oz >= Number(weight))) return false;
         return true;
       });
-      count.textContent = `Showing ${filtered.length} of ${allShoes.length} shoes`;
+      count.textContent = `Showing ${filtered.length} of ${allShoes.length} shoe versions`;
       grid.innerHTML = filtered.length ? filtered.map(shoe => {
         const s = Object.fromEntries(Object.entries(shoe).map(([key, value]) => [key, escapeHTML(value)]));
         let sourceURL = null;
@@ -154,6 +170,7 @@
         return `<article class="shoe-card" data-shoe-id="${s.id}">
           <div class="card-top"><span class="brand">${s.brand}</span><span class="price">${shoe.price_type ? 'List ' : ''}$${s.price_usd}</span></div>
           <h2>${s.model}</h2>
+          <p class="use">${shoe.gender === 'women' ? 'Women’s' : shoe.gender === 'men' ? 'Men’s' : 'Version not specified'}</p>
           <p class="use">${s.use_case}<br>Toe box: ${escapeHTML(shoe.toe_box || 'not specified')}</p>
           <dl>
             <div><dt>Drop</dt><dd>${s.drop_mm} mm</dd></div>
