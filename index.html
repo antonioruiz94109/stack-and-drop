@@ -73,6 +73,10 @@
           <option value="Topo Athletic">Topo Athletic</option>
           <option value="Nike">Nike</option>
           <option value="New Balance">New Balance</option>
+          <option value="ASICS">ASICS</option>
+          <option value="Saucony">Saucony</option>
+          <option value="Brooks">Brooks</option>
+          <option value="HOKA">HOKA</option>
         </select>
       </div>
       <div>
@@ -161,7 +165,7 @@
         let sourceURL = null;
         try {
           const url = new URL(shoe.source_url);
-          if (url.protocol === 'https:' && ['www.altrarunning.com', 'www.topoathletic.com', 'www.nike.com', 'www.newbalance.com'].includes(url.hostname)) sourceURL = url.href;
+          if (url.protocol === 'https:' && ['www.altrarunning.com', 'www.topoathletic.com', 'www.nike.com', 'www.newbalance.com', 'www.asics.com', 'www.saucony.com', 'www.brooksrunning.com', 'au.hoka.com', 'vn.hoka.com'].includes(url.hostname)) sourceURL = url.href;
         } catch (_) { /* Legacy records have no source URL. */ }
         const source = sourceURL
           ? `<div class="source"><a href="${escapeHTML(sourceURL)}" target="_blank" rel="noopener noreferrer">Manufacturer source ↗</a><small>Sourced ${s.sourced_at}</small><small>Weight reference: ${escapeHTML(shoe.weight_reference_size || 'size not specified')}</small><small>${escapeHTML(shoe.source_notes || '')}</small></div>`
