@@ -48,7 +48,7 @@ Specifications come from manufacturer sources and have not been independently la
 
 ## Weekly review checker
 
-A read-only weekly GitHub Actions checker monitors Altra, New Balance and Topo. Reports flag candidates, possible specification changes, aging releases and incomplete coverage. New entries and specification updates require review before publication. See [checker instructions](scripts/CHECKER.md) and [workflow reports](https://github.com/antonioruiz94109/CadenceIndex/actions/workflows/catalog-checker.yml).
+A read-only weekly GitHub Actions checker monitors all ten catalog brands: Altra, ASICS, Brooks, HOKA, New Balance, Nike, PUMA, Saucony, Topo Athletic and adidas. Reports flag candidates, possible specification changes, aging releases and incomplete coverage. New entries and specification updates require review before publication. See [checker instructions](scripts/CHECKER.md) and [workflow reports](https://github.com/antonioruiz94109/CadenceIndex/actions/workflows/catalog-checker.yml).
 
 ## Reviewed running additions — October 19, 2026
 

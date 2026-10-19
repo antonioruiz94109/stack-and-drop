@@ -6,7 +6,7 @@ Reports appear in the workflow run summary and downloadable `catalog-review` art
 
 The workflow has contents: read permission only. It does not update shoes.json, open changes, or publish catalog entries. A checksum verifies shoes.json is untouched. No external AI, purchases or personal credentials are required.
 
-Scope: Altra and Topo new-arrival pages; New Balance men's/women's running listings; manufacturer URLs for all current entries from those brands. Listing coverage is not exhaustive. Blocked requests, empty extraction and missing pages appear as coverage problems; they never imply no changes or discontinued shoes. New Balance may reject automated requests with HTTP 403 and then needs manual review.
+Scope: all ten current catalog brands—Altra, ASICS, Brooks, HOKA, New Balance, Nike, PUMA, Saucony, Topo Athletic and adidas. Checks selected men's/women's manufacturer listings and source URLs for all catalog entries. Per-brand report coverage distinguishes fetched pages from extracted specifications. Listing coverage is not exhaustive. Blocked requests, empty extraction and missing pages appear as coverage problems; they never imply no changes or discontinued shoes. New Balance may reject automated requests with HTTP 403 and then needs manual review.
 
 Candidates are unverified. URL-level normalization removes query strings and New Balance color/size identifiers; reviewers must still eliminate accessories, duplicate models, widths and colors, confirm gender, and establish release within the rolling two-year window. Discovery time is not release time.
 
@@ -15,3 +15,5 @@ Labelled specification excerpts are compared to a prior successful snapshot. The
 Snapshots are cached between runs; if GitHub evicts the cache, the checked-in initial baseline is used. report.json records the comparison date. A failed fetch preserves the last successful snapshot. Review the report before proposing any data change, then run catalog checks and approve publication separately.
 
 Local run: `python3 scripts/check_catalog.py --catalog shoes.json --output checker-report`. Tests: `python3 -m unittest discover -s scripts -p 'test_check_catalog.py'`.
+
+The all-brand trial on October 19 fetched 88/157 source pages locally. New Balance, ASICS, Brooks, HOKA and adidas returned access blocks; monitoring remains enabled to retry weekly, but these brands require manual research while blocked. Candidate counts refer to links, not verified distinct shoes. Brand coverage on GitHub runners may differ. No blocked-access bypass is attempted.

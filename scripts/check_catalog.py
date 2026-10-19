@@ -9,6 +9,13 @@ BRANDS = {
  'Altra': ['https://www.altrarunning.com/en-us/collections/mens-new-arrivals', 'https://www.altrarunning.com/en-us/collections/womens-new-arrivals'],
  'New Balance': ['https://www.newbalance.com/men/shoes/running/', 'https://www.newbalance.com/women/shoes/running/'],
  'Topo Athletic': ['https://www.topoathletic.com/men/mens-shoes/promo/New-Arrival', 'https://www.topoathletic.com/women/womens-shoes/promo/New-Arrival'],
+ 'ASICS': ['https://www.asics.com/us/en-us/mens-running-shoes/c/aa10201000/', 'https://www.asics.com/us/en-us/womens-running-shoes/c/aa20201000/'],
+ 'Brooks': ['https://www.brooksrunning.com/en_us/mens/shoes/', 'https://www.brooksrunning.com/en_us/womens/shoes/'],
+ 'HOKA': ['https://www.hoka.com/en/us/mens-running/', 'https://www.hoka.com/en/us/womens-running/'],
+ 'Nike': ['https://www.nike.com/w/mens-running-shoes-37v7jznik1zy7ok', 'https://www.nike.com/w/womens-running-shoes-37v7jz5e1x6zy7ok'],
+ 'PUMA': ['https://us.puma.com/us/en/men/shoes/running', 'https://us.puma.com/us/en/women/shoes/running'],
+ 'Saucony': ['https://www.saucony.com/en/mens-running/', 'https://www.saucony.com/en/womens-running/'],
+ 'adidas': ['https://www.adidas.com/us/men-running-shoes', 'https://www.adidas.com/us/women-running-shoes'],
 }
 class Page(HTMLParser):
  def __init__(self):
@@ -31,6 +38,15 @@ def identity(url):
  p=urlsplit(url).path.lower()
  if '/pd/' in p: return p.split('/pd/')[1].split('/')[0] # model, not color/size SKU
  return re.sub(r'-al0[a-z0-9]+$','',p.split('/')[-1])
+def product_link(brand,path):
+ patterns={
+  'Altra':r'/products/(?:mens|womens)-', 'New Balance':r'/pd/',
+  'Topo Athletic':r'^/(?:mens|womens)-', 'Nike':r'^/t/',
+  'ASICS':r'/p/[^/]+\.html$', 'Brooks':r'/shoes/.+\.html$',
+  'HOKA':r'/[^/]+/\d+[^/]*\.html$', 'PUMA':r'/pd/[^/]+/\d+',
+  'Saucony':r'/[^/]+/\d+[^/]*\.html$', 'adidas':r'/[^/]+/[A-Z0-9]+\.html$'}
+ return bool(re.search(patterns[brand],path,re.I))
+
 def fetch(url):
  try:
   req=urllib.request.Request(url,headers={'User-Agent':'CadenceIndexCatalogChecker/1.0 (+https://github.com/antonioruiz94109/CadenceIndex)'})
@@ -87,15 +103,22 @@ def run(catalog,previous,output):
    for href,label in p['links']:
     link=canonical(urljoin(u,href));path=urlsplit(link).path
     if urlsplit(link).netloc!=urlsplit(u).netloc:continue
-    valid=(bool(re.search(r'/products/(mens|womens)-',path)) if brand=='Altra' else '/pd/' in path if brand=='New Balance' else bool(re.match(r'^/(mens|womens)-',path)))
+    valid=product_link(brand,path)
     if not valid:continue
     found+=1;key=brand+'|'+identity(link)
     if identity(link) not in known:candidates.setdefault(key,{'brand':brand,'url':link,'label':label[:160] or identity(link),'status':'Unverified candidate: confirm running shoe, gender, model identity and release within two years.'})
    if not found:problems.append(f"Discovery {brand}: zero product links extracted (possibly JavaScript-only); coverage incomplete — {u}")
  snapshot['candidates']=sorted(candidates);prior_candidates=set(old.get('candidates',[]));new=[v for k,v in sorted(candidates.items()) if k not in prior_candidates]
- report={'checked_at':str(today),'comparison_baseline':old.get('checked_at','none'),'scope':{b:sum(s['brand']==b for s in shoes) for b in BRANDS},'source_checks':len(shoes),'successful_fetches':sum(pages[s['source_url']]['ok'] for s in shoes),'new_candidates':new,'pending_candidates':list(candidates.values()),'possible_spec_changes':changes,'initial_baselines':baseline,'age_flags':age,'coverage_problems':problems}
+ coverage={}
+ for brand,listing_urls in BRANDS.items():
+  entries=[s for s in shoes if s['brand']==brand]
+  coverage[brand]={'entries':len(entries),'pages_fetched':sum(pages[s['source_url']]['ok'] for s in entries),'specs_extracted':sum(pages[s['source_url']]['ok'] and bool(evidence(pages[s['source_url']]['text'])) for s in entries),'discovery_pages_fetched':sum(pages[u]['ok'] for u in listing_urls),'discovery_pages':len(listing_urls),'pending_candidates':sum(v['brand']==brand for v in candidates.values())}
+ report={'checked_at':str(today),'brand_coverage':coverage,'comparison_baseline':old.get('checked_at','none'),'scope':{b:sum(s['brand']==b for s in shoes) for b in BRANDS},'source_checks':len(shoes),'successful_fetches':sum(pages[s['source_url']]['ok'] for s in shoes),'new_candidates':new,'pending_candidates':list(candidates.values()),'possible_spec_changes':changes,'initial_baselines':baseline,'age_flags':age,'coverage_problems':problems}
  out=Path(output);out.mkdir(parents=True,exist_ok=True);(out/'report.json').write_text(json.dumps(report,indent=2)+'\n');(out/'snapshot.json').write_text(json.dumps(snapshot,indent=2)+'\n')
- lines=['# CadenceIndex weekly review — '+str(today),'','REPORT ONLY. No catalog edits, commits or publication. Candidates are not verified releases.','',f"Scope: {len(shoes)} existing entries; {len(new)} newly observed candidate models/versions; {len(changes)} possible spec changes; {len(problems)} coverage problems.",'','First successful checks establish a baseline; they do not prove existing specs match. Blocked pages are unknown, never unchanged or discontinued. New colors/widths can still require manual deduplication.','']
+ lines=['# CadenceIndex weekly review — '+str(today),'','REPORT ONLY. No catalog edits, commits or publication. Candidates are not verified releases.','',f"Scope: {len(shoes)} existing entries; {len(new)} newly observed candidate links; {len(changes)} possible spec changes; {len(problems)} coverage problems.",'','First successful checks establish a baseline; they do not prove existing specs match. Blocked pages are unknown, never unchanged or discontinued. New colors/widths can still require manual deduplication.','']
+ lines+=['## Coverage by brand','','Brand | Entries | Pages fetched | Specs extracted | Discovery pages fetched | Pending candidates','--- | ---: | ---: | ---: | ---: | ---:']
+ for brand,c in coverage.items(): lines.append(f"{brand} | {c['entries']} | {c['pages_fetched']} | {c['specs_extracted']} | {c['discovery_pages_fetched']}/{c['discovery_pages']} | {c['pending_candidates']}")
+ lines+=['']
  for title,items in [('Candidates requiring verification',[f"{v['brand']}: [{v['label'].replace('[','').replace(']','')}]({v['url']})" for v in candidates.values()]),('Possible specification changes',[f"{v['id']}: {v['url']}\n  - Before: {'; '.join(v['before'])}\n  - After: {'; '.join(v['after'])}" for v in changes]),('Release age review',age),('Coverage problems',problems),('Initial source baselines',[f"{v['id']}: {'; '.join(v['evidence'])}" for v in baseline])]:
   lines+=['## '+title,'']+(['- '+s for s in items] or ['None.'])+['']
  lines+=['Review policy: confirm manufacturer specifications, gender/reference size, model-release evidence and duplicates before proposing a catalog change. Never infer release date from discovery date. Check report.json for catalog values alongside initial source evidence.','Coverage is limited to the configured listing pages; pagination and JavaScript-only listings may hide products. Missing results are not proof that no new shoes exist.']
