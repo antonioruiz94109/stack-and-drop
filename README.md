@@ -38,8 +38,10 @@ Cards show short, attributed excerpts from manufacturer model pages where verifi
 
 Search updates as you type and combines with existing filters. It matches a case-insensitive literal phrase in brands, models, intended uses, toe-box descriptions, catalog summaries and quoted manufacturer support wording. Each result shows the matching field and highlights the matched text. Catalog descriptions and manufacturer quotes are labeled separately. It does not search source URLs or infer synonyms or fit suitability. Reset clears both search and filters.
 
-## Original 34 release-date audit — October 19, 2026
+## Release-date audit and replacements — October 19, 2026
 
-Audited against the original October 18, 2024–October 18, 2026 window: 27 entries within the window, five older, two uncertain around the cutoff. All 134 entries are retained; older and uncertain entries are visibly labeled. Older models: Olympus 6 (one entry), Escalante 4 (two), Specter 2 (one), Atmos (one). Ultraventure 4 (two) is documented as available by October 30, 2024, but first-sale timing relative to October 18 remains unresolved. Model launches are distinct from later colorways and regional releases. Month/year precision and source caveats are preserved. Release dates apply at model level to gender variants unless noted.
+The original 34-entry audit found 27 entries within the window, five older and two with uncertain cutoff eligibility. The seven flagged entries have now been replaced with verified 2025–2026 releases: Atmos 2, Fli-Lyte 6 and Ultrafly 6 (men); Pursuit 3 and Olympus 275 (men and women). The replacement window is October 19, 2024–October 19, 2026. The catalog remains 134 entries, 67 men and 67 women across ten brands. The other 127 entries are unchanged.
+
+Every replacement has gender-specific manufacturer specifications and linked model-release evidence. Month/year precision and regional-launch caveats are preserved; a new color does not reset model age. Olympus 275 uses year precision because July general launch followed reported early exclusive availability. Altra does not supply its weight reference size.
 
 Specifications come from manufacturer sources and have not been independently lab-tested by CadenceIndex. The release audit does not independently validate performance or specifications.
