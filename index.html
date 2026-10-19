@@ -169,8 +169,7 @@
         const stack = Number.isFinite(shoe.stack_heel_mm) && Number.isFinite(shoe.stack_forefoot_mm) ? `${s.stack_heel_mm}/${s.stack_forefoot_mm}` : '—';
         return `<article class="shoe-card" data-shoe-id="${s.id}">
           <div class="card-top"><span class="brand">${s.brand}</span><span class="price">${shoe.price_type ? 'List ' : ''}$${s.price_usd}</span></div>
-          <h2>${s.model}</h2>
-          <p class="use">${shoe.gender === 'women' ? 'Women’s' : shoe.gender === 'men' ? 'Men’s' : 'Version not specified'}</p>
+          <h2>${shoe.gender === 'women' ? 'Women’s' : shoe.gender === 'men' ? 'Men’s' : 'Version not specified'} ${s.model}</h2>
           <p class="use">${s.use_case}<br>Toe box: ${escapeHTML(shoe.toe_box || 'not specified')}</p>
           <dl>
             <div><dt>Drop</dt><dd>${s.drop_mm} mm</dd></div>
