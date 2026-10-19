@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Explore eight running shoes by heel-to-toe drop, weight, stack height and intended use. A free community learning project.">
+  <meta name="description" content="Explore running shoes by heel-to-toe drop, weight, stack height and intended use. A free community learning project.">
   <title>CadenceIndex — Running Shoe Directory</title>
   <style>
     :root { color-scheme: dark; font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: #09090b; color: #f4f4f5; }
@@ -16,7 +16,7 @@
     p { margin: 0; }
     .muted { color: #a1a1aa; }
     .notice { font-size: 14px; margin-top: 16px; color: #d4d4d8; max-width: 80ch; }
-    .filters { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; background: #18181b; border: 1px solid #27272a; border-radius: 12px; padding: 16px; }
+    .filters { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; background: #18181b; border: 1px solid #27272a; border-radius: 12px; padding: 16px; }
     label { display: block; font-size: 12px; text-transform: uppercase; letter-spacing: .05em; color: #a1a1aa; margin-bottom: 8px; }
     select, button { font: inherit; font-size: 14px; min-height: 44px; border: 1px solid #3f3f46; border-radius: 8px; background: #09090b; color: #f4f4f5; padding: 8px 12px; }
     select { width: 100%; }
@@ -39,6 +39,9 @@
     .verdict { color: #d4d4d8; font-size: 14px; margin-bottom: 16px; }
     .foam { margin-top: auto; padding-top: 12px; border-top: 1px solid #27272a; font-size: 12px; color: #a1a1aa; }
     .foam strong { color: #e4e4e7; }
+    .source { margin-top: 12px; font-size: 12px; color: #a1a1aa; overflow-wrap: anywhere; }
+    .source a { color: #6ee7b7; text-underline-offset: 3px; }
+    .source small { display: block; margin-top: 4px; }
     .empty { grid-column: 1 / -1; padding: 24px; border: 1px solid #3f3f46; border-radius: 12px; }
     footer { margin-top: 48px; padding-top: 24px; border-top: 1px solid #27272a; color: #a1a1aa; font-size: 13px; }
     @media (max-width: 1000px) { #shoe-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
@@ -50,16 +53,27 @@
     <header>
       <div class="badge">Community learning project · Catalog updated <span id="last-updated">…</span></div>
       <h1>CadenceIndex</h1>
-      <p class="muted">Low-drop, zero-drop & anatomical toe-box running shoes, at a glance.</p>
-      <p class="notice">This initial catalog contains AI-assisted entries awaiting source verification. Specifications, prices and descriptions are provisional; confirm details with the manufacturer. Prices are in USD.</p>
+      <p class="muted">Road and trail running shoes, from zero drop to higher drop, at a glance.</p>
+      <p class="notice">Nine new entries link to manufacturer specifications. The original eight remain marked for source review. Listed prices are in USD, not live offers; sizes and colorways may vary.</p>
     </header>
     <section class="filters" aria-label="Filter shoes">
+      <div>
+        <label for="filter-brand">Brand</label>
+        <select id="filter-brand">
+          <option value="all">All brands</option>
+          <option value="Altra">Altra</option>
+          <option value="Topo Athletic">Topo Athletic</option>
+          <option value="Nike">Nike</option>
+          <option value="New Balance">New Balance</option>
+        </select>
+      </div>
       <div>
         <label for="filter-drop">Heel-to-toe drop</label>
         <select id="filter-drop">
           <option value="all">All drops</option>
           <option value="zero">Zero drop (0 mm)</option>
           <option value="low">Low drop (1–6 mm)</option>
+          <option value="high">Higher drop (over 6 mm)</option>
         </select>
       </div>
       <div>
@@ -68,6 +82,7 @@
           <option value="all">All uses</option>
           <option value="speed">Speedwork / tempo</option>
           <option value="daily">Daily training / long runs</option>
+          <option value="trail">Trail running / hiking</option>
         </select>
       </div>
       <div>
@@ -85,7 +100,7 @@
     </div>
     <div id="shoe-grid"></div>
     <noscript><p>Enable JavaScript to display and filter the shoe catalog.</p></noscript>
-    <footer>A free project for friends and curious runners. Stack is listed as heel / forefoot in millimeters. Weight varies by shoe size; reference sizes still need verification. Brand and product names belong to their respective owners. No brand affiliation is implied.</footer>
+    <footer>A free project for friends and curious runners. Stack is listed as heel / forefoot in millimeters. Weights use each manufacturer’s reference size where available, so they are not directly comparable across brands. A dash means the source does not provide that specification. Descriptions summarize manufacturer information, not hands-on reviews. Brand and product names belong to their respective owners. No brand affiliation is implied.</footer>
   </main>
   <script>
     let allShoes = [];
@@ -109,31 +124,45 @@
     }
 
     function renderShoes() {
+      const brand = document.getElementById('filter-brand').value;
       const drop = document.getElementById('filter-drop').value;
       const use = document.getElementById('filter-use').value;
       const weight = document.getElementById('filter-weight').value;
       const filtered = allShoes.filter(shoe => {
+        if (brand !== 'all' && shoe.brand !== brand) return false;
         if (drop === 'zero' && shoe.drop_mm !== 0) return false;
         if (drop === 'low' && (shoe.drop_mm < 1 || shoe.drop_mm > 6)) return false;
+        if (drop === 'high' && (!Number.isFinite(shoe.drop_mm) || shoe.drop_mm <= 6)) return false;
+        if (use === 'trail' && !/Trail|Hiking/i.test(shoe.use_case)) return false;
         if (use === 'speed' && !/Speedwork|Tempo|Intervals/i.test(shoe.use_case)) return false;
         if (use === 'daily' && !/Zone 2|Daily|Long Run/i.test(shoe.use_case)) return false;
-        if (weight !== 'all' && shoe.weight_oz >= Number(weight)) return false;
+        if (weight !== 'all' && (!Number.isFinite(shoe.weight_oz) || shoe.weight_oz >= Number(weight))) return false;
         return true;
       });
       count.textContent = `Showing ${filtered.length} of ${allShoes.length} shoes`;
       grid.innerHTML = filtered.length ? filtered.map(shoe => {
         const s = Object.fromEntries(Object.entries(shoe).map(([key, value]) => [key, escapeHTML(value)]));
+        let sourceURL = null;
+        try {
+          const url = new URL(shoe.source_url);
+          if (url.protocol === 'https:' && ['www.altrarunning.com', 'www.topoathletic.com', 'www.nike.com'].includes(url.hostname)) sourceURL = url.href;
+        } catch (_) { /* Legacy records have no source URL. */ }
+        const source = sourceURL
+          ? `<div class="source"><a href="${escapeHTML(sourceURL)}" target="_blank" rel="noopener noreferrer">Manufacturer source ↗</a><small>Sourced ${s.sourced_at}</small><small>Weight reference: ${escapeHTML(shoe.weight_reference_size || 'size not specified')}</small><small>${escapeHTML(shoe.source_notes || '')}</small></div>`
+          : '<p class="source">Awaiting source review · provisional entry</p>';
+        const stack = Number.isFinite(shoe.stack_heel_mm) && Number.isFinite(shoe.stack_forefoot_mm) ? `${s.stack_heel_mm}/${s.stack_forefoot_mm}` : '—';
         return `<article class="shoe-card" data-shoe-id="${s.id}">
-          <div class="card-top"><span class="brand">${s.brand}</span><span class="price">$${s.price_usd}</span></div>
+          <div class="card-top"><span class="brand">${s.brand}</span><span class="price">${shoe.price_type ? 'List ' : ''}$${s.price_usd}</span></div>
           <h2>${s.model}</h2>
-          <p class="use">${s.use_case} · ${s.toe_box} toe box</p>
+          <p class="use">${s.use_case}<br>Toe box: ${escapeHTML(shoe.toe_box || 'not specified')}</p>
           <dl>
             <div><dt>Drop</dt><dd>${s.drop_mm} mm</dd></div>
             <div><dt>Weight</dt><dd>${s.weight_oz} oz</dd></div>
-            <div><dt>Stack (mm)</dt><dd>${s.stack_heel_mm}/${s.stack_forefoot_mm}</dd></div>
+            <div><dt>Stack (mm)</dt><dd>${stack}</dd></div>
           </dl>
           <p class="verdict">${s.verdict}</p>
           <p class="foam">Midsole: <strong>${s.foam}</strong></p>
+          ${source}
         </article>`;
       }).join('') : '<p class="empty">No shoes match these filters. Try another combination or reset the filters.</p>';
     }
