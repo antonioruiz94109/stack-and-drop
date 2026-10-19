@@ -1,0 +1,126 @@
+[
+  {
+    "candidate_id": 24,
+    "brand": "Nike",
+    "model": "Pegasus 42 GORE-TEX",
+    "gender": "men",
+    "url": "https://www.nike.com/t/pegasus-42-gore-tex-mens-waterproof-road-running-shoes-Q8TUua54/IQ0455-001",
+    "release_notes": "September 2026 dates found for individual Pegasus 42 GTX colorways and a Japanese regional style; insufficient exact-version original model launch evidence to clear this hold. Standard Pegasus 42 April release is not transferred to GTX.",
+    "supporting_sources": [
+      "https://sneakerwars.jp/items/view/33491",
+      "https://about.nike.com/en/newsroom/releases/nike-pegasus-42-official-images"
+    ]
+  },
+  {
+    "candidate_id": 28,
+    "brand": "Nike",
+    "model": "Pegasus 42 GORE-TEX",
+    "gender": "women",
+    "url": "https://www.nike.com/t/pegasus-42-gore-tex-womens-waterproof-road-running-shoes-2yqPS6pc/IQ0465-001",
+    "release_notes": "September 2026 dates found for individual Pegasus 42 GTX colorways and a Japanese regional style; insufficient exact-version original model launch evidence to clear this hold. Standard Pegasus 42 April release is not transferred to GTX.",
+    "supporting_sources": [
+      "https://sneakerwars.jp/items/view/33491",
+      "https://about.nike.com/en/newsroom/releases/nike-pegasus-42-official-images"
+    ]
+  },
+  {
+    "candidate_id": 63,
+    "brand": "Saucony",
+    "model": "Echelon 10",
+    "gender": "men",
+    "url": "https://www.saucony.com/en/echelon-10-wide/59956M.html",
+    "release_notes": "March 2025 manufacturer email and retailer review confirm availability, and resale listings date individual colorways. No sufficiently explicit original model launch evidence found. A later review, restock or color release is not a model-release date. Wide would not be counted as a separate model if eventually added.",
+    "supporting_sources": [
+      "https://milled.com/saucony/echelon-10-cushioning-durability-and-an-accommodating-fit-7hJlDFrum6yJEQnN",
+      "https://runninglabstore.com/blogs/news/saucony-echelon-10"
+    ]
+  },
+  {
+    "candidate_id": 96,
+    "brand": "Saucony",
+    "model": "Cohesion 19",
+    "gender": "men",
+    "url": "https://www.saucony.com/en/cohesion-19/61247M.html",
+    "release_notes": "2026 review/purchase chronology and current listings establish availability, but do not establish the original launch. July 2026 database/calendar claims were not traced to a satisfactory manufacturer or retailer launch source. Hold, not an age exclusion.",
+    "supporting_sources": [
+      "https://www.rtings.com/running-shoes/reviews/saucony/cohesion-19"
+    ]
+  },
+  {
+    "candidate_id": 101,
+    "brand": "Saucony",
+    "model": "Procyon Max",
+    "gender": "men",
+    "url": "https://www.saucony.com/en/procyon-max/61252M.html",
+    "release_notes": "2026 review/purchase chronology and current listings establish availability, but do not establish the original launch. July 2026 database/calendar claims were not traced to a satisfactory manufacturer or retailer launch source. Hold, not an age exclusion.",
+    "supporting_sources": [
+      "https://www.rtings.com/running-shoes/reviews/saucony/procyon-max"
+    ]
+  },
+  {
+    "candidate_id": 102,
+    "brand": "Saucony",
+    "model": "Cohesion 19",
+    "gender": "women",
+    "url": "https://www.saucony.com/en/cohesion-19/61253W.html",
+    "release_notes": "2026 review/purchase chronology and current listings establish availability, but do not establish the original launch. July 2026 database/calendar claims were not traced to a satisfactory manufacturer or retailer launch source. Hold, not an age exclusion.",
+    "supporting_sources": [
+      "https://www.rtings.com/running-shoes/reviews/saucony/cohesion-19"
+    ]
+  },
+  {
+    "candidate_id": 107,
+    "brand": "Saucony",
+    "model": "Procyon Max",
+    "gender": "women",
+    "url": "https://www.saucony.com/en/procyon-max/61265W.html",
+    "release_notes": "2026 review/purchase chronology and current listings establish availability, but do not establish the original launch. July 2026 database/calendar claims were not traced to a satisfactory manufacturer or retailer launch source. Hold, not an age exclusion.",
+    "supporting_sources": [
+      "https://www.rtings.com/running-shoes/reviews/saucony/procyon-max"
+    ]
+  },
+  {
+    "candidate_id": 122,
+    "brand": "Saucony",
+    "model": "Ride TR3 GTX",
+    "gender": "men",
+    "url": "https://www.saucony.com/en/ride-tr3-gtx/61295M.html",
+    "release_notes": "Manufacturer confirms exact GTX model but no reliable launch evidence established. Standard Ride TR3 August release cannot be transferred to GTX.",
+    "supporting_sources": [
+      "https://slrc.com/saucony-ride-tr3-mens/"
+    ]
+  },
+  {
+    "candidate_id": 124,
+    "brand": "Saucony",
+    "model": "Xodus Ultra 4 GTX",
+    "gender": "men",
+    "url": "https://www.saucony.com/en/xodus-ultra-4-gtx/61297M.html",
+    "release_notes": "Galaxus assigns July 6, 2026 to a particular men\u2019s size/SKU, while resale sources assign October dates to other colors. These do not establish the original GTX model launch, or the women\u2019s rollout. Standard Xodus Ultra 4 date is not transferred to GTX.",
+    "supporting_sources": [
+      "https://www.galaxus.ch/en/s3/product/saucony-xodus-ultra-4-gtx-45-running-shoes-72250174"
+    ]
+  },
+  {
+    "candidate_id": 130,
+    "brand": "Saucony",
+    "model": "Ride TR3 GTX",
+    "gender": "women",
+    "url": "https://www.saucony.com/en/ride-tr3-gtx/61303W.html",
+    "release_notes": "Manufacturer confirms exact GTX model but no reliable launch evidence established. Standard Ride TR3 August release cannot be transferred to GTX.",
+    "supporting_sources": [
+      "https://slrc.com/saucony-ride-tr3-mens/"
+    ]
+  },
+  {
+    "candidate_id": 132,
+    "brand": "Saucony",
+    "model": "Xodus Ultra 4 GTX",
+    "gender": "women",
+    "url": "https://www.saucony.com/en/xodus-ultra-4-gtx/61305W.html",
+    "release_notes": "Galaxus assigns July 6, 2026 to a particular men\u2019s size/SKU, while resale sources assign October dates to other colors. These do not establish the original GTX model launch, or the women\u2019s rollout. Standard Xodus Ultra 4 date is not transferred to GTX.",
+    "supporting_sources": [
+      "https://www.galaxus.ch/en/s3/product/saucony-xodus-ultra-4-gtx-45-running-shoes-72250174"
+    ]
+  }
+]

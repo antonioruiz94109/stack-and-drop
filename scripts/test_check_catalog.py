@@ -28,3 +28,21 @@ class ExpandedBrandsTests(unittest.TestCase):
   for brand,path in examples.items():
    self.assertTrue(c.product_link(brand,path),brand)
    self.assertFalse(c.product_link(brand,'/account/login'),brand)
+
+class ReleaseHoldTests(unittest.TestCase):
+ def test_hold_baseline_changes_failures_and_published_skip(self):
+  from release_watch import review
+  with tempfile.TemporaryDirectory() as tmp:
+   path=Path(tmp)/'holds.json';path.write_text(json.dumps([dict(candidate_id=1,brand='Nike',model='Test GTX',gender='women',url='https://example.com/shoe',supporting_sources=[],release_notes='Original launch unknown')]))
+   page={'ok':True,'text':'Test GTX release date January 2026'}
+   rows,state=review([],{},lambda u:page,path)
+   self.assertEqual(rows[0]['status'],'hold_pending_human_verification')
+   self.assertEqual(rows[0]['sources'][0]['status'],'baseline_for_review')
+   rows,unchanged=review([],{'release_watch':state},lambda u:page,path)
+   self.assertEqual(rows[0]['sources'][0]['status'],'unchanged')
+   rows,_=review([],{'release_watch':state},lambda u:{'ok':True,'text':'Test GTX new color June 2026'},path)
+   self.assertEqual(rows[0]['sources'][0]['status'],'changed_for_review')
+   rows,preserved=review([],{'release_watch':state},lambda u:{'ok':False,'error':'403'},path)
+   self.assertEqual(preserved,state);self.assertEqual(rows[0]['sources'][0]['status'],'unavailable')
+   rows,_=review([dict(brand='Nike',model='Test GTX',gender='women')],{},lambda u:page,path)
+   self.assertEqual(rows,[])

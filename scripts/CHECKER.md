@@ -17,3 +17,7 @@ Snapshots are cached between runs; if GitHub evicts the cache, the checked-in in
 Local run: `python3 scripts/check_catalog.py --catalog shoes.json --output checker-report`. Tests: `python3 -m unittest discover -s scripts -p 'test_check_catalog.py'`.
 
 The all-brand trial on October 19 fetched 88/157 source pages locally. New Balance, ASICS, Brooks, HOKA and adidas returned access blocks; monitoring remains enabled to retry weekly, but these brands require manual research while blocked. Candidate counts refer to links, not verified distinct shoes. Brand coverage on GitHub runners may differ. No blocked-access bypass is attempted.
+
+## Held release evidence
+
+The 11 unresolved entries are tracked in release-holds.json. Each Monday the checker revisits their manufacturer pages and known supporting sources, captures nearby exact-model wording, and flags initial evidence, changes or unavailable pages in a separate report section. Prior successful evidence is retained on fetch failures. Published model/gender versions are skipped. This is a known-source watch, not an exhaustive web search; report.json also supplies follow-up search queries for the reviewer. New dates may describe reviews, restocks, colorways or other variants and never clear a hold automatically. Verify the exact model/version, regional context and rolling two-year window before proposing publication.

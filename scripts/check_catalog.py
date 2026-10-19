@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """Read-only discovery and source-change monitor. Never writes shoes.json."""
+from release_watch import review as review_release_holds
 import argparse, concurrent.futures, datetime as dt, hashlib, json, re, urllib.request
 from html.parser import HTMLParser
 from pathlib import Path
@@ -114,6 +115,8 @@ def run(catalog,previous,output):
   entries=[s for s in shoes if s['brand']==brand]
   coverage[brand]={'entries':len(entries),'pages_fetched':sum(pages[s['source_url']]['ok'] for s in entries),'specs_extracted':sum(pages[s['source_url']]['ok'] and bool(evidence(pages[s['source_url']]['text'])) for s in entries),'discovery_pages_fetched':sum(pages[u]['ok'] for u in listing_urls),'discovery_pages':len(listing_urls),'pending_candidates':sum(v['brand']==brand for v in candidates.values())}
  report={'checked_at':str(today),'brand_coverage':coverage,'comparison_baseline':old.get('checked_at','none'),'scope':{b:sum(s['brand']==b for s in shoes) for b in BRANDS},'source_checks':len(shoes),'successful_fetches':sum(pages[s['source_url']]['ok'] for s in shoes),'new_candidates':new,'pending_candidates':list(candidates.values()),'possible_spec_changes':changes,'initial_baselines':baseline,'age_flags':age,'coverage_problems':problems}
+ held_review,held_snapshot=review_release_holds(shoes,old,fetch)
+ snapshot['release_watch']=held_snapshot;report['held_release_review']=held_review
  out=Path(output);out.mkdir(parents=True,exist_ok=True);(out/'report.json').write_text(json.dumps(report,indent=2)+'\n');(out/'snapshot.json').write_text(json.dumps(snapshot,indent=2)+'\n')
  lines=['# CadenceIndex weekly review — '+str(today),'','REPORT ONLY. No catalog edits, commits or publication. Candidates are not verified releases.','',f"Scope: {len(shoes)} existing entries; {len(new)} newly observed candidate links; {len(changes)} possible spec changes; {len(problems)} coverage problems.",'','First successful checks establish a baseline; they do not prove existing specs match. Blocked pages are unknown, never unchanged or discontinued. New colors/widths can still require manual deduplication.','']
  lines+=['## Coverage by brand','','Brand | Entries | Pages fetched | Specs extracted | Discovery pages fetched | Pending candidates','--- | ---: | ---: | ---: | ---: | ---:']
@@ -121,6 +124,12 @@ def run(catalog,previous,output):
  lines+=['']
  for title,items in [('Candidates requiring verification',[f"{v['brand']}: [{v['label'].replace('[','').replace(']','')}]({v['url']})" for v in candidates.values()]),('Possible specification changes',[f"{v['id']}: {v['url']}\n  - Before: {'; '.join(v['before'])}\n  - After: {'; '.join(v['after'])}" for v in changes]),('Release age review',age),('Coverage problems',problems),('Initial source baselines',[f"{v['id']}: {'; '.join(v['evidence'])}" for v in baseline])]:
   lines+=['## '+title,'']+(['- '+s for s in items] or ['None.'])+['']
+ lines+=['## Held release evidence watch','', 'Known sources only; not an exhaustive web search. All entries remain held until reviewed. A new date or changed text is not automatic clearance.','']
+ for h in held_review:
+  lines += [f"- {h['brand']} {h['model']} ({h['gender']}): {h['missing_evidence']}",'  - Follow-up search: '+h['research_query']]
+  for source in h['sources']:
+   lines.append(f"  - {source['status']}: {source['url']}")
+ lines+=['Full excerpts and fetch failures are in report.json.','']
  lines+=['Review policy: confirm manufacturer specifications, gender/reference size, model-release evidence and duplicates before proposing a catalog change. Never infer release date from discovery date. Check report.json for catalog values alongside initial source evidence.','Coverage is limited to the configured listing pages; pagination and JavaScript-only listings may hide products. Missing results are not proof that no new shoes exist.']
  (out/'report.md').write_text('\n'.join(lines)+'\n');print(json.dumps({k:v for k,v in report.items() if k in ['scope','source_checks','successful_fetches']}));print(f'Candidates {len(new)}; possible changes {len(changes)}; coverage problems {len(problems)}')
 if __name__=='__main__':
