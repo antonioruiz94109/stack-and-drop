@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Explore eight running shoes by heel-to-toe drop, weight, stack height and intended use. A free community learning project.">
+  <title>CadenceIndex — Running Shoe Directory</title>
+  <style>
+    :root { color-scheme: dark; font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: #09090b; color: #f4f4f5; }
+    * { box-sizing: border-box; }
+    body { margin: 0; line-height: 1.5; }
+    main { max-width: 1152px; margin: auto; padding: 40px 24px; }
+    header { border-bottom: 1px solid #27272a; padding-bottom: 28px; margin-bottom: 24px; }
+    .badge { display: inline-block; color: #6ee7b7; background: #022c22; border: 1px solid #065f46; border-radius: 20px; padding: 4px 12px; font-size: 12px; }
+    h1 { font-size: clamp(30px, 5vw, 36px); line-height: 1.2; letter-spacing: -.03em; margin: 12px 0 4px; }
+    p { margin: 0; }
+    .muted { color: #a1a1aa; }
+    .notice { font-size: 14px; margin-top: 16px; color: #d4d4d8; max-width: 80ch; }
+    .filters { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; background: #18181b; border: 1px solid #27272a; border-radius: 12px; padding: 16px; }
+    label { display: block; font-size: 12px; text-transform: uppercase; letter-spacing: .05em; color: #a1a1aa; margin-bottom: 8px; }
+    select, button { font: inherit; font-size: 14px; min-height: 44px; border: 1px solid #3f3f46; border-radius: 8px; background: #09090b; color: #f4f4f5; padding: 8px 12px; }
+    select { width: 100%; }
+    button { cursor: pointer; }
+    button:hover { background: #27272a; }
+    :focus-visible { outline: 2px solid #6ee7b7; outline-offset: 3px; }
+    .results { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; margin: 20px 0; }
+    #result-count { color: #a1a1aa; font-size: 14px; }
+    #shoe-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; }
+    .shoe-card { background: #18181b; border: 1px solid #27272a; border-radius: 12px; padding: 24px; display: flex; flex-direction: column; }
+    .shoe-card:hover { border-color: #52525b; }
+    .card-top { display: flex; align-items: center; justify-content: space-between; gap: 8px; font-size: 12px; }
+    .brand { text-transform: uppercase; letter-spacing: .05em; font-weight: 600; color: #6ee7b7; }
+    .price { background: #27272a; border-radius: 4px; padding: 2px 10px; white-space: nowrap; color: #d4d4d8; }
+    h2 { font-size: 20px; line-height: 1.3; margin: 12px 0 4px; }
+    .use { font-size: 12px; color: #a1a1aa; margin-bottom: 16px; }
+    dl { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; background: #09090b; border: 1px solid #27272a; border-radius: 8px; padding: 12px 6px; margin: 0 0 16px; text-align: center; }
+    dt { font-size: 11px; text-transform: uppercase; color: #a1a1aa; }
+    dd { margin: 0; font-size: 14px; font-weight: 600; font-family: ui-monospace, monospace; }
+    .verdict { color: #d4d4d8; font-size: 14px; margin-bottom: 16px; }
+    .foam { margin-top: auto; padding-top: 12px; border-top: 1px solid #27272a; font-size: 12px; color: #a1a1aa; }
+    .foam strong { color: #e4e4e7; }
+    .empty { grid-column: 1 / -1; padding: 24px; border: 1px solid #3f3f46; border-radius: 12px; }
+    footer { margin-top: 48px; padding-top: 24px; border-top: 1px solid #27272a; color: #a1a1aa; font-size: 13px; }
+    @media (max-width: 1000px) { #shoe-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+    @media (max-width: 700px) { main { padding: 24px 16px; } .filters, #shoe-grid { grid-template-columns: minmax(0, 1fr); } }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <div class="badge">Community learning project · Catalog updated <span id="last-updated">…</span></div>
+      <h1>CadenceIndex</h1>
+      <p class="muted">Low-drop, zero-drop & anatomical toe-box running shoes, at a glance.</p>
+      <p class="notice">This initial catalog contains AI-assisted entries awaiting source verification. Specifications, prices and descriptions are provisional; confirm details with the manufacturer. Prices are in USD.</p>
+    </header>
+    <section class="filters" aria-label="Filter shoes">
+      <div>
+        <label for="filter-drop">Heel-to-toe drop</label>
+        <select id="filter-drop">
+          <option value="all">All drops</option>
+          <option value="zero">Zero drop (0 mm)</option>
+          <option value="low">Low drop (1–6 mm)</option>
+        </select>
+      </div>
+      <div>
+        <label for="filter-use">Intended use</label>
+        <select id="filter-use">
+          <option value="all">All uses</option>
+          <option value="speed">Speedwork / tempo</option>
+          <option value="daily">Daily training / long runs</option>
+        </select>
+      </div>
+      <div>
+        <label for="filter-weight">Listed weight</label>
+        <select id="filter-weight">
+          <option value="all">Any weight</option>
+          <option value="7.6">Under 7.6 oz</option>
+          <option value="8.5">Under 8.5 oz</option>
+        </select>
+      </div>
+    </section>
+    <div class="results">
+      <p id="result-count" role="status" aria-live="polite">Loading shoes…</p>
+      <button id="reset-filters" type="button">Reset filters</button>
+    </div>
+    <div id="shoe-grid"></div>
+    <noscript><p>Enable JavaScript to display and filter the shoe catalog.</p></noscript>
+    <footer>A free project for friends and curious runners. Stack is listed as heel / forefoot in millimeters. Weight varies by shoe size; reference sizes still need verification. Brand and product names belong to their respective owners. No brand affiliation is implied.</footer>
+  </main>
+  <script>
+    let allShoes = [];
+    const count = document.getElementById('result-count');
+    const grid = document.getElementById('shoe-grid');
+    const escapeHTML = value => String(value).replace(/[&<>"']/g, char => ({'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'}[char]));
+
+    async function loadShoes() {
+      try {
+        const res = await fetch('./shoes.json');
+        if (!res.ok) throw new Error('Catalog request failed');
+        const data = await res.json();
+        if (!Array.isArray(data.shoes)) throw new Error('Invalid catalog');
+        allShoes = data.shoes;
+        document.getElementById('last-updated').textContent = data.last_updated;
+        renderShoes();
+      } catch (error) {
+        document.getElementById('last-updated').textContent = 'unavailable';
+        count.textContent = 'The shoe catalog could not be loaded. Please reload to try again.';
+      }
+    }
+
+    function renderShoes() {
+      const drop = document.getElementById('filter-drop').value;
+      const use = document.getElementById('filter-use').value;
+      const weight = document.getElementById('filter-weight').value;
+      const filtered = allShoes.filter(shoe => {
+        if (drop === 'zero' && shoe.drop_mm !== 0) return false;
+        if (drop === 'low' && (shoe.drop_mm < 1 || shoe.drop_mm > 6)) return false;
+        if (use === 'speed' && !/Speedwork|Tempo|Intervals/i.test(shoe.use_case)) return false;
+        if (use === 'daily' && !/Zone 2|Daily|Long Run/i.test(shoe.use_case)) return false;
+        if (weight !== 'all' && shoe.weight_oz >= Number(weight)) return false;
+        return true;
+      });
+      count.textContent = `Showing ${filtered.length} of ${allShoes.length} shoes`;
+      grid.innerHTML = filtered.length ? filtered.map(shoe => {
+        const s = Object.fromEntries(Object.entries(shoe).map(([key, value]) => [key, escapeHTML(value)]));
+        return `<article class="shoe-card" data-shoe-id="${s.id}">
+          <div class="card-top"><span class="brand">${s.brand}</span><span class="price">$${s.price_usd}</span></div>
+          <h2>${s.model}</h2>
+          <p class="use">${s.use_case} · ${s.toe_box} toe box</p>
+          <dl>
+            <div><dt>Drop</dt><dd>${s.drop_mm} mm</dd></div>
+            <div><dt>Weight</dt><dd>${s.weight_oz} oz</dd></div>
+            <div><dt>Stack (mm)</dt><dd>${s.stack_heel_mm}/${s.stack_forefoot_mm}</dd></div>
+          </dl>
+          <p class="verdict">${s.verdict}</p>
+          <p class="foam">Midsole: <strong>${s.foam}</strong></p>
+        </article>`;
+      }).join('') : '<p class="empty">No shoes match these filters. Try another combination or reset the filters.</p>';
+    }
+
+    document.querySelectorAll('select').forEach(el => el.addEventListener('change', renderShoes));
+    document.getElementById('reset-filters').addEventListener('click', () => {
+      document.querySelectorAll('select').forEach(el => { el.value = 'all'; });
+      renderShoes();
+    });
+    loadShoes();
+  </script>
+</body>
+</html>
