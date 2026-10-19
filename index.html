@@ -59,8 +59,9 @@
       <div class="badge">Community learning project · Catalog updated <span id="last-updated">…</span></div>
       <h1>CadenceIndex</h1>
       <p class="muted">Road and trail running shoes, from zero drop to higher drop, at a glance.</p>
-      <p class="notice">All entries link to manufacturer sources. Men’s and women’s versions are listed separately, with the version identified on every card. Missing specifications and source inconsistencies are noted on each card. Listed prices are in USD, not live offers; sizes and colorways may vary.</p>
+      <p class="notice">All entries link to manufacturer sources. Men’s and women’s versions are listed separately, with the version identified on every card. Missing specifications and source inconsistencies are noted on each card. Listed prices are in USD, not live offers; sizes and colorways may vary. Specifications come from manufacturer sources and have not been independently lab-tested by CadenceIndex.</p>
     </header>
+    <p class="notice" style="margin-bottom:20px">Original-catalog release audit: five entries predate October 18, 2024; two have uncertain cutoff eligibility. These are retained and labeled on their cards. The audit window is October 18, 2024–October 18, 2026.</p>
     <section class="search" aria-label="Search shoes">
       <label for="keyword-search">Search shoes and descriptions</label>
       <input id="keyword-search" type="search" placeholder="Try roomy, trail, or Pegasus" aria-describedby="search-help" autocomplete="off">
@@ -218,10 +219,13 @@
           ? `<q>${escapeHTML(support.wording)}</q><small><a href="${escapeHTML(supportURL)}" target="_blank" rel="noopener noreferrer">Model-page source ↗</a> · Checked ${escapeHTML(support.checked_at)}</small>`
           : 'Not verified.';
         const matches = query ? `<div class="matches"><strong>Matched text</strong>${matchedFields(shoe, query).map(([label, value]) => `<p>${escapeHTML(label)}: ${highlightMatch(value, query)}</p>`).join('')}</div>` : '';
+        const auditLabels = {outside_window: 'Older model · outside the audited two-year window', cutoff_uncertain: 'Release cutoff uncertain · October 2024'};
+        const auditFlag = auditLabels[shoe.release_audit_status] ? `<p class="notice">${escapeHTML(auditLabels[shoe.release_audit_status])}</p>` : '';
         const stack = Number.isFinite(shoe.stack_heel_mm) && Number.isFinite(shoe.stack_forefoot_mm) ? `${s.stack_heel_mm}/${s.stack_forefoot_mm}` : '—';
         return `<article class="shoe-card" data-shoe-id="${s.id}">
           <div class="card-top"><span class="brand">${s.brand}</span><span class="price">${Number.isFinite(shoe.price_usd) ? `${shoe.price_type ? 'List ' : ''}$${s.price_usd}` : '—'}</span></div>
           <h2>${shoe.gender === 'women' ? 'Women’s' : shoe.gender === 'men' ? 'Men’s' : 'Version not specified'} ${s.model}</h2>
+          ${auditFlag}
           ${matches}
           <p class="use">${s.use_case}<br>Toe box: ${escapeHTML(shoe.toe_box || 'not specified')}</p>
           <dl>

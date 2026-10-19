@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-18",
+  "last_updated": "2026-10-19",
   "maintained_by": "CadenceIndex — manual review",
   "shoes": [
     {
@@ -27,7 +27,12 @@
         "source_url": "https://www.altrarunning.com/en-us/products/mens-lone-peak-9-al0a85pg",
         "scope": "model",
         "checked_at": "2026-10-18"
-      }
+      },
+      "release_date": "2025-01",
+      "release_source_url": "https://www.outdoorsportswire.com/altra-elevates-the-trail-experience-with-the-lone-peak-9-and-lone-peak-9/",
+      "release_notes": "Altra launch announcement dated January 6, 2025; its own launch video appeared January 2. Month-level model launch, not a colorway date.",
+      "release_audit_status": "within_window",
+      "release_audited_at": "2026-10-19"
     },
     {
       "id": "altra-olympus-6",
@@ -54,7 +59,12 @@
         "source_url": "https://eu.altrarunning.com/en-gb/collections/vibram/products/mens-olympus-6-al0a85nj442",
         "scope": "model",
         "checked_at": "2026-10-18"
-      }
+      },
+      "release_date": "2024-07-01",
+      "release_source_url": "https://www.outdoorsportswire.com/altra-unveils-the-new-olympus-6-olympus-6-hike-gtx-models/",
+      "release_notes": "Altra announced the model available for purchase July 1, 2024. Predates the October 18, 2024 cutoff.",
+      "release_audit_status": "outside_window",
+      "release_audited_at": "2026-10-19"
     },
     {
       "id": "altra-fwd-via-2",
@@ -81,7 +91,12 @@
         "source_url": "https://www.altrarunning.com/en-us/products/mens-fwd-via-2-al0a85sr?variant=47944128266407",
         "scope": "model",
         "checked_at": "2026-10-18"
-      }
+      },
+      "release_date": "2025-10",
+      "release_source_url": "https://www.confluencerunning.com/blogs/news/all-new-altra-fwd-via2-soft-reliable",
+      "release_notes": "Retailer announced the model had just released and was in stock October 4, 2025. Month-level US release evidence; exact first-sale day not established.",
+      "release_audit_status": "within_window",
+      "release_audited_at": "2026-10-19"
     },
     {
       "id": "topo-phantom-4",
@@ -108,7 +123,12 @@
         "source_url": "https://www.topoathletic.com/mens-phantom-4",
         "scope": "model",
         "checked_at": "2026-10-18"
-      }
+      },
+      "release_date": "2025-05",
+      "release_source_url": "https://weartesters.com/topo-phantom-4-performance-review/",
+      "release_notes": "First-hand review lists May 12, 2025; contemporary previews also identify May 2025. Month precision retained; model launch applies to both versions.",
+      "release_audit_status": "within_window",
+      "release_audited_at": "2026-10-19"
     },
     {
       "id": "topo-ultraventure-4",
@@ -135,7 +155,12 @@
         "source_url": "https://www.topoathletic.com/mens-ultraventure-4",
         "scope": "model",
         "checked_at": "2026-10-18"
-      }
+      },
+      "release_date": "2024-10",
+      "release_source_url": "https://believeintherun.com/shoe-reviews/topo-athletic-ultraventure-4-review/",
+      "release_notes": "October 30, 2024 review says available now, corroborated by Topo’s October 2024 press listing. This proves availability by October 30, not whether first sale preceded October 18. Later 2025 regional dates do not reset model age.",
+      "release_audit_status": "cutoff_uncertain",
+      "release_audited_at": "2026-10-19"
     },
     {
       "id": "topo-mtn-racer-4",
@@ -162,7 +187,12 @@
         "source_url": "https://www.topoathletic.com/mens-mtn-racer-4",
         "scope": "model",
         "checked_at": "2026-10-18"
-      }
+      },
+      "release_date": "2025-05",
+      "release_source_url": "https://www.youtube.com/watch?v=bPxhFQaNt1s",
+      "release_notes": "Running Event 2024 model preview states May 2025; Topo’s MTN Racer 4 press page lists May 2025 reviews. Month-level model launch, not later regional launches.",
+      "release_audit_status": "within_window",
+      "release_audited_at": "2026-10-19"
     },
     {
       "id": "nike-pegasus-42",
@@ -184,7 +214,12 @@
       "price_type": "US list price",
       "source_notes": "Nike tech specs list approximately 300 g / 10.59 oz; product details round to 10.5 oz. Stack heights not listed on this page. US list price shown; selected color was $102.97.",
       "gender": "men",
-      "manufacturer_support": null
+      "manufacturer_support": null,
+      "release_date": "2026-04-09",
+      "release_source_url": "https://about.nike.com/en-GB/newsroom/releases/nike-debuts-the-pegasus-42-a-powerful-workhorse-and-the-best-pegasus-ride-to-date",
+      "release_notes": "Nike announcement dated February 24, 2026 specifies April 9 availability. Model launch, not the announcement date or colorway date.",
+      "release_audit_status": "within_window",
+      "release_audited_at": "2026-10-19"
     },
     {
       "id": "nike-vomero-18",
@@ -206,7 +241,12 @@
       "price_type": "US list price",
       "source_notes": "Toe-box shape is not specified by the manufacturer. Weight is approximate.",
       "gender": "men",
-      "manufacturer_support": null
+      "manufacturer_support": null,
+      "release_date": "2025-02-27",
+      "release_source_url": "https://about.nike.com/en/newsroom/releases/nike-vomero-18-official-images",
+      "release_notes": "Nike’s February 27, 2025 retail update confirms global availability. Model launch applies to men’s and women’s versions.",
+      "release_audit_status": "within_window",
+      "release_audited_at": "2026-10-19"
     },
     {
       "id": "nike-structure-26",
@@ -233,7 +273,12 @@
         "source_url": "https://www.nike.com/t/structure-26-mens-road-running-shoes-M4sx9fru/HJ1102-100",
         "scope": "model",
         "checked_at": "2026-10-18"
-      }
+      },
+      "release_date": "2025-07-03",
+      "release_source_url": "https://about.nike.com/en/newsroom/releases/nike-structure-26-official-images",
+      "release_notes": "Nike specifies July 3, 2025 initial availability and July 24 for North America. Uses the earlier model launch, not the May announcement.",
+      "release_audit_status": "within_window",
+      "release_audited_at": "2026-10-19"
     },
     {
       "id": "altra-experience-flow-3",
@@ -260,7 +305,12 @@
         "source_url": "https://www.altrarunning.com/en-us/products/womens-experience-flow-3-al0a85u7",
         "scope": "model",
         "checked_at": "2026-10-18"
-      }
+      },
+      "release_date": "2026-02",
+      "release_source_url": "https://www.outdoorsportswire.com/altra-builds-super-feet-in-the-era-of-super-shoes/",
+      "release_notes": "Altra’s launch announcement specifies availability beginning February 2026. Month precision; Japan launch was February 27.",
+      "release_audit_status": "within_window",
+      "release_audited_at": "2026-10-19"
     },
     {
       "id": "altra-escalante-4",
@@ -287,7 +337,12 @@
         "source_url": "https://eu.altrarunning.com/en-gb/collections/zero-drop/products/womens-escalante-4-al0a85nf84p",
         "scope": "model",
         "checked_at": "2026-10-18"
-      }
+      },
+      "release_date": "2024-05",
+      "release_source_url": "https://www.youtube.com/watch?v=lEkP0eE43bk",
+      "release_notes": "Running Warehouse’s May 6, 2024 model introduction confirms May availability for men and women. Predates the cutoff; subsequent colors do not reset model age.",
+      "release_audit_status": "outside_window",
+      "release_audited_at": "2026-10-19"
     },
     {
       "id": "topo-cyclone-3",
@@ -314,7 +369,12 @@
         "source_url": "https://www.topoathletic.com/mens-cyclone-3",
         "scope": "model",
         "checked_at": "2026-10-18"
-      }
+      },
+      "release_date": "2025-02",
+      "release_source_url": "https://believeintherun.com/shoe-reviews/topo-athletic-cyclone-3-review/",
+      "release_notes": "January 24, 2025 first-hand review specifies February 2025 retail availability. Topo’s regional March 2025 introduction corroborates the model generation.",
+      "release_audit_status": "within_window",
+      "release_audited_at": "2026-10-19"
     },
     {
       "id": "altra-torin-8",
@@ -341,7 +401,12 @@
         "source_url": "https://www.altrarunning.com/en-us/products/mens-torin-8-al0a85qe",
         "scope": "model",
         "checked_at": "2026-10-18"
-      }
+      },
+      "release_date": "2025-02",
+      "release_source_url": "https://www.endurancesportswire.com/altra-running-unveils-the-new-torin-8-and-torin-8-gtx/",
+      "release_notes": "Altra’s February 3, 2025 launch announcement confirms retail availability. Month precision avoids claiming the announcement was the exact first-sale day.",
+      "release_audit_status": "within_window",
+      "release_audited_at": "2026-10-19"
     },
     {
       "id": "altra-torin-9",
@@ -368,7 +433,12 @@
         "source_url": "https://www.altrarunning.com/en-us/pages/torin-9",
         "scope": "model",
         "checked_at": "2026-10-18"
-      }
+      },
+      "release_date": "2026-07-01",
+      "release_source_url": "https://outdoorindustry.org/press-release/new-city-new-terrain-same-comfort-altra-launches-the-torin-9/",
+      "release_notes": "Altra’s July 1, 2026 announcement explicitly states launch that day; later Japan launch does not reset model age.",
+      "release_audit_status": "within_window",
+      "release_audited_at": "2026-10-19"
     },
     {
       "id": "new-balance-rebel-v5",
@@ -395,7 +465,12 @@
         "source_url": "https://www.newbalance.com/pd/fuelcell-rebel-v5/MFCXLO5-D-045.html",
         "scope": "model",
         "checked_at": "2026-10-18"
-      }
+      },
+      "release_date": "2025",
+      "release_source_url": "https://newbalance.newsmarket.com/running/new-balance-introduces-the-fuelcell-rebel-v5/s/111479fb-d6a2-4879-aa38-9e3de4deb5b0",
+      "release_notes": "New Balance’s May 16, 2025 introduction and running landing page establish the 2025 generation. The landing page specifies July 1 global launch with an earlier limited color release. Year precision avoids conflating press-release date with first sale.",
+      "release_audit_status": "within_window",
+      "release_audited_at": "2026-10-19"
     },
     {
       "id": "topo-specter-2",
@@ -422,7 +497,12 @@
         "source_url": "https://www.topoathletic.com/mens-specter-2",
         "scope": "model",
         "checked_at": "2026-10-18"
-      }
+      },
+      "release_date": "2024-08",
+      "release_source_url": "https://weartesters.com/topo-specter-2-performance-review/",
+      "release_notes": "First-hand review lists August 2024 release; Topo’s own Specter 2 press page includes August 2024 coverage. Predates the cutoff.",
+      "release_audit_status": "outside_window",
+      "release_audited_at": "2026-10-19"
     },
     {
       "id": "topo-atmos",
@@ -449,7 +529,12 @@
         "source_url": "https://www.topoathletic.com/mens-atmos",
         "scope": "model",
         "checked_at": "2026-10-18"
-      }
+      },
+      "release_date": "2023-11",
+      "release_source_url": "https://weartesters.com/topo-atmos-performance-review/",
+      "release_notes": "First-hand review specifies November 2023 model release. This is the original Atmos, not Atmos 2; predates the cutoff.",
+      "release_audit_status": "outside_window",
+      "release_audited_at": "2026-10-19"
     },
     {
       "id": "topo-phantom-4-women",
@@ -476,7 +561,12 @@
         "source_url": "https://www.topoathletic.com/mens-phantom-4",
         "scope": "model",
         "checked_at": "2026-10-18"
-      }
+      },
+      "release_date": "2025-05",
+      "release_source_url": "https://weartesters.com/topo-phantom-4-performance-review/",
+      "release_notes": "First-hand review lists May 12, 2025; contemporary previews also identify May 2025. Month precision retained; model launch applies to both versions.",
+      "release_audit_status": "within_window",
+      "release_audited_at": "2026-10-19"
     },
     {
       "id": "topo-cyclone-3-women",
@@ -503,7 +593,12 @@
         "source_url": "https://www.topoathletic.com/mens-cyclone-3",
         "scope": "model",
         "checked_at": "2026-10-18"
-      }
+      },
+      "release_date": "2025-02",
+      "release_source_url": "https://believeintherun.com/shoe-reviews/topo-athletic-cyclone-3-review/",
+      "release_notes": "January 24, 2025 first-hand review specifies February 2025 retail availability. Topo’s regional March 2025 introduction corroborates the model generation.",
+      "release_audit_status": "within_window",
+      "release_audited_at": "2026-10-19"
     },
     {
       "id": "topo-ultraventure-4-women",
@@ -530,7 +625,12 @@
         "source_url": "https://www.topoathletic.com/mens-ultraventure-4",
         "scope": "model",
         "checked_at": "2026-10-18"
-      }
+      },
+      "release_date": "2024-10",
+      "release_source_url": "https://believeintherun.com/shoe-reviews/topo-athletic-ultraventure-4-review/",
+      "release_notes": "October 30, 2024 review says available now, corroborated by Topo’s October 2024 press listing. This proves availability by October 30, not whether first sale preceded October 18. Later 2025 regional dates do not reset model age.",
+      "release_audit_status": "cutoff_uncertain",
+      "release_audited_at": "2026-10-19"
     },
     {
       "id": "topo-mtn-racer-4-women",
@@ -557,7 +657,12 @@
         "source_url": "https://www.topoathletic.com/mens-mtn-racer-4",
         "scope": "model",
         "checked_at": "2026-10-18"
-      }
+      },
+      "release_date": "2025-05",
+      "release_source_url": "https://www.youtube.com/watch?v=bPxhFQaNt1s",
+      "release_notes": "Running Event 2024 model preview states May 2025; Topo’s MTN Racer 4 press page lists May 2025 reviews. Month-level model launch, not later regional launches.",
+      "release_audit_status": "within_window",
+      "release_audited_at": "2026-10-19"
     },
     {
       "id": "topo-atmos-2-women",
@@ -584,7 +689,12 @@
         "source_url": "https://www.topoathletic.com/womens-atmos-2",
         "scope": "model",
         "checked_at": "2026-10-18"
-      }
+      },
+      "release_date": "2025-12",
+      "release_source_url": "https://runtothefinish.com/running-shoe-release-dates/",
+      "release_notes": "Release calendar compiled from brand contacts lists December 2025. Topo’s December press coverage corroborates this generation; exact global first-sale day is not established and some sources say November. Either month is within the window.",
+      "release_audit_status": "within_window",
+      "release_audited_at": "2026-10-19"
     },
     {
       "id": "topo-fli-lyte-6-women",
@@ -611,7 +721,12 @@
         "source_url": "https://www.topoathletic.com/womens-fli-lyte-6",
         "scope": "model",
         "checked_at": "2026-10-18"
-      }
+      },
+      "release_date": "2025-08",
+      "release_source_url": "https://believeintherun.com/shoe-reviews/topo-athletic-fli-lyte-6-review/",
+      "release_notes": "August 8, 2025 first-hand review specifies August 2025 availability. Month-level model release.",
+      "release_audit_status": "within_window",
+      "release_audited_at": "2026-10-19"
     },
     {
       "id": "topo-ultrafly-6-women",
@@ -638,7 +753,12 @@
         "source_url": "https://www.topoathletic.com/womens-ultrafly-6",
         "scope": "model",
         "checked_at": "2026-10-18"
-      }
+      },
+      "release_date": "2026-02",
+      "release_source_url": "https://runtothefinish.com/running-shoe-release-dates/",
+      "release_notes": "Brand-contact release calendar lists February 2026; Topo’s press page corroborates February reviews. Exact first-sale day not established; later new colors are not a new model release.",
+      "release_audit_status": "within_window",
+      "release_audited_at": "2026-10-19"
     },
     {
       "id": "altra-lone-peak-9-women",
@@ -665,7 +785,12 @@
         "source_url": "https://www.altrarunning.com/en-us/products/mens-lone-peak-9-al0a85pg",
         "scope": "model",
         "checked_at": "2026-10-18"
-      }
+      },
+      "release_date": "2025-01",
+      "release_source_url": "https://www.outdoorsportswire.com/altra-elevates-the-trail-experience-with-the-lone-peak-9-and-lone-peak-9/",
+      "release_notes": "Altra launch announcement dated January 6, 2025; its own launch video appeared January 2. Month-level model launch, not a colorway date.",
+      "release_audit_status": "within_window",
+      "release_audited_at": "2026-10-19"
     },
     {
       "id": "altra-escalante-4-women",
@@ -692,7 +817,12 @@
         "source_url": "https://eu.altrarunning.com/en-gb/collections/zero-drop/products/womens-escalante-4-al0a85nf84p",
         "scope": "model",
         "checked_at": "2026-10-18"
-      }
+      },
+      "release_date": "2024-05",
+      "release_source_url": "https://www.youtube.com/watch?v=lEkP0eE43bk",
+      "release_notes": "Running Warehouse’s May 6, 2024 model introduction confirms May availability for men and women. Predates the cutoff; subsequent colors do not reset model age.",
+      "release_audit_status": "outside_window",
+      "release_audited_at": "2026-10-19"
     },
     {
       "id": "altra-experience-flow-3-women",
@@ -719,7 +849,12 @@
         "source_url": "https://www.altrarunning.com/en-us/products/womens-experience-flow-3-al0a85u7",
         "scope": "model",
         "checked_at": "2026-10-18"
-      }
+      },
+      "release_date": "2026-02",
+      "release_source_url": "https://www.outdoorsportswire.com/altra-builds-super-feet-in-the-era-of-super-shoes/",
+      "release_notes": "Altra’s launch announcement specifies availability beginning February 2026. Month precision; Japan launch was February 27.",
+      "release_audit_status": "within_window",
+      "release_audited_at": "2026-10-19"
     },
     {
       "id": "altra-fwd-via-2-women",
@@ -746,7 +881,12 @@
         "source_url": "https://www.altrarunning.com/en-us/products/mens-fwd-via-2-al0a85sr?variant=47944128266407",
         "scope": "model",
         "checked_at": "2026-10-18"
-      }
+      },
+      "release_date": "2025-10",
+      "release_source_url": "https://www.confluencerunning.com/blogs/news/all-new-altra-fwd-via2-soft-reliable",
+      "release_notes": "Retailer announced the model had just released and was in stock October 4, 2025. Month-level US release evidence; exact first-sale day not established.",
+      "release_audit_status": "within_window",
+      "release_audited_at": "2026-10-19"
     },
     {
       "id": "altra-torin-8-women",
@@ -773,7 +913,12 @@
         "source_url": "https://www.altrarunning.com/en-us/products/mens-torin-8-al0a85qe",
         "scope": "model",
         "checked_at": "2026-10-18"
-      }
+      },
+      "release_date": "2025-02",
+      "release_source_url": "https://www.endurancesportswire.com/altra-running-unveils-the-new-torin-8-and-torin-8-gtx/",
+      "release_notes": "Altra’s February 3, 2025 launch announcement confirms retail availability. Month precision avoids claiming the announcement was the exact first-sale day.",
+      "release_audit_status": "within_window",
+      "release_audited_at": "2026-10-19"
     },
     {
       "id": "altra-torin-9-women",
@@ -800,7 +945,12 @@
         "source_url": "https://www.altrarunning.com/en-us/pages/torin-9",
         "scope": "model",
         "checked_at": "2026-10-18"
-      }
+      },
+      "release_date": "2026-07-01",
+      "release_source_url": "https://outdoorindustry.org/press-release/new-city-new-terrain-same-comfort-altra-launches-the-torin-9/",
+      "release_notes": "Altra’s July 1, 2026 announcement explicitly states launch that day; later Japan launch does not reset model age.",
+      "release_audit_status": "within_window",
+      "release_audited_at": "2026-10-19"
     },
     {
       "id": "altra-paradigm-8-women",
@@ -822,7 +972,12 @@
       "sourced_at": "2026-10-18",
       "weight_reference_size": null,
       "source_notes": "Women’s manufacturer specifications. List price rather than any color-specific sale price. Weight reference size not supplied.",
-      "manufacturer_support": null
+      "manufacturer_support": null,
+      "release_date": "2025-07",
+      "release_source_url": "https://sportbiz.ch/wp-content/uploads/2024/11/ALTRA-Workbook-Fall-2025.pdf",
+      "release_notes": "Altra Fall 2025 workbook launch table lists Paradigm 8 as NEW in July 2025, separately from new colors. Fleet Feet’s model review corroborates July 1 availability; month precision retained.",
+      "release_audit_status": "within_window",
+      "release_audited_at": "2026-10-19"
     },
     {
       "id": "nike-pegasus-42-women",
@@ -844,7 +999,12 @@
       "sourced_at": "2026-10-18",
       "weight_reference_size": "Women's US 8",
       "source_notes": "Women’s manufacturer specifications. Approximate weight. Stack heights not supplied.",
-      "manufacturer_support": null
+      "manufacturer_support": null,
+      "release_date": "2026-04-09",
+      "release_source_url": "https://about.nike.com/en-GB/newsroom/releases/nike-debuts-the-pegasus-42-a-powerful-workhorse-and-the-best-pegasus-ride-to-date",
+      "release_notes": "Nike announcement dated February 24, 2026 specifies April 9 availability. Model launch, not the announcement date or colorway date.",
+      "release_audit_status": "within_window",
+      "release_audited_at": "2026-10-19"
     },
     {
       "id": "nike-vomero-18-women",
@@ -866,7 +1026,12 @@
       "sourced_at": "2026-10-18",
       "weight_reference_size": "Women's US 8",
       "source_notes": "Women’s manufacturer specifications. Approximate weight. Toe-box shape not specified.",
-      "manufacturer_support": null
+      "manufacturer_support": null,
+      "release_date": "2025-02-27",
+      "release_source_url": "https://about.nike.com/en/newsroom/releases/nike-vomero-18-official-images",
+      "release_notes": "Nike’s February 27, 2025 retail update confirms global availability. Model launch applies to men’s and women’s versions.",
+      "release_audit_status": "within_window",
+      "release_audited_at": "2026-10-19"
     },
     {
       "id": "new-balance-rebel-v5-women",
@@ -893,7 +1058,12 @@
         "source_url": "https://www.newbalance.com/pd/fuelcell-rebel-v5/MFCXLO5-D-045.html",
         "scope": "model",
         "checked_at": "2026-10-18"
-      }
+      },
+      "release_date": "2025",
+      "release_source_url": "https://newbalance.newsmarket.com/running/new-balance-introduces-the-fuelcell-rebel-v5/s/111479fb-d6a2-4879-aa38-9e3de4deb5b0",
+      "release_notes": "New Balance’s May 16, 2025 introduction and running landing page establish the 2025 generation. The landing page specifies July 1 global launch with an earlier limited color release. Year precision avoids conflating press-release date with first sale.",
+      "release_audit_status": "within_window",
+      "release_audited_at": "2026-10-19"
     },
     {
       "id": "nike-vomero-plus-men",

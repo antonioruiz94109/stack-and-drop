@@ -22,7 +22,7 @@ For future additions, record the manufacturer URL, sourcing date, reference size
 
 The Men’s / Women’s filter uses separately sourced versions: 67 men’s entries and 67 women’s entries (134 total). Men’s and women’s versions count separately; colorways and widths do not. Reference sizes differ, so weights are not directly comparable.
 
-The latest 50 additions cover 25 models with separate men's and women's entries, adding adidas and PUMA for ten brands total. The preceding 84 entries are unchanged. Across both expansion batches, 100 entries include manufacturer specification sources and separate linked model-release evidence within October 18, 2024–October 18, 2026. The original 34 entries await a separate age audit.
+The latest 50 additions cover 25 models with separate men's and women's entries, adding adidas and PUMA for ten brands total. The expansion preserved the preceding 84 entries. Across both expansion batches, 100 entries include manufacturer specification sources and separate linked model-release evidence within October 18, 2024–October 18, 2026. The original 34 have now been audited; see the results below.
 
 Release dates can vary by market. Month-only evidence is retained at month precision. Sources include manufacturer announcements, launch coverage and released-status editorial calendars; linked evidence and caveats are displayed on cards. These are model releases, not new colorway dates. Some launch dates document regional availability.
 
@@ -37,3 +37,9 @@ Cards show short, attributed excerpts from manufacturer model pages where verifi
 ## Keyword search
 
 Search updates as you type and combines with existing filters. It matches a case-insensitive literal phrase in brands, models, intended uses, toe-box descriptions, catalog summaries and quoted manufacturer support wording. Each result shows the matching field and highlights the matched text. Catalog descriptions and manufacturer quotes are labeled separately. It does not search source URLs or infer synonyms or fit suitability. Reset clears both search and filters.
+
+## Original 34 release-date audit — October 19, 2026
+
+Audited against the original October 18, 2024–October 18, 2026 window: 27 entries within the window, five older, two uncertain around the cutoff. All 134 entries are retained; older and uncertain entries are visibly labeled. Older models: Olympus 6 (one entry), Escalante 4 (two), Specter 2 (one), Atmos (one). Ultraventure 4 (two) is documented as available by October 30, 2024, but first-sale timing relative to October 18 remains unresolved. Model launches are distinct from later colorways and regional releases. Month/year precision and source caveats are preserved. Release dates apply at model level to gender variants unless noted.
+
+Specifications come from manufacturer sources and have not been independently lab-tested by CadenceIndex. The release audit does not independently validate performance or specifications.
