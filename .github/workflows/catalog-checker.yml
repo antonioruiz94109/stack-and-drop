@@ -1,0 +1,54 @@
+name: Weekly catalog review
+on:
+  schedule:
+    - cron: '23 13 * * 1'
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/catalog-checker.yml'
+      - 'scripts/check_catalog.py'
+      - 'scripts/test_check_catalog.py'
+permissions:
+  contents: read
+concurrency:
+  group: catalog-review
+  cancel-in-progress: false
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test checker
+        run: python -m unittest discover -s scripts -p 'test_check_catalog.py'
+      - uses: actions/cache/restore@v4
+        with:
+          path: .checker-state
+          key: catalog-monitor-v1-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: catalog-monitor-v1-
+      - name: Check sources without changing the catalog
+        run: |
+          sha256sum shoes.json > /tmp/catalog.sha256
+          python scripts/check_catalog.py
+          sha256sum -c /tmp/catalog.sha256
+          cat checker-report/report.md >> "$GITHUB_STEP_SUMMARY"
+      - name: Keep review report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: catalog-review-${{ github.run_id }}
+          path: checker-report/
+          retention-days: 90
+      - name: Prepare comparison baseline
+        run: |
+          mkdir -p .checker-state
+          cp checker-report/snapshot.json .checker-state/snapshot.json
+      - uses: actions/cache/save@v4
+        with:
+          path: .checker-state
+          key: catalog-monitor-v1-${{ github.run_id }}-${{ github.run_attempt }}

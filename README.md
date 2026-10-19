@@ -45,3 +45,7 @@ The original 34-entry audit found 27 entries within the window, five older and t
 Every replacement has gender-specific manufacturer specifications and linked model-release evidence. Month/year precision and regional-launch caveats are preserved; a new color does not reset model age. Olympus 275 uses year precision because July general launch followed reported early exclusive availability. Altra does not supply its weight reference size.
 
 Specifications come from manufacturer sources and have not been independently lab-tested by CadenceIndex. The release audit does not independently validate performance or specifications.
+
+## Weekly review checker
+
+A read-only weekly GitHub Actions checker monitors Altra, New Balance and Topo. Reports flag candidates, possible specification changes, aging releases and incomplete coverage. New entries and specification updates require review before publication. See [checker instructions](scripts/CHECKER.md) and [workflow reports](https://github.com/antonioruiz94109/CadenceIndex/actions/workflows/catalog-checker.yml).
