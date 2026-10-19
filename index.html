@@ -59,7 +59,7 @@
       <div class="badge">Community learning project · Catalog updated <span id="last-updated">…</span></div>
       <h1>CadenceIndex</h1>
       <p class="muted">Road and trail running shoes, from zero drop to higher drop, at a glance.</p>
-      <p class="notice">All entries link to manufacturer sources. Men’s and women’s versions are listed separately, with the version identified on every card. Missing specifications and source inconsistencies are noted on each card. Listed prices are in USD, not live offers; sizes and colorways may vary. Specifications come from manufacturer sources and have not been independently lab-tested by CadenceIndex.</p>
+      <p class="notice">All entries link to manufacturer sources. Men’s and women’s versions are listed separately, with the version identified on every card. Unisex shoes are listed once and appear under both men’s and women’s filters. Missing specifications and source inconsistencies are noted on each card. Listed prices are in USD, not live offers; sizes and colorways may vary. Specifications come from manufacturer sources and have not been independently lab-tested by CadenceIndex.</p>
     </header>
     <section class="search" aria-label="Search shoes">
       <label for="keyword-search">Search shoes and descriptions</label>
@@ -178,7 +178,7 @@
       const weight = document.getElementById('filter-weight').value;
       const filtered = allShoes.filter(shoe => {
         if (query && !matchedFields(shoe, query).length) return false;
-        if (gender !== 'all' && shoe.gender !== gender) return false;
+        if (gender !== 'all' && shoe.gender !== gender && shoe.gender !== 'unisex') return false;
         if (brand !== 'all' && shoe.brand !== brand) return false;
         if (drop === 'zero' && shoe.drop_mm !== 0) return false;
         if (drop === 'low' && (shoe.drop_mm < 1 || shoe.drop_mm > 6)) return false;
@@ -200,6 +200,13 @@
           const url = new URL(shoe.source_url);
           if (url.protocol === 'https:' && ['www.altrarunning.com', 'www.topoathletic.com', 'www.nike.com', 'www.newbalance.com', 'www.asics.com', 'www.saucony.com', 'www.brooksrunning.com', 'au.hoka.com', 'vn.hoka.com', 'www.adidas.com', 'news.adidas.com', 'us.puma.com', 'eu.puma.com'].includes(url.hostname)) sourceURL = url.href;
         } catch (_) { /* Legacy records have no source URL. */ }
+        let specification = '';
+        try {
+          const url = new URL(shoe.spec_source_url);
+          if (url.protocol === 'https:' && ['www.nike.com', 'www.saucony.com', 'mediahub.puma.com'].includes(url.hostname) && url.href !== sourceURL) {
+            specification = `<small><a href="${escapeHTML(url.href)}" target="_blank" rel="noopener noreferrer">Manufacturer specification evidence ↗</a></small>`;
+          }
+        } catch (_) {}
         const source = sourceURL
           ? `<div class="source"><a href="${escapeHTML(sourceURL)}" target="_blank" rel="noopener noreferrer">Manufacturer source ↗</a><small>Sourced ${s.sourced_at}</small><small>Weight reference: ${escapeHTML(shoe.weight_reference_size || 'size not specified')}</small><small>${escapeHTML(shoe.source_notes || '')}</small></div>`
           : '<p class="source">Awaiting source review · provisional entry</p>';
@@ -223,7 +230,7 @@
         const stack = Number.isFinite(shoe.stack_heel_mm) && Number.isFinite(shoe.stack_forefoot_mm) ? `${s.stack_heel_mm}/${s.stack_forefoot_mm}` : '—';
         return `<article class="shoe-card" data-shoe-id="${s.id}">
           <div class="card-top"><span class="brand">${s.brand}</span><span class="price">${Number.isFinite(shoe.price_usd) ? `${shoe.price_type ? 'List ' : ''}$${s.price_usd}` : '—'}</span></div>
-          <h2>${shoe.gender === 'women' ? 'Women’s' : shoe.gender === 'men' ? 'Men’s' : 'Version not specified'} ${s.model}</h2>
+          <h2>${shoe.gender === 'women' ? 'Women’s' : shoe.gender === 'men' ? 'Men’s' : shoe.gender === 'unisex' ? 'Unisex' : 'Version not specified'} ${s.model}</h2>
           ${auditFlag}
           ${matches}
           <p class="use">${s.use_case}<br>Toe box: ${escapeHTML(shoe.toe_box || 'not specified')}</p>
@@ -233,10 +240,10 @@
             <div><dt>Stack (mm)</dt><dd>${stack}</dd></div>
           </dl>
           <p class="verdict">${s.verdict}</p>
-          <p class="foam">Midsole: <strong>${s.foam}</strong></p>
+          <p class="foam">Midsole: <strong>${escapeHTML(shoe.foam || '—')}</strong></p>
           <div class="source manufacturer-support"><strong>Manufacturer’s support wording</strong><br>${supportText}</div>
           ${source}
-          <div class="source">${release}</div>
+          <div class="source">${specification}${release}</div>
         </article>`;
       }).join('') : '<p class="empty">No shoes match this search and these filters. Try a shorter phrase, a different keyword, or reset search and filters.</p>';
     }
