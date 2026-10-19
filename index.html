@@ -17,6 +17,11 @@
     .muted { color: #a1a1aa; }
     .notice { font-size: 14px; margin-top: 16px; color: #d4d4d8; max-width: 80ch; }
     .filters { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 16px; background: #18181b; border: 1px solid #27272a; border-radius: 12px; padding: 16px; }
+    .filter-help { margin-top: 8px; font-size: 13px; line-height: 1.55; color: #d4d4d8; }
+    .filter-help summary { cursor: pointer; color: #6ee7b7; padding: 6px 0; }
+    .filter-help summary:focus-visible { outline: 2px solid #6ee7b7; outline-offset: 3px; border-radius: 3px; }
+    .filter-help p { margin: 10px 0; }
+    .filter-help a { color: #6ee7b7; text-underline-offset: 3px; }
     label { display: block; font-size: 12px; text-transform: uppercase; letter-spacing: .05em; color: #a1a1aa; margin-bottom: 8px; }
     input, select, button { font: inherit; font-size: 14px; min-height: 44px; border: 1px solid #3f3f46; border-radius: 8px; background: #09090b; color: #f4f4f5; padding: 8px 12px; }
     input, select { width: 100%; }
@@ -99,6 +104,13 @@
           <option value="low">Low drop (1–6 mm)</option>
           <option value="high">Higher drop (over 6 mm)</option>
         </select>
+        <details class="filter-help" id="drop-help">
+          <summary>What does drop mean?</summary>
+          <p>Heel-to-toe drop is the difference between the sole’s height beneath your heel and forefoot. A 30 mm heel and 22 mm forefoot give an 8 mm drop.</p>
+          <p>Drop alone doesn’t tell you whether a shoe suits walking, daily running, or racing. Use <strong>Intended use</strong> for that, and use drop to narrow a preference you already know.</p>
+          <p>Unsure? Leave drop set to <strong>All drops</strong>.</p>
+          <a href="https://www.runnersworld.com/gear/a20842305/how-to-buy-the-right-running-shoes/" target="_blank" rel="noopener noreferrer">Learn more at Runner’s World ↗</a>
+        </details>
       </div>
       <div>
         <label for="filter-use">Intended use</label>
