@@ -54,7 +54,7 @@
       <div class="badge">Community learning project · Catalog updated <span id="last-updated">…</span></div>
       <h1>CadenceIndex</h1>
       <p class="muted">Road and trail running shoes, from zero drop to higher drop, at a glance.</p>
-      <p class="notice">All entries link to manufacturer sources. Men’s and women’s versions are listed separately, with 17 of each. Missing specifications and source inconsistencies are noted on each card. Listed prices are in USD, not live offers; sizes and colorways may vary.</p>
+      <p class="notice">All entries link to manufacturer sources. Men’s and women’s versions are listed separately, with the version identified on every card. Missing specifications and source inconsistencies are noted on each card. Listed prices are in USD, not live offers; sizes and colorways may vary.</p>
     </header>
     <section class="filters" aria-label="Filter shoes">
       <div>
@@ -166,19 +166,25 @@
         const source = sourceURL
           ? `<div class="source"><a href="${escapeHTML(sourceURL)}" target="_blank" rel="noopener noreferrer">Manufacturer source ↗</a><small>Sourced ${s.sourced_at}</small><small>Weight reference: ${escapeHTML(shoe.weight_reference_size || 'size not specified')}</small><small>${escapeHTML(shoe.source_notes || '')}</small></div>`
           : '<p class="source">Awaiting source review · provisional entry</p>';
+        let release = '';
+        try {
+          const url = new URL(shoe.release_source_url);
+          if (url.protocol === 'https:') release = `<small>Model release: ${s.release_date} · <a href="${escapeHTML(url.href)}" target="_blank" rel="noopener noreferrer">Release evidence ↗</a><br>${escapeHTML(shoe.release_notes || '')}</small>`;
+        } catch (_) {}
         const stack = Number.isFinite(shoe.stack_heel_mm) && Number.isFinite(shoe.stack_forefoot_mm) ? `${s.stack_heel_mm}/${s.stack_forefoot_mm}` : '—';
         return `<article class="shoe-card" data-shoe-id="${s.id}">
-          <div class="card-top"><span class="brand">${s.brand}</span><span class="price">${shoe.price_type ? 'List ' : ''}$${s.price_usd}</span></div>
+          <div class="card-top"><span class="brand">${s.brand}</span><span class="price">${Number.isFinite(shoe.price_usd) ? `${shoe.price_type ? 'List ' : ''}$${s.price_usd}` : '—'}</span></div>
           <h2>${shoe.gender === 'women' ? 'Women’s' : shoe.gender === 'men' ? 'Men’s' : 'Version not specified'} ${s.model}</h2>
           <p class="use">${s.use_case}<br>Toe box: ${escapeHTML(shoe.toe_box || 'not specified')}</p>
           <dl>
-            <div><dt>Drop</dt><dd>${s.drop_mm} mm</dd></div>
-            <div><dt>Weight</dt><dd>${s.weight_oz} oz</dd></div>
+            <div><dt>Drop</dt><dd>${Number.isFinite(shoe.drop_mm) ? `${s.drop_mm} mm` : '—'}</dd></div>
+            <div><dt>Weight</dt><dd>${Number.isFinite(shoe.weight_oz) ? `${s.weight_oz} oz` : '—'}</dd></div>
             <div><dt>Stack (mm)</dt><dd>${stack}</dd></div>
           </dl>
           <p class="verdict">${s.verdict}</p>
           <p class="foam">Midsole: <strong>${s.foam}</strong></p>
           ${source}
+          <div class="source">${release}</div>
         </article>`;
       }).join('') : '<p class="empty">No shoes match these filters. Try another combination or reset the filters.</p>';
     }

@@ -1,6 +1,6 @@
 # CadenceIndex
 
-A free, static running-shoe directory and learning project. All 34 shoe versions have manufacturer source links and sourcing dates. The original eight entries have been checked and corrected against manufacturer pages. No automated catalog ingestion is implemented.
+A free, static running-shoe directory and learning project. All 46 shoe versions have manufacturer source links and sourcing dates. The original eight entries have been checked and corrected against manufacturer pages. No automated catalog ingestion is implemented.
 
 ## Website
 
@@ -16,8 +16,10 @@ Never upload the entire local folder. `.env`, credentials, backup files and loca
 
 ## Catalog limitations
 
-All 34 records carry manufacturer source URLs, sourcing dates, weight reference sizes where available, and field caveats. Their prices are US list prices rather than live offers. Missing specifications are null and displayed as a dash. Descriptions paraphrase manufacturers, not independent wear tests. Manufacturer data can still be incomplete or inconsistent: Torin 9 lists conflicting ounce/gram weights, and some stack heights and weight reference sizes are not supplied. These caveats are shown on the cards. Brand and product names belong to their respective owners; no affiliation is implied. No third-party visual assets or libraries are distributed. No open-source license has been selected for this project.
+All 46 records carry manufacturer source URLs, sourcing dates, weight reference sizes where available, and field caveats. Their prices are US list prices rather than live offers. Missing specifications are null and displayed as a dash. Descriptions paraphrase manufacturers, not independent wear tests. Manufacturer data can still be incomplete or inconsistent: Torin 9 lists conflicting ounce/gram weights, and some stack heights and weight reference sizes are not supplied. These caveats are shown on the cards. Brand and product names belong to their respective owners; no affiliation is implied. No third-party visual assets or libraries are distributed. No open-source license has been selected for this project.
 
 For future additions, record the manufacturer URL, sourcing date, reference size and field caveats before publishing. Manufacturer sourcing is not independent laboratory validation.
 
-The Men’s / Women’s filter uses separately sourced versions: 17 men’s entries and 17 women’s entries (34 total). Women’s entries cover Altra, Topo Athletic, Nike and New Balance, with 0–10 mm drops and listed weights of 5.5–9.3 oz. Reference sizes differ, so weights are not directly comparable.
+The Men’s / Women’s filter uses separately sourced versions: 17 men’s entries and 17 women’s entries (46 total). Women’s entries cover Altra, Topo Athletic, Nike and New Balance, with 0–10 mm drops and listed weights of 5.5–9.3 oz. Reference sizes differ, so weights are not directly comparable.
+
+The latest 12 additions include model release dates and linked release evidence within October 18, 2024–October 18, 2026. The original 34 entries are unchanged and await a separate age audit.
