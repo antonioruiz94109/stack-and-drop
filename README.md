@@ -1,6 +1,6 @@
 # CadenceIndex
 
-A free, static running-shoe directory and learning project. All 134 shoe versions have manufacturer source links and sourcing dates. The original eight entries have been checked and corrected against manufacturer pages. No automated catalog ingestion is implemented.
+A free, static running-shoe directory and learning project. All 157 shoe versions have manufacturer source links and sourcing dates. The original eight entries have been checked and corrected against manufacturer pages. No automated catalog ingestion is implemented.
 
 ## Website
 
@@ -16,11 +16,11 @@ Never upload the entire local folder. `.env`, credentials, backup files and loca
 
 ## Catalog limitations
 
-All 134 records carry manufacturer source URLs, sourcing dates, weight reference sizes where available, and field caveats. Their prices are US list prices rather than live offers. Missing specifications are null and displayed as a dash. Descriptions paraphrase manufacturers, not independent wear tests. Manufacturer data can still be incomplete or inconsistent: Torin 9 lists conflicting ounce/gram weights, and some stack heights and weight reference sizes are not supplied. These caveats are shown on the cards. Brand and product names belong to their respective owners; no affiliation is implied. No third-party visual assets or libraries are distributed. No open-source license has been selected for this project.
+All 157 records carry manufacturer source URLs, sourcing dates, weight reference sizes where available, and field caveats. Their prices are US list prices rather than live offers. Missing specifications are null and displayed as a dash. Descriptions paraphrase manufacturers, not independent wear tests. Manufacturer data can still be incomplete or inconsistent: Torin 9 lists conflicting ounce/gram weights, and some stack heights and weight reference sizes are not supplied. These caveats are shown on the cards. Brand and product names belong to their respective owners; no affiliation is implied. No third-party visual assets or libraries are distributed. No open-source license has been selected for this project.
 
 For future additions, record the manufacturer URL, sourcing date, reference size and field caveats before publishing. Manufacturer sourcing is not independent laboratory validation.
 
-The Men’s / Women’s filter uses separately sourced versions: 67 men’s entries and 67 women’s entries (134 total). Men’s and women’s versions count separately; colorways and widths do not. Reference sizes differ, so weights are not directly comparable.
+The Men’s / Women’s filter uses separately sourced versions: 79 men’s entries and 78 women’s entries (157 total). Men’s and women’s versions count separately; colorways and widths do not. Reference sizes differ, so weights are not directly comparable.
 
 The latest 50 additions cover 25 models with separate men's and women's entries, adding adidas and PUMA for ten brands total. The expansion preserved the preceding 84 entries. Across both expansion batches, 100 entries include manufacturer specification sources and separate linked model-release evidence within October 18, 2024–October 18, 2026. The original 34 have now been audited; see the results below.
 
@@ -49,3 +49,7 @@ Specifications come from manufacturer sources and have not been independently la
 ## Weekly review checker
 
 A read-only weekly GitHub Actions checker monitors Altra, New Balance and Topo. Reports flag candidates, possible specification changes, aging releases and incomplete coverage. New entries and specification updates require review before publication. See [checker instructions](scripts/CHECKER.md) and [workflow reports](https://github.com/antonioruiz94109/CadenceIndex/actions/workflows/catalog-checker.yml).
+
+## Reviewed running additions — October 19, 2026
+
+Added 23 reviewed running entries (12 men, 11 women), bringing the catalog to 157 entries: 79 men and 78 women. Both gender versions of Traverse 2 and Trailventure 3 GTX remain held and were not added. Existing 134 records are unchanged. Both Vanish Tempo 2 prices are null; the women’s card discloses 200 g / 7.05 oz on the current manufacturer page versus 208 g in launch coverage. Release evidence retains year/month precision and regional caveats. No catalog changes are made by the weekly checker.
