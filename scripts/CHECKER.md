@@ -21,3 +21,7 @@ The all-brand trial on October 19 fetched 88/157 source pages locally. New Balan
 ## Held release evidence
 
 The 11 unresolved entries are tracked in release-holds.json. Each Monday the checker revisits their manufacturer pages and known supporting sources, captures nearby exact-model wording, and flags initial evidence, changes or unavailable pages in a separate report section. Prior successful evidence is retained on fetch failures. Published model/gender versions are skipped. This is a known-source watch, not an exhaustive web search; report.json also supplies follow-up search queries for the reviewer. New dates may describe reviews, restocks, colorways or other variants and never clear a hold automatically. Verify the exact model/version, regional context and rolling two-year window before proposing publication.
+
+## Current publication policy
+
+October 19, 2026: the user authorized flexible recency. Two years is a preference, not a mandatory cutoff. Missing original release evidence alone does not block a nonduplicate running shoe whose manufacturer identity and included information are reliable. Never invent dates; display unverified release dates explicitly, with uncertain specs/prices blank. Age flags are advisory. The former 11 release holds have been published; the watch skips versions already in the catalog. Historical hold requirements above are superseded by this policy. ChatGPT verifies and may publish qualifying updates under standing approval; this Python checker itself stays read-only.

@@ -210,7 +210,7 @@
         const source = sourceURL
           ? `<div class="source"><a href="${escapeHTML(sourceURL)}" target="_blank" rel="noopener noreferrer">Manufacturer source ↗</a><small>Sourced ${s.sourced_at}</small><small>Weight reference: ${escapeHTML(shoe.weight_reference_size || 'size not specified')}</small><small>${escapeHTML(shoe.source_notes || '')}</small></div>`
           : '<p class="source">Awaiting source review · provisional entry</p>';
-        let release = '';
+        let release = `<small>Model release: not verified.<br>${escapeHTML(shoe.release_notes || '')}</small>`;
         try {
           const url = new URL(shoe.release_source_url);
           if (url.protocol === 'https:') release = `<small>Model release: ${s.release_date} · <a href="${escapeHTML(url.href)}" target="_blank" rel="noopener noreferrer">Release evidence ↗</a><br>${escapeHTML(shoe.release_notes || '')}</small>`;
