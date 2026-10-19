@@ -77,6 +77,8 @@
           <option value="Saucony">Saucony</option>
           <option value="Brooks">Brooks</option>
           <option value="HOKA">HOKA</option>
+          <option value="adidas">adidas</option>
+          <option value="PUMA">PUMA</option>
         </select>
       </div>
       <div>
@@ -115,7 +117,7 @@
     </div>
     <div id="shoe-grid"></div>
     <noscript><p>Enable JavaScript to display and filter the shoe catalog.</p></noscript>
-    <footer>A free project for friends and curious runners. Stack is listed as heel / forefoot in millimeters. Weights use each manufacturer’s reference size where available, so they are not directly comparable across brands. A dash means the source does not provide that specification. Descriptions summarize manufacturer information, not hands-on reviews. Brand and product names belong to their respective owners. No brand affiliation is implied.</footer>
+    <footer>A free project for friends and curious runners. Stack is listed as heel / forefoot in millimeters. Weights use each manufacturer’s reference size where available, so they are not directly comparable across brands. A dash means the specification is missing or has an unresolved source conflict. Descriptions summarize manufacturer information, not hands-on reviews. Brand and product names belong to their respective owners. No brand affiliation is implied.</footer>
   </main>
   <script>
     let allShoes = [];
@@ -165,7 +167,7 @@
         let sourceURL = null;
         try {
           const url = new URL(shoe.source_url);
-          if (url.protocol === 'https:' && ['www.altrarunning.com', 'www.topoathletic.com', 'www.nike.com', 'www.newbalance.com', 'www.asics.com', 'www.saucony.com', 'www.brooksrunning.com', 'au.hoka.com', 'vn.hoka.com'].includes(url.hostname)) sourceURL = url.href;
+          if (url.protocol === 'https:' && ['www.altrarunning.com', 'www.topoathletic.com', 'www.nike.com', 'www.newbalance.com', 'www.asics.com', 'www.saucony.com', 'www.brooksrunning.com', 'au.hoka.com', 'vn.hoka.com', 'www.adidas.com', 'news.adidas.com', 'us.puma.com', 'eu.puma.com'].includes(url.hostname)) sourceURL = url.href;
         } catch (_) { /* Legacy records have no source URL. */ }
         const source = sourceURL
           ? `<div class="source"><a href="${escapeHTML(sourceURL)}" target="_blank" rel="noopener noreferrer">Manufacturer source ↗</a><small>Sourced ${s.sourced_at}</small><small>Weight reference: ${escapeHTML(shoe.weight_reference_size || 'size not specified')}</small><small>${escapeHTML(shoe.source_notes || '')}</small></div>`
