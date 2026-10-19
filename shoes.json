@@ -21,7 +21,13 @@
       "weight_reference_size": null,
       "price_type": "US list price",
       "source_notes": "Weight reference size not specified on the manufacturer page.",
-      "gender": "men"
+      "gender": "men",
+      "manufacturer_support": {
+        "wording": "Neutral",
+        "source_url": "https://www.altrarunning.com/en-us/products/mens-lone-peak-9-al0a85pg",
+        "scope": "model",
+        "checked_at": "2026-10-18"
+      }
     },
     {
       "id": "altra-olympus-6",
@@ -42,7 +48,13 @@
       "weight_reference_size": null,
       "price_type": "US list price",
       "source_notes": "Weight reference size not specified. US list price shown; the selected color was on sale for $148 when checked.",
-      "gender": "men"
+      "gender": "men",
+      "manufacturer_support": {
+        "wording": "Neutral",
+        "source_url": "https://eu.altrarunning.com/en-gb/collections/vibram/products/mens-olympus-6-al0a85nj442",
+        "scope": "model",
+        "checked_at": "2026-10-18"
+      }
     },
     {
       "id": "altra-fwd-via-2",
@@ -63,7 +75,13 @@
       "weight_reference_size": null,
       "price_type": "US list price",
       "source_notes": "Altra prints stack as 33/37 mm without ordering labels; normalized to heel/forefoot using the stated positive 4 mm drop. Weight reference size not specified.",
-      "gender": "men"
+      "gender": "men",
+      "manufacturer_support": {
+        "wording": "Neutral",
+        "source_url": "https://www.altrarunning.com/en-us/products/mens-fwd-via-2-al0a85sr?variant=47944128266407",
+        "scope": "model",
+        "checked_at": "2026-10-18"
+      }
     },
     {
       "id": "topo-phantom-4",
@@ -84,7 +102,13 @@
       "weight_reference_size": "Men's US 9",
       "price_type": "US list price",
       "source_notes": "Manufacturer specifications; not independent lab measurements.",
-      "gender": "men"
+      "gender": "men",
+      "manufacturer_support": {
+        "wording": "Neutral",
+        "source_url": "https://www.topoathletic.com/mens-phantom-4",
+        "scope": "model",
+        "checked_at": "2026-10-18"
+      }
     },
     {
       "id": "topo-ultraventure-4",
@@ -105,7 +129,13 @@
       "weight_reference_size": "Men's US 9",
       "price_type": "US list price",
       "source_notes": "US list price shown; the selected color was on sale for $119 when checked.",
-      "gender": "men"
+      "gender": "men",
+      "manufacturer_support": {
+        "wording": "Neutral",
+        "source_url": "https://www.topoathletic.com/mens-ultraventure-4",
+        "scope": "model",
+        "checked_at": "2026-10-18"
+      }
     },
     {
       "id": "topo-mtn-racer-4",
@@ -126,7 +156,13 @@
       "weight_reference_size": "Men's US 9",
       "price_type": "US list price",
       "source_notes": "Manufacturer specifications; not independent lab measurements.",
-      "gender": "men"
+      "gender": "men",
+      "manufacturer_support": {
+        "wording": "Neutral",
+        "source_url": "https://www.topoathletic.com/mens-mtn-racer-4",
+        "scope": "model",
+        "checked_at": "2026-10-18"
+      }
     },
     {
       "id": "nike-pegasus-42",
@@ -147,7 +183,8 @@
       "weight_reference_size": "Men's US 10",
       "price_type": "US list price",
       "source_notes": "Nike tech specs list approximately 300 g / 10.59 oz; product details round to 10.5 oz. Stack heights not listed on this page. US list price shown; selected color was $102.97.",
-      "gender": "men"
+      "gender": "men",
+      "manufacturer_support": null
     },
     {
       "id": "nike-vomero-18",
@@ -168,7 +205,8 @@
       "weight_reference_size": "Men's US 10",
       "price_type": "US list price",
       "source_notes": "Toe-box shape is not specified by the manufacturer. Weight is approximate.",
-      "gender": "men"
+      "gender": "men",
+      "manufacturer_support": null
     },
     {
       "id": "nike-structure-26",
@@ -189,7 +227,13 @@
       "weight_reference_size": "Men's US 10",
       "price_type": "US list price",
       "source_notes": "Nike lists approximately 320–321 g and 11.3 oz in different sections. Stack heights and toe-box shape are not specified.",
-      "gender": "men"
+      "gender": "men",
+      "manufacturer_support": {
+        "wording": "midfoot support system",
+        "source_url": "https://www.nike.com/t/structure-26-mens-road-running-shoes-M4sx9fru/HJ1102-100",
+        "scope": "model",
+        "checked_at": "2026-10-18"
+      }
     },
     {
       "id": "altra-experience-flow-3",
@@ -210,7 +254,13 @@
       "price_type": "US list price",
       "source_url": "https://www.altrarunning.com/en-us/products/mens-experience-flow-3-al0a85ss",
       "source_notes": "Manufacturer lists 255 g / 9 oz. Weight reference size is not specified. Heel/forefoot stack is 32/28 mm.",
-      "gender": "men"
+      "gender": "men",
+      "manufacturer_support": {
+        "wording": "Neutral",
+        "source_url": "https://www.altrarunning.com/en-us/products/womens-experience-flow-3-al0a85u7",
+        "scope": "model",
+        "checked_at": "2026-10-18"
+      }
     },
     {
       "id": "altra-escalante-4",
@@ -231,7 +281,13 @@
       "price_type": "US list price",
       "source_url": "https://www.altrarunning.com/en-us/products/mens-escalante-4-al0a85ne",
       "source_notes": "Manufacturer lists 269 g / 9.5 oz for the men’s model; the previous 7.5 oz value belongs to the women’s model. Reference size is not specified. US list price shown; selected color was $104.",
-      "gender": "men"
+      "gender": "men",
+      "manufacturer_support": {
+        "wording": "Neutral",
+        "source_url": "https://eu.altrarunning.com/en-gb/collections/zero-drop/products/womens-escalante-4-al0a85nf84p",
+        "scope": "model",
+        "checked_at": "2026-10-18"
+      }
     },
     {
       "id": "topo-cyclone-3",
@@ -252,7 +308,13 @@
       "price_type": "US list price",
       "source_url": "https://www.topoathletic.com/mens-cyclone-3",
       "source_notes": "Manufacturer specifications for men’s US 9. US list price shown.",
-      "gender": "men"
+      "gender": "men",
+      "manufacturer_support": {
+        "wording": "Neutral",
+        "source_url": "https://www.topoathletic.com/mens-cyclone-3",
+        "scope": "model",
+        "checked_at": "2026-10-18"
+      }
     },
     {
       "id": "altra-torin-8",
@@ -273,7 +335,13 @@
       "price_type": "US list price",
       "source_url": "https://www.altrarunning.com/en-us/products/mens-torin-8-al0a85qe",
       "source_notes": "Manufacturer lists 287.7 g / 10.15 oz; reference size is not specified. US list price shown; selected color was $128.",
-      "gender": "men"
+      "gender": "men",
+      "manufacturer_support": {
+        "wording": "Neutral",
+        "source_url": "https://www.altrarunning.com/en-us/products/mens-torin-8-al0a85qe",
+        "scope": "model",
+        "checked_at": "2026-10-18"
+      }
     },
     {
       "id": "altra-torin-9",
@@ -294,7 +362,13 @@
       "price_type": "US list price",
       "source_url": "https://www.altrarunning.com/en-us/products/mens-torin-9-al0a85tn",
       "source_notes": "Manufacturer lists 9.8 oz / 269 g, which are inconsistent (269 g is approximately 9.49 oz). The listed ounce value is retained, pending manufacturer clarification. Reference size is not specified.",
-      "gender": "men"
+      "gender": "men",
+      "manufacturer_support": {
+        "wording": "Neutral",
+        "source_url": "https://www.altrarunning.com/en-us/pages/torin-9",
+        "scope": "model",
+        "checked_at": "2026-10-18"
+      }
     },
     {
       "id": "new-balance-rebel-v5",
@@ -315,7 +389,13 @@
       "price_type": "US list price",
       "source_url": "https://www.newbalance.com/pd/fuelcell-rebel-v5/MFCXLO5-D-045.html",
       "source_notes": "Manufacturer lists 223 g / 7.9 oz and an approximate 6 mm drop. Reference weight size, heel/forefoot stack heights and toe-box shape are not specified. The size selected in the product URL is not a weight reference size.",
-      "gender": "men"
+      "gender": "men",
+      "manufacturer_support": {
+        "wording": "Neutral",
+        "source_url": "https://www.newbalance.com/pd/fuelcell-rebel-v5/MFCXLO5-D-045.html",
+        "scope": "model",
+        "checked_at": "2026-10-18"
+      }
     },
     {
       "id": "topo-specter-2",
@@ -336,7 +416,13 @@
       "price_type": "US list price",
       "source_url": "https://www.topoathletic.com/mens-specter-2",
       "source_notes": "Manufacturer specifies 8.1 oz for men’s US 9. US list price shown; selected color was $129.",
-      "gender": "men"
+      "gender": "men",
+      "manufacturer_support": {
+        "wording": "Neutral",
+        "source_url": "https://www.topoathletic.com/mens-specter-2",
+        "scope": "model",
+        "checked_at": "2026-10-18"
+      }
     },
     {
       "id": "topo-atmos",
@@ -357,7 +443,13 @@
       "price_type": "US list price",
       "source_url": "https://www.topoathletic.com/mens-atmos",
       "source_notes": "The manufacturer identifies ZipFoam but does not specify dual density on the source page. US list price shown; selected color was $109.",
-      "gender": "men"
+      "gender": "men",
+      "manufacturer_support": {
+        "wording": "Neutral",
+        "source_url": "https://www.topoathletic.com/mens-atmos",
+        "scope": "model",
+        "checked_at": "2026-10-18"
+      }
     },
     {
       "id": "topo-phantom-4-women",
@@ -378,7 +470,13 @@
       "source_type": "manufacturer",
       "sourced_at": "2026-10-18",
       "weight_reference_size": "Women's US 7",
-      "source_notes": "Women’s manufacturer specifications. List price rather than any color-specific sale price."
+      "source_notes": "Women’s manufacturer specifications. List price rather than any color-specific sale price.",
+      "manufacturer_support": {
+        "wording": "Neutral",
+        "source_url": "https://www.topoathletic.com/mens-phantom-4",
+        "scope": "model",
+        "checked_at": "2026-10-18"
+      }
     },
     {
       "id": "topo-cyclone-3-women",
@@ -399,7 +497,13 @@
       "source_type": "manufacturer",
       "sourced_at": "2026-10-18",
       "weight_reference_size": "Women's US 7",
-      "source_notes": "Women’s manufacturer specifications. List price rather than any color-specific sale price."
+      "source_notes": "Women’s manufacturer specifications. List price rather than any color-specific sale price.",
+      "manufacturer_support": {
+        "wording": "Neutral",
+        "source_url": "https://www.topoathletic.com/mens-cyclone-3",
+        "scope": "model",
+        "checked_at": "2026-10-18"
+      }
     },
     {
       "id": "topo-ultraventure-4-women",
@@ -420,7 +524,13 @@
       "source_type": "manufacturer",
       "sourced_at": "2026-10-18",
       "weight_reference_size": "Women's US 7",
-      "source_notes": "Women’s manufacturer specifications. List price rather than any color-specific sale price."
+      "source_notes": "Women’s manufacturer specifications. List price rather than any color-specific sale price.",
+      "manufacturer_support": {
+        "wording": "Neutral",
+        "source_url": "https://www.topoathletic.com/mens-ultraventure-4",
+        "scope": "model",
+        "checked_at": "2026-10-18"
+      }
     },
     {
       "id": "topo-mtn-racer-4-women",
@@ -441,7 +551,13 @@
       "source_type": "manufacturer",
       "sourced_at": "2026-10-18",
       "weight_reference_size": "Women's US 7",
-      "source_notes": "Women’s manufacturer specifications. List price rather than any color-specific sale price."
+      "source_notes": "Women’s manufacturer specifications. List price rather than any color-specific sale price.",
+      "manufacturer_support": {
+        "wording": "Neutral",
+        "source_url": "https://www.topoathletic.com/mens-mtn-racer-4",
+        "scope": "model",
+        "checked_at": "2026-10-18"
+      }
     },
     {
       "id": "topo-atmos-2-women",
@@ -462,7 +578,13 @@
       "source_type": "manufacturer",
       "sourced_at": "2026-10-18",
       "weight_reference_size": "Women's US 7",
-      "source_notes": "Women’s manufacturer specifications. List price rather than any color-specific sale price."
+      "source_notes": "Women’s manufacturer specifications. List price rather than any color-specific sale price.",
+      "manufacturer_support": {
+        "wording": "Neutral",
+        "source_url": "https://www.topoathletic.com/womens-atmos-2",
+        "scope": "model",
+        "checked_at": "2026-10-18"
+      }
     },
     {
       "id": "topo-fli-lyte-6-women",
@@ -483,7 +605,13 @@
       "source_type": "manufacturer",
       "sourced_at": "2026-10-18",
       "weight_reference_size": "Women's US 7",
-      "source_notes": "Women’s manufacturer specifications. List price rather than any color-specific sale price."
+      "source_notes": "Women’s manufacturer specifications. List price rather than any color-specific sale price.",
+      "manufacturer_support": {
+        "wording": "Neutral",
+        "source_url": "https://www.topoathletic.com/womens-fli-lyte-6",
+        "scope": "model",
+        "checked_at": "2026-10-18"
+      }
     },
     {
       "id": "topo-ultrafly-6-women",
@@ -504,7 +632,13 @@
       "source_type": "manufacturer",
       "sourced_at": "2026-10-18",
       "weight_reference_size": "Women's US 7",
-      "source_notes": "Women’s manufacturer specifications. List price rather than any color-specific sale price."
+      "source_notes": "Women’s manufacturer specifications. List price rather than any color-specific sale price.",
+      "manufacturer_support": {
+        "wording": "Stability",
+        "source_url": "https://www.topoathletic.com/womens-ultrafly-6",
+        "scope": "model",
+        "checked_at": "2026-10-18"
+      }
     },
     {
       "id": "altra-lone-peak-9-women",
@@ -525,7 +659,13 @@
       "source_type": "manufacturer",
       "sourced_at": "2026-10-18",
       "weight_reference_size": null,
-      "source_notes": "Women’s manufacturer specifications. List price rather than any color-specific sale price. Weight reference size not supplied."
+      "source_notes": "Women’s manufacturer specifications. List price rather than any color-specific sale price. Weight reference size not supplied.",
+      "manufacturer_support": {
+        "wording": "Neutral",
+        "source_url": "https://www.altrarunning.com/en-us/products/mens-lone-peak-9-al0a85pg",
+        "scope": "model",
+        "checked_at": "2026-10-18"
+      }
     },
     {
       "id": "altra-escalante-4-women",
@@ -546,7 +686,13 @@
       "source_type": "manufacturer",
       "sourced_at": "2026-10-18",
       "weight_reference_size": null,
-      "source_notes": "Women’s manufacturer specifications. List price rather than any color-specific sale price. Weight reference size not supplied."
+      "source_notes": "Women’s manufacturer specifications. List price rather than any color-specific sale price. Weight reference size not supplied.",
+      "manufacturer_support": {
+        "wording": "Neutral",
+        "source_url": "https://eu.altrarunning.com/en-gb/collections/zero-drop/products/womens-escalante-4-al0a85nf84p",
+        "scope": "model",
+        "checked_at": "2026-10-18"
+      }
     },
     {
       "id": "altra-experience-flow-3-women",
@@ -567,7 +713,13 @@
       "source_type": "manufacturer",
       "sourced_at": "2026-10-18",
       "weight_reference_size": null,
-      "source_notes": "Women’s manufacturer specifications. List price rather than any color-specific sale price. Weight reference size not supplied."
+      "source_notes": "Women’s manufacturer specifications. List price rather than any color-specific sale price. Weight reference size not supplied.",
+      "manufacturer_support": {
+        "wording": "Neutral",
+        "source_url": "https://www.altrarunning.com/en-us/products/womens-experience-flow-3-al0a85u7",
+        "scope": "model",
+        "checked_at": "2026-10-18"
+      }
     },
     {
       "id": "altra-fwd-via-2-women",
@@ -588,7 +740,13 @@
       "source_type": "manufacturer",
       "sourced_at": "2026-10-18",
       "weight_reference_size": null,
-      "source_notes": "Women’s manufacturer specifications. List price rather than any color-specific sale price. Manufacturer prints stack as 33/37 mm without labels; ordered heel/forefoot using the stated positive 4 mm drop. Weight reference size not supplied."
+      "source_notes": "Women’s manufacturer specifications. List price rather than any color-specific sale price. Manufacturer prints stack as 33/37 mm without labels; ordered heel/forefoot using the stated positive 4 mm drop. Weight reference size not supplied.",
+      "manufacturer_support": {
+        "wording": "Neutral",
+        "source_url": "https://www.altrarunning.com/en-us/products/mens-fwd-via-2-al0a85sr?variant=47944128266407",
+        "scope": "model",
+        "checked_at": "2026-10-18"
+      }
     },
     {
       "id": "altra-torin-8-women",
@@ -609,7 +767,13 @@
       "source_type": "manufacturer",
       "sourced_at": "2026-10-18",
       "weight_reference_size": null,
-      "source_notes": "Women’s manufacturer specifications. List price rather than any color-specific sale price. Weight reference size not supplied."
+      "source_notes": "Women’s manufacturer specifications. List price rather than any color-specific sale price. Weight reference size not supplied.",
+      "manufacturer_support": {
+        "wording": "Neutral",
+        "source_url": "https://www.altrarunning.com/en-us/products/mens-torin-8-al0a85qe",
+        "scope": "model",
+        "checked_at": "2026-10-18"
+      }
     },
     {
       "id": "altra-torin-9-women",
@@ -630,7 +794,13 @@
       "source_type": "manufacturer",
       "sourced_at": "2026-10-18",
       "weight_reference_size": null,
-      "source_notes": "Women’s manufacturer specifications. List price rather than any color-specific sale price. Weight reference size not supplied."
+      "source_notes": "Women’s manufacturer specifications. List price rather than any color-specific sale price. Weight reference size not supplied.",
+      "manufacturer_support": {
+        "wording": "Neutral",
+        "source_url": "https://www.altrarunning.com/en-us/pages/torin-9",
+        "scope": "model",
+        "checked_at": "2026-10-18"
+      }
     },
     {
       "id": "altra-paradigm-8-women",
@@ -651,7 +821,8 @@
       "source_type": "manufacturer",
       "sourced_at": "2026-10-18",
       "weight_reference_size": null,
-      "source_notes": "Women’s manufacturer specifications. List price rather than any color-specific sale price. Weight reference size not supplied."
+      "source_notes": "Women’s manufacturer specifications. List price rather than any color-specific sale price. Weight reference size not supplied.",
+      "manufacturer_support": null
     },
     {
       "id": "nike-pegasus-42-women",
@@ -672,7 +843,8 @@
       "source_type": "manufacturer",
       "sourced_at": "2026-10-18",
       "weight_reference_size": "Women's US 8",
-      "source_notes": "Women’s manufacturer specifications. Approximate weight. Stack heights not supplied."
+      "source_notes": "Women’s manufacturer specifications. Approximate weight. Stack heights not supplied.",
+      "manufacturer_support": null
     },
     {
       "id": "nike-vomero-18-women",
@@ -693,7 +865,8 @@
       "source_type": "manufacturer",
       "sourced_at": "2026-10-18",
       "weight_reference_size": "Women's US 8",
-      "source_notes": "Women’s manufacturer specifications. Approximate weight. Toe-box shape not specified."
+      "source_notes": "Women’s manufacturer specifications. Approximate weight. Toe-box shape not specified.",
+      "manufacturer_support": null
     },
     {
       "id": "new-balance-rebel-v5-women",
@@ -714,7 +887,13 @@
       "source_type": "manufacturer",
       "sourced_at": "2026-10-18",
       "weight_reference_size": null,
-      "source_notes": "Women’s manufacturer specifications. Approximate drop. Stack heights and toe-box shape not specified. The URL’s selected size is not a weight reference size. Weight reference size not supplied."
+      "source_notes": "Women’s manufacturer specifications. Approximate drop. Stack heights and toe-box shape not specified. The URL’s selected size is not a weight reference size. Weight reference size not supplied.",
+      "manufacturer_support": {
+        "wording": "Neutral",
+        "source_url": "https://www.newbalance.com/pd/fuelcell-rebel-v5/MFCXLO5-D-045.html",
+        "scope": "model",
+        "checked_at": "2026-10-18"
+      }
     },
     {
       "id": "nike-vomero-plus-men",
@@ -738,7 +917,8 @@
       "source_notes": "Approximate weight at the stated reference size. Stack heights and toe-box shape are not specified on this product page.",
       "release_date": "2025-08-07",
       "release_source_url": "https://about.nike.com/en/newsroom/releases/nike-vomero-plus-vomero-premium-official-images",
-      "release_notes": "Global release."
+      "release_notes": "Global release.",
+      "manufacturer_support": null
     },
     {
       "id": "nike-vomero-plus-women",
@@ -762,7 +942,8 @@
       "source_notes": "Approximate weight at the stated reference size. Stack heights and toe-box shape are not specified on this product page.",
       "release_date": "2025-08-07",
       "release_source_url": "https://about.nike.com/en/newsroom/releases/nike-vomero-plus-vomero-premium-official-images",
-      "release_notes": "Global release."
+      "release_notes": "Global release.",
+      "manufacturer_support": null
     },
     {
       "id": "nike-vomero-premium-men",
@@ -786,7 +967,8 @@
       "source_notes": "Approximate weight at the stated reference size. Stack heights and toe-box shape are not specified on this product page.",
       "release_date": "2025-10-02",
       "release_source_url": "https://about.nike.com/en/newsroom/releases/nike-vomero-plus-vomero-premium-official-images",
-      "release_notes": "Select retailers October 2; global release October 16, 2025."
+      "release_notes": "Select retailers October 2; global release October 16, 2025.",
+      "manufacturer_support": null
     },
     {
       "id": "nike-vomero-premium-women",
@@ -810,7 +992,8 @@
       "source_notes": "Approximate weight at the stated reference size. Stack heights and toe-box shape are not specified on this product page.",
       "release_date": "2025-10-02",
       "release_source_url": "https://about.nike.com/en/newsroom/releases/nike-vomero-plus-vomero-premium-official-images",
-      "release_notes": "Select retailers October 2; global release October 16, 2025."
+      "release_notes": "Select retailers October 2; global release October 16, 2025.",
+      "manufacturer_support": null
     },
     {
       "id": "nike-pegasus-premium-men",
@@ -834,7 +1017,8 @@
       "source_notes": "Approximate weight at the stated reference size. Stack heights and toe-box shape are not specified on this product page.",
       "release_date": "2025-01-30",
       "release_source_url": "https://www.nike.com/gb/a/pegasus-premium-release-info",
-      "release_notes": "January 30 outside China; February 6 in China."
+      "release_notes": "January 30 outside China; February 6 in China.",
+      "manufacturer_support": null
     },
     {
       "id": "nike-pegasus-premium-women",
@@ -858,7 +1042,8 @@
       "source_notes": "Approximate weight at the stated reference size. Stack heights and toe-box shape are not specified on this product page.",
       "release_date": "2025-01-30",
       "release_source_url": "https://www.nike.com/gb/a/pegasus-premium-release-info",
-      "release_notes": "January 30 outside China; February 6 in China."
+      "release_notes": "January 30 outside China; February 6 in China.",
+      "manufacturer_support": null
     },
     {
       "id": "nike-structure-plus-men",
@@ -882,7 +1067,13 @@
       "source_notes": "Approximate weight at the stated reference size. Stack heights and toe-box shape are not specified on this product page. Nike lists 309 g as both 10.8 and 10.9 oz in different page sections; 10.9 oz is used here.",
       "release_date": "2026-01-08",
       "release_source_url": "https://about.nike.com/en/newsroom/releases/nike-structure-plus-official-images",
-      "release_notes": "Specialty retailers January 8; nike.com February 5, 2026."
+      "release_notes": "Specialty retailers January 8; nike.com February 5, 2026.",
+      "manufacturer_support": {
+        "wording": "Midfoot Support",
+        "source_url": "https://www.nike.com/t/structure-plus-mens-road-running-shoes-XEfeTqfe/HQ3048-004",
+        "scope": "model",
+        "checked_at": "2026-10-18"
+      }
     },
     {
       "id": "nike-structure-plus-women",
@@ -906,7 +1097,13 @@
       "source_notes": "Approximate weight at the stated reference size. Stack heights and toe-box shape are not specified on this product page.",
       "release_date": "2026-01-08",
       "release_source_url": "https://about.nike.com/en/newsroom/releases/nike-structure-plus-official-images",
-      "release_notes": "Specialty retailers January 8; nike.com February 5, 2026."
+      "release_notes": "Specialty retailers January 8; nike.com February 5, 2026.",
+      "manufacturer_support": {
+        "wording": "Midfoot Support",
+        "source_url": "https://www.nike.com/t/structure-plus-mens-road-running-shoes-XEfeTqfe/HQ3048-004",
+        "scope": "model",
+        "checked_at": "2026-10-18"
+      }
     },
     {
       "id": "nike-zoom-fly-6-men",
@@ -930,7 +1127,8 @@
       "source_notes": "Approximate weight at the stated reference size. Stack heights and toe-box shape are not specified on this product page.",
       "release_date": "2024-11-01",
       "release_source_url": "https://about.nike.com/en/newsroom/releases/zoom-fly-6-official-images",
-      "release_notes": "Global release."
+      "release_notes": "Global release.",
+      "manufacturer_support": null
     },
     {
       "id": "nike-zoom-fly-6-women",
@@ -954,7 +1152,8 @@
       "source_notes": "Approximate weight at the stated reference size. Stack heights and toe-box shape are not specified on this product page. This color page lists 214 g / 7.5 oz; another Nike color page lists 7.7 oz for the same gram weight.",
       "release_date": "2024-11-01",
       "release_source_url": "https://about.nike.com/en/newsroom/releases/zoom-fly-6-official-images",
-      "release_notes": "Global release."
+      "release_notes": "Global release.",
+      "manufacturer_support": null
     },
     {
       "id": "nike-vaporfly-4-men",
@@ -978,7 +1177,8 @@
       "source_notes": "Approximate weight at the stated reference size. Stack heights and toe-box shape are not specified on this product page.",
       "release_date": "2025-03-01",
       "release_source_url": "https://www.nike.com/a/nike-vaporfly4-streakfly2-release-info",
-      "release_notes": "Proto colorway in some geographies March 1; additional colors April 2025."
+      "release_notes": "Proto colorway in some geographies March 1; additional colors April 2025.",
+      "manufacturer_support": null
     },
     {
       "id": "nike-vaporfly-4-women",
@@ -1002,7 +1202,8 @@
       "source_notes": "Approximate weight at the stated reference size. Stack heights and toe-box shape are not specified on this product page.",
       "release_date": "2025-03-01",
       "release_source_url": "https://www.nike.com/a/nike-vaporfly4-streakfly2-release-info",
-      "release_notes": "Proto colorway in some geographies March 1; additional colors April 2025."
+      "release_notes": "Proto colorway in some geographies March 1; additional colors April 2025.",
+      "manufacturer_support": null
     },
     {
       "id": "asics-novablast-5-men",
@@ -1026,7 +1227,13 @@
       "source_notes": "Weight reference size, stack heights and toe-box shape not stated on these US pages.",
       "release_date": "2024-12-01",
       "release_source_url": "https://corp.asics.com/en/press/article/experience-the-unique-combination-of-speed-and-bounce-in-the-new-novablasttm-5-running-shoe",
-      "release_notes": "Global launch."
+      "release_notes": "Global launch.",
+      "manufacturer_support": {
+        "wording": "Designed for Neutral / Underpronation",
+        "source_url": "https://me.asics.com/en-ae/novablast-5-1011b974-406.html",
+        "scope": "model",
+        "checked_at": "2026-10-18"
+      }
     },
     {
       "id": "asics-novablast-5-women",
@@ -1050,7 +1257,13 @@
       "source_notes": "Weight reference size, stack heights and toe-box shape not stated on these US pages.",
       "release_date": "2024-12-01",
       "release_source_url": "https://corp.asics.com/en/press/article/experience-the-unique-combination-of-speed-and-bounce-in-the-new-novablasttm-5-running-shoe",
-      "release_notes": "Global launch."
+      "release_notes": "Global launch.",
+      "manufacturer_support": {
+        "wording": "Designed for Neutral / Underpronation",
+        "source_url": "https://me.asics.com/en-ae/novablast-5-1011b974-406.html",
+        "scope": "model",
+        "checked_at": "2026-10-18"
+      }
     },
     {
       "id": "asics-gel-kayano-32-men",
@@ -1074,7 +1287,13 @@
       "source_notes": "Listed ounces rounded to two decimals. Weight reference size and stack heights not specified. Men’s source is the manufacturer’s Irish site. US list price not confirmed.",
       "release_date": "2025-06-01",
       "release_source_url": "https://news-emea.asics.com/latest-News/feel-comfort--find-calm--asics-introduces-the-new-gel-kayano--32-shoe/s/44d391ba-1363-4c8c-a620-964a9b8f66ad",
-      "release_notes": "Manufacturer launch date."
+      "release_notes": "Manufacturer launch date.",
+      "manufacturer_support": {
+        "wording": "Neutral, Stability",
+        "source_url": "https://www.asics.com/on/demandware.store/Sites-asics-au-Site/en_AU/Product-Variation?dwvar_AOP__1011C052-400_color=AOP_1011C052.400&dwvar_AOP__1011C052-400_size=&dwvar_AOP__1011C052-400_width=Standard&pid=AOP_1011C052-400",
+        "scope": "model",
+        "checked_at": "2026-10-18"
+      }
     },
     {
       "id": "asics-gel-kayano-32-women",
@@ -1098,7 +1317,13 @@
       "source_notes": "Listed ounces rounded to two decimals. Weight reference size and stack heights not specified. Men’s source is the manufacturer’s Irish site. US list price not confirmed.",
       "release_date": "2025-06-01",
       "release_source_url": "https://news-emea.asics.com/latest-News/feel-comfort--find-calm--asics-introduces-the-new-gel-kayano--32-shoe/s/44d391ba-1363-4c8c-a620-964a9b8f66ad",
-      "release_notes": "Manufacturer launch date."
+      "release_notes": "Manufacturer launch date.",
+      "manufacturer_support": {
+        "wording": "Neutral, Stability",
+        "source_url": "https://www.asics.com/on/demandware.store/Sites-asics-au-Site/en_AU/Product-Variation?dwvar_AOP__1011C052-400_color=AOP_1011C052.400&dwvar_AOP__1011C052-400_size=&dwvar_AOP__1011C052-400_width=Standard&pid=AOP_1011C052-400",
+        "scope": "model",
+        "checked_at": "2026-10-18"
+      }
     },
     {
       "id": "saucony-ride-18-men",
@@ -1122,7 +1347,13 @@
       "source_notes": "Weight reference size and toe-box shape not specified by this source. US list price not confirmed.",
       "release_date": "2025-01-01",
       "release_source_url": "https://weartesters.com/saucony-ride-18-performance-review/",
-      "release_notes": "Release date reported by WearTesters; manufacturer source lists both gender weights."
+      "release_notes": "Release date reported by WearTesters; manufacturer source lists both gender weights.",
+      "manufacturer_support": {
+        "wording": "Neutral",
+        "source_url": "https://www.saucony.com/UK/en_GB/ride-18-wide/59946W.html",
+        "scope": "model",
+        "checked_at": "2026-10-18"
+      }
     },
     {
       "id": "saucony-ride-18-women",
@@ -1146,7 +1377,13 @@
       "source_notes": "Weight reference size and toe-box shape not specified by this source. US list price not confirmed.",
       "release_date": "2025-01-01",
       "release_source_url": "https://weartesters.com/saucony-ride-18-performance-review/",
-      "release_notes": "Release date reported by WearTesters; manufacturer source lists both gender weights."
+      "release_notes": "Release date reported by WearTesters; manufacturer source lists both gender weights.",
+      "manufacturer_support": {
+        "wording": "Neutral",
+        "source_url": "https://www.saucony.com/UK/en_GB/ride-18-wide/59946W.html",
+        "scope": "model",
+        "checked_at": "2026-10-18"
+      }
     },
     {
       "id": "saucony-guide-18-men",
@@ -1170,7 +1407,13 @@
       "source_notes": "Reference size unspecified. Manufacturer pairs men’s 9.7 oz with 272 g, which do not convert exactly; listed ounces retained. US list price not confirmed.",
       "release_date": "2025-02-01",
       "release_source_url": "https://weartesters.com/saucony-guide-18-performance-review/",
-      "release_notes": "Release date reported by WearTesters; manufacturer source lists both gender weights."
+      "release_notes": "Release date reported by WearTesters; manufacturer source lists both gender weights.",
+      "manufacturer_support": {
+        "wording": "Maximal",
+        "source_url": "https://www.saucony.com/UK/en_GB/guide-18/59947M.html?details=complete&dwvar_59947M_color=S20998-240&isProductSetPage=false",
+        "scope": "model",
+        "checked_at": "2026-10-18"
+      }
     },
     {
       "id": "saucony-guide-18-women",
@@ -1194,7 +1437,13 @@
       "source_notes": "Reference size unspecified. Manufacturer pairs men’s 9.7 oz with 272 g, which do not convert exactly; listed ounces retained. US list price not confirmed.",
       "release_date": "2025-02-01",
       "release_source_url": "https://weartesters.com/saucony-guide-18-performance-review/",
-      "release_notes": "Release date reported by WearTesters; manufacturer source lists both gender weights."
+      "release_notes": "Release date reported by WearTesters; manufacturer source lists both gender weights.",
+      "manufacturer_support": {
+        "wording": "Maximal",
+        "source_url": "https://www.saucony.com/UK/en_GB/guide-18/59947M.html?details=complete&dwvar_59947M_color=S20998-240&isProductSetPage=false",
+        "scope": "model",
+        "checked_at": "2026-10-18"
+      }
     },
     {
       "id": "saucony-endorphin-speed-5-men",
@@ -1218,7 +1467,8 @@
       "source_notes": "Weight reference size and toe-box shape not specified by this source. US list price not confirmed.",
       "release_date": "2025-06",
       "release_source_url": "https://www.youtube.com/watch?v=asIfOX8zuRU",
-      "release_notes": "Month-level launch reported at The Running Event; current manufacturer pages confirm release. Wide product pages supply the brand’s model specifications; width is not counted as another entry."
+      "release_notes": "Month-level launch reported at The Running Event; current manufacturer pages confirm release. Wide product pages supply the brand’s model specifications; width is not counted as another entry.",
+      "manufacturer_support": null
     },
     {
       "id": "saucony-endorphin-speed-5-women",
@@ -1242,7 +1492,8 @@
       "source_notes": "Weight reference size and toe-box shape not specified by this source. US list price not confirmed.",
       "release_date": "2025-06",
       "release_source_url": "https://www.youtube.com/watch?v=asIfOX8zuRU",
-      "release_notes": "Month-level launch reported at The Running Event; current manufacturer pages confirm release. Wide product pages supply the brand’s model specifications; width is not counted as another entry."
+      "release_notes": "Month-level launch reported at The Running Event; current manufacturer pages confirm release. Wide product pages supply the brand’s model specifications; width is not counted as another entry.",
+      "manufacturer_support": null
     },
     {
       "id": "saucony-triumph-23-men",
@@ -1266,7 +1517,8 @@
       "source_notes": "Weight reference size and toe-box shape not specified by this source. US list price not confirmed.",
       "release_date": "2025-06",
       "release_source_url": "https://www.ukrunchat.co.uk/saucony-introduces-triumph-23/",
-      "release_notes": "June 2025 launch coverage confirms global availability by June 3; exact first-sale day not established."
+      "release_notes": "June 2025 launch coverage confirms global availability by June 3; exact first-sale day not established.",
+      "manufacturer_support": null
     },
     {
       "id": "saucony-triumph-23-women",
@@ -1290,7 +1542,8 @@
       "source_notes": "Weight reference size and toe-box shape not specified by this source. US list price not confirmed.",
       "release_date": "2025-06",
       "release_source_url": "https://www.ukrunchat.co.uk/saucony-introduces-triumph-23/",
-      "release_notes": "June 2025 launch coverage confirms global availability by June 3; exact first-sale day not established."
+      "release_notes": "June 2025 launch coverage confirms global availability by June 3; exact first-sale day not established.",
+      "manufacturer_support": null
     },
     {
       "id": "saucony-xodus-ultra-4-men",
@@ -1314,7 +1567,8 @@
       "source_notes": "Weight reference size and toe-box shape not specified by this source. US list price not confirmed.",
       "release_date": "2025-06-01",
       "release_source_url": "https://weartesters.com/saucony-xodus-ultra-4-performance-review/",
-      "release_notes": "Release date reported by WearTesters."
+      "release_notes": "Release date reported by WearTesters.",
+      "manufacturer_support": null
     },
     {
       "id": "saucony-xodus-ultra-4-women",
@@ -1338,7 +1592,8 @@
       "source_notes": "Weight reference size and toe-box shape not specified by this source. US list price not confirmed.",
       "release_date": "2025-06-01",
       "release_source_url": "https://weartesters.com/saucony-xodus-ultra-4-performance-review/",
-      "release_notes": "Release date reported by WearTesters."
+      "release_notes": "Release date reported by WearTesters.",
+      "manufacturer_support": null
     },
     {
       "id": "saucony-kinvara-16-men",
@@ -1362,7 +1617,13 @@
       "source_notes": "Weight reference size and toe-box shape not specified by this source.",
       "release_date": "2025-06",
       "release_source_url": "https://www.youtube.com/watch?v=V2ODH7HluUk",
-      "release_notes": "Month-level launch reported by Running Warehouse; current manufacturer listing confirms release."
+      "release_notes": "Month-level launch reported by Running Warehouse; current manufacturer listing confirms release.",
+      "manufacturer_support": {
+        "wording": "Neutral",
+        "source_url": "https://www.saucony.com/en/buyers-guide/#kinvara-16",
+        "scope": "model",
+        "checked_at": "2026-10-18"
+      }
     },
     {
       "id": "saucony-kinvara-16-women",
@@ -1386,7 +1647,13 @@
       "source_notes": "Weight reference size and toe-box shape not specified by this source.",
       "release_date": "2025-06",
       "release_source_url": "https://www.youtube.com/watch?v=V2ODH7HluUk",
-      "release_notes": "Month-level launch reported by Running Warehouse; current manufacturer listing confirms release."
+      "release_notes": "Month-level launch reported by Running Warehouse; current manufacturer listing confirms release.",
+      "manufacturer_support": {
+        "wording": "Neutral",
+        "source_url": "https://www.saucony.com/en/buyers-guide/#kinvara-16",
+        "scope": "model",
+        "checked_at": "2026-10-18"
+      }
     },
     {
       "id": "saucony-ride-19-men",
@@ -1410,7 +1677,13 @@
       "source_notes": "Weight reference size and toe-box shape not specified by this source.",
       "release_date": "2026-01",
       "release_source_url": "https://www.youtube.com/watch?v=pS36vh1PgXE",
-      "release_notes": "Month-level launch reported by Running Warehouse; current manufacturer listing confirms release."
+      "release_notes": "Month-level launch reported by Running Warehouse; current manufacturer listing confirms release.",
+      "manufacturer_support": {
+        "wording": "Neutral",
+        "source_url": "https://www.saucony.com/en/buyers-guide/#ride-19",
+        "scope": "model",
+        "checked_at": "2026-10-18"
+      }
     },
     {
       "id": "saucony-ride-19-women",
@@ -1434,7 +1707,13 @@
       "source_notes": "Weight reference size and toe-box shape not specified by this source.",
       "release_date": "2026-01",
       "release_source_url": "https://www.youtube.com/watch?v=pS36vh1PgXE",
-      "release_notes": "Month-level launch reported by Running Warehouse; current manufacturer listing confirms release."
+      "release_notes": "Month-level launch reported by Running Warehouse; current manufacturer listing confirms release.",
+      "manufacturer_support": {
+        "wording": "Neutral",
+        "source_url": "https://www.saucony.com/en/buyers-guide/#ride-19",
+        "scope": "model",
+        "checked_at": "2026-10-18"
+      }
     },
     {
       "id": "saucony-peregrine-16-men",
@@ -1458,7 +1737,8 @@
       "source_notes": "Weight reference size and toe-box shape not specified by this source. US list price not confirmed.",
       "release_date": "2026-01",
       "release_source_url": "https://www.solereview.com/release-date-calendar-for-running-shoes/",
-      "release_notes": "Month-level release listed as completed by Solereview; manufacturer pages confirm availability."
+      "release_notes": "Month-level release listed as completed by Solereview; manufacturer pages confirm availability.",
+      "manufacturer_support": null
     },
     {
       "id": "saucony-peregrine-16-women",
@@ -1482,7 +1762,8 @@
       "source_notes": "Weight reference size and toe-box shape not specified by this source. US list price not confirmed.",
       "release_date": "2026-01",
       "release_source_url": "https://www.solereview.com/release-date-calendar-for-running-shoes/",
-      "release_notes": "Month-level release listed as completed by Solereview; manufacturer pages confirm availability."
+      "release_notes": "Month-level release listed as completed by Solereview; manufacturer pages confirm availability.",
+      "manufacturer_support": null
     },
     {
       "id": "brooks-glycerin-22-men",
@@ -1506,7 +1787,13 @@
       "source_notes": "Manufacturer-listed weights; reference size, total stack heights and toe-box shape not specified. US list price not confirmed.",
       "release_date": "2025-02-01",
       "release_source_url": "https://weartesters.com/brooks-glycerin-22-performance-review/",
-      "release_notes": "Reported model launch; regional availability may differ."
+      "release_notes": "Reported model launch; regional availability may differ.",
+      "manufacturer_support": {
+        "wording": "Balanced support",
+        "source_url": "https://www.brooksrunning.com/en_us/mens/shoes/road-running-shoes/glycerin-22/1104452E090.115.html",
+        "scope": "model",
+        "checked_at": "2026-10-18"
+      }
     },
     {
       "id": "brooks-glycerin-22-women",
@@ -1530,7 +1817,13 @@
       "source_notes": "Manufacturer-listed weights; reference size, total stack heights and toe-box shape not specified. US list price not confirmed.",
       "release_date": "2025-02-01",
       "release_source_url": "https://weartesters.com/brooks-glycerin-22-performance-review/",
-      "release_notes": "Reported model launch; regional availability may differ."
+      "release_notes": "Reported model launch; regional availability may differ.",
+      "manufacturer_support": {
+        "wording": "Balanced support",
+        "source_url": "https://www.brooksrunning.com/en_us/mens/shoes/road-running-shoes/glycerin-22/1104452E090.115.html",
+        "scope": "model",
+        "checked_at": "2026-10-18"
+      }
     },
     {
       "id": "brooks-glycerin-gts-22-men",
@@ -1554,7 +1847,13 @@
       "source_notes": "Manufacturer-listed weights; reference size, total stack heights and toe-box shape not specified. US list price not confirmed.",
       "release_date": "2025-02",
       "release_source_url": "https://www.roadtrailrun.com/2024/11/brooks-2025-road-and-trail-run-previews.html?amp=1&m=0",
-      "release_notes": "February 2025 launch preview includes the GTS version; manufacturer pages confirm release."
+      "release_notes": "February 2025 launch preview includes the GTS version; manufacturer pages confirm release.",
+      "manufacturer_support": {
+        "wording": "Structured support",
+        "source_url": "https://www.brooksrunning.com/en_us/mens/shoes/road-running-shoes/glycerin-gts-22/1104461D821.090.html",
+        "scope": "model",
+        "checked_at": "2026-10-18"
+      }
     },
     {
       "id": "brooks-glycerin-gts-22-women",
@@ -1578,7 +1877,13 @@
       "source_notes": "Manufacturer-listed weights; reference size, total stack heights and toe-box shape not specified. US list price not confirmed.",
       "release_date": "2025-02",
       "release_source_url": "https://www.roadtrailrun.com/2024/11/brooks-2025-road-and-trail-run-previews.html?amp=1&m=0",
-      "release_notes": "February 2025 launch preview includes the GTS version; manufacturer pages confirm release."
+      "release_notes": "February 2025 launch preview includes the GTS version; manufacturer pages confirm release.",
+      "manufacturer_support": {
+        "wording": "Structured support",
+        "source_url": "https://www.brooksrunning.com/en_us/mens/shoes/road-running-shoes/glycerin-gts-22/1104461D821.090.html",
+        "scope": "model",
+        "checked_at": "2026-10-18"
+      }
     },
     {
       "id": "brooks-ghost-17-men",
@@ -1602,7 +1907,13 @@
       "source_notes": "Manufacturer-listed weights; reference size, total stack heights and toe-box shape not specified. US list price not confirmed.",
       "release_date": "2025-05-01",
       "release_source_url": "https://www.al.com/shopping/2025/05/the-brand-new-brooks-ghost-17-running-shoe-just-dropped-what-to-know.html",
-      "release_notes": "Reported model launch; regional availability may differ."
+      "release_notes": "Reported model launch; regional availability may differ.",
+      "manufacturer_support": {
+        "wording": "Balanced support",
+        "source_url": "https://www.brooksrunning.com/en_us/ghost-17/1104422E041.075.html",
+        "scope": "model",
+        "checked_at": "2026-10-18"
+      }
     },
     {
       "id": "brooks-ghost-17-women",
@@ -1626,7 +1937,13 @@
       "source_notes": "Manufacturer-listed weights; reference size, total stack heights and toe-box shape not specified. US list price not confirmed.",
       "release_date": "2025-05-01",
       "release_source_url": "https://www.al.com/shopping/2025/05/the-brand-new-brooks-ghost-17-running-shoe-just-dropped-what-to-know.html",
-      "release_notes": "Reported model launch; regional availability may differ."
+      "release_notes": "Reported model launch; regional availability may differ.",
+      "manufacturer_support": {
+        "wording": "Balanced support",
+        "source_url": "https://www.brooksrunning.com/en_us/ghost-17/1104422E041.075.html",
+        "scope": "model",
+        "checked_at": "2026-10-18"
+      }
     },
     {
       "id": "brooks-cascadia-19-men",
@@ -1650,7 +1967,8 @@
       "source_notes": "Manufacturer-listed weights; reference size, total stack heights and toe-box shape not specified. US list price not confirmed.",
       "release_date": "2025-08-01",
       "release_source_url": "https://believeintherun.com/shoe-reviews/brooks-cascadia-19-review/",
-      "release_notes": "US release date reported by Believe in the Run; regional launches may differ."
+      "release_notes": "US release date reported by Believe in the Run; regional launches may differ.",
+      "manufacturer_support": null
     },
     {
       "id": "brooks-cascadia-19-women",
@@ -1674,7 +1992,8 @@
       "source_notes": "Manufacturer-listed weights; reference size, total stack heights and toe-box shape not specified. US list price not confirmed.",
       "release_date": "2025-08-01",
       "release_source_url": "https://believeintherun.com/shoe-reviews/brooks-cascadia-19-review/",
-      "release_notes": "US release date reported by Believe in the Run; regional launches may differ."
+      "release_notes": "US release date reported by Believe in the Run; regional launches may differ.",
+      "manufacturer_support": null
     },
     {
       "id": "brooks-caldera-8-men",
@@ -1698,7 +2017,13 @@
       "source_notes": "Manufacturer-listed weights; reference size, total stack heights and toe-box shape not specified. US list price not confirmed.",
       "release_date": "2025-01-01",
       "release_source_url": "https://weartesters.com/brooks-caldera-8-performance-review/",
-      "release_notes": "Reported model launch; regional availability may differ."
+      "release_notes": "Reported model launch; regional availability may differ.",
+      "manufacturer_support": {
+        "wording": "Raised sidewalls help secure your foot",
+        "source_url": "https://www.brooksrunning.com/en_us/mens/shoes/trail-shoes/caldera-8/1104401D131.080.html",
+        "scope": "model",
+        "checked_at": "2026-10-18"
+      }
     },
     {
       "id": "brooks-caldera-8-women",
@@ -1722,7 +2047,13 @@
       "source_notes": "Manufacturer-listed weights; reference size, total stack heights and toe-box shape not specified. US list price not confirmed.",
       "release_date": "2025-01-01",
       "release_source_url": "https://weartesters.com/brooks-caldera-8-performance-review/",
-      "release_notes": "Reported model launch; regional availability may differ."
+      "release_notes": "Reported model launch; regional availability may differ.",
+      "manufacturer_support": {
+        "wording": "Raised sidewalls help secure your foot",
+        "source_url": "https://www.brooksrunning.com/en_us/mens/shoes/trail-shoes/caldera-8/1104401D131.080.html",
+        "scope": "model",
+        "checked_at": "2026-10-18"
+      }
     },
     {
       "id": "brooks-launch-11-men",
@@ -1746,7 +2077,13 @@
       "source_notes": "Manufacturer-listed weights; reference size, total stack heights and toe-box shape not specified. US list price not confirmed.",
       "release_date": "2025-01",
       "release_source_url": "https://brooksrunning-sa.co.za/product/mens-launch-11/",
-      "release_notes": "January 2025 model launch listed by Brooks South Africa."
+      "release_notes": "January 2025 model launch listed by Brooks South Africa.",
+      "manufacturer_support": {
+        "wording": "Balanced support",
+        "source_url": "https://www.brooksrunning.com/en_gb/mens/road-running-shoes/launch-11/110450.html",
+        "scope": "model",
+        "checked_at": "2026-10-18"
+      }
     },
     {
       "id": "brooks-launch-11-women",
@@ -1770,7 +2107,13 @@
       "source_notes": "Manufacturer-listed weights; reference size, total stack heights and toe-box shape not specified. US list price not confirmed.",
       "release_date": "2025-01",
       "release_source_url": "https://brooksrunning-sa.co.za/product/mens-launch-11/",
-      "release_notes": "January 2025 model launch listed by Brooks South Africa."
+      "release_notes": "January 2025 model launch listed by Brooks South Africa.",
+      "manufacturer_support": {
+        "wording": "Balanced support",
+        "source_url": "https://www.brooksrunning.com/en_gb/mens/road-running-shoes/launch-11/110450.html",
+        "scope": "model",
+        "checked_at": "2026-10-18"
+      }
     },
     {
       "id": "brooks-hyperion-max-3-men",
@@ -1794,7 +2137,13 @@
       "source_notes": "Manufacturer-listed weights; reference size, total stack heights and toe-box shape not specified. US list price not confirmed.",
       "release_date": "2025-07-01",
       "release_source_url": "https://weartesters.com/brooks-hyperion-max-3-performance-review/",
-      "release_notes": "Reported model launch; regional availability may differ."
+      "release_notes": "Reported model launch; regional availability may differ.",
+      "manufacturer_support": {
+        "wording": "Max support",
+        "source_url": "https://www.brooksrunning.com/en_gb/mens/road-running-shoes/hyperion-max-3/1104671D449.110.html",
+        "scope": "model",
+        "checked_at": "2026-10-18"
+      }
     },
     {
       "id": "brooks-hyperion-max-3-women",
@@ -1818,7 +2167,13 @@
       "source_notes": "Manufacturer-listed weights; reference size, total stack heights and toe-box shape not specified. US list price not confirmed.",
       "release_date": "2025-07-01",
       "release_source_url": "https://weartesters.com/brooks-hyperion-max-3-performance-review/",
-      "release_notes": "Reported model launch; regional availability may differ."
+      "release_notes": "Reported model launch; regional availability may differ.",
+      "manufacturer_support": {
+        "wording": "Max support",
+        "source_url": "https://www.brooksrunning.com/en_gb/mens/road-running-shoes/hyperion-max-3/1104671D449.110.html",
+        "scope": "model",
+        "checked_at": "2026-10-18"
+      }
     },
     {
       "id": "hoka-clifton-10-men",
@@ -1842,7 +2197,8 @@
       "source_notes": "Weights are from HOKA Australia’s model introduction; reference sizes unspecified. Stack heights omitted because the article does not distinguish gender versions. US list price not confirmed.",
       "release_date": "2025-04",
       "release_source_url": "https://weartesters.com/hoka-clifton-10-performance-review/",
-      "release_notes": "April 2025 launch; reported US date is April 15, with earlier regional availability."
+      "release_notes": "April 2025 launch; reported US date is April 15, with earlier regional availability.",
+      "manufacturer_support": null
     },
     {
       "id": "hoka-clifton-10-women",
@@ -1866,7 +2222,8 @@
       "source_notes": "Weights are from HOKA Australia’s model introduction; reference sizes unspecified. Stack heights omitted because the article does not distinguish gender versions. US list price not confirmed.",
       "release_date": "2025-04",
       "release_source_url": "https://weartesters.com/hoka-clifton-10-performance-review/",
-      "release_notes": "April 2025 launch; reported US date is April 15, with earlier regional availability."
+      "release_notes": "April 2025 launch; reported US date is April 15, with earlier regional availability.",
+      "manufacturer_support": null
     },
     {
       "id": "hoka-bondi-9-men",
@@ -1890,7 +2247,13 @@
       "source_notes": "Specifications from HOKA Vietnam. Reference size, total stack heights and toe-box shape unspecified; no regional price converted to USD. US list price not confirmed.",
       "release_date": "2025-01-15",
       "release_source_url": "https://www.fleetfeet.com/s/hartford/news/foamy-shoes-brews-hoka-bondi-9-pub-run",
-      "release_notes": "Fleet Feet launch-day event explicitly identifies January 15, 2025 as worldwide launch."
+      "release_notes": "Fleet Feet launch-day event explicitly identifies January 15, 2025 as worldwide launch.",
+      "manufacturer_support": {
+        "wording": "Rearfoot-focused Active Foot Frame™",
+        "source_url": "https://vn.hoka.com/en/products/giay-chay-bo-nu-hoka-bondi-9-1162014-wkp-wkp",
+        "scope": "model",
+        "checked_at": "2026-10-18"
+      }
     },
     {
       "id": "hoka-bondi-9-women",
@@ -1914,7 +2277,13 @@
       "source_notes": "Specifications from HOKA Vietnam. Reference size, total stack heights and toe-box shape unspecified; no regional price converted to USD. US list price not confirmed.",
       "release_date": "2025-01-15",
       "release_source_url": "https://www.fleetfeet.com/s/hartford/news/foamy-shoes-brews-hoka-bondi-9-pub-run",
-      "release_notes": "Fleet Feet launch-day event explicitly identifies January 15, 2025 as worldwide launch."
+      "release_notes": "Fleet Feet launch-day event explicitly identifies January 15, 2025 as worldwide launch.",
+      "manufacturer_support": {
+        "wording": "Rearfoot-focused Active Foot Frame™",
+        "source_url": "https://vn.hoka.com/en/products/giay-chay-bo-nu-hoka-bondi-9-1162014-wkp-wkp",
+        "scope": "model",
+        "checked_at": "2026-10-18"
+      }
     },
     {
       "id": "adidas-supernova-rise-2-men",
@@ -1938,7 +2307,13 @@
       "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. ",
       "release_date": "2024-12-03",
       "release_source_url": "https://news.adidas.com/running/adidas-launches-supernova-rise-2---built-to-provide-even-more-comfort-all-in-a-lighter-package/s/664bbf38-10a6-449e-b2b9-b9b7d3cdeb86",
-      "release_notes": "Model launch date; regional availability may differ."
+      "release_notes": "Model launch date; regional availability may differ.",
+      "manufacturer_support": {
+        "wording": "Support Rods system",
+        "source_url": "https://www.adidas.com/qa/en/supernova-rise-2-running-shoes/IH8662.html",
+        "scope": "model",
+        "checked_at": "2026-10-18"
+      }
     },
     {
       "id": "adidas-supernova-rise-2-women",
@@ -1962,7 +2337,13 @@
       "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. ",
       "release_date": "2024-12-03",
       "release_source_url": "https://news.adidas.com/running/adidas-launches-supernova-rise-2---built-to-provide-even-more-comfort-all-in-a-lighter-package/s/664bbf38-10a6-449e-b2b9-b9b7d3cdeb86",
-      "release_notes": "Model launch date; regional availability may differ."
+      "release_notes": "Model launch date; regional availability may differ.",
+      "manufacturer_support": {
+        "wording": "Support Rods system",
+        "source_url": "https://www.adidas.com/qa/en/supernova-rise-2-running-shoes/IH8662.html",
+        "scope": "model",
+        "checked_at": "2026-10-18"
+      }
     },
     {
       "id": "adidas-adizero-boston-13-men",
@@ -1986,7 +2367,8 @@
       "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. Launch EQT edition specifications; other color pages list slightly different weights. EQT is not counted separately.",
       "release_date": "2025-05-05",
       "release_source_url": "https://news.adidas.com/global/adidas-launches-new-adizero-boston-13---designed-for-fast-training-runs/s/0ca9243c-a53d-47a6-8e7c-31e4e2d77357",
-      "release_notes": "Model launch date; regional availability may differ."
+      "release_notes": "Model launch date; regional availability may differ.",
+      "manufacturer_support": null
     },
     {
       "id": "adidas-adizero-boston-13-women",
@@ -2010,7 +2392,8 @@
       "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. Launch EQT edition specifications; other color pages list slightly different weights. EQT is not counted separately.",
       "release_date": "2025-05-05",
       "release_source_url": "https://news.adidas.com/global/adidas-launches-new-adizero-boston-13---designed-for-fast-training-runs/s/0ca9243c-a53d-47a6-8e7c-31e4e2d77357",
-      "release_notes": "Model launch date; regional availability may differ."
+      "release_notes": "Model launch date; regional availability may differ.",
+      "manufacturer_support": null
     },
     {
       "id": "puma-velocity-nitro-4-men",
@@ -2034,7 +2417,13 @@
       "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. Weight not specified on the cited US product pages.",
       "release_date": "2025-07-17",
       "release_source_url": "https://www.about.puma.com/en/newsroom/product-and-brand-news/2025/08-07-2025-puma-unveils-velocity-nitrotm-4-encouraging-you",
-      "release_notes": "Model launch date; regional availability may differ."
+      "release_notes": "Model launch date; regional availability may differ.",
+      "manufacturer_support": {
+        "wording": "Recommended for: neutral pronators",
+        "source_url": "https://us.puma.com/us/en/pd/velocity-nitro-4-mens-road-running-shoes/311140?swatch=26",
+        "scope": "model",
+        "checked_at": "2026-10-18"
+      }
     },
     {
       "id": "puma-velocity-nitro-4-women",
@@ -2058,7 +2447,13 @@
       "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. Weight not specified on the cited US product pages.",
       "release_date": "2025-07-17",
       "release_source_url": "https://www.about.puma.com/en/newsroom/product-and-brand-news/2025/08-07-2025-puma-unveils-velocity-nitrotm-4-encouraging-you",
-      "release_notes": "Model launch date; regional availability may differ."
+      "release_notes": "Model launch date; regional availability may differ.",
+      "manufacturer_support": {
+        "wording": "Recommended for: neutral pronators",
+        "source_url": "https://us.puma.com/us/en/pd/velocity-nitro-4-mens-road-running-shoes/311140?swatch=26",
+        "scope": "model",
+        "checked_at": "2026-10-18"
+      }
     },
     {
       "id": "puma-foreverrun-nitro-2-men",
@@ -2082,7 +2477,13 @@
       "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. Men’s weight unspecified; women’s regional source explicitly labels its weight UK 8. Release source is PUMA Japan’s press announcement.",
       "release_date": "2025-02-06",
       "release_source_url": "https://prtimes.jp/main/html/rd/p/000000239.000010697.html",
-      "release_notes": "Model launch date; regional availability may differ."
+      "release_notes": "Model launch date; regional availability may differ.",
+      "manufacturer_support": {
+        "wording": "Recommended for: overpronators",
+        "source_url": "https://us.puma.com/us/en/pd/foreverrun-nitro%E2%84%A2-2-mens-running-shoes/310109",
+        "scope": "model",
+        "checked_at": "2026-10-18"
+      }
     },
     {
       "id": "puma-foreverrun-nitro-2-women",
@@ -2106,7 +2507,13 @@
       "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. Men’s weight unspecified; women’s regional source explicitly labels its weight UK 8. Release source is PUMA Japan’s press announcement.",
       "release_date": "2025-02-06",
       "release_source_url": "https://prtimes.jp/main/html/rd/p/000000239.000010697.html",
-      "release_notes": "Model launch date; regional availability may differ."
+      "release_notes": "Model launch date; regional availability may differ.",
+      "manufacturer_support": {
+        "wording": "Recommended for: overpronators",
+        "source_url": "https://us.puma.com/us/en/pd/foreverrun-nitro%E2%84%A2-2-mens-running-shoes/310109",
+        "scope": "model",
+        "checked_at": "2026-10-18"
+      }
     },
     {
       "id": "adidas-adizero-adios-9-men",
@@ -2130,7 +2537,8 @@
       "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. ",
       "release_date": "2025-01",
       "release_source_url": "https://meta-endurance.com/adidas-adios-9-review/",
-      "release_notes": "Model launch date; regional availability may differ."
+      "release_notes": "Model launch date; regional availability may differ.",
+      "manufacturer_support": null
     },
     {
       "id": "adidas-adizero-adios-9-women",
@@ -2154,7 +2562,8 @@
       "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. ",
       "release_date": "2025-01",
       "release_source_url": "https://meta-endurance.com/adidas-adios-9-review/",
-      "release_notes": "Model launch date; regional availability may differ."
+      "release_notes": "Model launch date; regional availability may differ.",
+      "manufacturer_support": null
     },
     {
       "id": "adidas-supernova-rise-3-adaptive-men",
@@ -2178,7 +2587,8 @@
       "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. Adaptive model with easier entry, low-pressure lacing and tactile details; reference weight sizes unspecified. Manufacturer announcement lists a shared stack/drop.",
       "release_date": "2026-03-21",
       "release_source_url": "https://news.adidas.com/home-of-innovation/people/adidas-unveils-supernova-rise-3-adaptive--its-first-performance-running-shoe-designed-in-partnership/s/9de639ee-b6c2-4b0b-aa90-6a1e856c5605",
-      "release_notes": "Model launch date; regional availability may differ."
+      "release_notes": "Model launch date; regional availability may differ.",
+      "manufacturer_support": null
     },
     {
       "id": "adidas-supernova-rise-3-adaptive-women",
@@ -2202,7 +2612,8 @@
       "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. Adaptive model with easier entry, low-pressure lacing and tactile details; reference weight sizes unspecified. Manufacturer announcement lists a shared stack/drop.",
       "release_date": "2026-03-21",
       "release_source_url": "https://news.adidas.com/home-of-innovation/people/adidas-unveils-supernova-rise-3-adaptive--its-first-performance-running-shoe-designed-in-partnership/s/9de639ee-b6c2-4b0b-aa90-6a1e856c5605",
-      "release_notes": "Model launch date; regional availability may differ."
+      "release_notes": "Model launch date; regional availability may differ.",
+      "manufacturer_support": null
     },
     {
       "id": "puma-magmax-nitro-2-men",
@@ -2226,7 +2637,13 @@
       "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. PUMA lists the same 275 g / UK 8 weight for both gender pages; retained as published, not inferred to represent smaller women’s sizes.",
       "release_date": "2025-12-01",
       "release_source_url": "https://mediahub.puma.com/articles/puma-unveils-magmax-nitro-2-a-super-maxed-cushioned-running-shoe",
-      "release_notes": "Model launch date; regional availability may differ."
+      "release_notes": "Model launch date; regional availability may differ.",
+      "manufacturer_support": {
+        "wording": "Pronation: Overpronation",
+        "source_url": "https://us.puma.com/us/en/pd/magmax-nitro-2-mens-road-running-shoes/312125?swatch=09",
+        "scope": "model",
+        "checked_at": "2026-10-18"
+      }
     },
     {
       "id": "puma-magmax-nitro-2-women",
@@ -2250,7 +2667,13 @@
       "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. PUMA lists the same 275 g / UK 8 weight for both gender pages; retained as published, not inferred to represent smaller women’s sizes.",
       "release_date": "2025-12-01",
       "release_source_url": "https://mediahub.puma.com/articles/puma-unveils-magmax-nitro-2-a-super-maxed-cushioned-running-shoe",
-      "release_notes": "Model launch date; regional availability may differ."
+      "release_notes": "Model launch date; regional availability may differ.",
+      "manufacturer_support": {
+        "wording": "Pronation: Overpronation",
+        "source_url": "https://us.puma.com/us/en/pd/magmax-nitro-2-mens-road-running-shoes/312125?swatch=09",
+        "scope": "model",
+        "checked_at": "2026-10-18"
+      }
     },
     {
       "id": "asics-gel-nimbus-27-men",
@@ -2274,7 +2697,13 @@
       "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. Japan online release date. Men’s source is the LUXE colorway; women’s source is Narrow. Listed figures are those source variants; no extra colorway or width entries are counted. Reference weight sizes unspecified.",
       "release_date": "2025-01-30",
       "release_source_url": "https://corp.asics.com/jp/press/article/2025-01-23",
-      "release_notes": "Model launch date; regional availability may differ."
+      "release_notes": "Model launch date; regional availability may differ.",
+      "manufacturer_support": {
+        "wording": "Neutral",
+        "source_url": "https://www.asics.com/us/en-us/gel-nimbus-27-luxe/p/ANA_1011C030-020.html?size=10&width=Standard",
+        "scope": "model",
+        "checked_at": "2026-10-18"
+      }
     },
     {
       "id": "asics-gel-nimbus-27-women",
@@ -2298,7 +2727,13 @@
       "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. Japan online release date. Men’s source is the LUXE colorway; women’s source is Narrow. Listed figures are those source variants; no extra colorway or width entries are counted. Reference weight sizes unspecified.",
       "release_date": "2025-01-30",
       "release_source_url": "https://corp.asics.com/jp/press/article/2025-01-23",
-      "release_notes": "Model launch date; regional availability may differ."
+      "release_notes": "Model launch date; regional availability may differ.",
+      "manufacturer_support": {
+        "wording": "Neutral",
+        "source_url": "https://www.asics.com/us/en-us/gel-nimbus-27-luxe/p/ANA_1011C030-020.html?size=10&width=Standard",
+        "scope": "model",
+        "checked_at": "2026-10-18"
+      }
     },
     {
       "id": "asics-gel-nimbus-28-men",
@@ -2322,7 +2757,13 @@
       "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. Japan online launch date; US product specifications. Weight reference sizes unspecified.",
       "release_date": "2026-01-09",
       "release_source_url": "https://corp.asics.com/jp/press/article/2026-01-05_gel-nimbus_28",
-      "release_notes": "Model launch date; regional availability may differ."
+      "release_notes": "Model launch date; regional availability may differ.",
+      "manufacturer_support": {
+        "wording": "Neutral",
+        "source_url": "https://www.asics.com/us/en-us/gel-nimbus-28/p/ANA_1011C127-002.html",
+        "scope": "model",
+        "checked_at": "2026-10-18"
+      }
     },
     {
       "id": "asics-gel-nimbus-28-women",
@@ -2346,7 +2787,13 @@
       "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. Japan online launch date; US product specifications. Weight reference sizes unspecified.",
       "release_date": "2026-01-09",
       "release_source_url": "https://corp.asics.com/jp/press/article/2026-01-05_gel-nimbus_28",
-      "release_notes": "Model launch date; regional availability may differ."
+      "release_notes": "Model launch date; regional availability may differ.",
+      "manufacturer_support": {
+        "wording": "Neutral",
+        "source_url": "https://www.asics.com/us/en-us/gel-nimbus-28/p/ANA_1011C127-002.html",
+        "scope": "model",
+        "checked_at": "2026-10-18"
+      }
     },
     {
       "id": "asics-gel-cumulus-27-men",
@@ -2370,7 +2817,8 @@
       "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. Australian release date. Product URL size selections are not weight reference sizes.",
       "release_date": "2025-02-01",
       "release_source_url": "https://www.asics.com/au/en-au/gel-cumulus/c/au70127000/?start=24",
-      "release_notes": "Model launch date; regional availability may differ."
+      "release_notes": "Model launch date; regional availability may differ.",
+      "manufacturer_support": null
     },
     {
       "id": "asics-gel-cumulus-27-women",
@@ -2394,7 +2842,8 @@
       "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. Australian release date. Product URL size selections are not weight reference sizes.",
       "release_date": "2025-02-01",
       "release_source_url": "https://www.asics.com/au/en-au/gel-cumulus/c/au70127000/?start=24",
-      "release_notes": "Model launch date; regional availability may differ."
+      "release_notes": "Model launch date; regional availability may differ.",
+      "manufacturer_support": null
     },
     {
       "id": "asics-gel-cumulus-28-men",
@@ -2418,7 +2867,13 @@
       "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. US launch date. Weight reference sizes unspecified.",
       "release_date": "2026-02-01",
       "release_source_url": "https://www.asics.com/us/en-us/gel-cumulus/c/aa50104000/running/?page=2",
-      "release_notes": "Model launch date; regional availability may differ."
+      "release_notes": "Model launch date; regional availability may differ.",
+      "manufacturer_support": {
+        "wording": "Neutral",
+        "source_url": "https://www.asics.com/us/en-us/gel-cumulus-28/p/ANA_1011C143-404.html",
+        "scope": "model",
+        "checked_at": "2026-10-18"
+      }
     },
     {
       "id": "asics-gel-cumulus-28-women",
@@ -2442,7 +2897,13 @@
       "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. US launch date. Weight reference sizes unspecified.",
       "release_date": "2026-02-01",
       "release_source_url": "https://www.asics.com/us/en-us/gel-cumulus/c/aa50104000/running/?page=2",
-      "release_notes": "Model launch date; regional availability may differ."
+      "release_notes": "Model launch date; regional availability may differ.",
+      "manufacturer_support": {
+        "wording": "Neutral",
+        "source_url": "https://www.asics.com/us/en-us/gel-cumulus-28/p/ANA_1011C143-404.html",
+        "scope": "model",
+        "checked_at": "2026-10-18"
+      }
     },
     {
       "id": "asics-gt-2000-14-men",
@@ -2466,7 +2927,13 @@
       "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. ",
       "release_date": "2025-09-01",
       "release_source_url": "https://www.al.com/shopping/2025/08/asics-new-gt-2000-14-running-shoe-is-now-available-for-preorder.html",
-      "release_notes": "Model launch date; regional availability may differ."
+      "release_notes": "Model launch date; regional availability may differ.",
+      "manufacturer_support": {
+        "wording": "Neutral, Stability",
+        "source_url": "https://www.asics.com/us/en-us/gt-2000-14/p/ANA_20061428290.html",
+        "scope": "model",
+        "checked_at": "2026-10-18"
+      }
     },
     {
       "id": "asics-gt-2000-14-women",
@@ -2490,7 +2957,13 @@
       "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. ",
       "release_date": "2025-09-01",
       "release_source_url": "https://www.al.com/shopping/2025/08/asics-new-gt-2000-14-running-shoe-is-now-available-for-preorder.html",
-      "release_notes": "Model launch date; regional availability may differ."
+      "release_notes": "Model launch date; regional availability may differ.",
+      "manufacturer_support": {
+        "wording": "Neutral, Stability",
+        "source_url": "https://www.asics.com/us/en-us/gt-2000-14/p/ANA_20061428290.html",
+        "scope": "model",
+        "checked_at": "2026-10-18"
+      }
     },
     {
       "id": "hoka-arahi-8-men",
@@ -2514,7 +2987,13 @@
       "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. Weights follow HOKA Australia; reference sizes unspecified.",
       "release_date": "2025-07-01",
       "release_source_url": "https://weartesters.com/hoka-arahi-8-performance-review/",
-      "release_notes": "Model launch date; regional availability may differ."
+      "release_notes": "Model launch date; regional availability may differ.",
+      "manufacturer_support": {
+        "wording": "Stabilizing H-Frame™ technology",
+        "source_url": "https://au.hoka.com/products/m-arahi-8-1168690-bwht-bwht",
+        "scope": "model",
+        "checked_at": "2026-10-18"
+      }
     },
     {
       "id": "hoka-arahi-8-women",
@@ -2538,7 +3017,13 @@
       "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. Weights follow HOKA Australia; reference sizes unspecified.",
       "release_date": "2025-07-01",
       "release_source_url": "https://weartesters.com/hoka-arahi-8-performance-review/",
-      "release_notes": "Model launch date; regional availability may differ."
+      "release_notes": "Model launch date; regional availability may differ.",
+      "manufacturer_support": {
+        "wording": "Stabilizing H-Frame™ technology",
+        "source_url": "https://au.hoka.com/products/m-arahi-8-1168690-bwht-bwht",
+        "scope": "model",
+        "checked_at": "2026-10-18"
+      }
     },
     {
       "id": "hoka-mach-x-3-men",
@@ -2562,7 +3047,8 @@
       "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. ",
       "release_date": "2025-09-01",
       "release_source_url": "https://weartesters.com/hoka-mach-x-3-performance-review/",
-      "release_notes": "Model launch date; regional availability may differ."
+      "release_notes": "Model launch date; regional availability may differ.",
+      "manufacturer_support": null
     },
     {
       "id": "hoka-mach-x-3-women",
@@ -2586,7 +3072,8 @@
       "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. ",
       "release_date": "2025-09-01",
       "release_source_url": "https://weartesters.com/hoka-mach-x-3-performance-review/",
-      "release_notes": "Model launch date; regional availability may differ."
+      "release_notes": "Model launch date; regional availability may differ.",
+      "manufacturer_support": null
     },
     {
       "id": "hoka-mafate-5-men",
@@ -2610,7 +3097,8 @@
       "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. Women’s weight withheld: Australian product page lists 230 g, while HOKA’s launch announcement reproduced by ACTIVE lists 285 g in women’s US 8. Men’s product page reference size unspecified.",
       "release_date": "2025-08-01",
       "release_source_url": "https://www.active.com/trail-running/articles/hoka-launches-the-mafate-5",
-      "release_notes": "Model launch date; regional availability may differ."
+      "release_notes": "Model launch date; regional availability may differ.",
+      "manufacturer_support": null
     },
     {
       "id": "hoka-mafate-5-women",
@@ -2634,7 +3122,8 @@
       "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. Women’s weight withheld: Australian product page lists 230 g, while HOKA’s launch announcement reproduced by ACTIVE lists 285 g in women’s US 8. Men’s product page reference size unspecified.",
       "release_date": "2025-08-01",
       "release_source_url": "https://www.active.com/trail-running/articles/hoka-launches-the-mafate-5",
-      "release_notes": "Model launch date; regional availability may differ."
+      "release_notes": "Model launch date; regional availability may differ.",
+      "manufacturer_support": null
     },
     {
       "id": "hoka-mach-7-men",
@@ -2658,7 +3147,8 @@
       "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. Weight is N/A on the cited manufacturer pages. Release calendar marks March 2026 as released; day unspecified.",
       "release_date": "2026-03",
       "release_source_url": "https://www.solereview.com/release-date-calendar-for-running-shoes/",
-      "release_notes": "Model launch date; regional availability may differ."
+      "release_notes": "Model launch date; regional availability may differ.",
+      "manufacturer_support": null
     },
     {
       "id": "hoka-mach-7-women",
@@ -2682,7 +3172,8 @@
       "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. Weight is N/A on the cited manufacturer pages. Release calendar marks March 2026 as released; day unspecified.",
       "release_date": "2026-03",
       "release_source_url": "https://www.solereview.com/release-date-calendar-for-running-shoes/",
-      "release_notes": "Model launch date; regional availability may differ."
+      "release_notes": "Model launch date; regional availability may differ.",
+      "manufacturer_support": null
     },
     {
       "id": "hoka-speedgoat-7-men",
@@ -2706,7 +3197,8 @@
       "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. Australian women’s page repeats the men’s 275 g figure without a reference size; women’s weight withheld pending clarification. Release calendar marks February 2026 as released; day unspecified.",
       "release_date": "2026-02",
       "release_source_url": "https://www.solereview.com/release-date-calendar-for-running-shoes/",
-      "release_notes": "Model launch date; regional availability may differ."
+      "release_notes": "Model launch date; regional availability may differ.",
+      "manufacturer_support": null
     },
     {
       "id": "hoka-speedgoat-7-women",
@@ -2730,7 +3222,8 @@
       "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. Australian women’s page repeats the men’s 275 g figure without a reference size; women’s weight withheld pending clarification. Release calendar marks February 2026 as released; day unspecified.",
       "release_date": "2026-02",
       "release_source_url": "https://www.solereview.com/release-date-calendar-for-running-shoes/",
-      "release_notes": "Model launch date; regional availability may differ."
+      "release_notes": "Model launch date; regional availability may differ.",
+      "manufacturer_support": null
     },
     {
       "id": "brooks-glycerin-23-men",
@@ -2754,7 +3247,13 @@
       "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. ",
       "release_date": "2026-02-01",
       "release_source_url": "https://www.fleetfeet.com/blog/brooks-glycerin-23-review-legacy-meets-luxury",
-      "release_notes": "Model launch date; regional availability may differ."
+      "release_notes": "Model launch date; regional availability may differ.",
+      "manufacturer_support": {
+        "wording": "Balanced support",
+        "source_url": "https://www.brooksrunning.com/en_us/mens/shoes/road-running-shoes/glycerin-23/1104761D844.090.html",
+        "scope": "model",
+        "checked_at": "2026-10-18"
+      }
     },
     {
       "id": "brooks-glycerin-23-women",
@@ -2778,7 +3277,13 @@
       "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. ",
       "release_date": "2026-02-01",
       "release_source_url": "https://www.fleetfeet.com/blog/brooks-glycerin-23-review-legacy-meets-luxury",
-      "release_notes": "Model launch date; regional availability may differ."
+      "release_notes": "Model launch date; regional availability may differ.",
+      "manufacturer_support": {
+        "wording": "Balanced support",
+        "source_url": "https://www.brooksrunning.com/en_us/mens/shoes/road-running-shoes/glycerin-23/1104761D844.090.html",
+        "scope": "model",
+        "checked_at": "2026-10-18"
+      }
     },
     {
       "id": "brooks-glycerin-gts-23-men",
@@ -2802,7 +3307,13 @@
       "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. Release calendar marks February 2026 as released; exact day unspecified.",
       "release_date": "2026-02",
       "release_source_url": "https://www.solereview.com/release-date-calendar-for-running-shoes/",
-      "release_notes": "Model launch date; regional availability may differ."
+      "release_notes": "Model launch date; regional availability may differ.",
+      "manufacturer_support": {
+        "wording": "Structured support",
+        "source_url": "https://www.brooksrunning.com/en_us/mens/shoes/road-running-shoes/glycerin-gts-23/1105031D259.080.html",
+        "scope": "model",
+        "checked_at": "2026-10-18"
+      }
     },
     {
       "id": "brooks-glycerin-gts-23-women",
@@ -2826,7 +3337,13 @@
       "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. Release calendar marks February 2026 as released; exact day unspecified.",
       "release_date": "2026-02",
       "release_source_url": "https://www.solereview.com/release-date-calendar-for-running-shoes/",
-      "release_notes": "Model launch date; regional availability may differ."
+      "release_notes": "Model launch date; regional availability may differ.",
+      "manufacturer_support": {
+        "wording": "Structured support",
+        "source_url": "https://www.brooksrunning.com/en_us/mens/shoes/road-running-shoes/glycerin-gts-23/1105031D259.080.html",
+        "scope": "model",
+        "checked_at": "2026-10-18"
+      }
     },
     {
       "id": "brooks-adrenaline-gts-25-men",
@@ -2850,7 +3367,13 @@
       "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. ",
       "release_date": "2025-11-01",
       "release_source_url": "https://weartesters.com/brooks-adrenaline-gts-25-performance-review/",
-      "release_notes": "Model launch date; regional availability may differ."
+      "release_notes": "Model launch date; regional availability may differ.",
+      "manufacturer_support": {
+        "wording": "Structured support",
+        "source_url": "https://www.brooksrunning.com/en_us/mens/shoes/road-running-shoes/adrenaline-gts-25/1104541D033.090.html",
+        "scope": "model",
+        "checked_at": "2026-10-18"
+      }
     },
     {
       "id": "brooks-adrenaline-gts-25-women",
@@ -2874,7 +3397,13 @@
       "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. ",
       "release_date": "2025-11-01",
       "release_source_url": "https://weartesters.com/brooks-adrenaline-gts-25-performance-review/",
-      "release_notes": "Model launch date; regional availability may differ."
+      "release_notes": "Model launch date; regional availability may differ.",
+      "manufacturer_support": {
+        "wording": "Structured support",
+        "source_url": "https://www.brooksrunning.com/en_us/mens/shoes/road-running-shoes/adrenaline-gts-25/1104541D033.090.html",
+        "scope": "model",
+        "checked_at": "2026-10-18"
+      }
     },
     {
       "id": "brooks-ghost-max-3-men",
@@ -2898,7 +3427,13 @@
       "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. Weights follow manufacturer product pages, which differ from pre-release review figures.",
       "release_date": "2025-08-01",
       "release_source_url": "https://weartesters.com/brooks-ghost-max-3-performance-review/",
-      "release_notes": "Model launch date; regional availability may differ."
+      "release_notes": "Model launch date; regional availability may differ.",
+      "manufacturer_support": {
+        "wording": "Max support",
+        "source_url": "https://www.brooksrunning.com/en_us/mens/shoes/road-running-shoes/ghost-max-3/1104641D162.100.html",
+        "scope": "model",
+        "checked_at": "2026-10-18"
+      }
     },
     {
       "id": "brooks-ghost-max-3-women",
@@ -2922,7 +3457,13 @@
       "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. Weights follow manufacturer product pages, which differ from pre-release review figures.",
       "release_date": "2025-08-01",
       "release_source_url": "https://weartesters.com/brooks-ghost-max-3-performance-review/",
-      "release_notes": "Model launch date; regional availability may differ."
+      "release_notes": "Model launch date; regional availability may differ.",
+      "manufacturer_support": {
+        "wording": "Max support",
+        "source_url": "https://www.brooksrunning.com/en_us/mens/shoes/road-running-shoes/ghost-max-3/1104641D162.100.html",
+        "scope": "model",
+        "checked_at": "2026-10-18"
+      }
     },
     {
       "id": "brooks-catamount-4-men",
@@ -2946,7 +3487,8 @@
       "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. ",
       "release_date": "2025-01",
       "release_source_url": "https://meta-endurance.com/brooks-catamount-4-review/",
-      "release_notes": "Model launch date; regional availability may differ."
+      "release_notes": "Model launch date; regional availability may differ.",
+      "manufacturer_support": null
     },
     {
       "id": "brooks-catamount-4-women",
@@ -2970,7 +3512,8 @@
       "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. ",
       "release_date": "2025-01",
       "release_source_url": "https://meta-endurance.com/brooks-catamount-4-review/",
-      "release_notes": "Model launch date; regional availability may differ."
+      "release_notes": "Model launch date; regional availability may differ.",
+      "manufacturer_support": null
     },
     {
       "id": "saucony-endorphin-trainer-men",
@@ -2994,7 +3537,13 @@
       "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. Current UK manufacturer specifications differ from launch-review figures. Women’s weight withheld because the manufacturer prints inconsistent units: 8.9 oz and 227 g. Reference sizes unspecified.",
       "release_date": "2025-03-01",
       "release_source_url": "https://weartesters.com/saucony-endorphin-trainer-performance-review/",
-      "release_notes": "Model launch date; regional availability may differ."
+      "release_notes": "Model launch date; regional availability may differ.",
+      "manufacturer_support": {
+        "wording": "Neutral",
+        "source_url": "https://www.saucony.com/UK/en_GB/endorphin-trainer/59961M.html",
+        "scope": "model",
+        "checked_at": "2026-10-18"
+      }
     },
     {
       "id": "saucony-endorphin-trainer-women",
@@ -3018,7 +3567,13 @@
       "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. Current UK manufacturer specifications differ from launch-review figures. Women’s weight withheld because the manufacturer prints inconsistent units: 8.9 oz and 227 g. Reference sizes unspecified.",
       "release_date": "2025-03-01",
       "release_source_url": "https://weartesters.com/saucony-endorphin-trainer-performance-review/",
-      "release_notes": "Model launch date; regional availability may differ."
+      "release_notes": "Model launch date; regional availability may differ.",
+      "manufacturer_support": {
+        "wording": "Neutral",
+        "source_url": "https://www.saucony.com/UK/en_GB/endorphin-trainer/59961M.html",
+        "scope": "model",
+        "checked_at": "2026-10-18"
+      }
     },
     {
       "id": "saucony-hurricane-25-men",
@@ -3042,7 +3597,13 @@
       "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. ",
       "release_date": "2025-07-01",
       "release_source_url": "https://weartesters.com/saucony-hurricane-25-performance-review/",
-      "release_notes": "Model launch date; regional availability may differ."
+      "release_notes": "Model launch date; regional availability may differ.",
+      "manufacturer_support": {
+        "wording": "CenterPath Technology™",
+        "source_url": "https://www.saucony.com/CA/en_CA/hurricane-25-wide/60327W.html?dwvar_60327W_color=S11027-200",
+        "scope": "model",
+        "checked_at": "2026-10-18"
+      }
     },
     {
       "id": "saucony-hurricane-25-women",
@@ -3066,7 +3627,13 @@
       "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. ",
       "release_date": "2025-07-01",
       "release_source_url": "https://weartesters.com/saucony-hurricane-25-performance-review/",
-      "release_notes": "Model launch date; regional availability may differ."
+      "release_notes": "Model launch date; regional availability may differ.",
+      "manufacturer_support": {
+        "wording": "CenterPath Technology™",
+        "source_url": "https://www.saucony.com/CA/en_CA/hurricane-25-wide/60327W.html?dwvar_60327W_color=S11027-200",
+        "scope": "model",
+        "checked_at": "2026-10-18"
+      }
     },
     {
       "id": "hoka-challenger-8-men",
@@ -3090,7 +3657,8 @@
       "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. Japanese launch coverage in July 2025 establishes availability that month; exact first-sale day is not confirmed. Manufacturer weight reference sizes unspecified.",
       "release_date": "2025-07",
       "release_source_url": "https://trailrunner.jp/55805",
-      "release_notes": "Japanese July 2025 launch coverage; exact first-sale day unspecified and regional timing may differ."
+      "release_notes": "Japanese July 2025 launch coverage; exact first-sale day unspecified and regional timing may differ.",
+      "manufacturer_support": null
     },
     {
       "id": "hoka-challenger-8-women",
@@ -3114,7 +3682,8 @@
       "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. Japanese launch coverage in July 2025 establishes availability that month; exact first-sale day is not confirmed. Manufacturer weight reference sizes unspecified.",
       "release_date": "2025-07",
       "release_source_url": "https://trailrunner.jp/55805",
-      "release_notes": "Japanese July 2025 launch coverage; exact first-sale day unspecified and regional timing may differ."
+      "release_notes": "Japanese July 2025 launch coverage; exact first-sale day unspecified and regional timing may differ.",
+      "manufacturer_support": null
     }
   ]
 }

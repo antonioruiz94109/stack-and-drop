@@ -117,7 +117,7 @@
     </div>
     <div id="shoe-grid"></div>
     <noscript><p>Enable JavaScript to display and filter the shoe catalog.</p></noscript>
-    <footer>A free project for friends and curious runners. Stack is listed as heel / forefoot in millimeters. Weights use each manufacturer’s reference size where available, so they are not directly comparable across brands. A dash means the specification is missing or has an unresolved source conflict. Descriptions summarize manufacturer information, not hands-on reviews. Brand and product names belong to their respective owners. No brand affiliation is implied.</footer>
+    <footer>Support wording quotes each manufacturer, using a model page that may show a different gender, width or region. These terms are not standardized ratings or recommendations for your gait. “Not verified” means we have not confirmed explicit support wording; it does not mean the shoe has no support. A free project for friends and curious runners. Stack is listed as heel / forefoot in millimeters. Weights use each manufacturer’s reference size where available, so they are not directly comparable across brands. A dash means the specification is missing or has an unresolved source conflict. Descriptions summarize manufacturer information, not hands-on reviews. Brand and product names belong to their respective owners. No brand affiliation is implied.</footer>
   </main>
   <script>
     let allShoes = [];
@@ -177,6 +177,15 @@
           const url = new URL(shoe.release_source_url);
           if (url.protocol === 'https:') release = `<small>Model release: ${s.release_date} · <a href="${escapeHTML(url.href)}" target="_blank" rel="noopener noreferrer">Release evidence ↗</a><br>${escapeHTML(shoe.release_notes || '')}</small>`;
         } catch (_) {}
+        const support = shoe.manufacturer_support;
+        let supportURL = null;
+        try {
+          const url = new URL(support?.source_url);
+          if (url.protocol === 'https:' && ['www.altrarunning.com', 'eu.altrarunning.com', 'www.topoathletic.com', 'www.nike.com', 'www.newbalance.com', 'www.asics.com', 'me.asics.com', 'www.saucony.com', 'www.brooksrunning.com', 'au.hoka.com', 'vn.hoka.com', 'www.adidas.com', 'us.puma.com'].includes(url.hostname)) supportURL = url.href;
+        } catch (_) {}
+        const supportText = supportURL && support.wording
+          ? `<q>${escapeHTML(support.wording)}</q><small><a href="${escapeHTML(supportURL)}" target="_blank" rel="noopener noreferrer">Model-page source ↗</a> · Checked ${escapeHTML(support.checked_at)}</small>`
+          : 'Not verified.';
         const stack = Number.isFinite(shoe.stack_heel_mm) && Number.isFinite(shoe.stack_forefoot_mm) ? `${s.stack_heel_mm}/${s.stack_forefoot_mm}` : '—';
         return `<article class="shoe-card" data-shoe-id="${s.id}">
           <div class="card-top"><span class="brand">${s.brand}</span><span class="price">${Number.isFinite(shoe.price_usd) ? `${shoe.price_type ? 'List ' : ''}$${s.price_usd}` : '—'}</span></div>
@@ -189,6 +198,7 @@
           </dl>
           <p class="verdict">${s.verdict}</p>
           <p class="foam">Midsole: <strong>${s.foam}</strong></p>
+          <div class="source manufacturer-support"><strong>Manufacturer’s support wording</strong><br>${supportText}</div>
           ${source}
           <div class="source">${release}</div>
         </article>`;

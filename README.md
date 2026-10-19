@@ -29,3 +29,7 @@ Release dates can vary by market. Month-only evidence is retained at month preci
 New source conflicts are disclosed: women’s Endorphin Trainer weight has inconsistent units; women’s Mafate 5 differs between the product listing and launch announcement; women’s Speedgoat 7 repeats a men's weight without a reference size. Those uncertain weights are withheld. Other missing measurements remain blank.
 
 Missing prices, stack heights, toe-box classifications and reference sizes are intentionally left blank. Specification sourcing is not laboratory verification. No automated ingestion is implemented.
+
+## Manufacturer support wording
+
+Cards show short, attributed excerpts from manufacturer model pages where verified, with a separate source link and check date. The linked model page may show a different gender, width or region. These are manufacturer descriptions, not standardized categories or gait recommendations. No gait or support filter is added. Unverified wording is explicitly labeled; no classification is inferred from shoe geometry, marketing names or reviews.
