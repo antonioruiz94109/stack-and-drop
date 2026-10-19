@@ -18,8 +18,13 @@
     .notice { font-size: 14px; margin-top: 16px; color: #d4d4d8; max-width: 80ch; }
     .filters { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 16px; background: #18181b; border: 1px solid #27272a; border-radius: 12px; padding: 16px; }
     label { display: block; font-size: 12px; text-transform: uppercase; letter-spacing: .05em; color: #a1a1aa; margin-bottom: 8px; }
-    select, button { font: inherit; font-size: 14px; min-height: 44px; border: 1px solid #3f3f46; border-radius: 8px; background: #09090b; color: #f4f4f5; padding: 8px 12px; }
-    select { width: 100%; }
+    input, select, button { font: inherit; font-size: 14px; min-height: 44px; border: 1px solid #3f3f46; border-radius: 8px; background: #09090b; color: #f4f4f5; padding: 8px 12px; }
+    input, select { width: 100%; }
+    .search { margin-bottom: 20px; }
+    .search small { display: block; margin-top: 8px; color: #a1a1aa; }
+    .matches { margin: 12px 0; padding: 10px; border-left: 2px solid #6ee7b7; font-size: 12px; overflow-wrap: anywhere; }
+    .matches p + p { margin-top: 6px; }
+    mark { background: #6ee7b7; color: #09090b; border-radius: 2px; }
     button { cursor: pointer; }
     button:hover { background: #27272a; }
     :focus-visible { outline: 2px solid #6ee7b7; outline-offset: 3px; }
@@ -56,6 +61,11 @@
       <p class="muted">Road and trail running shoes, from zero drop to higher drop, at a glance.</p>
       <p class="notice">All entries link to manufacturer sources. Men’s and women’s versions are listed separately, with the version identified on every card. Missing specifications and source inconsistencies are noted on each card. Listed prices are in USD, not live offers; sizes and colorways may vary.</p>
     </header>
+    <section class="search" aria-label="Search shoes">
+      <label for="keyword-search">Search shoes and descriptions</label>
+      <input id="keyword-search" type="search" placeholder="Try roomy, trail, or Pegasus" aria-describedby="search-help" autocomplete="off">
+      <small id="search-help">Results update as you type and combine with the filters below. Matches the text you enter, ignoring capitalization; no synonym matching.</small>
+    </section>
     <section class="filters" aria-label="Filter shoes">
       <div>
         <label for="filter-gender">Men’s / Women’s</label>
@@ -113,7 +123,7 @@
     </section>
     <div class="results">
       <p id="result-count" role="status" aria-live="polite">Loading shoes…</p>
-      <button id="reset-filters" type="button">Reset filters</button>
+      <button id="reset-filters" type="button">Reset search &amp; filters</button>
     </div>
     <div id="shoe-grid"></div>
     <noscript><p>Enable JavaScript to display and filter the shoe catalog.</p></noscript>
@@ -124,6 +134,25 @@
     const count = document.getElementById('result-count');
     const grid = document.getElementById('shoe-grid');
     const escapeHTML = value => String(value).replace(/[&<>"']/g, char => ({'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'}[char]));
+
+    const searchInput = document.getElementById('keyword-search');
+    const searchableFields = shoe => [
+      ['Brand', shoe.brand], ['Model', shoe.model],
+      ['Intended use · catalog description', shoe.use_case],
+      ['Toe box · catalog description', shoe.toe_box],
+      ['Summary · catalog description', shoe.verdict],
+      ['Manufacturer’s support wording · quoted', shoe.manufacturer_support?.wording]
+    ].filter(([, value]) => typeof value === 'string' && value.trim());
+    const matchedFields = (shoe, query) => searchableFields(shoe).filter(([, value]) => value.toLowerCase().includes(query));
+    function highlightMatch(value, query) {
+      let result = '', start = 0, index;
+      const lower = value.toLowerCase();
+      while ((index = lower.indexOf(query, start)) !== -1) {
+        result += escapeHTML(value.slice(start, index)) + '<mark>' + escapeHTML(value.slice(index, index + query.length)) + '</mark>';
+        start = index + query.length;
+      }
+      return result + escapeHTML(value.slice(start));
+    }
 
     async function loadShoes() {
       try {
@@ -141,12 +170,14 @@
     }
 
     function renderShoes() {
+      const query = searchInput.value.trim().toLowerCase();
       const gender = document.getElementById('filter-gender').value;
       const brand = document.getElementById('filter-brand').value;
       const drop = document.getElementById('filter-drop').value;
       const use = document.getElementById('filter-use').value;
       const weight = document.getElementById('filter-weight').value;
       const filtered = allShoes.filter(shoe => {
+        if (query && !matchedFields(shoe, query).length) return false;
         if (gender !== 'all' && shoe.gender !== gender) return false;
         if (brand !== 'all' && shoe.brand !== brand) return false;
         if (drop === 'zero' && shoe.drop_mm !== 0) return false;
@@ -161,7 +192,7 @@
         if (weight !== 'all' && (!Number.isFinite(shoe.weight_oz) || shoe.weight_oz >= Number(weight))) return false;
         return true;
       });
-      count.textContent = `Showing ${filtered.length} of ${allShoes.length} shoe versions`;
+      count.textContent = `Showing ${filtered.length} of ${allShoes.length} shoe versions${query ? ` matching “${searchInput.value.trim()}”` : ''}`;
       grid.innerHTML = filtered.length ? filtered.map(shoe => {
         const s = Object.fromEntries(Object.entries(shoe).map(([key, value]) => [key, escapeHTML(value)]));
         let sourceURL = null;
@@ -186,10 +217,12 @@
         const supportText = supportURL && support.wording
           ? `<q>${escapeHTML(support.wording)}</q><small><a href="${escapeHTML(supportURL)}" target="_blank" rel="noopener noreferrer">Model-page source ↗</a> · Checked ${escapeHTML(support.checked_at)}</small>`
           : 'Not verified.';
+        const matches = query ? `<div class="matches"><strong>Matched text</strong>${matchedFields(shoe, query).map(([label, value]) => `<p>${escapeHTML(label)}: ${highlightMatch(value, query)}</p>`).join('')}</div>` : '';
         const stack = Number.isFinite(shoe.stack_heel_mm) && Number.isFinite(shoe.stack_forefoot_mm) ? `${s.stack_heel_mm}/${s.stack_forefoot_mm}` : '—';
         return `<article class="shoe-card" data-shoe-id="${s.id}">
           <div class="card-top"><span class="brand">${s.brand}</span><span class="price">${Number.isFinite(shoe.price_usd) ? `${shoe.price_type ? 'List ' : ''}$${s.price_usd}` : '—'}</span></div>
           <h2>${shoe.gender === 'women' ? 'Women’s' : shoe.gender === 'men' ? 'Men’s' : 'Version not specified'} ${s.model}</h2>
+          ${matches}
           <p class="use">${s.use_case}<br>Toe box: ${escapeHTML(shoe.toe_box || 'not specified')}</p>
           <dl>
             <div><dt>Drop</dt><dd>${Number.isFinite(shoe.drop_mm) ? `${s.drop_mm} mm` : '—'}</dd></div>
@@ -202,11 +235,13 @@
           ${source}
           <div class="source">${release}</div>
         </article>`;
-      }).join('') : '<p class="empty">No shoes match these filters. Try another combination or reset the filters.</p>';
+      }).join('') : '<p class="empty">No shoes match this search and these filters. Try a shorter phrase, a different keyword, or reset search and filters.</p>';
     }
 
+    searchInput.addEventListener('input', renderShoes);
     document.querySelectorAll('select').forEach(el => el.addEventListener('change', renderShoes));
     document.getElementById('reset-filters').addEventListener('click', () => {
+      searchInput.value = '';
       document.querySelectorAll('select').forEach(el => { el.value = 'all'; });
       renderShoes();
     });

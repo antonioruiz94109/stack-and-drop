@@ -33,3 +33,7 @@ Missing prices, stack heights, toe-box classifications and reference sizes are i
 ## Manufacturer support wording
 
 Cards show short, attributed excerpts from manufacturer model pages where verified, with a separate source link and check date. The linked model page may show a different gender, width or region. These are manufacturer descriptions, not standardized categories or gait recommendations. No gait or support filter is added. Unverified wording is explicitly labeled; no classification is inferred from shoe geometry, marketing names or reviews.
+
+## Keyword search
+
+Search updates as you type and combines with existing filters. It matches a case-insensitive literal phrase in brands, models, intended uses, toe-box descriptions, catalog summaries and quoted manufacturer support wording. Each result shows the matching field and highlights the matched text. Catalog descriptions and manufacturer quotes are labeled separately. It does not search source URLs or infer synonyms or fit suitability. Reset clears both search and filters.
