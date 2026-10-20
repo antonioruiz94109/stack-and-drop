@@ -91,8 +91,8 @@ def run(catalog,previous,output):
   elif not prior:baseline.append({'id':key,'url':u,'evidence':ev,'catalog':{k:s.get(k) for k in ['drop_mm','weight_oz','stack_heel_mm','stack_forefoot_mm','foam','manufacturer_support']}})
  for s in shoes:
   bounds=date_bounds(s.get('release_date',''))
-  if not bounds:age.append(f"{s['id']}: release evidence missing or invalid; review required")
-  elif bounds[1]<cutoff:age.append(f"{s['id']}: outside rolling two-year window ({s['release_date']})")
+  if not bounds:age.append(f"{s['id']}: release evidence missing or invalid; advisory only, not an automatic exclusion")
+  elif bounds[1]<cutoff:age.append(f"{s['id']}: outside preferred two-year window ({s['release_date']})")
   elif bounds[0]<cutoff+dt.timedelta(days=60):age.append(f"{s['id']}: near or straddling cutoff ({s['release_date']}); review precision")
  for brand,listing_urls in BRANDS.items():
   known={identity(s['source_url']) for s in shoes if s['brand']==brand}
@@ -107,7 +107,7 @@ def run(catalog,previous,output):
     valid=product_link(brand,path)
     if not valid:continue
     found+=1;key=brand+'|'+identity(link)
-    if identity(link) not in known:candidates.setdefault(key,{'brand':brand,'url':link,'label':label[:160] or identity(link),'status':'Unverified candidate: confirm running shoe, gender, model identity and release within two years.'})
+    if identity(link) not in known:candidates.setdefault(key,{'brand':brand,'url':link,'label':label[:160] or identity(link),'status':'Unverified candidate: confirm running shoe, gender, model identity, sources and duplicates. Release recency is advisory.'})
    if not found:problems.append(f"Discovery {brand}: zero product links extracted (possibly JavaScript-only); coverage incomplete — {u}")
  snapshot['candidates']=sorted(candidates);prior_candidates=set(old.get('candidates',[]));new=[v for k,v in sorted(candidates.items()) if k not in prior_candidates]
  coverage={}
@@ -124,13 +124,13 @@ def run(catalog,previous,output):
  lines+=['']
  for title,items in [('Candidates requiring verification',[f"{v['brand']}: [{v['label'].replace('[','').replace(']','')}]({v['url']})" for v in candidates.values()]),('Possible specification changes',[f"{v['id']}: {v['url']}\n  - Before: {'; '.join(v['before'])}\n  - After: {'; '.join(v['after'])}" for v in changes]),('Release age review',age),('Coverage problems',problems),('Initial source baselines',[f"{v['id']}: {'; '.join(v['evidence'])}" for v in baseline])]:
   lines+=['## '+title,'']+(['- '+s for s in items] or ['None.'])+['']
- lines+=['## Held release evidence watch','', 'Known sources only; not an exhaustive web search. All entries remain held until reviewed. A new date or changed text is not automatic clearance.','']
+ lines+=['## Held release evidence watch','', 'Known sources only; not an exhaustive web search. Unpublished entries require source and identity review. Missing release dates alone do not block reliable running shoes. A new date or changed text is not automatic clearance.','']
  for h in held_review:
   lines += [f"- {h['brand']} {h['model']} ({h['gender']}): {h['missing_evidence']}",'  - Follow-up search: '+h['research_query']]
   for source in h['sources']:
    lines.append(f"  - {source['status']}: {source['url']}")
  lines+=['Full excerpts and fetch failures are in report.json.','']
- lines+=['Review policy: confirm manufacturer specifications, gender/reference size, model-release evidence and duplicates before proposing a catalog change. Never infer release date from discovery date. Check report.json for catalog values alongside initial source evidence.','Coverage is limited to the configured listing pages; pagination and JavaScript-only listings may hide products. Missing results are not proof that no new shoes exist.']
+ lines+=['Review policy: verify manufacturer specifications, gender/reference size and duplicates before publication under standing approval. Two years is a preference, not a hard cutoff; reliable running shoes may have unknown release dates. Never infer release date from discovery date. Check report.json for catalog values alongside initial source evidence.','Coverage is limited to the configured listing pages; pagination and JavaScript-only listings may hide products. Missing results are not proof that no new shoes exist.']
  (out/'report.md').write_text('\n'.join(lines)+'\n');print(json.dumps({k:v for k,v in report.items() if k in ['scope','source_checks','successful_fetches']}));print(f'Candidates {len(new)}; possible changes {len(changes)}; coverage problems {len(problems)}')
 if __name__=='__main__':
  p=argparse.ArgumentParser();p.add_argument('--catalog',default='shoes.json');p.add_argument('--previous',default='.checker-state/snapshot.json');p.add_argument('--output',default='checker-report');a=p.parse_args();run(a.catalog,a.previous,a.output)
