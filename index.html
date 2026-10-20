@@ -289,7 +289,6 @@
         return `<article class="shoe-card" data-shoe-id="${s.id}">
           <div class="card-top"><span class="brand">${s.brand}</span><span class="price">${Number.isFinite(shoe.price_usd) ? `${shoe.price_type ? 'List ' : ''}$${s.price_usd}` : '—'}</span></div>
           <h2>${shoe.gender === 'women' ? 'Women’s' : shoe.gender === 'men' ? 'Men’s' : shoe.gender === 'unisex' ? 'Unisex' : 'Version not specified'} ${s.model}</h2>
-          ${matches}
           <p class="use">${s.use_case}<br>Toe box: ${escapeHTML(shoe.toe_box || 'not specified')}</p>
           <dl>
             <div><dt>Drop</dt><dd>${Number.isFinite(shoe.drop_mm) ? `${s.drop_mm} mm` : '—'}</dd></div>
@@ -298,7 +297,8 @@
           </dl>
           <p class="verdict">${s.verdict}</p>
           <p class="foam">Midsole: <strong>${escapeHTML(shoe.foam || '—')}</strong></p>
-          <details class="source-notes"><summary>Sources &amp; notes</summary>
+          <details class="source-notes"><summary>Sources &amp; notes${query ? ' · Matches' : ''}</summary>
+          ${matches}
           ${auditFlag}
           <div class="source manufacturer-support"><strong>Manufacturer’s support wording</strong><br>${supportText}</div>
           ${source}
