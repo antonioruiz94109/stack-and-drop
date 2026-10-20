@@ -5,6 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Explore running shoes by heel-to-toe drop, weight, stack height and intended use. A free community learning project.">
   <title>Stack &amp; Drop — Running Shoe Directory</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="./favicon-32x32.png" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="./apple-touch-icon.png" sizes="180x180">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@800&display=swap" rel="stylesheet">
   <style>
     :root { color-scheme: dark; font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: #09090b; color: #f4f4f5; }
     * { box-sizing: border-box; }
@@ -12,7 +18,10 @@
     main { max-width: 1152px; margin: auto; padding: 40px 24px; }
     header { border-bottom: 1px solid #27272a; padding-bottom: 28px; margin-bottom: 24px; }
     .badge { display: inline-block; color: #6ee7b7; background: #022c22; border: 1px solid #065f46; border-radius: 20px; padding: 4px 12px; font-size: 12px; }
-    h1 { font-size: clamp(30px, 5vw, 36px); line-height: 1.2; letter-spacing: -.03em; margin: 12px 0 4px; }
+    h1.wordmark { position: relative; display: grid; padding-bottom: 28px; width: fit-content; max-width: 100%; font-family: "Archivo", system-ui, sans-serif; font-weight: 800; font-size: 56px; line-height: 1.1; letter-spacing: -2.5px; color: #f4f4f5; margin: 16px 0 12px; }
+    .wordmark-text { white-space: nowrap; }
+    .wordmark-amp { font-family: Arial, Helvetica, sans-serif; font-weight: 700; }
+    .wordmark svg { position: absolute; left: 0; bottom: 0; display: block; width: 100%; height: 24px; }
     p { margin: 0; }
     .muted { color: #a1a1aa; }
     .notice { font-size: 14px; margin-top: 16px; color: #d4d4d8; max-width: 80ch; }
@@ -66,7 +75,9 @@
       main { padding: 16px; }
       header { padding-bottom: 12px; margin-bottom: 16px; }
       .badge { font-size: 10px; padding: 3px 8px; }
-      h1 { margin-top: 8px; }
+      h1.wordmark { font-size: clamp(32px, 10vw, 44px); letter-spacing: -.045em; margin: 12px 0 10px; }
+      h1.wordmark { padding-bottom: 19px; }
+      .wordmark svg { height: 16px; }
       .intro { font-size: 14px; }
       .search { margin-bottom: 12px; }
       .search small { font-size: 12px; }
@@ -87,9 +98,9 @@
   <main>
     <header>
       <div class="badge">Community learning project · Catalog updated <span id="last-updated">…</span></div>
-      <h1>Stack &amp; Drop</h1>
+      <h1 class="wordmark"><span class="wordmark-text">Stack <span class="wordmark-amp">&amp;</span> Drop</span><svg width="100%" height="24" viewBox="0 0 440 24" preserveAspectRatio="none" aria-hidden="true"><polygon points="0,0 440,17 440,24 0,24" fill="#6ee7b7"/></svg></h1>
       <p class="muted intro">Find your next road or trail shoe.</p>
-      <details class="about"><summary>About the catalog</summary><p class="notice">All entries link to manufacturer sources. Men’s and women’s versions are listed separately, with the version identified on every card. Unisex shoes are listed once and appear under both men’s and women’s filters. Missing specifications and source inconsistencies are noted on each card. Prices are in USD, not live offers. Manufacturer means a price from the brand’s US website or brand store; it may be a list price or current listed offer, not necessarily MSRP. Dealer means an independent retailer’s price. Price basis and qualifications are in Sources &amp; notes; sizes and colorways may vary. Specifications come from manufacturer sources and have not been independently lab-tested by Stack &amp; Drop.</p></details>
+      <details class="about"><summary>About the catalog</summary><p class="notice">All entries link to manufacturer sources. Men’s and women’s versions are listed separately, with the version identified on every card. Unisex shoes are listed once and appear under both men’s and women’s filters. Missing specifications and source inconsistencies are noted on each card. Prices are in USD, not live offers. List means a verified manufacturer list price. Price means a manufacturer website or brand-store offer not confirmed as a list price. Dealer means an independent retailer’s price. Price basis and qualifications are in Sources &amp; notes; sizes and colorways may vary. Specifications come from manufacturer sources and have not been independently lab-tested by Stack &amp; Drop.</p></details>
     </header>
     <section class="search" aria-label="Search shoes">
       <label for="keyword-search">Search shoes and descriptions</label>
@@ -315,7 +326,7 @@
         const dealerLabel = shoe.price_type === 'US dealer price'
           ? `Dealer price, checked ${escapeHTML(shoe.price_checked_at || review?.checked_at || 'date not recorded')}` : '';
         const priceText = Number.isFinite(shoe.price_usd)
-          ? `${dealerLabel ? `Dealer $${s.price_usd}<br><small>${dealerLabel}</small>` : `Manufacturer $${s.price_usd}`}` : '—';
+          ? `${dealerLabel ? `Dealer $${s.price_usd}<br><small>${dealerLabel}</small>` : `${shoe.price_type === 'US list price' ? 'List' : 'Price'} $${s.price_usd}`}` : '—';
         const priceDisplay = priceURL ? `<a href="${escapeHTML(priceURL)}" target="_blank" rel="noopener noreferrer" aria-label="Price source">${priceText}</a>` : priceText;
         const stack = Number.isFinite(shoe.stack_heel_mm) && Number.isFinite(shoe.stack_forefoot_mm) ? `${s.stack_heel_mm}/${s.stack_forefoot_mm}` : '—';
         return `<article class="shoe-card" data-shoe-id="${s.id}">
