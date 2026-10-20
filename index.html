@@ -253,7 +253,10 @@
           return (a[sortKey] - b[sortKey]) * (direction === 'desc' ? -1 : 1);
         });
       }
-      count.textContent = `Showing ${filtered.length} of ${allShoes.length} shoe versions${query ? ` matching “${searchInput.value.trim()}”` : ''}`;
+      const pricedCount = filtered.filter(shoe => Number.isFinite(shoe.price_usd)).length;
+      const priceCoverage = sortKey === 'price_usd'
+        ? ` · ${pricedCount} of ${filtered.length} matches have prices${pricedCount < filtered.length ? '; unpriced shoes follow' : ''}` : '';
+      count.textContent = `Showing ${filtered.length} of ${allShoes.length} shoe versions${query ? ` matching “${searchInput.value.trim()}”` : ''}${priceCoverage}`;
       const showResults = document.getElementById('show-results');
       showResults.textContent = `Show ${filtered.length} ${filtered.length === 1 ? 'shoe' : 'shoes'}`;
       showResults.disabled = false;
@@ -291,9 +294,20 @@
         const matches = query ? `<div class="matches"><strong>Matched text</strong>${matchedFields(shoe, query).map(([label, value]) => `<p>${escapeHTML(label)}: ${highlightMatch(value, query)}</p>`).join('')}</div>` : '';
         const auditLabels = {outside_window: 'Older model · outside the audited two-year window', cutoff_uncertain: 'Release cutoff uncertain · October 2024'};
         const auditFlag = auditLabels[shoe.release_audit_status] ? `<p class="notice">${escapeHTML(auditLabels[shoe.release_audit_status])}</p>` : '';
+        const review = shoe.completion_review;
+        const reviewHosts = ['www.altrarunning.com', 'www.topoathletic.com', 'www.nike.com', 'www.newbalance.com', 'www.asics.com', 'www.saucony.com', 'www.brooksrunning.com', 'restart.brooksrunning.com', 'stores.hoka.com', 'www.adidas.com', 'us.puma.com'];
+        const fieldLabels = {price_usd: 'Price', foam: 'Midsole', verdict: 'Description', stack_heel_mm: 'Stack'};
+        const completion = review ? `<div class="source completion-review"><small>Data reviewed ${escapeHTML(review.checked_at)}</small>${(review.sources || []).map(item => {
+          try {
+            const url = new URL(item.url);
+            if (url.protocol !== 'https:' || !reviewHosts.includes(url.hostname)) return '';
+            const labels = [...new Set(item.fields.map(field => fieldLabels[field]).filter(Boolean))].join(' & ');
+            return `<small><a href="${escapeHTML(url.href)}" target="_blank" rel="noopener noreferrer">${escapeHTML(labels)} source ↗</a> · ${escapeHTML(item.note)}</small>`;
+          } catch (_) { return ''; }
+        }).join('')}${(review.remaining_gaps || []).map(note => `<small>${escapeHTML(note)}</small>`).join('')}</div>` : '';
         const stack = Number.isFinite(shoe.stack_heel_mm) && Number.isFinite(shoe.stack_forefoot_mm) ? `${s.stack_heel_mm}/${s.stack_forefoot_mm}` : '—';
         return `<article class="shoe-card" data-shoe-id="${s.id}">
-          <div class="card-top"><span class="brand">${s.brand}</span><span class="price">${Number.isFinite(shoe.price_usd) ? `${shoe.price_type ? 'List ' : ''}$${s.price_usd}` : '—'}</span></div>
+          <div class="card-top"><span class="brand">${s.brand}</span><span class="price">${Number.isFinite(shoe.price_usd) ? `${shoe.price_type === 'US list price' ? 'List ' : 'Listed '}$${s.price_usd}` : '—'}</span></div>
           <h2>${shoe.gender === 'women' ? 'Women’s' : shoe.gender === 'men' ? 'Men’s' : shoe.gender === 'unisex' ? 'Unisex' : 'Version not specified'} ${s.model}</h2>
           <p class="use">${s.use_case}</p>
           <dl>
@@ -309,6 +323,7 @@
           ${auditFlag}
           <div class="source manufacturer-support"><strong>Manufacturer’s support wording</strong><br>${supportText}</div>
           ${source}
+          ${completion}
           <div class="source">${specification}${release}</div>
           </details>
         </article>`;
