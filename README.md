@@ -1,8 +1,10 @@
-# CadenceIndex
+# Stack & Drop
 
 A free, static running-shoe directory and learning project. All 227 shoe versions have manufacturer source links and sourcing dates. The original eight entries have been checked and corrected against manufacturer pages. No automated catalog ingestion is implemented.
 
 ## Website
+
+Live site: https://antonioruiz94109.github.io/stack-and-drop/
 
 Open `index.html` through a local HTTP server. For example, run `python3 -m http.server 8000` and visit `http://localhost:8000`.
 
@@ -10,7 +12,7 @@ The application uses browser JavaScript, inline CSS, system fonts and `./shoes.j
 
 ## GitHub Pages
 
-Publish the reviewed `index.html`, `shoes.json` and `README.md` files. In repository Settings → Pages, choose **Deploy from a branch**, **main**, **/(root)**. The relative data URL supports a project subpath such as `/CadenceIndex/`.
+Publish the reviewed `index.html`, `shoes.json` and `README.md` files. In repository Settings → Pages, choose **Deploy from a branch**, **main**, **/(root)**. The relative data URL supports a project subpath such as `/stack-and-drop/`.
 
 Never upload the entire local folder. `.env`, credentials, backup files and local publisher configuration must stay private. The legacy Netlify publisher is separate from the Pages deployment.
 
@@ -44,11 +46,11 @@ The original 34-entry audit found 27 entries within the window, five older and t
 
 Every replacement has gender-specific manufacturer specifications and linked model-release evidence. Month/year precision and regional-launch caveats are preserved; a new color does not reset model age. Olympus 275 uses year precision because July general launch followed reported early exclusive availability. Altra does not supply its weight reference size.
 
-Specifications come from manufacturer sources and have not been independently lab-tested by CadenceIndex. The release audit does not independently validate performance or specifications.
+Specifications come from manufacturer sources and have not been independently lab-tested by Stack & Drop. The release audit does not independently validate performance or specifications.
 
 ## Weekly review checker
 
-A read-only weekly GitHub Actions checker monitors all ten catalog brands: Altra, ASICS, Brooks, HOKA, New Balance, Nike, PUMA, Saucony, Topo Athletic and adidas. Reports flag candidates, possible specification changes, aging releases and incomplete coverage. New entries and specification updates require review before publication. See [checker instructions](scripts/CHECKER.md) and [workflow reports](https://github.com/antonioruiz94109/CadenceIndex/actions/workflows/catalog-checker.yml).
+A read-only weekly GitHub Actions checker monitors all ten catalog brands: Altra, ASICS, Brooks, HOKA, New Balance, Nike, PUMA, Saucony, Topo Athletic and adidas. Reports flag candidates, possible specification changes, aging releases and incomplete coverage. New entries and specification updates require review before publication. See [checker instructions](scripts/CHECKER.md) and [workflow reports](https://github.com/antonioruiz94109/stack-and-drop/actions/workflows/catalog-checker.yml).
 
 ## Reviewed running additions — October 19, 2026
 

@@ -51,7 +51,7 @@ def product_link(brand,path):
 
 def fetch(url):
  try:
-  req=urllib.request.Request(url,headers={'User-Agent':'CadenceIndexCatalogChecker/1.0 (+https://github.com/antonioruiz94109/CadenceIndex)'})
+  req=urllib.request.Request(url,headers={'User-Agent':'StackAndDropCatalogChecker/1.0 (+https://github.com/antonioruiz94109/stack-and-drop)'})
   with urllib.request.urlopen(req,timeout=25) as r:
    body=r.read(20_000_001)
    if len(body)>20_000_000: raise ValueError('page exceeds 20 MB limit')
@@ -121,7 +121,7 @@ def run(catalog,previous,output):
  held_review,held_snapshot=review_release_holds(shoes,old,fetch)
  snapshot['release_watch']=held_snapshot;report['held_release_review']=held_review
  out=Path(output);out.mkdir(parents=True,exist_ok=True);(out/'report.json').write_text(json.dumps(report,indent=2)+'\n');(out/'snapshot.json').write_text(json.dumps(snapshot,indent=2)+'\n')
- lines=['# CadenceIndex weekly review — '+str(today),'','REPORT ONLY. No catalog edits, commits or publication. Candidates are not verified releases.','',f"Scope: {len(shoes)} existing entries; {len(new)} newly observed candidate links; {len(changes)} possible spec changes; {len(problems)} coverage problems.",'','First successful checks establish a baseline; they do not prove existing specs match. Blocked pages are unknown, never unchanged or discontinued. New colors/widths can still require manual deduplication.','']
+ lines=['# Stack & Drop weekly review — '+str(today),'','REPORT ONLY. No catalog edits, commits or publication. Candidates are not verified releases.','',f"Scope: {len(shoes)} existing entries; {len(new)} newly observed candidate links; {len(changes)} possible spec changes; {len(problems)} coverage problems.",'','First successful checks establish a baseline; they do not prove existing specs match. Blocked pages are unknown, never unchanged or discontinued. New colors/widths can still require manual deduplication.','']
  lines+=['## Coverage by brand','','Brand | Entries | Pages fetched | Specs extracted | Discovery pages fetched | Pending candidates','--- | ---: | ---: | ---: | ---: | ---:']
  for brand,c in coverage.items(): lines.append(f"{brand} | {c['entries']} | {c['pages_fetched']} | {c['specs_extracted']} | {c['discovery_pages_fetched']}/{c['discovery_pages']} | {c['pending_candidates']}")
  lines+=['']
