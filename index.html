@@ -36,24 +36,24 @@
     .results { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; margin: 20px 0; }
     #result-count { color: #a1a1aa; font-size: 14px; }
     #shoe-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; }
-    .shoe-card { background: #18181b; border: 1px solid #27272a; border-radius: 12px; padding: 24px; display: flex; flex-direction: column; }
+    .shoe-card { background: #18181b; border: 1px solid #27272a; border-radius: 12px; padding: 16px; display: flex; flex-direction: column; }
     .shoe-card:hover { border-color: #52525b; }
     .card-top { display: flex; align-items: center; justify-content: space-between; gap: 8px; font-size: 12px; }
     .brand { text-transform: uppercase; letter-spacing: .05em; font-weight: 600; color: #6ee7b7; }
     .price { background: #27272a; border-radius: 4px; padding: 2px 10px; white-space: nowrap; color: #d4d4d8; }
     h2 { font-size: 20px; line-height: 1.3; margin: 12px 0 4px; }
-    .use { font-size: 12px; color: #a1a1aa; margin-bottom: 16px; }
-    dl { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; background: #09090b; border: 1px solid #27272a; border-radius: 8px; padding: 12px 6px; margin: 0 0 16px; text-align: center; }
+    .use { font-size: 12px; color: #a1a1aa; margin-bottom: 8px; }
+    dl { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; background: #09090b; border: 1px solid #27272a; border-radius: 8px; padding: 12px 6px; margin: 0 0 8px; text-align: center; }
     dt { font-size: 11px; text-transform: uppercase; color: #a1a1aa; }
     dd { margin: 0; font-size: 14px; font-weight: 600; font-family: ui-monospace, monospace; }
-    .verdict { color: #d4d4d8; font-size: 14px; margin-bottom: 16px; }
-    .foam { margin-top: auto; padding-top: 12px; border-top: 1px solid #27272a; font-size: 12px; color: #a1a1aa; }
+    .verdict { color: #d4d4d8; font-size: 14px; margin-bottom: 8px; }
+    .foam { margin-top: 12px; font-size: 12px; color: #a1a1aa; }
     .foam strong { color: #e4e4e7; }
     .source { margin-top: 12px; font-size: 12px; color: #a1a1aa; overflow-wrap: anywhere; }
-    .source-notes { margin-top: 12px; border-top: 1px solid #27272a; padding-top: 4px; }
+    .source-notes { margin-top: auto; border-top: 1px solid #27272a; padding-top: 4px; }
     .source-notes > summary, .about > summary { cursor: pointer; color: #6ee7b7; font-size: 13px; padding: 10px 0; min-height: 44px; }
     .source-notes .notice { font-size: 12px; }
-    .filter-toggle { display: none; }
+    .filter-toggle, .show-results { display: none; }
     .sort-control { display: flex; align-items: center; gap: 8px; }
     .sort-control label { margin: 0; white-space: nowrap; }
     .sort-control select { width: auto; max-width: 100%; }
@@ -78,7 +78,8 @@
       .sort-control { flex: 1; }
       .sort-control select { width: 100%; }
       #reset-filters { font-size: 12px; }
-      .shoe-card { padding: 20px; }
+      .show-results { display: block; width: 100%; background: #6ee7b7; color: #09090b; font-weight: 600; }
+      .show-results:hover { background: #a7f3d0; }
     }
   </style>
 </head>
@@ -157,8 +158,9 @@
           <option value="8.5">Under 8.5 oz</option>
         </select>
       </div>
+      <button id="show-results" class="show-results" type="button" disabled>Loading shoes…</button>
     </section>
-    <div class="results">
+    <div class="results" id="results" tabindex="-1">
       <p id="result-count" role="status" aria-live="polite">Loading shoes…</p>
       <div class="sort-control"><label for="sort-by">Sort</label>
         <select id="sort-by">
@@ -214,6 +216,7 @@
       } catch (error) {
         document.getElementById('last-updated').textContent = 'unavailable';
         count.textContent = 'The shoe catalog could not be loaded. Please reload to try again.';
+        document.getElementById('show-results').textContent = 'Catalog unavailable';
       }
     }
 
@@ -251,6 +254,9 @@
         });
       }
       count.textContent = `Showing ${filtered.length} of ${allShoes.length} shoe versions${query ? ` matching “${searchInput.value.trim()}”` : ''}`;
+      const showResults = document.getElementById('show-results');
+      showResults.textContent = `Show ${filtered.length} ${filtered.length === 1 ? 'shoe' : 'shoes'}`;
+      showResults.disabled = false;
       grid.innerHTML = filtered.length ? filtered.map(shoe => {
         const s = Object.fromEntries(Object.entries(shoe).map(([key, value]) => [key, escapeHTML(value)]));
         let sourceURL = null;
@@ -289,15 +295,16 @@
         return `<article class="shoe-card" data-shoe-id="${s.id}">
           <div class="card-top"><span class="brand">${s.brand}</span><span class="price">${Number.isFinite(shoe.price_usd) ? `${shoe.price_type ? 'List ' : ''}$${s.price_usd}` : '—'}</span></div>
           <h2>${shoe.gender === 'women' ? 'Women’s' : shoe.gender === 'men' ? 'Men’s' : shoe.gender === 'unisex' ? 'Unisex' : 'Version not specified'} ${s.model}</h2>
-          <p class="use">${s.use_case}<br>Toe box: ${escapeHTML(shoe.toe_box || 'not specified')}</p>
+          <p class="use">${s.use_case}</p>
           <dl>
             <div><dt>Drop</dt><dd>${Number.isFinite(shoe.drop_mm) ? `${s.drop_mm} mm` : '—'}</dd></div>
             <div><dt>Weight</dt><dd>${Number.isFinite(shoe.weight_oz) ? `${s.weight_oz} oz` : '—'}</dd></div>
             <div><dt>Stack (mm)</dt><dd>${stack}</dd></div>
           </dl>
           <p class="verdict">${s.verdict}</p>
-          <p class="foam">Midsole: <strong>${escapeHTML(shoe.foam || '—')}</strong></p>
           <details class="source-notes"><summary>Sources &amp; notes${query ? ' · Matches' : ''}</summary>
+          <p class="foam">Midsole: <strong>${escapeHTML(shoe.foam || '—')}</strong></p>
+          <p class="source">Toe box: ${escapeHTML(shoe.toe_box || 'not specified')}</p>
           ${matches}
           ${auditFlag}
           <div class="source manufacturer-support"><strong>Manufacturer’s support wording</strong><br>${supportText}</div>
@@ -313,6 +320,13 @@
       const expanded = button.getAttribute('aria-expanded') !== 'true';
       button.setAttribute('aria-expanded', String(expanded));
       document.getElementById('filter-panel').classList.toggle('is-collapsed', !expanded);
+    });
+    document.getElementById('show-results').addEventListener('click', () => {
+      document.getElementById('toggle-filters').setAttribute('aria-expanded', 'false');
+      document.getElementById('filter-panel').classList.add('is-collapsed');
+      const results = document.getElementById('results');
+      results.focus({ preventScroll: true });
+      results.scrollIntoView({ block: 'start' });
     });
     searchInput.addEventListener('input', renderShoes);
     document.querySelectorAll('select').forEach(el => el.addEventListener('change', renderShoes));
