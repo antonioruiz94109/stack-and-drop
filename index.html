@@ -89,7 +89,7 @@
       <div class="badge">Community learning project · Catalog updated <span id="last-updated">…</span></div>
       <h1>Stack &amp; Drop</h1>
       <p class="muted intro">Find your next road or trail shoe.</p>
-      <details class="about"><summary>About the catalog</summary><p class="notice">All entries link to manufacturer sources. Men’s and women’s versions are listed separately, with the version identified on every card. Unisex shoes are listed once and appear under both men’s and women’s filters. Missing specifications and source inconsistencies are noted on each card. Listed prices are in USD, not live offers; sizes and colorways may vary. Specifications come from manufacturer sources and have not been independently lab-tested by Stack &amp; Drop.</p></details>
+      <details class="about"><summary>About the catalog</summary><p class="notice">All entries link to manufacturer sources. Men’s and women’s versions are listed separately, with the version identified on every card. Unisex shoes are listed once and appear under both men’s and women’s filters. Missing specifications and source inconsistencies are noted on each card. Prices are in USD, not live offers. Manufacturer means a price from the brand’s US website or brand store; it may be a list price or current listed offer, not necessarily MSRP. Dealer means an independent retailer’s price. Price basis and qualifications are in Sources &amp; notes; sizes and colorways may vary. Specifications come from manufacturer sources and have not been independently lab-tested by Stack &amp; Drop.</p></details>
     </header>
     <section class="search" aria-label="Search shoes">
       <label for="keyword-search">Search shoes and descriptions</label>
@@ -246,19 +246,19 @@
       const activeFilters = [gender, brand, drop, use, weight].filter(value => value !== 'all').length;
       document.getElementById('toggle-filters').textContent = `Filters (${activeFilters})`;
       const [sortKey, direction] = document.getElementById('sort-by').value.split(':');
-      const storePrice = shoe => ['US store listing', 'US dealer price'].includes(shoe.price_type);
+      const dealerPrice = shoe => shoe.price_type === 'US dealer price';
       if (['weight_oz', 'drop_mm', 'price_usd'].includes(sortKey)) {
         filtered.sort((a, b) => {
           const aKnown = Number.isFinite(a[sortKey]), bKnown = Number.isFinite(b[sortKey]);
           if (!aKnown || !bKnown) return Number(bKnown) - Number(aKnown);
-          if (sortKey === 'price_usd' && storePrice(a) !== storePrice(b)) return Number(storePrice(a)) - Number(storePrice(b));
+          if (sortKey === 'price_usd' && dealerPrice(a) !== dealerPrice(b)) return Number(dealerPrice(a)) - Number(dealerPrice(b));
           return (a[sortKey] - b[sortKey]) * (direction === 'desc' ? -1 : 1);
         });
       }
       const pricedCount = filtered.filter(shoe => Number.isFinite(shoe.price_usd)).length;
-      const storeCount = filtered.filter(shoe => Number.isFinite(shoe.price_usd) && storePrice(shoe)).length;
+      const dealerCount = filtered.filter(shoe => Number.isFinite(shoe.price_usd) && dealerPrice(shoe)).length;
       const priceCoverage = sortKey === 'price_usd'
-        ? ` · ${pricedCount} of ${filtered.length} matches have prices${storeCount ? `; ${storeCount} store/dealer prices follow manufacturer prices` : ''}${pricedCount < filtered.length ? '; unpriced shoes follow' : ''}` : '';
+        ? ` · ${pricedCount} of ${filtered.length} matches have prices${dealerCount ? `; ${dealerCount} dealer prices follow manufacturer prices` : ''}${pricedCount < filtered.length ? '; unpriced shoes follow' : ''}` : '';
       count.textContent = `Showing ${filtered.length} of ${allShoes.length} shoe versions${query ? ` matching “${searchInput.value.trim()}”` : ''}${priceCoverage}`;
       const showResults = document.getElementById('show-results');
       showResults.textContent = `Show ${filtered.length} ${filtered.length === 1 ? 'shoe' : 'shoes'}`;
@@ -300,21 +300,22 @@
         const review = shoe.completion_review;
         const reviewHosts = ['www.altrarunning.com', 'www.topoathletic.com', 'www.nike.com', 'www.newbalance.com', 'www.asics.com', 'www.saucony.com', 'www.brooksrunning.com', 'restart.brooksrunning.com', 'stores.brooksrunning.com', 'stores.hoka.com', 'www.adidas.com', 'us.puma.com'];
         const fieldLabels = {price_usd: 'Price', foam: 'Midsole', verdict: 'Description', stack_heel_mm: 'Stack', toe_box: 'Toe box', manufacturer_support: 'Support wording'};
-        const completion = review ? `<div class="source completion-review"><small>Data reviewed ${escapeHTML(review.checked_at)}</small>${(review.sources || []).map(item => {
+        const priceBasis = Number.isFinite(shoe.price_usd) ? `<small class="price-basis">Price basis: ${escapeHTML(shoe.price_type || 'not recorded')}.</small>` : '';
+        const completion = review ? `<div class="source completion-review"><small>Data reviewed ${escapeHTML(review.checked_at)}</small>${priceBasis}${(review.sources || []).map(item => {
           try {
             const url = new URL(item.url);
             if (url.protocol !== 'https:' || !reviewHosts.includes(url.hostname)) return '';
             const labels = [...new Set(item.fields.map(field => fieldLabels[field]).filter(Boolean))].join(' & ');
             return `<small><a href="${escapeHTML(url.href)}" target="_blank" rel="noopener noreferrer">${escapeHTML(labels)} source ↗</a> · ${escapeHTML(item.note)}</small>`;
           } catch (_) { return ''; }
-        }).join('')}${(review.remaining_gaps || []).map(note => `<small>${escapeHTML(note)}</small>`).join('')}</div>` : '';
+        }).join('')}${(review.remaining_gaps || []).map(note => `<small>${escapeHTML(note)}</small>`).join('')}</div>` : priceBasis;
         const priceSource = [...(review?.sources || [])].reverse().find(item => item.fields.includes('price_usd'));
         let priceURL = null;
         try { const url = new URL(priceSource?.url); if (url.protocol === 'https:' && reviewHosts.includes(url.hostname)) priceURL = url.href; } catch (_) {}
         const dealerLabel = shoe.price_type === 'US dealer price'
           ? `Dealer price, checked ${escapeHTML(shoe.price_checked_at || review?.checked_at || 'date not recorded')}` : '';
         const priceText = Number.isFinite(shoe.price_usd)
-          ? `${dealerLabel ? `$${s.price_usd}<br><small>${dealerLabel}</small>` : `${shoe.price_type === 'US list price' ? 'List ' : 'Listed '}$${s.price_usd}`}` : '—';
+          ? `${dealerLabel ? `Dealer $${s.price_usd}<br><small>${dealerLabel}</small>` : `Manufacturer $${s.price_usd}`}` : '—';
         const priceDisplay = priceURL ? `<a href="${escapeHTML(priceURL)}" target="_blank" rel="noopener noreferrer" aria-label="Price source">${priceText}</a>` : priceText;
         const stack = Number.isFinite(shoe.stack_heel_mm) && Number.isFinite(shoe.stack_forefoot_mm) ? `${s.stack_heel_mm}/${s.stack_forefoot_mm}` : '—';
         return `<article class="shoe-card" data-shoe-id="${s.id}">
