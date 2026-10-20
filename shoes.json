@@ -4013,7 +4013,7 @@
       "source_type": "manufacturer",
       "sourced_at": "2026-10-18",
       "weight_reference_size": null,
-      "price_type": "US store listing",
+      "price_type": "US dealer price",
       "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. ",
       "release_date": "2025-09-01",
       "release_source_url": "https://weartesters.com/hoka-mach-x-3-performance-review/",
@@ -4034,7 +4034,8 @@
         "remaining_gaps": [
           "Stack: a consistent heel/forefoot pair for this version was not verified in the official sources checked; no laboratory or other-version measurements substituted."
         ]
-      }
+      },
+      "price_checked_at": "2026-10-19"
     },
     {
       "id": "hoka-mafate-5-men",
@@ -4095,7 +4096,7 @@
       "source_type": "manufacturer",
       "sourced_at": "2026-10-18",
       "weight_reference_size": null,
-      "price_type": "US store listing",
+      "price_type": "US dealer price",
       "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. Women’s weight withheld: Australian product page lists 230 g, while HOKA’s launch announcement reproduced by ACTIVE lists 285 g in women’s US 8. Men’s product page reference size unspecified.",
       "release_date": "2025-08-01",
       "release_source_url": "https://www.active.com/trail-running/articles/hoka-launches-the-mafate-5",
@@ -4116,7 +4117,8 @@
         "remaining_gaps": [
           "Stack: a consistent heel/forefoot pair for this version was not verified in the official sources checked; no laboratory or other-version measurements substituted."
         ]
-      }
+      },
+      "price_checked_at": "2026-10-19"
     },
     {
       "id": "hoka-mach-7-men",
@@ -6056,7 +6058,7 @@
       "weight_g": 305.0,
       "stack_heel_mm": null,
       "stack_forefoot_mm": null,
-      "toe_box": null,
+      "toe_box": "Extra room in the toe box and forefoot (Nike description)",
       "use_case": "Trail running",
       "foam": "ReactX",
       "price_usd": 155.0,
@@ -6091,6 +6093,13 @@
             ],
             "url": "https://www.nike.com/t/acg-pegasus-trail-mens-trail-running-shoes-cCpygMMK/HV8116-006",
             "note": "Midsole and summary checked against this version’s manufacturer description."
+          },
+          {
+            "fields": [
+              "toe_box"
+            ],
+            "url": "https://www.nike.com/t/acg-pegasus-trail-mens-trail-running-shoes-cCpygMMK/HV8116-006",
+            "note": "Manufacturer wording checked for this gender and model; no independent fit or gait measurement inferred."
           }
         ],
         "remaining_gaps": [
@@ -6108,7 +6117,7 @@
       "weight_g": 247.0,
       "stack_heel_mm": null,
       "stack_forefoot_mm": null,
-      "toe_box": null,
+      "toe_box": "Extra room in the toe box and forefoot (Nike description)",
       "use_case": "Trail running",
       "foam": "ReactX",
       "price_usd": 155.0,
@@ -6143,6 +6152,13 @@
             ],
             "url": "https://www.nike.com/t/acg-pegasus-trail-womens-trail-running-shoes-KO1D9rNK/HV8121-006",
             "note": "Midsole and summary checked against this version’s manufacturer description."
+          },
+          {
+            "fields": [
+              "toe_box"
+            ],
+            "url": "https://www.nike.com/t/acg-pegasus-trail-womens-trail-running-shoes-KO1D9rNK/HV8121-006",
+            "note": "Manufacturer wording checked for this gender and model; no independent fit or gait measurement inferred."
           }
         ],
         "remaining_gaps": [
@@ -7882,7 +7898,7 @@
       "release_notes": "Exact GTX models appear in 2026 launch coverage, distinct from the standard shoes. August preview and September launch reporting, combined with current gender-specific Nike sale pages, support a released 2026 model. Retain year precision: regional/colorway dates differ; do not assert an exact first-sale day.",
       "id": "nike-acg-pegasus-trail-gore-tex-men",
       "weight_oz": 10.69,
-      "toe_box": null,
+      "toe_box": "Extra room in the toe box and forefoot (Nike description)",
       "use_case": "Trail running",
       "foam": "ReactX",
       "price_usd": 175.0,
@@ -7915,6 +7931,13 @@
             ],
             "url": "https://www.nike.com/t/acg-pegasus-trail-gore-tex-mens-waterproof-trail-running-shoes-T29yijhw/IQ1084-004",
             "note": "Midsole and summary checked against this version’s manufacturer description."
+          },
+          {
+            "fields": [
+              "toe_box"
+            ],
+            "url": "https://www.nike.com/t/acg-pegasus-trail-gore-tex-mens-waterproof-trail-running-shoes-T29yijhw/IQ1084-004",
+            "note": "Manufacturer wording checked for this gender and model; no independent fit or gait measurement inferred."
           }
         ],
         "remaining_gaps": [
@@ -7937,7 +7960,7 @@
       "release_notes": "Exact GTX models appear in 2026 launch coverage, distinct from the standard shoes. August preview and September launch reporting, combined with current gender-specific Nike sale pages, support a released 2026 model. Retain year precision: regional/colorway dates differ; do not assert an exact first-sale day.",
       "id": "nike-acg-pegasus-trail-gore-tex-women",
       "weight_oz": 8.75,
-      "toe_box": null,
+      "toe_box": "Extra room in the toe box and forefoot (Nike description)",
       "use_case": "Trail running",
       "foam": "ReactX",
       "price_usd": 175.0,
@@ -7970,6 +7993,13 @@
             ],
             "url": "https://www.nike.com/t/acg-pegasus-trail-gore-tex-womens-waterproof-trail-running-shoes-JR5QA6yA/IQ1394-004",
             "note": "Midsole and summary checked against this version’s manufacturer description."
+          },
+          {
+            "fields": [
+              "toe_box"
+            ],
+            "url": "https://www.nike.com/t/acg-pegasus-trail-gore-tex-womens-waterproof-trail-running-shoes-JR5QA6yA/IQ1394-004",
+            "note": "Manufacturer wording checked for this gender and model; no independent fit or gait measurement inferred."
           }
         ],
         "remaining_gaps": [
@@ -8003,7 +8033,12 @@
       "source_type": "manufacturer",
       "sourced_at": "2026-10-19",
       "source_notes": "Unverified specifications remain blank; retailer measurements have not been substituted for manufacturer measurements.",
-      "manufacturer_support": null,
+      "manufacturer_support": {
+        "wording": "Recommended for neutral pronators",
+        "source_url": "https://us.puma.com/us/en/pd/magnify-nitro-3-womens-road-running-shoes/311047",
+        "scope": "gender-specific model",
+        "checked_at": "2026-10-19"
+      },
       "release_supporting_sources": [
         "https://www.prorunners.pt/equipamento/36/2908/puma-lanca-magnify-nitro-3"
       ],
@@ -8025,6 +8060,13 @@
             ],
             "url": "https://us.puma.com/us/en/pd/magnify-nitro-3-womens-road-running-shoes/311047",
             "note": "Midsole and summary checked against this version’s manufacturer description."
+          },
+          {
+            "fields": [
+              "manufacturer_support"
+            ],
+            "url": "https://us.puma.com/us/en/pd/magnify-nitro-3-womens-road-running-shoes/311047",
+            "note": "Manufacturer wording checked for this gender and model; no independent fit or gait measurement inferred."
           }
         ]
       }
@@ -8529,7 +8571,7 @@
       "weight_oz": 11.39,
       "stack_heel_mm": null,
       "stack_forefoot_mm": null,
-      "toe_box": null,
+      "toe_box": "More toe and forefoot room than Pegasus 41 (Nike description)",
       "use_case": "Daily road running",
       "foam": "ReactX",
       "price_usd": 165.0,
@@ -8564,6 +8606,13 @@
             ],
             "url": "https://www.nike.com/t/pegasus-42-gore-tex-mens-waterproof-road-running-shoes-Q8TUua54/IQ0455-001",
             "note": "Midsole and summary checked against this version’s manufacturer description."
+          },
+          {
+            "fields": [
+              "toe_box"
+            ],
+            "url": "https://www.nike.com/t/pegasus-42-gore-tex-mens-waterproof-road-running-shoes-Q8TUua54/IQ0455-001",
+            "note": "Manufacturer wording checked for this gender and model; no independent fit or gait measurement inferred."
           }
         ],
         "remaining_gaps": [
@@ -8581,7 +8630,7 @@
       "weight_oz": 9.24,
       "stack_heel_mm": null,
       "stack_forefoot_mm": null,
-      "toe_box": null,
+      "toe_box": "More toe and forefoot room than Pegasus 41 (Nike description)",
       "use_case": "Daily road running",
       "foam": "ReactX",
       "price_usd": 165.0,
@@ -8616,6 +8665,13 @@
             ],
             "url": "https://www.nike.com/t/pegasus-42-gore-tex-womens-waterproof-road-running-shoes-2yqPS6pc/IQ0465-001",
             "note": "Midsole and summary checked against this version’s manufacturer description."
+          },
+          {
+            "fields": [
+              "toe_box"
+            ],
+            "url": "https://www.nike.com/t/pegasus-42-gore-tex-womens-waterproof-road-running-shoes-2yqPS6pc/IQ0465-001",
+            "note": "Manufacturer wording checked for this gender and model; no independent fit or gait measurement inferred."
           }
         ],
         "remaining_gaps": [
@@ -9195,7 +9251,12 @@
       "source_type": "manufacturer",
       "sourced_at": "2026-10-19",
       "source_notes": "Weight in ounces is converted from manufacturer grams. ",
-      "manufacturer_support": null,
+      "manufacturer_support": {
+        "wording": "Recommended for: neutral pronators",
+        "source_url": "https://us.puma.com/us/en/pd/deviate-nitro-elite-3-mens-road-running-shoes/309809",
+        "scope": "gender-specific model",
+        "checked_at": "2026-10-19"
+      },
       "release_date": "2024-06-17",
       "release_source_url": "https://mediahub.puma.com/articles/puma-drops-two-new-deviate-shoes-destined-to-deliver-your-personal-best",
       "release_source_type": "manufacturer_announcement",
@@ -9210,6 +9271,13 @@
             ],
             "url": "https://us.puma.com/us/en/pd/deviate-nitro-elite-3-mens-road-running-shoes/309809",
             "note": "US regular/list price from the linked manufacturer page; sale price excluded."
+          },
+          {
+            "fields": [
+              "manufacturer_support"
+            ],
+            "url": "https://us.puma.com/us/en/pd/deviate-nitro-elite-3-mens-road-running-shoes/309809",
+            "note": "Manufacturer wording checked for this gender and model; no independent fit or gait measurement inferred."
           }
         ]
       }
