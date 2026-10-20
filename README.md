@@ -75,3 +75,9 @@ Current total: 223 entries, comprising 108 men’s, 111 women’s and four unise
 ## Weekly workflow test — October 19, 2026
 
 Current catalog: 227 entries (111 men, 112 women, four unisex). Re-reviewed four formerly age-excluded, nonduplicate running shoes under the flexible recency policy: Nike Alphafly 3 men/women, PUMA Deviate NITRO Elite 3 men, and Saucony Ride TR2 GTX men. Manufacturer specifications and original 2024 launch sources are linked; uncertain fields and prices remain blank. Corrected women’s Magnify NITRO 3 to road running; it was incorrectly included in the trail filter. Earlier totals and holds above are historical snapshots.
+
+## Sharing a view
+
+Search, gender, brand, drop, intended use, listed weight and sort are saved in URL query parameters (`q`, `gender`, `brand`, `drop`, `use`, `weight`, `sort`). Copy link shares the current view; if clipboard access is unavailable, a selectable link appears for manual copying. Reopening the link restores the controls and results. Browser Back and Forward restore previous selections; search edits are grouped after a short typing pause. Reset all removes the catalog parameters. Unsupported select values fall back to All; unrelated query parameters and URL fragments are preserved. Search text in a shared URL is visible to anyone receiving it.
+
+On phones, a compact bar appears after the original results controls scroll above the screen. It shows the active filter count and matching shoe count. Filters opens and returns to the existing filter panel; Sort returns to and focuses the existing sort selector. The bar stays hidden on desktop and while the original controls are in view.

@@ -43,6 +43,13 @@
     button { cursor: pointer; }
     button:hover { background: #27272a; }
     :focus-visible { outline: 2px solid #6ee7b7; outline-offset: 3px; }
+    [hidden] { display: none !important; }
+    .share-controls { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+    #share-status { font-size: 12px; color: #a1a1aa; }
+    #share-fallback { flex-basis: 100%; }
+    #share-fallback input { margin-top: 4px; }
+    .mobile-tools { display: none; }
+    #results, #toggle-filters { scroll-margin-top: 76px; }
     .results { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; margin: 20px 0; }
     #result-count { color: #a1a1aa; font-size: 14px; }
     #shoe-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; }
@@ -74,6 +81,10 @@
     @media (max-width: 1000px) { #shoe-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
     @media (max-width: 700px) {
       main { padding: 16px; }
+      .mobile-tools { display: flex; position: fixed; inset: 0 0 auto; z-index: 10; gap: 8px; align-items: center; padding: calc(6px + env(safe-area-inset-top)) 12px 6px; background: #09090b; border-bottom: 1px solid #3f3f46; }
+      .mobile-tools button { flex-shrink: 0; }
+      #mobile-result-count { margin-left: auto; font-size: 12px; color: #d4d4d8; text-align: right; }
+      .share-controls { width: 100%; }
       header { padding-bottom: 12px; margin-bottom: 16px; }
       .badge { font-size: 10px; padding: 3px 8px; }
       h1.wordmark { font-size: clamp(32px, 10vw, 44px); letter-spacing: -.045em; margin: 12px 0 10px; }
@@ -186,7 +197,17 @@
         </select>
       </div>
       <button id="reset-filters" type="button">Reset all</button>
+      <div class="share-controls">
+        <button id="copy-link" type="button">Copy link</button>
+        <span id="share-status" role="status" aria-live="polite"></span>
+        <div id="share-fallback" hidden><label for="share-url">Copy this link</label><input id="share-url" type="text" readonly></div>
+      </div>
     </div>
+    <nav class="mobile-tools" id="mobile-tools" aria-label="Catalog controls" hidden>
+      <button id="mobile-filters" type="button" aria-controls="filter-panel">Filters (0)</button>
+      <button id="mobile-sort" type="button" aria-controls="sort-by">Sort</button>
+      <span id="mobile-result-count"></span>
+    </nav>
     <div id="shoe-grid"></div>
     <noscript><p>Enable JavaScript to display and filter the shoe catalog.</p></noscript>
     <footer>Support wording quotes each manufacturer, using a model page that may show a different gender, width or region. These terms are not standardized ratings or recommendations for your gait. “Not verified” means we have not confirmed explicit support wording; it does not mean the shoe has no support. A free project for friends and curious runners. Stack is listed as heel / forefoot in millimeters. Weights use each manufacturer’s reference size where available, so they are not directly comparable across brands. A dash means the specification is missing or has an unresolved source conflict. Descriptions summarize manufacturer information, not hands-on reviews. Brand and product names belong to their respective owners. No brand affiliation is implied.</footer>
@@ -257,6 +278,8 @@
       });
       const activeFilters = [gender, brand, drop, use, weight].filter(value => value !== 'all').length;
       document.getElementById('toggle-filters').textContent = `Filters (${activeFilters})`;
+      document.getElementById('mobile-filters').textContent = `Filters (${activeFilters})`;
+      document.getElementById('mobile-result-count').textContent = `${filtered.length} ${filtered.length === 1 ? 'shoe' : 'shoes'}`;
       const [sortKey, direction] = document.getElementById('sort-by').value.split(':');
       const dealerPrice = shoe => shoe.price_type === 'US dealer price';
       if (['weight_oz', 'drop_mm', 'price_usd'].includes(sortKey)) {
@@ -367,13 +390,87 @@
       results.focus({ preventScroll: true });
       results.scrollIntoView({ block: 'start' });
     });
-    searchInput.addEventListener('input', renderShoes);
-    document.querySelectorAll('select').forEach(el => el.addEventListener('change', renderShoes));
-    document.getElementById('reset-filters').addEventListener('click', () => {
-      searchInput.value = '';
-      document.querySelectorAll('select').forEach(el => { el.value = 'all'; });
-      renderShoes();
+    const viewFields = {
+      q: searchInput, gender: document.getElementById('filter-gender'),
+      brand: document.getElementById('filter-brand'), drop: document.getElementById('filter-drop'),
+      use: document.getElementById('filter-use'), weight: document.getElementById('filter-weight'),
+      sort: document.getElementById('sort-by')
+    };
+    let searchHistoryTimer;
+    function syncURL(replace = false) {
+      const url = new URL(location.href);
+      for (const [key, control] of Object.entries(viewFields)) {
+        const value = control.value;
+        if (value === (key === 'q' ? '' : 'all')) url.searchParams.delete(key);
+        else url.searchParams.set(key, value);
+      }
+      if (url.href !== location.href) history[replace ? 'replaceState' : 'pushState'](null, '', url);
+    }
+    function restoreView() {
+      const params = new URLSearchParams(location.search);
+      for (const [key, control] of Object.entries(viewFields)) {
+        const value = params.get(key);
+        control.value = key === 'q' ? (value || '')
+          : Array.from(control.options).some(option => option.value === value) ? value : 'all';
+      }
+    }
+    function clearShareFeedback() {
+      document.getElementById('share-status').textContent = '';
+      document.getElementById('share-fallback').hidden = true;
+    }
+    searchInput.addEventListener('input', () => {
+      clearShareFeedback(); renderShoes(); clearTimeout(searchHistoryTimer);
+      searchHistoryTimer = setTimeout(() => syncURL(), 400);
     });
+    Object.values(viewFields).filter(control => control !== searchInput).forEach(control => {
+      control.addEventListener('change', () => {
+        clearTimeout(searchHistoryTimer); clearShareFeedback(); renderShoes(); syncURL();
+      });
+    });
+    document.getElementById('reset-filters').addEventListener('click', () => {
+      clearTimeout(searchHistoryTimer);
+      for (const [key, control] of Object.entries(viewFields)) control.value = key === 'q' ? '' : 'all';
+      clearShareFeedback(); renderShoes(); syncURL();
+    });
+    window.addEventListener('popstate', () => {
+      clearTimeout(searchHistoryTimer); restoreView(); clearShareFeedback(); renderShoes(); syncURL(true);
+    });
+    document.getElementById('copy-link').addEventListener('click', async () => {
+      clearTimeout(searchHistoryTimer); syncURL();
+      const sharedURL = location.href;
+      try {
+        await navigator.clipboard.writeText(sharedURL);
+        document.getElementById('share-status').textContent = 'Link copied';
+        document.getElementById('share-fallback').hidden = true;
+      } catch (_) {
+        document.getElementById('share-status').textContent = 'Select and copy the link below.';
+        document.getElementById('share-fallback').hidden = false;
+        const input = document.getElementById('share-url'); input.value = sharedURL; input.focus(); input.select();
+      }
+    });
+    const mobileTools = document.getElementById('mobile-tools');
+    const mobileViewport = window.matchMedia('(max-width: 700px)');
+    function updateMobileTools() {
+      mobileTools.hidden = !mobileViewport.matches || document.getElementById('results').getBoundingClientRect().bottom > 0;
+    }
+    const controlsObserver = new IntersectionObserver(updateMobileTools);
+    controlsObserver.observe(document.getElementById('results'));
+    window.addEventListener('scroll', updateMobileTools, { passive: true });
+    window.addEventListener('resize', updateMobileTools);
+    document.getElementById('mobile-filters').addEventListener('click', () => {
+      const toggle = document.getElementById('toggle-filters');
+      toggle.setAttribute('aria-expanded', 'true');
+      document.getElementById('filter-panel').classList.remove('is-collapsed');
+      toggle.scrollIntoView({ block: 'start' });
+      document.getElementById('filter-gender').focus({ preventScroll: true });
+      updateMobileTools();
+    });
+    document.getElementById('mobile-sort').addEventListener('click', () => {
+      document.getElementById('results').scrollIntoView({ block: 'start' });
+      document.getElementById('sort-by').focus({ preventScroll: true });
+      updateMobileTools();
+    });
+    restoreView(); syncURL(true);
     loadShoes();
   </script>
 </body>
