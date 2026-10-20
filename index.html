@@ -327,7 +327,7 @@
         const dealerLabel = shoe.price_type === 'US dealer price'
           ? `Dealer price, checked ${escapeHTML(shoe.price_checked_at || review?.checked_at || 'date not recorded')}` : '';
         const priceText = Number.isFinite(shoe.price_usd)
-          ? `${dealerLabel ? `Dealer $${s.price_usd}<br><small>${dealerLabel}</small>` : `${shoe.price_type === 'US list price' ? 'List' : 'Price'} $${s.price_usd}`}` : '—';
+          ? `${dealerLabel ? `Dealer $${s.price_usd}<br><small>${dealerLabel}</small>` : `${shoe.price_type === 'US list price' ? 'List' : 'Price'} $${s.price_usd}`}` : 'Price not verified';
         const priceDisplay = priceURL ? `<a href="${escapeHTML(priceURL)}" target="_blank" rel="noopener noreferrer" aria-label="Price source">${priceText}</a>` : priceText;
         const stack = Number.isFinite(shoe.stack_heel_mm) && Number.isFinite(shoe.stack_forefoot_mm) ? `${s.stack_heel_mm}/${s.stack_forefoot_mm}` : '—';
         return `<article class="shoe-card" data-shoe-id="${s.id}">
