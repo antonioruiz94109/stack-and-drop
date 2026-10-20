@@ -49,6 +49,9 @@
     #share-fallback { flex-basis: 100%; }
     #share-fallback input { margin-top: 4px; }
     .mobile-tools { display: none; }
+    .mobile-sort-options { max-height: calc(100dvh - 80px - env(safe-area-inset-top)); overflow-y: auto; position: absolute; top: 100%; left: 12px; right: 12px; padding: 8px; background: #18181b; border: 1px solid #3f3f46; border-radius: 8px; box-shadow: 0 8px 24px #0008; }
+    .mobile-sort-options label { display: flex; align-items: center; gap: 10px; min-height: 44px; margin: 0; padding: 8px; font-size: 14px; text-transform: none; letter-spacing: normal; color: #f4f4f5; cursor: pointer; }
+    .mobile-sort-options input { width: auto; min-height: auto; margin: 0; accent-color: #6ee7b7; }
     #results, #toggle-filters { scroll-margin-top: 76px; }
     .results { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; margin: 20px 0; }
     #result-count { color: #a1a1aa; font-size: 14px; }
@@ -84,7 +87,9 @@
       .mobile-tools { display: flex; position: fixed; inset: 0 0 auto; z-index: 10; gap: 8px; align-items: center; padding: calc(6px + env(safe-area-inset-top)) 12px 6px; background: #09090b; border-bottom: 1px solid #3f3f46; }
       .mobile-tools button { flex-shrink: 0; }
       #mobile-result-count { margin-left: auto; font-size: 12px; color: #d4d4d8; text-align: right; }
-      .share-controls { width: 100%; }
+      .share-controls { display: contents; }
+      #share-status, #share-fallback { grid-column: 1 / -1; }
+      #share-status:empty { display: none; }
       header { padding-bottom: 12px; margin-bottom: 16px; }
       .badge { font-size: 10px; padding: 3px 8px; }
       h1.wordmark { font-size: clamp(32px, 10vw, 44px); letter-spacing: -.045em; margin: 12px 0 10px; }
@@ -96,9 +101,9 @@
       .filter-toggle { display: block; width: 100%; margin-bottom: 12px; text-align: left; }
       .filters.is-collapsed { display: none; }
       .filters, #shoe-grid { grid-template-columns: minmax(0, 1fr); }
-      .results { margin: 12px 0 16px; gap: 10px; }
-      #result-count { width: 100%; }
-      .sort-control { flex: 1; }
+      .results { display: grid; grid-template-columns: 1fr 1fr; margin: 12px 0 16px; gap: 10px; }
+      #result-count { grid-column: 1 / -1; }
+      .sort-control { grid-column: 1 / -1; min-width: 0; }
       .sort-control select { width: 100%; }
       #reset-filters { font-size: 12px; }
       .show-results { display: block; width: 100%; background: #6ee7b7; color: #09090b; font-weight: 600; }
@@ -205,8 +210,9 @@
     </div>
     <nav class="mobile-tools" id="mobile-tools" aria-label="Catalog controls" hidden>
       <button id="mobile-filters" type="button" aria-controls="filter-panel">Filters (0)</button>
-      <button id="mobile-sort" type="button" aria-controls="sort-by">Sort</button>
+      <button id="mobile-sort" type="button" aria-controls="mobile-sort-options" aria-expanded="false">Sort</button>
       <span id="mobile-result-count"></span>
+      <div id="mobile-sort-options" class="mobile-sort-options" role="group" aria-label="Sort shoes" hidden></div>
     </nav>
     <div id="shoe-grid"></div>
     <noscript><p>Enable JavaScript to display and filter the shoe catalog.</p></noscript>
@@ -237,13 +243,22 @@
       return result + escapeHTML(value.slice(start));
     }
 
+    function priceSourceURL(shoe) {
+      try {
+        const url = new URL(shoe.price_source_url);
+        const hosts = ['www.altrarunning.com', 'www.topoathletic.com', 'www.nike.com', 'www.newbalance.com', 'www.asics.com', 'www.saucony.com', 'www.brooksrunning.com', 'restart.brooksrunning.com', 'stores.brooksrunning.com', 'stores.hoka.com', 'www.adidas.com', 'news.adidas.com', 'us.puma.com'];
+        return url.protocol === 'https:' && hosts.includes(url.hostname) && url.pathname !== '/' ? url.href : null;
+      } catch (_) { return null; }
+    }
+
     async function loadShoes() {
       try {
         const res = await fetch('./shoes.json');
         if (!res.ok) throw new Error('Catalog request failed');
         const data = await res.json();
         if (!Array.isArray(data.shoes)) throw new Error('Invalid catalog');
-        allShoes = data.shoes;
+        // Untraceable prices are unknown for both display and sorting.
+        allShoes = data.shoes.map(shoe => priceSourceURL(shoe) ? shoe : { ...shoe, price_usd: null });
         document.getElementById('last-updated').textContent = data.last_updated;
         renderShoes();
       } catch (error) {
@@ -340,21 +355,21 @@
           try {
             const url = new URL(item.url);
             if (url.protocol !== 'https:' || !reviewHosts.includes(url.hostname)) return '';
-            const labels = [...new Set(item.fields.map(field => fieldLabels[field]).filter(Boolean))].join(' & ');
-            return `<small><a href="${escapeHTML(url.href)}" target="_blank" rel="noopener noreferrer">${escapeHTML(labels)} source ↗</a> · ${escapeHTML(item.note)}</small>`;
+            const labels = [...new Set(item.fields.filter(field => field !== 'price_usd').map(field => fieldLabels[field]).filter(Boolean))].join(' & ');
+            return `<small>${labels ? `<a href="${escapeHTML(url.href)}" target="_blank" rel="noopener noreferrer">${escapeHTML(labels)} source ↗</a> · ` : ''}${escapeHTML(item.note)}</small>`;
           } catch (_) { return ''; }
         }).join('')}${(review.remaining_gaps || []).map(note => `<small>${escapeHTML(note)}</small>`).join('')}</div>` : priceBasis;
-        const priceSource = [...(review?.sources || [])].reverse().find(item => item.fields.includes('price_usd'));
-        let priceURL = null;
-        try { const url = new URL(priceSource?.url); if (url.protocol === 'https:' && reviewHosts.includes(url.hostname)) priceURL = url.href; } catch (_) {}
+        const priceURL = priceSourceURL(shoe);
+        const priceLink = Number.isFinite(shoe.price_usd) && priceURL
+          ? `<div class="source price-source"><a href="${escapeHTML(priceURL)}" target="_blank" rel="noopener noreferrer">Price source ↗</a></div>` : '';
         const dealerLabel = shoe.price_type === 'US dealer price'
           ? `Dealer price, checked ${escapeHTML(shoe.price_checked_at || review?.checked_at || 'date not recorded')}` : '';
         const priceText = Number.isFinite(shoe.price_usd)
           ? `${dealerLabel ? `Dealer $${s.price_usd}<br><small>${dealerLabel}</small>` : `${shoe.price_type === 'US list price' ? 'List' : 'Price'} $${s.price_usd}`}` : 'Price not verified';
-        const priceDisplay = priceURL ? `<a href="${escapeHTML(priceURL)}" target="_blank" rel="noopener noreferrer" aria-label="Price source">${priceText}</a>` : priceText;
+
         const stack = Number.isFinite(shoe.stack_heel_mm) && Number.isFinite(shoe.stack_forefoot_mm) ? `${s.stack_heel_mm}/${s.stack_forefoot_mm}` : '—';
         return `<article class="shoe-card" data-shoe-id="${s.id}">
-          <div class="card-top"><span class="brand">${s.brand}</span><span class="price">${priceDisplay}</span></div>
+          <div class="card-top"><span class="brand">${s.brand}</span><span class="price">${priceText}</span></div>
           <h2>${shoe.gender === 'women' ? 'Women’s' : shoe.gender === 'men' ? 'Men’s' : shoe.gender === 'unisex' ? 'Unisex' : 'Version not specified'} ${s.model}</h2>
           <p class="use">${s.use_case}</p>
           <dl>
@@ -370,6 +385,7 @@
           ${auditFlag}
           <div class="source manufacturer-support"><strong>Manufacturer’s support wording</strong><br>${supportText}</div>
           ${source}
+          ${priceLink}
           ${completion}
           <div class="source">${specification}${release}</div>
           </details>
@@ -452,6 +468,7 @@
     const mobileViewport = window.matchMedia('(max-width: 700px)');
     function updateMobileTools() {
       mobileTools.hidden = !mobileViewport.matches || document.getElementById('results').getBoundingClientRect().bottom > 0;
+      if (mobileTools.hidden) closeMobileSort();
     }
     const controlsObserver = new IntersectionObserver(updateMobileTools);
     controlsObserver.observe(document.getElementById('results'));
@@ -465,11 +482,42 @@
       document.getElementById('filter-gender').focus({ preventScroll: true });
       updateMobileTools();
     });
-    document.getElementById('mobile-sort').addEventListener('click', () => {
-      document.getElementById('results').scrollIntoView({ block: 'start' });
-      document.getElementById('sort-by').focus({ preventScroll: true });
-      updateMobileTools();
+    const mobileSort = document.getElementById('mobile-sort');
+    const mobileSortOptions = document.getElementById('mobile-sort-options');
+    const mainSort = document.getElementById('sort-by');
+    for (const option of mainSort.options) {
+      const label = document.createElement('label');
+      const radio = document.createElement('input');
+      radio.type = 'radio'; radio.name = 'mobile-sort-choice'; radio.value = option.value;
+      label.append(radio, document.createTextNode(option.textContent));
+      mobileSortOptions.append(label);
+      radio.addEventListener('change', () => {
+        const position = { left: window.scrollX, top: window.scrollY };
+        mainSort.value = radio.value;
+        mainSort.dispatchEvent(new Event('change'));
+        window.scrollTo(position);
+        closeMobileSort(true);
+      });
+    }
+    function closeMobileSort(returnFocus = false) {
+      mobileSortOptions.hidden = true;
+      mobileSort.setAttribute('aria-expanded', 'false');
+      if (returnFocus) mobileSort.focus({ preventScroll: true });
+    }
+    mobileSort.addEventListener('click', () => {
+      if (!mobileSortOptions.hidden) { closeMobileSort(); return; }
+      for (const radio of mobileSortOptions.querySelectorAll('input')) radio.checked = radio.value === mainSort.value;
+      mobileSortOptions.hidden = false;
+      mobileSort.setAttribute('aria-expanded', 'true');
+      mobileSortOptions.querySelector('input:checked').focus({ preventScroll: true });
     });
+    document.addEventListener('keydown', event => {
+      if (event.key === 'Escape' && !mobileSortOptions.hidden) closeMobileSort(true);
+    });
+    document.addEventListener('click', event => {
+      if (!mobileSortOptions.contains(event.target) && !mobileSort.contains(event.target)) closeMobileSort();
+    });
+    window.addEventListener('resize', () => closeMobileSort());
     restoreView(); syncURL(true);
     loadShoes();
   </script>
