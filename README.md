@@ -1,6 +1,6 @@
 # CadenceIndex
 
-A free, static running-shoe directory and learning project. All 223 shoe versions have manufacturer source links and sourcing dates. The original eight entries have been checked and corrected against manufacturer pages. No automated catalog ingestion is implemented.
+A free, static running-shoe directory and learning project. All 227 shoe versions have manufacturer source links and sourcing dates. The original eight entries have been checked and corrected against manufacturer pages. No automated catalog ingestion is implemented.
 
 ## Website
 
@@ -16,11 +16,11 @@ Never upload the entire local folder. `.env`, credentials, backup files and loca
 
 ## Catalog limitations
 
-All 223 records carry manufacturer source URLs, sourcing dates, weight reference sizes where available, and field caveats. Their prices are US list prices rather than live offers. Missing specifications are null and displayed as a dash. Descriptions paraphrase manufacturers, not independent wear tests. Manufacturer data can still be incomplete or inconsistent: Torin 9 lists conflicting ounce/gram weights, and some stack heights and weight reference sizes are not supplied. These caveats are shown on the cards. Brand and product names belong to their respective owners; no affiliation is implied. No third-party visual assets or libraries are distributed. No open-source license has been selected for this project.
+All 227 records carry manufacturer source URLs, sourcing dates, weight reference sizes where available, and field caveats. Their prices are US list prices rather than live offers. Missing specifications are null and displayed as a dash. Descriptions paraphrase manufacturers, not independent wear tests. Manufacturer data can still be incomplete or inconsistent: Torin 9 lists conflicting ounce/gram weights, and some stack heights and weight reference sizes are not supplied. These caveats are shown on the cards. Brand and product names belong to their respective owners; no affiliation is implied. No third-party visual assets or libraries are distributed. No open-source license has been selected for this project.
 
 For future additions, record the manufacturer URL, sourcing date, reference size and field caveats before publishing. Manufacturer sourcing is not independent laboratory validation.
 
-The Men’s / Women’s filter uses separately sourced versions: 108 men’s entries, 111 women’s entries and four unisex entries (223 total). Men’s and women’s versions count separately; colorways and widths do not. Reference sizes differ, so weights are not directly comparable.
+The Men’s / Women’s filter uses separately sourced versions: 111 men’s entries, 112 women’s entries and four unisex entries (227 total). Men’s and women’s versions count separately; colorways and widths do not. Reference sizes differ, so weights are not directly comparable.
 
 The latest 50 additions cover 25 models with separate men's and women's entries, adding adidas and PUMA for ten brands total. The expansion preserved the preceding 84 entries. Across both expansion batches, 100 entries include manufacturer specification sources and separate linked model-release evidence within October 18, 2024–October 18, 2026. The original 34 have now been audited; see the results below.
 
@@ -69,3 +69,7 @@ All 14 prices and uncertain specifications remain blank. Manufacturer product li
 ## Flexible recency policy — October 19, 2026
 
 Current total: 223 entries, comprising 108 men’s, 111 women’s and four unisex versions. Added the 11 previously held release-date entries after confirming manufacturer identity and checking duplicates. The user relaxed the strict two-year cutoff: recency remains a preference, not an exclusion rule. Missing or approximate original release dates alone no longer block otherwise reliable running-shoe entries. These 11 dates remain null and are visibly labeled not verified; no release date has been inferred from current availability. Unknown prices and measurements remain blank. Xodus Ultra 4 GTX panel measurements were withheld because the panel names the standard model. Echelon 10 uses a men’s Wide manufacturer source, without counting width separately. Earlier hold and strict-window statements describe historical reviews, superseded by this policy. Separate hiking, future-release and unresolved identity holds remain unchanged.
+
+## Weekly workflow test — October 19, 2026
+
+Current catalog: 227 entries (111 men, 112 women, four unisex). Re-reviewed four formerly age-excluded, nonduplicate running shoes under the flexible recency policy: Nike Alphafly 3 men/women, PUMA Deviate NITRO Elite 3 men, and Saucony Ride TR2 GTX men. Manufacturer specifications and original 2024 launch sources are linked; uncertain fields and prices remain blank. Corrected women’s Magnify NITRO 3 to road running; it was incorrectly included in the trail filter. Earlier totals and holds above are historical snapshots.
