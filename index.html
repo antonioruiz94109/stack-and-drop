@@ -246,7 +246,7 @@
     function priceSourceURL(shoe) {
       try {
         const url = new URL(shoe.price_source_url);
-        const hosts = ['www.altrarunning.com', 'www.topoathletic.com', 'www.nike.com', 'www.newbalance.com', 'www.asics.com', 'www.saucony.com', 'www.brooksrunning.com', 'restart.brooksrunning.com', 'stores.brooksrunning.com', 'stores.hoka.com', 'www.adidas.com', 'news.adidas.com', 'us.puma.com'];
+        const hosts = ['www.altrarunning.com', 'www.topoathletic.com', 'www.nike.com', 'www.newbalance.com', 'www.asics.com', 'www.saucony.com', 'www.brooksrunning.com', 'stores.brooksrunning.com', 'stores.hoka.com', 'www.adidas.com', 'news.adidas.com', 'us.puma.com'];
         return url.protocol === 'https:' && hosts.includes(url.hostname) && url.pathname !== '/' ? url.href : null;
       } catch (_) { return null; }
     }
@@ -348,7 +348,7 @@
         const auditLabels = {outside_window: 'Older model · outside the audited two-year window', cutoff_uncertain: 'Release cutoff uncertain · October 2024'};
         const auditFlag = auditLabels[shoe.release_audit_status] ? `<p class="notice">${escapeHTML(auditLabels[shoe.release_audit_status])}</p>` : '';
         const review = shoe.completion_review;
-        const reviewHosts = ['www.altrarunning.com', 'www.topoathletic.com', 'www.nike.com', 'www.newbalance.com', 'www.asics.com', 'www.saucony.com', 'www.brooksrunning.com', 'restart.brooksrunning.com', 'stores.brooksrunning.com', 'stores.hoka.com', 'www.adidas.com', 'us.puma.com'];
+        const reviewHosts = ['www.altrarunning.com', 'www.topoathletic.com', 'www.nike.com', 'www.newbalance.com', 'www.asics.com', 'www.saucony.com', 'www.brooksrunning.com', 'stores.brooksrunning.com', 'stores.hoka.com', 'www.adidas.com', 'us.puma.com'];
         const fieldLabels = {price_usd: 'Price', foam: 'Midsole', verdict: 'Description', stack_heel_mm: 'Stack', toe_box: 'Toe box', manufacturer_support: 'Support wording'};
         const priceBasis = Number.isFinite(shoe.price_usd) ? `<small class="price-basis">Price basis: ${escapeHTML(shoe.price_type || 'not recorded')}.</small>` : '';
         const completion = review ? `<div class="source completion-review"><small>Data reviewed ${escapeHTML(review.checked_at)}</small>${priceBasis}${(review.sources || []).map(item => {
