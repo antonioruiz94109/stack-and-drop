@@ -10,7 +10,7 @@ Scope: all ten current catalog brands—Altra, ASICS, Brooks, HOKA, New Balance,
 
 Candidates are unverified. URL-level normalization removes query strings and New Balance color/size identifiers; reviewers must still eliminate accessories, duplicate models, widths and colors, confirm gender, and assess release evidence where available. Recency within two years is preferred, not required. Discovery time is not release time.
 
-Labelled specification excerpts are compared to a prior successful snapshot. These are possible source-text changes, not validated numerical corrections, and may include nearby or related-product wording. First-time snapshots show source evidence beside catalog values in report.json. Weight reference sizes and manufacturer claims need review. Prices are not monitored.
+Labelled specification excerpts are compared to a prior successful snapshot. These are possible source-text changes, not validated numerical corrections, and may include nearby or related-product wording. First-time snapshots show source evidence beside catalog values in report.json. Weight reference sizes and manufacturer claims need review. Prices and missing details are monitored as described below.
 
 Snapshots are cached between runs; if GitHub evicts the cache, the checked-in initial baseline is used. report.json records the comparison date. A failed fetch preserves the last successful snapshot. Review the report before proposing any data change, then run catalog checks and publish qualifying verified changes under standing authorization.
 
@@ -25,3 +25,9 @@ The 11 unresolved entries are tracked in release-holds.json. Each Monday the che
 ## Current publication policy
 
 October 19, 2026: the user authorized flexible recency. Two years is a preference, not a mandatory cutoff. Missing original release evidence alone does not block a nonduplicate running shoe whose manufacturer identity and included information are reliable. Never invent dates; display unverified release dates explicitly, with uncertain specs/prices blank. Age flags are advisory. The former 11 release holds have been published; the watch skips versions already in the catalog. Historical hold requirements above are superseded by this policy. ChatGPT verifies and may publish qualifying updates under standing approval; this Python checker itself stays read-only.
+
+## Price and completeness review
+
+Every run inventories missing prices, weight, drop, heel/forefoot stack, midsole, summary, toe-box and manufacturer support wording. It revisits primary manufacturer pages plus per-field completion source URLs on the same brand’s official domains, including regional and store pages. The report includes existing catalog values, price basis, contextual price/detail excerpts, fetch failures and follow-up research queries. Successful evidence is compared with the last successful snapshot; blocked/empty checks preserve that snapshot. First observations are review baselines, never automatic corrections.
+
+ChatGPT’s Monday review researches avoidable gaps beyond these known URLs and verifies changed or stale values with manufacturer evidence. Price excerpts can refer to sales, related products, regions or colorways: distinguish US regular/list prices from current listed/store prices, preserve source/date and caveats, and never infer MSRP from a range or comparison price. Match gender, model generation, GTX/standard variant and reference size. Unchanged snippets do not establish accuracy. Unsupported fields remain blank; successful verified corrections may be published under standing authorization. Reports include missing-field totals so progress is measurable.

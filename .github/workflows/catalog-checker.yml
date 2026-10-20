@@ -7,6 +7,7 @@ on:
     paths:
       - '.github/workflows/catalog-checker.yml'
       - 'scripts/check_catalog.py'
+      - 'scripts/completion_watch.py'
       - 'scripts/test_check_catalog.py'
       - 'scripts/release_watch.py'
       - 'scripts/release-holds.json'

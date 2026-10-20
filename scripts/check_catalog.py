@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Read-only discovery and source-change monitor. Never writes shoes.json."""
 from release_watch import review as review_release_holds
+from completion_watch import sources as completion_sources, review as review_completion
 import argparse, concurrent.futures, datetime as dt, hashlib, json, re, urllib.request
 from html.parser import HTMLParser
 from pathlib import Path
@@ -78,7 +79,7 @@ def run(catalog,previous,output):
  previous_path=Path(previous)
  if not previous_path.exists(): previous_path=Path(__file__).with_name('catalog-baseline.json')
  old=json.loads(previous_path.read_text()) if previous_path.exists() else {'sources':{},'candidates':[]}
- urls=sorted(set([s['source_url'] for s in shoes]+[u for us in BRANDS.values() for u in us]))
+ urls=sorted(set([u for s in shoes for u in completion_sources(s)]+[s['source_url'] for s in shoes]+[u for us in BRANDS.values() for u in us]))
  with concurrent.futures.ThreadPoolExecutor(max_workers=3) as pool: pages=dict(zip(urls,pool.map(fetch,urls)))
  snapshot={'checked_at':str(today),'sources':dict(old.get('sources',{})),'candidates':[]}; problems=[];changes=[];baseline=[];age=[];candidates={}
  for s in shoes:
@@ -115,6 +116,8 @@ def run(catalog,previous,output):
   entries=[s for s in shoes if s['brand']==brand]
   coverage[brand]={'entries':len(entries),'pages_fetched':sum(pages[s['source_url']]['ok'] for s in entries),'specs_extracted':sum(pages[s['source_url']]['ok'] and bool(evidence(pages[s['source_url']]['text'])) for s in entries),'discovery_pages_fetched':sum(pages[u]['ok'] for u in listing_urls),'discovery_pages':len(listing_urls),'pending_candidates':sum(v['brand']==brand for v in candidates.values())}
  report={'checked_at':str(today),'brand_coverage':coverage,'comparison_baseline':old.get('checked_at','none'),'scope':{b:sum(s['brand']==b for s in shoes) for b in BRANDS},'source_checks':len(shoes),'successful_fetches':sum(pages[s['source_url']]['ok'] for s in shoes),'new_candidates':new,'pending_candidates':list(candidates.values()),'possible_spec_changes':changes,'initial_baselines':baseline,'age_flags':age,'coverage_problems':problems}
+ completion,completion_state=review_completion(shoes,old,pages,str(today))
+ report['data_completion']=completion;snapshot['completion_watch']=completion_state
  held_review,held_snapshot=review_release_holds(shoes,old,fetch)
  snapshot['release_watch']=held_snapshot;report['held_release_review']=held_review
  out=Path(output);out.mkdir(parents=True,exist_ok=True);(out/'report.json').write_text(json.dumps(report,indent=2)+'\n');(out/'snapshot.json').write_text(json.dumps(snapshot,indent=2)+'\n')
@@ -124,6 +127,12 @@ def run(catalog,previous,output):
  lines+=['']
  for title,items in [('Candidates requiring verification',[f"{v['brand']}: [{v['label'].replace('[','').replace(']','')}]({v['url']})" for v in candidates.values()]),('Possible specification changes',[f"{v['id']}: {v['url']}\n  - Before: {'; '.join(v['before'])}\n  - After: {'; '.join(v['after'])}" for v in changes]),('Release age review',age),('Coverage problems',problems),('Initial source baselines',[f"{v['id']}: {'; '.join(v['evidence'])}" for v in baseline])]:
   lines+=['## '+title,'']+(['- '+s for s in items] or ['None.'])+['']
+ lines+=['## Prices and missing details','',completion['policy'],'', 'Missing fields: '+json.dumps(completion['missing_counts']), 'Full existing values, evidence excerpts, failures and follow-up queries for every entry are in report.json.','']
+ for row in completion['entries']:
+  statuses=[x['status'] for x in row['sources']]
+  if row['missing_fields'] or any(x!='unchanged_excerpt' for x in statuses):
+   lines.append('- '+row['id']+': missing '+(', '.join(row['missing_fields']) or 'none')+'; sources '+', '.join(statuses))
+ lines+=['']
  lines+=['## Held release evidence watch','', 'Known sources only; not an exhaustive web search. Unpublished entries require source and identity review. Missing release dates alone do not block reliable running shoes. A new date or changed text is not automatic clearance.','']
  for h in held_review:
   lines += [f"- {h['brand']} {h['model']} ({h['gender']}): {h['missing_evidence']}",'  - Follow-up search: '+h['research_query']]

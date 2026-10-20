@@ -46,3 +46,19 @@ class ReleaseHoldTests(unittest.TestCase):
    self.assertEqual(preserved,state);self.assertEqual(rows[0]['sources'][0]['status'],'unavailable')
    rows,_=review([dict(brand='Nike',model='Test GTX',gender='women')],{},lambda u:page,path)
    self.assertEqual(rows,[])
+
+class CompletionTests(unittest.TestCase):
+ def test_prices_missing_details_and_failed_baseline(self):
+  from completion_watch import review, sources
+  shoe=dict(id='test',brand='Nike',model='Test',gender='women',source_url='https://www.nike.com/t/test',price_usd=150,completion_review={'sources':[{'url':'https://www.nike.com/t/price'},{'url':'https://evil.test/price'}]})
+  urls=sources(shoe);self.assertEqual(len(urls),2)
+  pages={u:dict(ok=True,url=u,text='Test women Regular $150 Sale $120 Weight: 8 oz Midsole: foam') for u in urls}
+  report,state=review([shoe],{},pages,'2026-10-19');self.assertEqual(report['missing_counts']['price_usd'],0);self.assertEqual(report['missing_counts']['stack_heel_mm'],1)
+  self.assertEqual(report['entries'][0]['sources'][0]['status'],'baseline_for_review')
+  pages={u:dict(ok=True,url=u,text='Test women Regular $160 Sale $130 Weight: 8 oz Midsole: foam') for u in urls}
+  report,new=review([shoe],{'completion_watch':state},pages,'2026-10-26');self.assertEqual(report['entries'][0]['sources'][0]['status'],'changed_for_review')
+  for p in pages.values():p.update(ok=False,error='403')
+  report,preserved=review([shoe],{'completion_watch':new},pages,'2026-11-02');self.assertEqual(preserved,new);self.assertEqual(report['entries'][0]['sources'][0]['status'],'unavailable')
+  for p in pages.values():p.update(ok=True,text='Please enable JavaScript')
+  report,preserved=review([shoe],{'completion_watch':new},pages,'2026-11-02');self.assertEqual(preserved,new);self.assertEqual(report['entries'][0]['sources'][0]['status'],'no_evidence')
+  self.assertEqual(shoe['price_usd'],150)
