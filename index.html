@@ -356,8 +356,8 @@
         const auditLabels = {outside_window: 'Older model · outside the audited two-year window', cutoff_uncertain: 'Release cutoff uncertain · October 2024'};
         const auditFlag = auditLabels[shoe.release_audit_status] ? `<p class="notice">${escapeHTML(auditLabels[shoe.release_audit_status])}</p>` : '';
         const review = shoe.completion_review;
-        const reviewHosts = ['www.altrarunning.com', 'www.topoathletic.com', 'www.nike.com', 'www.newbalance.com', 'www.asics.com', 'www.saucony.com', 'www.brooksrunning.com', 'stores.brooksrunning.com', 'stores.hoka.com', 'www.adidas.com', 'us.puma.com'];
-        const fieldLabels = {price_usd: 'Price', foam: 'Midsole', verdict: 'Description', stack_heel_mm: 'Stack', toe_box: 'Toe box', manufacturer_support: 'Support wording'};
+        const reviewHosts = ['www.altrarunning.com', 'www.topoathletic.com', 'www.nike.com', 'www.newbalance.com', 'www.asics.com', 'www.saucony.com', 'www.brooksrunning.com', 'stores.brooksrunning.com', 'stores.hoka.com', 'vn.hoka.com', 'www.adidas.com', 'us.puma.com'];
+        const fieldLabels = {price_usd: 'Price', weight_oz: 'Weight', weight_g: 'Weight', drop_mm: 'Drop', foam: 'Midsole', verdict: 'Description', stack_heel_mm: 'Stack', stack_forefoot_mm: 'Stack', toe_box: 'Toe box', manufacturer_support: 'Support wording'};
         const priceBasis = Number.isFinite(shoe.price_usd) ? `<small class="price-basis">Price basis: ${escapeHTML(shoe.price_type || 'not recorded')}.</small>` : '';
         const completion = review ? `<div class="source completion-review"><small>Data reviewed ${escapeHTML(review.checked_at)}</small>${priceBasis}${(review.sources || []).map(item => {
           try {
@@ -375,7 +375,7 @@
         const priceText = Number.isFinite(shoe.price_usd)
           ? `${dealerLabel ? `Dealer $${s.price_usd}<br><small>${dealerLabel}</small>` : `${shoe.price_type === 'US list price' ? 'List' : 'Price'} $${s.price_usd}`}` : 'Price not verified';
 
-        const stack = Number.isFinite(shoe.stack_heel_mm) && Number.isFinite(shoe.stack_forefoot_mm) ? `${s.stack_heel_mm}/${s.stack_forefoot_mm}` : '—';
+        const stack = Number.isFinite(shoe.stack_heel_mm) && Number.isFinite(shoe.stack_forefoot_mm) ? `Heel ${s.stack_heel_mm}<br>Fore ${s.stack_forefoot_mm}` : '—';
         return `<article class="shoe-card" data-shoe-id="${s.id}">
           <div class="card-top"><span class="brand">${s.brand}</span><span class="price">${priceText}</span></div>
           <h2>${shoe.gender === 'women' ? 'Women’s' : shoe.gender === 'men' ? 'Men’s' : shoe.gender === 'unisex' ? 'Unisex' : 'Version not specified'} ${s.model}</h2>
