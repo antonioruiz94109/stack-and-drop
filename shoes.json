@@ -248,7 +248,7 @@
       "use_case": "Daily road running",
       "foam": "ReactX + full-length Air Zoom",
       "price_usd": 145,
-      "verdict": "An everyday road trainer pairing ReactX foam with a full-length Air Zoom unit. Nike describes more forefoot room than in the Pegasus 41.",
+      "verdict": "An everyday road trainer pairing ReactX foam with a full-length Air Zoom unit. Nike describes more forefoot room than in the Pegasus 41. Nike rates its cushioning as “Responsive.”",
       "source_url": "https://www.nike.com/t/pegasus-42-mens-road-running-shoes-S1bYkOza/IB1873-005",
       "source_type": "manufacturer",
       "sourced_at": "2026-10-18",
@@ -263,8 +263,16 @@
       "release_audit_status": "within_window",
       "release_audited_at": "2026-10-19",
       "completion_review": {
-        "checked_at": "2026-10-19",
-        "sources": [],
+        "checked_at": "2026-10-26",
+        "sources": [
+          {
+            "fields": [
+              "verdict"
+            ],
+            "url": "https://www.nike.com/t/pegasus-42-mens-road-running-shoes-S1bYkOza/IB1873-005",
+            "note": "Explicit Nike US Cushion field: Responsive. Checked 2026-10-26. Original description otherwise unchanged."
+          }
+        ],
         "remaining_gaps": [
           "Stack: a consistent heel/forefoot pair for this version was not verified in the official sources checked; no laboratory or other-version measurements substituted."
         ]
@@ -283,7 +291,7 @@
       "use_case": "Daily road running",
       "foam": "ZoomX + ReactX",
       "price_usd": 155,
-      "verdict": "A cushioned road trainer with ZoomX foam layered above ReactX and a 46 mm heel platform.",
+      "verdict": "A cushioned road trainer with ZoomX foam layered above ReactX and a 46 mm heel platform. Nike rates its cushioning as “Maximum.”",
       "source_url": "https://www.nike.com/t/vomero-18-mens-road-running-shoes-NzWnvcC8/HM6803-015",
       "source_type": "manufacturer",
       "sourced_at": "2026-10-18",
@@ -297,7 +305,19 @@
       "release_notes": "Nike’s February 27, 2025 retail update confirms global availability. Model launch applies to men’s and women’s versions.",
       "release_audit_status": "within_window",
       "release_audited_at": "2026-10-19",
-      "price_source_url": "https://www.nike.com/t/vomero-18-mens-road-running-shoes-NzWnvcC8/HM6803-015"
+      "price_source_url": "https://www.nike.com/t/vomero-18-mens-road-running-shoes-NzWnvcC8/HM6803-015",
+      "completion_review": {
+        "checked_at": "2026-10-26",
+        "sources": [
+          {
+            "fields": [
+              "verdict"
+            ],
+            "url": "https://www.nike.com/t/vomero-18-mens-road-running-shoes-NzWnvcC8/HM6803-015",
+            "note": "Explicit Nike US Cushion field: Maximum. Checked 2026-10-26. Original description otherwise unchanged."
+          }
+        ]
+      }
     },
     {
       "id": "nike-structure-26",
@@ -311,7 +331,7 @@
       "use_case": "Daily road running / Support",
       "foam": "ReactX",
       "price_usd": 145,
-      "verdict": "A road trainer combining ReactX cushioning with a support system around the arch and heel.",
+      "verdict": "A road trainer combining ReactX cushioning with a support system around the arch and heel. Nike rates its cushioning as “Supportive.”",
       "source_url": "https://www.nike.com/t/structure-26-mens-road-running-shoes-M4sx9fru/HJ1102-100",
       "source_type": "manufacturer",
       "sourced_at": "2026-10-18",
@@ -331,8 +351,16 @@
       "release_audit_status": "within_window",
       "release_audited_at": "2026-10-19",
       "completion_review": {
-        "checked_at": "2026-10-19",
-        "sources": [],
+        "checked_at": "2026-10-26",
+        "sources": [
+          {
+            "fields": [
+              "verdict"
+            ],
+            "url": "https://www.nike.com/t/structure-26-mens-road-running-shoes-M4sx9fru/HJ1102-100",
+            "note": "Explicit Nike US Cushion field: Supportive. Checked 2026-10-26. Original description otherwise unchanged."
+          }
+        ],
         "remaining_gaps": [
           "Stack: a consistent heel/forefoot pair for this version was not verified in the official sources checked; no laboratory or other-version measurements substituted."
         ]
@@ -1147,7 +1175,7 @@
       "price_type": "US list price",
       "toe_box": "Roomier than Pegasus 41 (Nike description)",
       "use_case": "Daily road running",
-      "verdict": "An everyday road trainer with ReactX foam and full-length Air Zoom cushioning.",
+      "verdict": "An everyday road trainer with ReactX foam and full-length Air Zoom cushioning. Nike rates its cushioning as “Responsive.”",
       "source_url": "https://www.nike.com/t/pegasus-42-womens-road-running-shoes-VCB6baKU/IB1881-001",
       "source_type": "manufacturer",
       "sourced_at": "2026-10-18",
@@ -1160,8 +1188,16 @@
       "release_audit_status": "within_window",
       "release_audited_at": "2026-10-19",
       "completion_review": {
-        "checked_at": "2026-10-19",
-        "sources": [],
+        "checked_at": "2026-10-26",
+        "sources": [
+          {
+            "fields": [
+              "verdict"
+            ],
+            "url": "https://www.nike.com/t/pegasus-42-womens-road-running-shoes-VCB6baKU/IB1881-001",
+            "note": "Explicit Nike US Cushion field: Responsive. Checked 2026-10-26. Original description otherwise unchanged."
+          }
+        ],
         "remaining_gaps": [
           "Stack: a consistent heel/forefoot pair for this version was not verified in the official sources checked; no laboratory or other-version measurements substituted."
         ]
@@ -1182,7 +1218,7 @@
       "price_type": "US list price",
       "toe_box": null,
       "use_case": "Daily road running / Long runs",
-      "verdict": "A cushioned road shoe with ZoomX foam above ReactX and a 46 mm heel platform.",
+      "verdict": "A cushioned road shoe with ZoomX foam above ReactX and a 46 mm heel platform. Nike rates its cushioning as “Maximum.”",
       "source_url": "https://www.nike.com/t/vomero-18-womens-road-running-shoes-7rbVWb",
       "source_type": "manufacturer",
       "sourced_at": "2026-10-18",
@@ -1194,7 +1230,19 @@
       "release_notes": "Nike’s February 27, 2025 retail update confirms global availability. Model launch applies to men’s and women’s versions.",
       "release_audit_status": "within_window",
       "release_audited_at": "2026-10-19",
-      "price_source_url": "https://www.nike.com/t/vomero-18-womens-road-running-shoes-7rbVWb"
+      "price_source_url": "https://www.nike.com/t/vomero-18-womens-road-running-shoes-7rbVWb",
+      "completion_review": {
+        "checked_at": "2026-10-26",
+        "sources": [
+          {
+            "fields": [
+              "verdict"
+            ],
+            "url": "https://www.nike.com/t/vomero-18-womens-road-running-shoes-7rbVWb",
+            "note": "Explicit Nike US Cushion field: Maximum. Checked 2026-10-26. Original description otherwise unchanged."
+          }
+        ]
+      }
     },
     {
       "id": "new-balance-rebel-v5-women",
@@ -1249,7 +1297,7 @@
       "use_case": "Daily road running / Long runs / Recovery",
       "foam": "ZoomX",
       "price_usd": 180,
-      "verdict": "A cushioned road trainer with a full-length ZoomX midsole.",
+      "verdict": "A cushioned road trainer with a full-length ZoomX midsole. Nike rates its cushioning as “Maximum.”",
       "source_url": "https://www.nike.com/t/vomero-plus-mens-road-running-shoes-5npsVBwT/IM8336-100",
       "source_type": "manufacturer",
       "sourced_at": "2026-10-18",
@@ -1261,8 +1309,16 @@
       "release_notes": "Global release.",
       "manufacturer_support": null,
       "completion_review": {
-        "checked_at": "2026-10-19",
-        "sources": [],
+        "checked_at": "2026-10-26",
+        "sources": [
+          {
+            "fields": [
+              "verdict"
+            ],
+            "url": "https://www.nike.com/t/vomero-plus-mens-road-running-shoes-5npsVBwT/IM8336-100",
+            "note": "Explicit Nike US Cushion field: Maximum. Checked 2026-10-26. Original description otherwise unchanged."
+          }
+        ],
         "remaining_gaps": [
           "Stack: a consistent heel/forefoot pair for this version was not verified in the official sources checked; no laboratory or other-version measurements substituted."
         ]
@@ -1282,7 +1338,7 @@
       "use_case": "Daily road running / Long runs / Recovery",
       "foam": "ZoomX",
       "price_usd": 180,
-      "verdict": "A cushioned road trainer with a full-length ZoomX midsole.",
+      "verdict": "A cushioned road trainer with a full-length ZoomX midsole. Nike rates its cushioning as “Maximum.”",
       "source_url": "https://www.nike.com/t/vomero-plus-womens-road-running-shoes-8AH6updi/HV8154-013",
       "source_type": "manufacturer",
       "sourced_at": "2026-10-18",
@@ -1294,8 +1350,16 @@
       "release_notes": "Global release.",
       "manufacturer_support": null,
       "completion_review": {
-        "checked_at": "2026-10-19",
-        "sources": [],
+        "checked_at": "2026-10-26",
+        "sources": [
+          {
+            "fields": [
+              "verdict"
+            ],
+            "url": "https://www.nike.com/t/vomero-plus-womens-road-running-shoes-8AH6updi/HV8154-013",
+            "note": "Explicit Nike US Cushion field: Maximum. Checked 2026-10-26. Original description otherwise unchanged."
+          }
+        ],
         "remaining_gaps": [
           "Stack: a consistent heel/forefoot pair for this version was not verified in the official sources checked; no laboratory or other-version measurements substituted."
         ]
@@ -1321,7 +1385,7 @@
       "sourced_at": "2026-10-18",
       "weight_reference_size": "Men's US 10",
       "price_type": "US list price",
-      "source_notes": "Approximate weight at the stated reference size. Stack heights and toe-box shape are not specified on this product page. Cleanup review 2026-10-25: Single stack number: Nike’s official prototype article states a 55 mm heel but supplies no forefoot or gender assignment; retained blank rather than deriving a pair from drop.",
+      "source_notes": "Approximate weight at the stated reference size. Stack heights and toe-box shape are not specified on this product page. Cleanup review 2026-10-25: Single stack number: Nike’s official prototype article states a 55 mm heel but supplies no forefoot or gender assignment; retained blank rather than deriving a pair from drop. Cushion review 2026-10-26: No explicit model-specific Cushion field verified on the retrieved US product page; wording in a summary, customer review or another model is not used as a rating.",
       "release_date": "2025-10-02",
       "release_source_url": "https://about.nike.com/en/newsroom/releases/nike-vomero-plus-vomero-premium-official-images",
       "release_notes": "Select retailers October 2; global release October 16, 2025.",
@@ -1348,7 +1412,7 @@
       "use_case": "Daily road running / Recovery",
       "foam": "ZoomX + Air Zoom",
       "price_usd": 230,
-      "verdict": "A highly cushioned road shoe with ZoomX foam and two Air Zoom units.",
+      "verdict": "A highly cushioned road shoe with ZoomX foam and two Air Zoom units. Nike rates its cushioning as “Maximum.”",
       "source_url": "https://www.nike.com/t/vomero-premium-womens-road-running-shoes-HACQbkxM/HM5973-004",
       "source_type": "manufacturer",
       "sourced_at": "2026-10-18",
@@ -1360,8 +1424,16 @@
       "release_notes": "Select retailers October 2; global release October 16, 2025.",
       "manufacturer_support": null,
       "completion_review": {
-        "checked_at": "2026-10-19",
-        "sources": [],
+        "checked_at": "2026-10-26",
+        "sources": [
+          {
+            "fields": [
+              "verdict"
+            ],
+            "url": "https://www.nike.com/t/vomero-premium-womens-road-running-shoes-HACQbkxM/HM5973-004",
+            "note": "Explicit Nike US Cushion field: Maximum. Checked 2026-10-26. Original description otherwise unchanged."
+          }
+        ],
         "remaining_gaps": [
           "Stack: a consistent heel/forefoot pair for this version was not verified in the official sources checked; no laboratory or other-version measurements substituted."
         ]
@@ -1381,7 +1453,7 @@
       "use_case": "Daily road running / Long runs",
       "foam": "ZoomX + Air Zoom + ReactX",
       "price_usd": 220,
-      "verdict": "A road trainer combining two foams with a full-length Air Zoom unit.",
+      "verdict": "A road trainer combining two foams with a full-length Air Zoom unit. Nike rates its cushioning as “Responsive.”",
       "source_url": "https://www.nike.com/t/pegasus-premium-mens-road-running-shoes-kWXqW9yR/HQ2592-023",
       "source_type": "manufacturer",
       "sourced_at": "2026-10-18",
@@ -1393,8 +1465,16 @@
       "release_notes": "January 30 outside China; February 6 in China.",
       "manufacturer_support": null,
       "completion_review": {
-        "checked_at": "2026-10-19",
-        "sources": [],
+        "checked_at": "2026-10-26",
+        "sources": [
+          {
+            "fields": [
+              "verdict"
+            ],
+            "url": "https://www.nike.com/t/pegasus-premium-mens-road-running-shoes-kWXqW9yR/HQ2592-023",
+            "note": "Explicit Nike US Cushion field: Responsive. Checked 2026-10-26. Original description otherwise unchanged."
+          }
+        ],
         "remaining_gaps": [
           "Stack: a consistent heel/forefoot pair for this version was not verified in the official sources checked; no laboratory or other-version measurements substituted."
         ]
@@ -1414,7 +1494,7 @@
       "use_case": "Daily road running / Long runs",
       "foam": "ZoomX + Air Zoom + ReactX",
       "price_usd": 220,
-      "verdict": "A road trainer combining two foams with a full-length Air Zoom unit.",
+      "verdict": "A road trainer combining two foams with a full-length Air Zoom unit. Nike rates its cushioning as “Responsive.”",
       "source_url": "https://www.nike.com/t/pegasus-premium-womens-road-running-shoes-OHKEqA2b",
       "source_type": "manufacturer",
       "sourced_at": "2026-10-18",
@@ -1426,8 +1506,16 @@
       "release_notes": "January 30 outside China; February 6 in China.",
       "manufacturer_support": null,
       "completion_review": {
-        "checked_at": "2026-10-19",
-        "sources": [],
+        "checked_at": "2026-10-26",
+        "sources": [
+          {
+            "fields": [
+              "verdict"
+            ],
+            "url": "https://www.nike.com/t/pegasus-premium-womens-road-running-shoes-OHKEqA2b",
+            "note": "Explicit Nike US Cushion field: Responsive. Checked 2026-10-26. Original description otherwise unchanged."
+          }
+        ],
         "remaining_gaps": [
           "Stack: a consistent heel/forefoot pair for this version was not verified in the official sources checked; no laboratory or other-version measurements substituted."
         ]
@@ -1447,7 +1535,7 @@
       "use_case": "Daily road running / Long runs / Support",
       "foam": "ZoomX + ReactX",
       "price_usd": 170,
-      "verdict": "A stability trainer with layered foam and a midfoot support system.",
+      "verdict": "A stability trainer with layered foam and a midfoot support system. Nike rates its cushioning as “Supportive.”",
       "source_url": "https://www.nike.com/t/structure-plus-mens-road-running-shoes-XEfeTqfe/HQ3048-004",
       "source_type": "manufacturer",
       "sourced_at": "2026-10-18",
@@ -1464,8 +1552,16 @@
         "checked_at": "2026-10-18"
       },
       "completion_review": {
-        "checked_at": "2026-10-19",
-        "sources": [],
+        "checked_at": "2026-10-26",
+        "sources": [
+          {
+            "fields": [
+              "verdict"
+            ],
+            "url": "https://www.nike.com/t/structure-plus-mens-road-running-shoes-XEfeTqfe/HQ3048-004",
+            "note": "Explicit Nike US Cushion field: Supportive. Checked 2026-10-26. Original description otherwise unchanged."
+          }
+        ],
         "remaining_gaps": [
           "Stack: a consistent heel/forefoot pair for this version was not verified in the official sources checked; no laboratory or other-version measurements substituted."
         ]
@@ -1485,7 +1581,7 @@
       "use_case": "Daily road running / Long runs / Support",
       "foam": "ZoomX + ReactX",
       "price_usd": 170,
-      "verdict": "A stability trainer with layered foam and a midfoot support system.",
+      "verdict": "A stability trainer with layered foam and a midfoot support system. Nike rates its cushioning as “Supportive.”",
       "source_url": "https://www.nike.com/t/structure-plus-womens-road-running-shoes-NJkCB7IB/HQ3049-001",
       "source_type": "manufacturer",
       "sourced_at": "2026-10-18",
@@ -1502,8 +1598,16 @@
         "checked_at": "2026-10-18"
       },
       "completion_review": {
-        "checked_at": "2026-10-19",
-        "sources": [],
+        "checked_at": "2026-10-26",
+        "sources": [
+          {
+            "fields": [
+              "verdict"
+            ],
+            "url": "https://www.nike.com/t/structure-plus-womens-road-running-shoes-NJkCB7IB/HQ3049-001",
+            "note": "Explicit Nike US Cushion field: Supportive. Checked 2026-10-26. Original description otherwise unchanged."
+          }
+        ],
         "remaining_gaps": [
           "Stack: a consistent heel/forefoot pair for this version was not verified in the official sources checked; no laboratory or other-version measurements substituted."
         ]
@@ -1529,7 +1633,7 @@
       "sourced_at": "2026-10-18",
       "weight_reference_size": "Men's US 10",
       "price_type": "US list price",
-      "source_notes": "Approximate weight at the stated reference size. Stack heights and toe-box shape are not specified on this product page. Cleanup review 2026-10-25: Retrieved exact US product text does not supply a verified heel/forefoot pair for this version; no forefoot value calculated from drop.",
+      "source_notes": "Approximate weight at the stated reference size. Stack heights and toe-box shape are not specified on this product page. Cleanup review 2026-10-25: Retrieved exact US product text does not supply a verified heel/forefoot pair for this version; no forefoot value calculated from drop. Cushion review 2026-10-26: No explicit model-specific Cushion field verified on the retrieved US product page; wording in a summary, customer review or another model is not used as a rating.",
       "release_date": "2024-11-01",
       "release_source_url": "https://about.nike.com/en/newsroom/releases/zoom-fly-6-official-images",
       "release_notes": "Global release.",
@@ -1562,7 +1666,7 @@
       "sourced_at": "2026-10-18",
       "weight_reference_size": "Women's US 8",
       "price_type": "US list price",
-      "source_notes": "Approximate weight at the stated reference size. Stack heights and toe-box shape are not specified on this product page. This color page lists 214 g / 7.5 oz; another Nike color page lists 7.7 oz for the same gram weight. Cleanup review 2026-10-25: Retrieved exact US product text does not supply a verified heel/forefoot pair for this version; no forefoot value calculated from drop.",
+      "source_notes": "Approximate weight at the stated reference size. Stack heights and toe-box shape are not specified on this product page. This color page lists 214 g / 7.5 oz; another Nike color page lists 7.7 oz for the same gram weight. Cleanup review 2026-10-25: Retrieved exact US product text does not supply a verified heel/forefoot pair for this version; no forefoot value calculated from drop. Cushion review 2026-10-26: No explicit model-specific Cushion field verified on the retrieved US product page; wording in a summary, customer review or another model is not used as a rating.",
       "release_date": "2024-11-01",
       "release_source_url": "https://about.nike.com/en/newsroom/releases/zoom-fly-6-official-images",
       "release_notes": "Global release.",
@@ -1595,7 +1699,7 @@
       "sourced_at": "2026-10-18",
       "weight_reference_size": "Men's US 10",
       "price_type": "US list price",
-      "source_notes": "Approximate weight at the stated reference size. Stack heights and toe-box shape are not specified on this product page. Cleanup review 2026-10-25: Retrieved exact US product text does not supply a verified heel/forefoot pair for this version; no forefoot value calculated from drop.",
+      "source_notes": "Approximate weight at the stated reference size. Stack heights and toe-box shape are not specified on this product page. Cleanup review 2026-10-25: Retrieved exact US product text does not supply a verified heel/forefoot pair for this version; no forefoot value calculated from drop. Cushion review 2026-10-26: No explicit model-specific Cushion field verified on the retrieved US product page; wording in a summary, customer review or another model is not used as a rating.",
       "release_date": "2025-03-01",
       "release_source_url": "https://www.nike.com/a/nike-vaporfly4-streakfly2-release-info",
       "release_notes": "Proto colorway in some geographies March 1; additional colors April 2025.",
@@ -1628,7 +1732,7 @@
       "sourced_at": "2026-10-18",
       "weight_reference_size": "Women's US 8",
       "price_type": "US list price",
-      "source_notes": "Approximate weight at the stated reference size. Stack heights and toe-box shape are not specified on this product page. Cleanup review 2026-10-25: Retrieved exact US product text does not supply a verified heel/forefoot pair for this version; no forefoot value calculated from drop.",
+      "source_notes": "Approximate weight at the stated reference size. Stack heights and toe-box shape are not specified on this product page. Cleanup review 2026-10-25: Retrieved exact US product text does not supply a verified heel/forefoot pair for this version; no forefoot value calculated from drop. Cushion review 2026-10-26: No explicit model-specific Cushion field verified on the retrieved US product page; wording in a summary, customer review or another model is not used as a rating.",
       "release_date": "2025-03-01",
       "release_source_url": "https://www.nike.com/a/nike-vaporfly4-streakfly2-release-info",
       "release_notes": "Proto colorway in some geographies March 1; additional colors April 2025.",
@@ -1923,98 +2027,76 @@
       "price_source_url": "https://www.saucony.com/en/peregrine-16/60850W.html?dwvar_60850W_color=S11066-130"
     },
     {
-      "id": "brooks-ghost-17-men",
+      "id": "brooks-ghost-18-men",
       "brand": "Brooks",
-      "model": "Ghost 17",
+      "model": "Ghost 18",
       "gender": "men",
       "drop_mm": 10,
-      "weight_oz": 10.1,
+      "weight_oz": 10.2,
+      "weight_g": 289.2,
       "stack_heel_mm": null,
       "stack_forefoot_mm": null,
       "toe_box": null,
       "use_case": "Daily road running / Walking",
       "foam": "DNA LOFT v3",
       "price_usd": 150,
-      "verdict": "A neutral road trainer with nitrogen-infused cushioning and a redesigned upper.",
-      "source_url": "https://www.brooksrunning.com/en_ie/mens/road-running-shoes/ghost-17/110442.html",
+      "price_type": "US store listing",
+      "price_source_url": "https://www.brooksrunning.com/en_us/mens/shoes/road-running-shoes/ghost-18/110493.html",
+      "price_checked_at": "2026-10-26",
+      "verdict": "A daily road trainer with an updated tongue and secure fit. Brooks rates its cushioning as “Balanced.”",
+      "source_url": "https://www.brooksrunning.com/en_us/mens/shoes/road-running-shoes/ghost-18/110493.html",
       "source_type": "manufacturer",
-      "sourced_at": "2026-10-18",
+      "sourced_at": "2026-10-26",
       "weight_reference_size": null,
-      "price_type": "US list price",
-      "source_notes": "Manufacturer-listed weights; reference size, total stack heights and toe-box shape not specified. Cleanup review 2026-10-25: Gender and measurement scope unclear: official Ghost comparison gives midsole-only ratios without gender assignment; not a verified total heel/forefoot stack pair.",
-      "release_date": "2025-05-01",
-      "release_source_url": "https://www.al.com/shopping/2025/05/the-brand-new-brooks-ghost-17-running-shoe-just-dropped-what-to-know.html",
-      "release_notes": "Reported model launch; regional availability may differ.",
+      "source_notes": "Weight and 10 mm drop verified separately on this gender’s US product page; reference size, heel/forefoot stack and toe-box classification were not verified and remain blank. DNA LOFT v3 is identified in the official Ghost 18 Japan launch announcement linked below. Price is the current $150 US store listing, not a verified list price; availability varies by size/color. Japan release is not represented as the US first-sale date.",
       "manufacturer_support": {
         "wording": "Balanced support",
-        "source_url": "https://www.brooksrunning.com/en_us/ghost-17/1104422E041.075.html",
-        "scope": "model",
-        "checked_at": "2026-10-18"
+        "source_url": "https://www.brooksrunning.com/en_us/mens/shoes/road-running-shoes/ghost-18/110493.html",
+        "scope": "gender-specific model",
+        "checked_at": "2026-10-26"
       },
-      "completion_review": {
-        "checked_at": "2026-10-19",
-        "sources": [
-          {
-            "fields": [
-              "price_usd",
-              "price_type"
-            ],
-            "url": "https://www.brooksrunning.com/en_us/ghost-17/1104421D112.110.html",
-            "note": "US regular/list price from the linked manufacturer page; sale price excluded."
-          }
-        ],
-        "remaining_gaps": [
-          "Stack: a consistent heel/forefoot pair for this version was not verified in the official sources checked; no laboratory or other-version measurements substituted."
-        ]
-      },
-      "price_source_url": "https://www.brooksrunning.com/en_us/ghost-17/1104421D112.110.html"
+      "release_date": "2026-06",
+      "release_source_url": "https://prtimes.jp/main/html/rd/p/000000035.000059770.html",
+      "release_source_type": "official launch announcement",
+      "release_notes": "Official Brooks Japan announcement by Achilles, June 9, 2026: advance sales start in mid-June 2026 through the official online shop and selected Brooks stores in Japan. Month precision retained; no exact day or US first-sale date verified.",
+      "release_audit_status": "within_window",
+      "release_audited_at": "2026-10-26"
     },
     {
-      "id": "brooks-ghost-17-women",
+      "id": "brooks-ghost-18-women",
       "brand": "Brooks",
-      "model": "Ghost 17",
+      "model": "Ghost 18",
       "gender": "women",
       "drop_mm": 10,
-      "weight_oz": 9,
+      "weight_oz": 9.2,
+      "weight_g": 260.8,
       "stack_heel_mm": null,
       "stack_forefoot_mm": null,
       "toe_box": null,
       "use_case": "Daily road running / Walking",
       "foam": "DNA LOFT v3",
       "price_usd": 150,
-      "verdict": "A neutral road trainer with nitrogen-infused cushioning and a redesigned upper.",
-      "source_url": "https://www.brooksrunning.com/en_gb/womens/road-running-shoes/ghost-17/1204312A070.095.html",
+      "price_type": "US store listing",
+      "price_source_url": "https://www.brooksrunning.com/en_us/womens/shoes/road-running-shoes/ghost-18/120482.html",
+      "price_checked_at": "2026-10-26",
+      "verdict": "A daily road trainer with an updated tongue and secure fit. Brooks rates its cushioning as “Balanced.”",
+      "source_url": "https://www.brooksrunning.com/en_us/womens/shoes/road-running-shoes/ghost-18/120482.html",
       "source_type": "manufacturer",
-      "sourced_at": "2026-10-18",
+      "sourced_at": "2026-10-26",
       "weight_reference_size": null,
-      "price_type": "US list price",
-      "source_notes": "Manufacturer-listed weights; reference size, total stack heights and toe-box shape not specified. Cleanup review 2026-10-25: Gender and measurement scope unclear: official Ghost comparison gives midsole-only ratios without gender assignment; not a verified total heel/forefoot stack pair.",
-      "release_date": "2025-05-01",
-      "release_source_url": "https://www.al.com/shopping/2025/05/the-brand-new-brooks-ghost-17-running-shoe-just-dropped-what-to-know.html",
-      "release_notes": "Reported model launch; regional availability may differ.",
+      "source_notes": "Weight and 10 mm drop verified separately on this gender’s US product page; reference size, heel/forefoot stack and toe-box classification were not verified and remain blank. DNA LOFT v3 is identified in the official Ghost 18 Japan launch announcement linked below. Price is the current $150 US store listing, not a verified list price; availability varies by size/color. Japan release is not represented as the US first-sale date.",
       "manufacturer_support": {
         "wording": "Balanced support",
-        "source_url": "https://www.brooksrunning.com/en_us/ghost-17/1104422E041.075.html",
-        "scope": "model",
-        "checked_at": "2026-10-18"
+        "source_url": "https://www.brooksrunning.com/en_us/womens/shoes/road-running-shoes/ghost-18/120482.html",
+        "scope": "gender-specific model",
+        "checked_at": "2026-10-26"
       },
-      "completion_review": {
-        "checked_at": "2026-10-19",
-        "sources": [
-          {
-            "fields": [
-              "price_usd",
-              "price_type"
-            ],
-            "url": "https://www.brooksrunning.com/en_us/ghost-17/1104421D112.110.html",
-            "note": "US regular/list price from the linked manufacturer page; sale price excluded."
-          }
-        ],
-        "remaining_gaps": [
-          "Stack: a consistent heel/forefoot pair for this version was not verified in the official sources checked; no laboratory or other-version measurements substituted."
-        ]
-      },
-      "price_source_url": "https://www.brooksrunning.com/en_us/ghost-17/1104421D112.110.html"
+      "release_date": "2026-06",
+      "release_source_url": "https://prtimes.jp/main/html/rd/p/000000035.000059770.html",
+      "release_source_type": "official launch announcement",
+      "release_notes": "Official Brooks Japan announcement by Achilles, June 9, 2026: advance sales start in mid-June 2026 through the official online shop and selected Brooks stores in Japan. Month precision retained; no exact day or US first-sale date verified.",
+      "release_audit_status": "within_window",
+      "release_audited_at": "2026-10-26"
     },
     {
       "id": "brooks-cascadia-19-men",
@@ -2372,7 +2454,7 @@
       "sourced_at": "2026-10-18",
       "weight_reference_size": null,
       "price_type": "US store listing",
-      "source_notes": "Specifications from HOKA Vietnam. Reference size, total stack heights and toe-box shape unspecified; no regional price converted to USD. Cleanup review 2026-10-25: US retrieval blocked; no gender-specific heel/forefoot pair verified in the regional sources checked. Missing data is not evidence of zero stack.",
+      "source_notes": "Specifications from HOKA Vietnam. Reference size, total stack heights and toe-box shape unspecified; no regional price converted to USD. Cleanup review 2026-10-25: US retrieval blocked; no gender-specific heel/forefoot pair verified in the regional sources checked. Missing data is not evidence of zero stack. Cushion review 2026-10-26: HOKA US product-page retrieval blocked; selected Speedy / Mix of Both / Plush scale position could not be verified. No translation from the Australian scale or other-gender rating substituted.",
       "release_date": "2025-01-15",
       "release_source_url": "https://www.fleetfeet.com/s/hartford/news/foamy-shoes-brews-hoka-bondi-9-pub-run",
       "release_notes": "Fleet Feet launch-day event explicitly identifies January 15, 2025 as worldwide launch.",
@@ -2420,7 +2502,7 @@
       "sourced_at": "2026-10-18",
       "weight_reference_size": null,
       "price_type": "US store listing",
-      "source_notes": "Specifications from HOKA Vietnam. Reference size, total stack heights and toe-box shape unspecified; no regional price converted to USD. Cleanup review 2026-10-25: US retrieval blocked; no gender-specific heel/forefoot pair verified in the regional sources checked. Missing data is not evidence of zero stack.",
+      "source_notes": "Specifications from HOKA Vietnam. Reference size, total stack heights and toe-box shape unspecified; no regional price converted to USD. Cleanup review 2026-10-25: US retrieval blocked; no gender-specific heel/forefoot pair verified in the regional sources checked. Missing data is not evidence of zero stack. Cushion review 2026-10-26: HOKA US product-page retrieval blocked; selected Speedy / Mix of Both / Plush scale position could not be verified. No translation from the Australian scale or other-gender rating substituted.",
       "release_date": "2025-01-15",
       "release_source_url": "https://www.fleetfeet.com/s/hartford/news/foamy-shoes-brews-hoka-bondi-9-pub-run",
       "release_notes": "Fleet Feet launch-day event explicitly identifies January 15, 2025 as worldwide launch.",
@@ -3112,7 +3194,7 @@
       "sourced_at": "2026-10-18",
       "weight_reference_size": null,
       "price_type": "US store listing",
-      "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. Weights follow HOKA Australia; reference sizes unspecified. Cleanup review 2026-10-25: US retrieval blocked; no gender-specific heel/forefoot pair verified in the regional sources checked. Missing data is not evidence of zero stack.",
+      "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. Weights follow HOKA Australia; reference sizes unspecified. Cleanup review 2026-10-25: US retrieval blocked; no gender-specific heel/forefoot pair verified in the regional sources checked. Missing data is not evidence of zero stack. Cushion review 2026-10-26: HOKA US product-page retrieval blocked; selected Speedy / Mix of Both / Plush scale position could not be verified. No translation from the Australian scale or other-gender rating substituted.",
       "release_date": "2025-07-01",
       "release_source_url": "https://weartesters.com/hoka-arahi-8-performance-review/",
       "release_notes": "Model launch date; regional availability may differ.",
@@ -3160,7 +3242,7 @@
       "sourced_at": "2026-10-18",
       "weight_reference_size": null,
       "price_type": "US store listing",
-      "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. Weights follow HOKA Australia; reference sizes unspecified. Cleanup review 2026-10-25: US retrieval blocked; no gender-specific heel/forefoot pair verified in the regional sources checked. Missing data is not evidence of zero stack.",
+      "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. Weights follow HOKA Australia; reference sizes unspecified. Cleanup review 2026-10-25: US retrieval blocked; no gender-specific heel/forefoot pair verified in the regional sources checked. Missing data is not evidence of zero stack. Cushion review 2026-10-26: HOKA US product-page retrieval blocked; selected Speedy / Mix of Both / Plush scale position could not be verified. No translation from the Australian scale or other-gender rating substituted.",
       "release_date": "2025-07-01",
       "release_source_url": "https://weartesters.com/hoka-arahi-8-performance-review/",
       "release_notes": "Model launch date; regional availability may differ.",
@@ -3208,7 +3290,7 @@
       "sourced_at": "2026-10-18",
       "weight_reference_size": null,
       "price_type": "US store listing",
-      "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. Cleanup review 2026-10-25: US retrieval blocked; no gender-specific heel/forefoot pair verified in the regional sources checked. Missing data is not evidence of zero stack.",
+      "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. Cleanup review 2026-10-25: US retrieval blocked; no gender-specific heel/forefoot pair verified in the regional sources checked. Missing data is not evidence of zero stack. Cushion review 2026-10-26: HOKA US product-page retrieval blocked; selected Speedy / Mix of Both / Plush scale position could not be verified. No translation from the Australian scale or other-gender rating substituted.",
       "release_date": "2025-09-01",
       "release_source_url": "https://weartesters.com/hoka-mach-x-3-performance-review/",
       "release_notes": "Model launch date; regional availability may differ.",
@@ -3251,7 +3333,7 @@
       "sourced_at": "2026-10-18",
       "weight_reference_size": null,
       "price_type": "US dealer price",
-      "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. Cleanup review 2026-10-25: US retrieval blocked; no gender-specific heel/forefoot pair verified in the regional sources checked. Missing data is not evidence of zero stack.",
+      "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. Cleanup review 2026-10-25: US retrieval blocked; no gender-specific heel/forefoot pair verified in the regional sources checked. Missing data is not evidence of zero stack. Cushion review 2026-10-26: HOKA US product-page retrieval blocked; selected Speedy / Mix of Both / Plush scale position could not be verified. No translation from the Australian scale or other-gender rating substituted.",
       "release_date": "2025-09-01",
       "release_source_url": "https://weartesters.com/hoka-mach-x-3-performance-review/",
       "release_notes": "Model launch date; regional availability may differ.",
@@ -3294,7 +3376,7 @@
       "sourced_at": "2026-10-18",
       "weight_reference_size": null,
       "price_type": "US store listing",
-      "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. Women’s weight withheld: Australian product page lists 230 g, while HOKA’s launch announcement reproduced by ACTIVE lists 285 g in women’s US 8. Men’s product page reference size unspecified. Cleanup review 2026-10-25: US retrieval blocked; no gender-specific heel/forefoot pair verified in the regional sources checked. Missing data is not evidence of zero stack.",
+      "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. Women’s weight withheld: Australian product page lists 230 g, while HOKA’s launch announcement reproduced by ACTIVE lists 285 g in women’s US 8. Men’s product page reference size unspecified. Cleanup review 2026-10-25: US retrieval blocked; no gender-specific heel/forefoot pair verified in the regional sources checked. Missing data is not evidence of zero stack. Cushion review 2026-10-26: HOKA US product-page retrieval blocked; selected Speedy / Mix of Both / Plush scale position could not be verified. No translation from the Australian scale or other-gender rating substituted.",
       "release_date": "2025-08-01",
       "release_source_url": "https://www.active.com/trail-running/articles/hoka-launches-the-mafate-5",
       "release_notes": "Model launch date; regional availability may differ.",
@@ -3337,7 +3419,7 @@
       "sourced_at": "2026-10-18",
       "weight_reference_size": null,
       "price_type": "US dealer price",
-      "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. Women’s weight withheld: Australian product page lists 230 g, while HOKA’s launch announcement reproduced by ACTIVE lists 285 g in women’s US 8. Men’s product page reference size unspecified. Cleanup review 2026-10-25: US retrieval blocked; no gender-specific heel/forefoot pair verified in the regional sources checked. Missing data is not evidence of zero stack. Manufacturer conflict: two HOKA Vietnam women’s Mafate 5 pages give 286 g and 8.10 oz (about 230 g); no explanation or reference size resolves the difference.",
+      "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. Women’s weight withheld: Australian product page lists 230 g, while HOKA’s launch announcement reproduced by ACTIVE lists 285 g in women’s US 8. Men’s product page reference size unspecified. Cleanup review 2026-10-25: US retrieval blocked; no gender-specific heel/forefoot pair verified in the regional sources checked. Missing data is not evidence of zero stack. Manufacturer conflict: two HOKA Vietnam women’s Mafate 5 pages give 286 g and 8.10 oz (about 230 g); no explanation or reference size resolves the difference. Cushion review 2026-10-26: HOKA US product-page retrieval blocked; selected Speedy / Mix of Both / Plush scale position could not be verified. No translation from the Australian scale or other-gender rating substituted.",
       "release_date": "2025-08-01",
       "release_source_url": "https://www.active.com/trail-running/articles/hoka-launches-the-mafate-5",
       "release_notes": "Model launch date; regional availability may differ.",
@@ -3380,7 +3462,7 @@
       "sourced_at": "2026-10-25",
       "weight_reference_size": null,
       "price_type": "US store listing",
-      "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. Release calendar marks March 2026 as released; day unspecified. HOKA Vietnam exact men’s Mach 7 product page states 8.37 oz; reference size is not specified. US retrieval was blocked; the earlier Australian source reported N/A. Regional source used for weight only, not US price. Checked 2026-10-25. Cleanup review 2026-10-25: US retrieval blocked; no gender-specific heel/forefoot pair verified in the regional sources checked. Missing data is not evidence of zero stack.",
+      "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. Release calendar marks March 2026 as released; day unspecified. HOKA Vietnam exact men’s Mach 7 product page states 8.37 oz; reference size is not specified. US retrieval was blocked; the earlier Australian source reported N/A. Regional source used for weight only, not US price. Checked 2026-10-25. Cleanup review 2026-10-25: US retrieval blocked; no gender-specific heel/forefoot pair verified in the regional sources checked. Missing data is not evidence of zero stack. Cushion review 2026-10-26: HOKA US product-page retrieval blocked; selected Speedy / Mix of Both / Plush scale position could not be verified. No translation from the Australian scale or other-gender rating substituted.",
       "release_date": "2026-03",
       "release_source_url": "https://www.solereview.com/release-date-calendar-for-running-shoes/",
       "release_notes": "Model launch date; regional availability may differ.",
@@ -3430,7 +3512,7 @@
       "sourced_at": "2026-10-25",
       "weight_reference_size": null,
       "price_type": "US store listing",
-      "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. Release calendar marks March 2026 as released; day unspecified. HOKA Vietnam exact women’s Mach 7 product page states 7.15 oz; reference size is not specified. US retrieval was blocked; the earlier Australian source reported N/A. Regional source used for weight only, not US price. Checked 2026-10-25. Cleanup review 2026-10-25: US retrieval blocked; no gender-specific heel/forefoot pair verified in the regional sources checked. Missing data is not evidence of zero stack.",
+      "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. Release calendar marks March 2026 as released; day unspecified. HOKA Vietnam exact women’s Mach 7 product page states 7.15 oz; reference size is not specified. US retrieval was blocked; the earlier Australian source reported N/A. Regional source used for weight only, not US price. Checked 2026-10-25. Cleanup review 2026-10-25: US retrieval blocked; no gender-specific heel/forefoot pair verified in the regional sources checked. Missing data is not evidence of zero stack. Cushion review 2026-10-26: HOKA US product-page retrieval blocked; selected Speedy / Mix of Both / Plush scale position could not be verified. No translation from the Australian scale or other-gender rating substituted.",
       "release_date": "2026-03",
       "release_source_url": "https://www.solereview.com/release-date-calendar-for-running-shoes/",
       "release_notes": "Model launch date; regional availability may differ.",
@@ -3480,7 +3562,7 @@
       "sourced_at": "2026-10-18",
       "weight_reference_size": null,
       "price_type": "US store listing",
-      "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. Australian women’s page repeats the men’s 275 g figure without a reference size; women’s weight withheld pending clarification. Release calendar marks February 2026 as released; day unspecified. Cleanup review 2026-10-25: US retrieval blocked; no gender-specific heel/forefoot pair verified in the regional sources checked. Missing data is not evidence of zero stack.",
+      "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. Australian women’s page repeats the men’s 275 g figure without a reference size; women’s weight withheld pending clarification. Release calendar marks February 2026 as released; day unspecified. Cleanup review 2026-10-25: US retrieval blocked; no gender-specific heel/forefoot pair verified in the regional sources checked. Missing data is not evidence of zero stack. Cushion review 2026-10-26: HOKA US product-page retrieval blocked; selected Speedy / Mix of Both / Plush scale position could not be verified. No translation from the Australian scale or other-gender rating substituted.",
       "release_date": "2026-02",
       "release_source_url": "https://www.solereview.com/release-date-calendar-for-running-shoes/",
       "release_notes": "Model launch date; regional availability may differ.",
@@ -3523,7 +3605,7 @@
       "sourced_at": "2026-10-18",
       "weight_reference_size": null,
       "price_type": "US store listing",
-      "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. Australian women’s page repeats the men’s 275 g figure without a reference size; women’s weight withheld pending clarification. Release calendar marks February 2026 as released; day unspecified. Cleanup review 2026-10-25: US retrieval blocked; no gender-specific heel/forefoot pair verified in the regional sources checked. Missing data is not evidence of zero stack. Manufacturer conflict remains: previously recorded Australian women’s page gives 275 g; HOKA Vietnam women’s page gives 235 g. Australian recheck was rate-limited, so the conflict cannot be resolved.",
+      "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. Australian women’s page repeats the men’s 275 g figure without a reference size; women’s weight withheld pending clarification. Release calendar marks February 2026 as released; day unspecified. Cleanup review 2026-10-25: US retrieval blocked; no gender-specific heel/forefoot pair verified in the regional sources checked. Missing data is not evidence of zero stack. Manufacturer conflict remains: previously recorded Australian women’s page gives 275 g; HOKA Vietnam women’s page gives 235 g. Australian recheck was rate-limited, so the conflict cannot be resolved. Cushion review 2026-10-26: HOKA US product-page retrieval blocked; selected Speedy / Mix of Both / Plush scale position could not be verified. No translation from the Australian scale or other-gender rating substituted.",
       "release_date": "2026-02",
       "release_source_url": "https://www.solereview.com/release-date-calendar-for-running-shoes/",
       "release_notes": "Model launch date; regional availability may differ.",
@@ -4100,7 +4182,7 @@
       "sourced_at": "2026-10-18",
       "weight_reference_size": null,
       "price_type": "US store listing",
-      "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. Japanese launch coverage in July 2025 establishes availability that month; exact first-sale day is not confirmed. Manufacturer weight reference sizes unspecified. Cleanup review 2026-10-25: US retrieval blocked; no gender-specific heel/forefoot pair verified in the regional sources checked. Missing data is not evidence of zero stack.",
+      "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. Japanese launch coverage in July 2025 establishes availability that month; exact first-sale day is not confirmed. Manufacturer weight reference sizes unspecified. Cleanup review 2026-10-25: US retrieval blocked; no gender-specific heel/forefoot pair verified in the regional sources checked. Missing data is not evidence of zero stack. Cushion review 2026-10-26: HOKA US product-page retrieval blocked; selected Speedy / Mix of Both / Plush scale position could not be verified. No translation from the Australian scale or other-gender rating substituted.",
       "release_date": "2025-07",
       "release_source_url": "https://trailrunner.jp/55805",
       "release_notes": "Japanese July 2025 launch coverage; exact first-sale day unspecified and regional timing may differ.",
@@ -4143,7 +4225,7 @@
       "sourced_at": "2026-10-18",
       "weight_reference_size": null,
       "price_type": "US store listing",
-      "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. Japanese launch coverage in July 2025 establishes availability that month; exact first-sale day is not confirmed. Manufacturer weight reference sizes unspecified. Cleanup review 2026-10-25: US retrieval blocked; no gender-specific heel/forefoot pair verified in the regional sources checked. Missing data is not evidence of zero stack.",
+      "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. Japanese launch coverage in July 2025 establishes availability that month; exact first-sale day is not confirmed. Manufacturer weight reference sizes unspecified. Cleanup review 2026-10-25: US retrieval blocked; no gender-specific heel/forefoot pair verified in the regional sources checked. Missing data is not evidence of zero stack. Cushion review 2026-10-26: HOKA US product-page retrieval blocked; selected Speedy / Mix of Both / Plush scale position could not be verified. No translation from the Australian scale or other-gender rating substituted.",
       "release_date": "2025-07",
       "release_source_url": "https://trailrunner.jp/55805",
       "release_notes": "Japanese July 2025 launch coverage; exact first-sale day unspecified and regional timing may differ.",
@@ -5093,7 +5175,7 @@
       "foam": "ReactX",
       "price_usd": 165.0,
       "price_type": "US list price",
-      "verdict": "A trail trainer combining ReactX cushioning, a breathable mesh upper and Nike’s ATC rubber outsole for varied terrain.",
+      "verdict": "A trail trainer combining ReactX cushioning, a breathable mesh upper and Nike’s ATC rubber outsole for varied terrain. Nike rates its cushioning as “Responsive.”",
       "source_url": "https://www.nike.com/t/wildhorse-10-womens-trail-running-shoes-HuLv2mqD/FV2337-105",
       "spec_source_url": "https://www.nike.com/t/wildhorse-10-womens-trail-running-shoes-HuLv2mqD/FV2337-105",
       "source_type": "manufacturer",
@@ -5106,7 +5188,7 @@
       "release_source_type": "manufacturer",
       "release_notes": "Manufacturer global launch month.",
       "completion_review": {
-        "checked_at": "2026-10-19",
+        "checked_at": "2026-10-26",
         "sources": [
           {
             "fields": [
@@ -5123,6 +5205,13 @@
             ],
             "url": "https://www.nike.com/t/wildhorse-10-womens-trail-running-shoes-HuLv2mqD/FV2337-105",
             "note": "Midsole and summary checked against this version’s manufacturer description."
+          },
+          {
+            "fields": [
+              "verdict"
+            ],
+            "url": "https://www.nike.com/t/wildhorse-10-womens-trail-running-shoes-HuLv2mqD/FV2337-105",
+            "note": "Explicit Nike US Cushion field: Responsive. Checked 2026-10-26. Original description otherwise unchanged."
           }
         ],
         "remaining_gaps": [
@@ -5146,7 +5235,7 @@
       "foam": "ReactX",
       "price_usd": 165.0,
       "price_type": "US list price",
-      "verdict": "A trail trainer combining ReactX cushioning, a breathable mesh upper and Nike’s ATC rubber outsole for varied terrain.",
+      "verdict": "A trail trainer combining ReactX cushioning, a breathable mesh upper and Nike’s ATC rubber outsole for varied terrain. Nike rates its cushioning as “Responsive.”",
       "source_url": "https://www.nike.com/t/wildhorse-10-mens-trail-running-shoes-juOQGIPO/FV2338-105",
       "spec_source_url": "https://www.nike.com/t/wildhorse-10-mens-trail-running-shoes-juOQGIPO/FV2338-105",
       "source_type": "manufacturer",
@@ -5159,7 +5248,7 @@
       "release_source_type": "manufacturer",
       "release_notes": "Manufacturer global launch month.",
       "completion_review": {
-        "checked_at": "2026-10-19",
+        "checked_at": "2026-10-26",
         "sources": [
           {
             "fields": [
@@ -5176,6 +5265,13 @@
             ],
             "url": "https://www.nike.com/t/wildhorse-10-mens-trail-running-shoes-juOQGIPO/FV2338-105",
             "note": "Midsole and summary checked against this version’s manufacturer description."
+          },
+          {
+            "fields": [
+              "verdict"
+            ],
+            "url": "https://www.nike.com/t/wildhorse-10-mens-trail-running-shoes-juOQGIPO/FV2338-105",
+            "note": "Explicit Nike US Cushion field: Responsive. Checked 2026-10-26. Original description otherwise unchanged."
           }
         ],
         "remaining_gaps": [
@@ -5199,7 +5295,7 @@
       "foam": "Cushlon 3.0",
       "price_usd": 170.0,
       "price_type": "US list price",
-      "verdict": "A low-profile trail shoe with Cushlon 3.0 cushioning, a forefoot rock shield and a Vibram Megagrip outsole.",
+      "verdict": "A low-profile trail shoe with Cushlon 3.0 cushioning, a forefoot rock shield and a Vibram Megagrip outsole. Nike rates its cushioning as “Responsive.”",
       "source_url": "https://www.nike.com/t/kiger-10-trail-running-shoes-kQa7EOBZ/FV3929-105",
       "spec_source_url": "https://www.nike.com/t/kiger-10-trail-running-shoes-kQa7EOBZ/FV3929-105",
       "source_type": "manufacturer",
@@ -5212,7 +5308,7 @@
       "release_source_type": "manufacturer",
       "release_notes": "Manufacturer global launch month.",
       "completion_review": {
-        "checked_at": "2026-10-19",
+        "checked_at": "2026-10-26",
         "sources": [
           {
             "fields": [
@@ -5229,6 +5325,13 @@
             ],
             "url": "https://www.nike.com/t/kiger-10-trail-running-shoes-kQa7EOBZ/FV3929-105",
             "note": "Midsole and summary checked against this version’s manufacturer description."
+          },
+          {
+            "fields": [
+              "verdict"
+            ],
+            "url": "https://www.nike.com/t/kiger-10-trail-running-shoes-kQa7EOBZ/FV3929-105",
+            "note": "Explicit Nike US Cushion field: Responsive. Checked 2026-10-26. Original description otherwise unchanged."
           }
         ],
         "remaining_gaps": [
@@ -5252,7 +5355,7 @@
       "foam": "ZoomX",
       "price_usd": 260.0,
       "price_type": "US list price",
-      "verdict": "A trail racer with ZoomX cushioning, a full-length carbon plate and Vibram Megagrip traction. Its mesh upper is designed to drain water.",
+      "verdict": "A trail racer with ZoomX cushioning, a full-length carbon plate and Vibram Megagrip traction. Its mesh upper is designed to drain water. Nike rates its cushioning as “Responsive.”",
       "source_url": "https://www.nike.com/t/acg-ultrafly-trail-trail-racing-shoes-uNHxL3GA/HF5668-601",
       "spec_source_url": "https://www.nike.com/t/acg-ultrafly-trail-trail-racing-shoes-uNHxL3GA/HF5668-601",
       "source_type": "manufacturer",
@@ -5265,7 +5368,7 @@
       "release_source_type": "manufacturer",
       "release_notes": "Manufacturer announced spring 2026; current exact-model page confirms released product. No invented month/day.",
       "completion_review": {
-        "checked_at": "2026-10-19",
+        "checked_at": "2026-10-26",
         "sources": [
           {
             "fields": [
@@ -5282,6 +5385,13 @@
             ],
             "url": "https://www.nike.com/t/acg-ultrafly-trail-trail-racing-shoes-uNHxL3GA/HF5668-601",
             "note": "Midsole and summary checked against this version’s manufacturer description."
+          },
+          {
+            "fields": [
+              "verdict"
+            ],
+            "url": "https://www.nike.com/t/acg-ultrafly-trail-trail-racing-shoes-uNHxL3GA/HF5668-601",
+            "note": "Explicit Nike US Cushion field: Responsive. Checked 2026-10-26. Original description otherwise unchanged."
           }
         ],
         "remaining_gaps": [
@@ -5311,7 +5421,7 @@
       "source_type": "manufacturer",
       "sourced_at": "2026-10-19",
       "weight_reference_size": "Men's US 10",
-      "source_notes": "Manufacturer identifies this as a unisex shoe. Listed once and included in both men’s and women’s filters. Cleanup review 2026-10-25: Retrieved exact US product text does not supply a verified heel/forefoot pair for this version; no forefoot value calculated from drop.",
+      "source_notes": "Manufacturer identifies this as a unisex shoe. Listed once and included in both men’s and women’s filters. Cleanup review 2026-10-25: Retrieved exact US product text does not supply a verified heel/forefoot pair for this version; no forefoot value calculated from drop. Cushion review 2026-10-26: Exact US product page could not be retrieved; no cushion rating inferred.",
       "manufacturer_support": null,
       "release_date": "2025-03",
       "release_source_url": "https://about.nike.com/en/newsroom/releases/vaporfly-4-streakfly-2-official-images",
@@ -5358,7 +5468,7 @@
       "foam": "ReactX",
       "price_usd": 145.0,
       "price_type": "US list price",
-      "verdict": "An everyday road trainer with full-length ReactX cushioning and a support system around the arch and heel. An engineered mesh upper adds structure.",
+      "verdict": "An everyday road trainer with full-length ReactX cushioning and a support system around the arch and heel. An engineered mesh upper adds structure. Nike rates its cushioning as “Supportive.”",
       "source_url": "https://www.nike.com/t/structure-26-womens-road-running-shoes-Z4kCQRR6/HJ1101-501",
       "spec_source_url": "https://www.nike.com/t/structure-26-womens-road-running-shoes-Z4kCQRR6/HJ1101-501",
       "source_type": "manufacturer",
@@ -5371,7 +5481,7 @@
       "release_source_type": "manufacturer",
       "release_notes": "Global launch; North American launch July 24, 2025.",
       "completion_review": {
-        "checked_at": "2026-10-19",
+        "checked_at": "2026-10-26",
         "sources": [
           {
             "fields": [
@@ -5388,6 +5498,13 @@
             ],
             "url": "https://www.nike.com/t/structure-26-womens-road-running-shoes-Z4kCQRR6/HJ1101-501",
             "note": "Midsole and summary checked against this version’s manufacturer description."
+          },
+          {
+            "fields": [
+              "verdict"
+            ],
+            "url": "https://www.nike.com/t/structure-26-womens-road-running-shoes-Z4kCQRR6/HJ1101-501",
+            "note": "Explicit Nike US Cushion field: Supportive. Checked 2026-10-26. Original description otherwise unchanged."
           }
         ],
         "remaining_gaps": [
@@ -5411,7 +5528,7 @@
       "foam": "ZoomX / Cushlon 3.0",
       "price_usd": 180.0,
       "price_type": "US list price",
-      "verdict": "A cushioned trail shoe with layered ZoomX and Cushlon 3.0, a roomier forefoot and toe box, and Vibram Megagrip traction.",
+      "verdict": "A cushioned trail shoe with layered ZoomX and Cushlon 3.0, a roomier forefoot and toe box, and Vibram Megagrip traction. Nike rates its cushioning as “Maximum.”",
       "source_url": "https://www.nike.com/t/acg-zegama-trail-womens-trail-running-shoes-ZtvdI0O0/HV8115-009",
       "spec_source_url": "https://www.nike.com/t/acg-zegama-trail-womens-trail-running-shoes-ZtvdI0O0/HV8115-009",
       "source_type": "manufacturer",
@@ -5424,7 +5541,7 @@
       "release_source_type": "manufacturer",
       "release_notes": "Manufacturer announced summer 2026; current exact-model page confirms released product. No invented month/day.",
       "completion_review": {
-        "checked_at": "2026-10-19",
+        "checked_at": "2026-10-26",
         "sources": [
           {
             "fields": [
@@ -5441,6 +5558,13 @@
             ],
             "url": "https://www.nike.com/t/acg-zegama-trail-womens-trail-running-shoes-ZtvdI0O0/HV8115-009",
             "note": "Midsole and summary checked against this version’s manufacturer description."
+          },
+          {
+            "fields": [
+              "verdict"
+            ],
+            "url": "https://www.nike.com/t/acg-zegama-trail-womens-trail-running-shoes-ZtvdI0O0/HV8115-009",
+            "note": "Explicit Nike US Cushion field: Maximum. Checked 2026-10-26. Original description otherwise unchanged."
           }
         ],
         "remaining_gaps": [
@@ -5464,7 +5588,7 @@
       "foam": "ReactX",
       "price_usd": 155.0,
       "price_type": "US list price",
-      "verdict": "A trail trainer with ReactX cushioning and an ATC rubber outsole. The redesigned forefoot and toe box provide extra room for longer runs.",
+      "verdict": "A trail trainer with ReactX cushioning and an ATC rubber outsole. The redesigned forefoot and toe box provide extra room for longer runs. Nike rates its cushioning as “Responsive.”",
       "source_url": "https://www.nike.com/t/acg-pegasus-trail-mens-trail-running-shoes-cCpygMMK/HV8116-006",
       "spec_source_url": "https://www.nike.com/t/acg-pegasus-trail-mens-trail-running-shoes-cCpygMMK/HV8116-006",
       "source_type": "manufacturer",
@@ -5477,7 +5601,7 @@
       "release_source_type": "manufacturer",
       "release_notes": "Manufacturer launch month.",
       "completion_review": {
-        "checked_at": "2026-10-19",
+        "checked_at": "2026-10-26",
         "sources": [
           {
             "fields": [
@@ -5501,6 +5625,13 @@
             ],
             "url": "https://www.nike.com/t/acg-pegasus-trail-mens-trail-running-shoes-cCpygMMK/HV8116-006",
             "note": "Manufacturer wording checked for this gender and model; no independent fit or gait measurement inferred."
+          },
+          {
+            "fields": [
+              "verdict"
+            ],
+            "url": "https://www.nike.com/t/acg-pegasus-trail-mens-trail-running-shoes-cCpygMMK/HV8116-006",
+            "note": "Explicit Nike US Cushion field: Responsive. Checked 2026-10-26. Original description otherwise unchanged."
           }
         ],
         "remaining_gaps": [
@@ -5524,7 +5655,7 @@
       "foam": "ReactX",
       "price_usd": 155.0,
       "price_type": "US list price",
-      "verdict": "A trail trainer with ReactX cushioning and an ATC rubber outsole. The redesigned forefoot and toe box provide extra room for longer runs.",
+      "verdict": "A trail trainer with ReactX cushioning and an ATC rubber outsole. The redesigned forefoot and toe box provide extra room for longer runs. Nike rates its cushioning as “Responsive.”",
       "source_url": "https://www.nike.com/t/acg-pegasus-trail-womens-trail-running-shoes-KO1D9rNK/HV8121-006",
       "spec_source_url": "https://www.nike.com/t/acg-pegasus-trail-womens-trail-running-shoes-KO1D9rNK/HV8121-006",
       "source_type": "manufacturer",
@@ -5537,7 +5668,7 @@
       "release_source_type": "manufacturer",
       "release_notes": "Manufacturer launch month.",
       "completion_review": {
-        "checked_at": "2026-10-19",
+        "checked_at": "2026-10-26",
         "sources": [
           {
             "fields": [
@@ -5561,6 +5692,13 @@
             ],
             "url": "https://www.nike.com/t/acg-pegasus-trail-womens-trail-running-shoes-KO1D9rNK/HV8121-006",
             "note": "Manufacturer wording checked for this gender and model; no independent fit or gait measurement inferred."
+          },
+          {
+            "fields": [
+              "verdict"
+            ],
+            "url": "https://www.nike.com/t/acg-pegasus-trail-womens-trail-running-shoes-KO1D9rNK/HV8121-006",
+            "note": "Explicit Nike US Cushion field: Responsive. Checked 2026-10-26. Original description otherwise unchanged."
           }
         ],
         "remaining_gaps": [
@@ -5584,7 +5722,7 @@
       "foam": "ZoomX",
       "price_usd": 170.0,
       "price_type": "US list price",
-      "verdict": "A daily road trainer pairing ZoomX cushioning with an exposed forefoot Air Zoom unit. A mesh upper and midfoot band help secure the foot.",
+      "verdict": "A daily road trainer pairing ZoomX cushioning with an exposed forefoot Air Zoom unit. A mesh upper and midfoot band help secure the foot. Nike rates its cushioning as “Responsive.”",
       "source_url": "https://www.nike.com/t/pegasus-plus-2-mens-road-running-shoes-p9ePl101/IM2541-400",
       "spec_source_url": "https://www.nike.com/t/pegasus-plus-2-mens-road-running-shoes-p9ePl101/IM2541-400",
       "source_type": "manufacturer",
@@ -5597,7 +5735,7 @@
       "release_source_type": "manufacturer",
       "release_notes": "Manufacturer says late August 2026.",
       "completion_review": {
-        "checked_at": "2026-10-19",
+        "checked_at": "2026-10-26",
         "sources": [
           {
             "fields": [
@@ -5614,6 +5752,13 @@
             ],
             "url": "https://www.nike.com/t/pegasus-plus-2-mens-road-running-shoes-p9ePl101/IM2541-400",
             "note": "Midsole and summary checked against this version’s manufacturer description."
+          },
+          {
+            "fields": [
+              "verdict"
+            ],
+            "url": "https://www.nike.com/t/pegasus-plus-2-mens-road-running-shoes-p9ePl101/IM2541-400",
+            "note": "Explicit Nike US Cushion field: Responsive. Checked 2026-10-26. Original description otherwise unchanged."
           }
         ],
         "remaining_gaps": [
@@ -5637,7 +5782,7 @@
       "foam": "ZoomX",
       "price_usd": 170.0,
       "price_type": "US list price",
-      "verdict": "A daily road trainer pairing ZoomX cushioning with an exposed forefoot Air Zoom unit. A mesh upper and midfoot band help secure the foot.",
+      "verdict": "A daily road trainer pairing ZoomX cushioning with an exposed forefoot Air Zoom unit. A mesh upper and midfoot band help secure the foot. Nike rates its cushioning as “Responsive.”",
       "source_url": "https://www.nike.com/t/pegasus-plus-2-womens-road-running-shoes-IApQlsjO/IM2543-005",
       "spec_source_url": "https://www.nike.com/t/pegasus-plus-2-womens-road-running-shoes-IApQlsjO/IM2543-005",
       "source_type": "manufacturer",
@@ -5650,7 +5795,7 @@
       "release_source_type": "manufacturer",
       "release_notes": "Manufacturer says late August 2026.",
       "completion_review": {
-        "checked_at": "2026-10-19",
+        "checked_at": "2026-10-26",
         "sources": [
           {
             "fields": [
@@ -5667,6 +5812,13 @@
             ],
             "url": "https://www.nike.com/t/pegasus-plus-2-womens-road-running-shoes-IApQlsjO/IM2543-005",
             "note": "Midsole and summary checked against this version’s manufacturer description."
+          },
+          {
+            "fields": [
+              "verdict"
+            ],
+            "url": "https://www.nike.com/t/pegasus-plus-2-womens-road-running-shoes-IApQlsjO/IM2543-005",
+            "note": "Explicit Nike US Cushion field: Responsive. Checked 2026-10-26. Original description otherwise unchanged."
           }
         ],
         "remaining_gaps": [
@@ -5696,7 +5848,7 @@
       "source_type": "manufacturer",
       "sourced_at": "2026-10-19",
       "weight_reference_size": "Men's US 10",
-      "source_notes": " Cleanup review 2026-10-25: Retrieved exact US product text does not supply a verified heel/forefoot pair for this version; no forefoot value calculated from drop.",
+      "source_notes": "Cleanup review 2026-10-25: Retrieved exact US product text does not supply a verified heel/forefoot pair for this version; no forefoot value calculated from drop. Cushion review 2026-10-26: No explicit model-specific Cushion field verified on the retrieved US product page; wording in a summary, customer review or another model is not used as a rating.",
       "manufacturer_support": null,
       "release_date": "2025-11",
       "release_source_url": "https://about.nike.com/en/newsroom/releases/nike-portland-downtown-store-announcement",
@@ -5749,7 +5901,7 @@
       "source_type": "manufacturer",
       "sourced_at": "2026-10-19",
       "weight_reference_size": "Women’s US 8",
-      "source_notes": " Cleanup review 2026-10-25: Retrieved exact US product text does not supply a verified heel/forefoot pair for this version; no forefoot value calculated from drop.",
+      "source_notes": "Cleanup review 2026-10-25: Retrieved exact US product text does not supply a verified heel/forefoot pair for this version; no forefoot value calculated from drop. Cushion review 2026-10-26: No explicit model-specific Cushion field verified on the retrieved US product page; wording in a summary, customer review or another model is not used as a rating.",
       "manufacturer_support": null,
       "release_date": "2025-11",
       "release_source_url": "https://about.nike.com/en/newsroom/releases/nike-portland-downtown-store-announcement",
@@ -5802,7 +5954,7 @@
       "source_type": "manufacturer",
       "sourced_at": "2026-10-19",
       "weight_reference_size": "Men's US 8.5/Women's US 10",
-      "source_notes": " Cleanup review 2026-10-25: Retrieved exact US product text does not supply a verified heel/forefoot pair for this version; no forefoot value calculated from drop.",
+      "source_notes": "Cleanup review 2026-10-25: Retrieved exact US product text does not supply a verified heel/forefoot pair for this version; no forefoot value calculated from drop. Cushion review 2026-10-26: No explicit model-specific Cushion field verified on the retrieved US product page; wording in a summary, customer review or another model is not used as a rating.",
       "manufacturer_support": null,
       "release_date": "2026-09-17",
       "release_source_url": "https://about.nike.com/en/newsroom/releases/nike-alphafly-4-helps-more-runners-go-the-distance-with-speed-and-confidence",
@@ -5855,7 +6007,7 @@
       "source_type": "manufacturer",
       "sourced_at": "2026-10-19",
       "weight_reference_size": "Men's US 8.5/Women's US 10",
-      "source_notes": " Cleanup review 2026-10-25: Retrieved exact US product text does not supply a verified heel/forefoot pair for this version; no forefoot value calculated from drop.",
+      "source_notes": "Cleanup review 2026-10-25: Retrieved exact US product text does not supply a verified heel/forefoot pair for this version; no forefoot value calculated from drop. Cushion review 2026-10-26: No explicit model-specific Cushion field verified on the retrieved US product page; wording in a summary, customer review or another model is not used as a rating.",
       "manufacturer_support": null,
       "release_date": "2026-09-17",
       "release_source_url": "https://about.nike.com/en/newsroom/releases/nike-alphafly-4-helps-more-runners-go-the-distance-with-speed-and-confidence",
@@ -7337,7 +7489,7 @@
       "foam": "ZoomX / Cushlon 3.0",
       "price_usd": 200.0,
       "price_type": "US list price",
-      "verdict": "A waterproof trail shoe with GORE-TEX protection, layered ZoomX and Cushlon 3.0 cushioning, a roomier toe box and Vibram Megagrip traction.",
+      "verdict": "A waterproof trail shoe with GORE-TEX protection, layered ZoomX and Cushlon 3.0 cushioning, a roomier toe box and Vibram Megagrip traction. Nike rates its cushioning as “Maximum.”",
       "source_url": "https://www.nike.com/t/acg-zegama-trail-gore-tex-mens-waterproof-trail-running-shoes-QDaHEUER/IO7932-003",
       "spec_source_url": "https://www.nike.com/t/acg-zegama-trail-gore-tex-mens-waterproof-trail-running-shoes-QDaHEUER/IO7932-003",
       "source_type": "manufacturer",
@@ -7348,7 +7500,7 @@
         "https://sneakernews.com/2026/08/07/nike-acg-hiking-collection-fall-2026/"
       ],
       "completion_review": {
-        "checked_at": "2026-10-19",
+        "checked_at": "2026-10-26",
         "sources": [
           {
             "fields": [
@@ -7365,6 +7517,13 @@
             ],
             "url": "https://www.nike.com/t/acg-zegama-trail-gore-tex-mens-waterproof-trail-running-shoes-QDaHEUER/IO7932-003",
             "note": "Midsole and summary checked against this version’s manufacturer description."
+          },
+          {
+            "fields": [
+              "verdict"
+            ],
+            "url": "https://www.nike.com/t/acg-zegama-trail-gore-tex-mens-waterproof-trail-running-shoes-QDaHEUER/IO7932-003",
+            "note": "Explicit Nike US Cushion field: Maximum. Checked 2026-10-26. Original description otherwise unchanged."
           }
         ],
         "remaining_gaps": [
@@ -7393,7 +7552,7 @@
       "foam": "ZoomX / Cushlon 3.0",
       "price_usd": 200.0,
       "price_type": "US list price",
-      "verdict": "A waterproof trail shoe with GORE-TEX protection, layered ZoomX and Cushlon 3.0 cushioning, a roomier toe box and Vibram Megagrip traction.",
+      "verdict": "A waterproof trail shoe with GORE-TEX protection, layered ZoomX and Cushlon 3.0 cushioning, a roomier toe box and Vibram Megagrip traction. Nike rates its cushioning as “Maximum.”",
       "source_url": "https://www.nike.com/t/acg-zegama-trail-gore-tex-womens-waterproof-trail-running-shoes-N1D8AuGu/IO7933-001",
       "spec_source_url": "https://www.nike.com/t/acg-zegama-trail-gore-tex-womens-waterproof-trail-running-shoes-N1D8AuGu/IO7933-001",
       "source_type": "manufacturer",
@@ -7404,7 +7563,7 @@
         "https://sneakernews.com/2026/08/07/nike-acg-hiking-collection-fall-2026/"
       ],
       "completion_review": {
-        "checked_at": "2026-10-19",
+        "checked_at": "2026-10-26",
         "sources": [
           {
             "fields": [
@@ -7421,6 +7580,13 @@
             ],
             "url": "https://www.nike.com/t/acg-zegama-trail-gore-tex-womens-waterproof-trail-running-shoes-N1D8AuGu/IO7933-001",
             "note": "Midsole and summary checked against this version’s manufacturer description."
+          },
+          {
+            "fields": [
+              "verdict"
+            ],
+            "url": "https://www.nike.com/t/acg-zegama-trail-gore-tex-womens-waterproof-trail-running-shoes-N1D8AuGu/IO7933-001",
+            "note": "Explicit Nike US Cushion field: Maximum. Checked 2026-10-26. Original description otherwise unchanged."
           }
         ],
         "remaining_gaps": [
@@ -7449,7 +7615,7 @@
       "foam": "ReactX",
       "price_usd": 175.0,
       "price_type": "US list price",
-      "verdict": "A waterproof trail trainer with GORE-TEX protection, ReactX cushioning and an ATC rubber outsole. The forefoot and toe box offer extra room.",
+      "verdict": "A waterproof trail trainer with GORE-TEX protection, ReactX cushioning and an ATC rubber outsole. The forefoot and toe box offer extra room. Nike rates its cushioning as “Responsive.”",
       "source_url": "https://www.nike.com/t/acg-pegasus-trail-gore-tex-mens-waterproof-trail-running-shoes-T29yijhw/IQ1084-004",
       "spec_source_url": "https://www.nike.com/t/acg-pegasus-trail-gore-tex-mens-waterproof-trail-running-shoes-T29yijhw/IQ1084-004",
       "source_type": "manufacturer",
@@ -7460,7 +7626,7 @@
         "https://sneakernews.com/2026/08/07/nike-acg-hiking-collection-fall-2026/"
       ],
       "completion_review": {
-        "checked_at": "2026-10-19",
+        "checked_at": "2026-10-26",
         "sources": [
           {
             "fields": [
@@ -7484,6 +7650,13 @@
             ],
             "url": "https://www.nike.com/t/acg-pegasus-trail-gore-tex-mens-waterproof-trail-running-shoes-T29yijhw/IQ1084-004",
             "note": "Manufacturer wording checked for this gender and model; no independent fit or gait measurement inferred."
+          },
+          {
+            "fields": [
+              "verdict"
+            ],
+            "url": "https://www.nike.com/t/acg-pegasus-trail-gore-tex-mens-waterproof-trail-running-shoes-T29yijhw/IQ1084-004",
+            "note": "Explicit Nike US Cushion field: Responsive. Checked 2026-10-26. Original description otherwise unchanged."
           }
         ],
         "remaining_gaps": [
@@ -7512,7 +7685,7 @@
       "foam": "ReactX",
       "price_usd": 175.0,
       "price_type": "US list price",
-      "verdict": "A waterproof trail trainer with GORE-TEX protection, ReactX cushioning and an ATC rubber outsole. The forefoot and toe box offer extra room.",
+      "verdict": "A waterproof trail trainer with GORE-TEX protection, ReactX cushioning and an ATC rubber outsole. The forefoot and toe box offer extra room. Nike rates its cushioning as “Responsive.”",
       "source_url": "https://www.nike.com/t/acg-pegasus-trail-gore-tex-womens-waterproof-trail-running-shoes-JR5QA6yA/IQ1394-004",
       "spec_source_url": "https://www.nike.com/t/acg-pegasus-trail-gore-tex-womens-waterproof-trail-running-shoes-JR5QA6yA/IQ1394-004",
       "source_type": "manufacturer",
@@ -7523,7 +7696,7 @@
         "https://sneakernews.com/2026/08/07/nike-acg-hiking-collection-fall-2026/"
       ],
       "completion_review": {
-        "checked_at": "2026-10-19",
+        "checked_at": "2026-10-26",
         "sources": [
           {
             "fields": [
@@ -7547,6 +7720,13 @@
             ],
             "url": "https://www.nike.com/t/acg-pegasus-trail-gore-tex-womens-waterproof-trail-running-shoes-JR5QA6yA/IQ1394-004",
             "note": "Manufacturer wording checked for this gender and model; no independent fit or gait measurement inferred."
+          },
+          {
+            "fields": [
+              "verdict"
+            ],
+            "url": "https://www.nike.com/t/acg-pegasus-trail-gore-tex-womens-waterproof-trail-running-shoes-JR5QA6yA/IQ1394-004",
+            "note": "Explicit Nike US Cushion field: Responsive. Checked 2026-10-26. Original description otherwise unchanged."
           }
         ],
         "remaining_gaps": [
@@ -8179,12 +8359,12 @@
       "source_type": "manufacturer",
       "sourced_at": "2026-10-19",
       "weight_reference_size": "Men's US 10",
-      "source_notes": "Unverified specifications are left blank. Cleanup review 2026-10-25: Retrieved exact US product text does not supply a verified heel/forefoot pair for this version; no forefoot value calculated from drop.",
+      "source_notes": "Unverified specifications are left blank. Cleanup review 2026-10-25: Retrieved exact US product text does not supply a verified heel/forefoot pair for this version; no forefoot value calculated from drop. Cushion review 2026-10-26: No explicit model-specific Cushion field verified on the retrieved US product page; wording in a summary, customer review or another model is not used as a rating. Release review 2026-10-26: Exact waterproof variant’s US page does not state a release date; no official variant-specific launch announcement verified. Standard/non-GTX model dates are not evidence for this variant.",
       "manufacturer_support": null,
       "release_date": null,
       "release_source_url": null,
       "release_source_type": null,
-      "release_notes": "Original model release date has not been verified. Included under the flexible recency policy; current manufacturer listing confirms the model, not its launch date.",
+      "release_notes": "Release review 2026-10-26: Exact waterproof variant’s US page does not state a release date; no official variant-specific launch announcement verified. Standard/non-GTX model dates are not evidence for this variant.",
       "completion_review": {
         "checked_at": "2026-10-19",
         "sources": [
@@ -8216,7 +8396,8 @@
           "Stack: a consistent heel/forefoot pair for this version was not verified in the official sources checked; no laboratory or other-version measurements substituted."
         ]
       },
-      "price_source_url": "https://www.nike.com/t/pegasus-42-gore-tex-mens-waterproof-road-running-shoes-Q8TUua54/IQ0455-001"
+      "price_source_url": "https://www.nike.com/t/pegasus-42-gore-tex-mens-waterproof-road-running-shoes-Q8TUua54/IQ0455-001",
+      "release_audited_at": "2026-10-26"
     },
     {
       "id": "nike-pegasus-42-gore-tex-women",
@@ -8239,12 +8420,12 @@
       "source_type": "manufacturer",
       "sourced_at": "2026-10-19",
       "weight_reference_size": "Women's US 8",
-      "source_notes": "Unverified specifications are left blank. Cleanup review 2026-10-25: Retrieved exact US product text does not supply a verified heel/forefoot pair for this version; no forefoot value calculated from drop.",
+      "source_notes": "Unverified specifications are left blank. Cleanup review 2026-10-25: Retrieved exact US product text does not supply a verified heel/forefoot pair for this version; no forefoot value calculated from drop. Cushion review 2026-10-26: No explicit model-specific Cushion field verified on the retrieved US product page; wording in a summary, customer review or another model is not used as a rating. Release review 2026-10-26: Exact waterproof variant’s US page does not state a release date; no official variant-specific launch announcement verified. Standard/non-GTX model dates are not evidence for this variant.",
       "manufacturer_support": null,
       "release_date": null,
       "release_source_url": null,
       "release_source_type": null,
-      "release_notes": "Original model release date has not been verified. Included under the flexible recency policy; current manufacturer listing confirms the model, not its launch date.",
+      "release_notes": "Release review 2026-10-26: Exact waterproof variant’s US page does not state a release date; no official variant-specific launch announcement verified. Standard/non-GTX model dates are not evidence for this variant.",
       "completion_review": {
         "checked_at": "2026-10-19",
         "sources": [
@@ -8276,7 +8457,8 @@
           "Stack: a consistent heel/forefoot pair for this version was not verified in the official sources checked; no laboratory or other-version measurements substituted."
         ]
       },
-      "price_source_url": "https://www.nike.com/t/pegasus-42-gore-tex-womens-waterproof-road-running-shoes-2yqPS6pc/IQ0465-001"
+      "price_source_url": "https://www.nike.com/t/pegasus-42-gore-tex-womens-waterproof-road-running-shoes-2yqPS6pc/IQ0465-001",
+      "release_audited_at": "2026-10-26"
     },
     {
       "id": "saucony-cohesion-19-men",
@@ -8299,12 +8481,12 @@
       "source_type": "manufacturer",
       "sourced_at": "2026-10-19",
       "weight_reference_size": null,
-      "source_notes": "Unverified specifications are left blank. Cleanup review 2026-10-25: No applicable numeric value verified in the US product page, UK fallback and manufacturer guide checked; other models/variants and reviewer measurements not substituted.",
+      "source_notes": "Unverified specifications are left blank. Cleanup review 2026-10-25: No applicable numeric value verified in the US product page, UK fallback and manufacturer guide checked; other models/variants and reviewer measurements not substituted. Release review 2026-10-26: US product page does not state a release date; no manufacturer or official launch announcement verified. Third-party calendars are not accepted as release evidence.",
       "manufacturer_support": null,
       "release_date": null,
       "release_source_url": null,
       "release_source_type": null,
-      "release_notes": "Original model release date has not been verified. Included under the flexible recency policy; current manufacturer listing confirms the model, not its launch date.",
+      "release_notes": "Release review 2026-10-26: US product page does not state a release date; no manufacturer or official launch announcement verified. Third-party calendars are not accepted as release evidence.",
       "completion_review": {
         "checked_at": "2026-10-19",
         "sources": [
@@ -8329,7 +8511,8 @@
           "Stack: a consistent heel/forefoot pair for this version was not verified in the official sources checked; no laboratory or other-version measurements substituted."
         ]
       },
-      "price_source_url": "https://www.saucony.com/en/cohesion-19/61247M.html"
+      "price_source_url": "https://www.saucony.com/en/cohesion-19/61247M.html",
+      "release_audited_at": "2026-10-26"
     },
     {
       "id": "saucony-procyon-max-men",
@@ -8352,12 +8535,12 @@
       "source_type": "manufacturer",
       "sourced_at": "2026-10-19",
       "weight_reference_size": null,
-      "source_notes": "Unverified specifications are left blank. Cleanup review 2026-10-25: No applicable numeric value verified in the US product page, UK fallback and manufacturer guide checked; other models/variants and reviewer measurements not substituted.",
+      "source_notes": "Unverified specifications are left blank. Cleanup review 2026-10-25: No applicable numeric value verified in the US product page, UK fallback and manufacturer guide checked; other models/variants and reviewer measurements not substituted. Release review 2026-10-26: US product page does not state a release date; no manufacturer or official launch announcement verified. Third-party calendars are not accepted as release evidence.",
       "manufacturer_support": null,
       "release_date": null,
       "release_source_url": null,
       "release_source_type": null,
-      "release_notes": "Original model release date has not been verified. Included under the flexible recency policy; current manufacturer listing confirms the model, not its launch date.",
+      "release_notes": "Release review 2026-10-26: US product page does not state a release date; no manufacturer or official launch announcement verified. Third-party calendars are not accepted as release evidence.",
       "completion_review": {
         "checked_at": "2026-10-19",
         "sources": [
@@ -8379,7 +8562,8 @@
           }
         ]
       },
-      "price_source_url": "https://www.saucony.com/en/procyon-max/61252M.html"
+      "price_source_url": "https://www.saucony.com/en/procyon-max/61252M.html",
+      "release_audited_at": "2026-10-26"
     },
     {
       "id": "saucony-cohesion-19-women",
@@ -8402,12 +8586,12 @@
       "source_type": "manufacturer",
       "sourced_at": "2026-10-19",
       "weight_reference_size": null,
-      "source_notes": "Unverified specifications are left blank. Cleanup review 2026-10-25: No applicable numeric value verified in the US product page, UK fallback and manufacturer guide checked; other models/variants and reviewer measurements not substituted.",
+      "source_notes": "Unverified specifications are left blank. Cleanup review 2026-10-25: No applicable numeric value verified in the US product page, UK fallback and manufacturer guide checked; other models/variants and reviewer measurements not substituted. Release review 2026-10-26: US product page does not state a release date; no manufacturer or official launch announcement verified. Third-party calendars are not accepted as release evidence.",
       "manufacturer_support": null,
       "release_date": null,
       "release_source_url": null,
       "release_source_type": null,
-      "release_notes": "Original model release date has not been verified. Included under the flexible recency policy; current manufacturer listing confirms the model, not its launch date.",
+      "release_notes": "Release review 2026-10-26: US product page does not state a release date; no manufacturer or official launch announcement verified. Third-party calendars are not accepted as release evidence.",
       "completion_review": {
         "checked_at": "2026-10-19",
         "sources": [
@@ -8432,7 +8616,8 @@
           "Stack: a consistent heel/forefoot pair for this version was not verified in the official sources checked; no laboratory or other-version measurements substituted."
         ]
       },
-      "price_source_url": "https://www.saucony.com/en/cohesion-19/61253W.html"
+      "price_source_url": "https://www.saucony.com/en/cohesion-19/61253W.html",
+      "release_audited_at": "2026-10-26"
     },
     {
       "id": "saucony-procyon-max-women",
@@ -8455,12 +8640,12 @@
       "source_type": "manufacturer",
       "sourced_at": "2026-10-19",
       "weight_reference_size": null,
-      "source_notes": "Unverified specifications are left blank. Cleanup review 2026-10-25: No applicable numeric value verified in the US product page, UK fallback and manufacturer guide checked; other models/variants and reviewer measurements not substituted.",
+      "source_notes": "Unverified specifications are left blank. Cleanup review 2026-10-25: No applicable numeric value verified in the US product page, UK fallback and manufacturer guide checked; other models/variants and reviewer measurements not substituted. Release review 2026-10-26: US product page does not state a release date; no manufacturer or official launch announcement verified. Third-party calendars are not accepted as release evidence.",
       "manufacturer_support": null,
       "release_date": null,
       "release_source_url": null,
       "release_source_type": null,
-      "release_notes": "Original model release date has not been verified. Included under the flexible recency policy; current manufacturer listing confirms the model, not its launch date.",
+      "release_notes": "Release review 2026-10-26: US product page does not state a release date; no manufacturer or official launch announcement verified. Third-party calendars are not accepted as release evidence.",
       "completion_review": {
         "checked_at": "2026-10-19",
         "sources": [
@@ -8482,7 +8667,8 @@
           }
         ]
       },
-      "price_source_url": "https://www.saucony.com/en/procyon-max/61265W.html"
+      "price_source_url": "https://www.saucony.com/en/procyon-max/61265W.html",
+      "release_audited_at": "2026-10-26"
     },
     {
       "id": "saucony-ride-tr3-gtx-men",
@@ -8505,12 +8691,12 @@
       "source_type": "manufacturer",
       "sourced_at": "2026-10-19",
       "weight_reference_size": null,
-      "source_notes": "Unverified specifications are left blank. Cleanup review 2026-10-25: No applicable numeric value verified in the US product page, UK fallback and manufacturer guide checked; other models/variants and reviewer measurements not substituted.",
+      "source_notes": "Unverified specifications are left blank. Cleanup review 2026-10-25: No applicable numeric value verified in the US product page, UK fallback and manufacturer guide checked; other models/variants and reviewer measurements not substituted. Release review 2026-10-26: Exact waterproof variant’s US page does not state a release date; no official variant-specific launch announcement verified. Standard/non-GTX model dates are not evidence for this variant.",
       "manufacturer_support": null,
       "release_date": null,
       "release_source_url": null,
       "release_source_type": null,
-      "release_notes": "Original model release date has not been verified. Included under the flexible recency policy; current manufacturer listing confirms the model, not its launch date.",
+      "release_notes": "Release review 2026-10-26: Exact waterproof variant’s US page does not state a release date; no official variant-specific launch announcement verified. Standard/non-GTX model dates are not evidence for this variant.",
       "completion_review": {
         "checked_at": "2026-10-19",
         "sources": [
@@ -8535,7 +8721,8 @@
           "Stack: a consistent heel/forefoot pair for this version was not verified in the official sources checked; no laboratory or other-version measurements substituted."
         ]
       },
-      "price_source_url": "https://www.saucony.com/en/ride-tr3-gtx/61295M.html"
+      "price_source_url": "https://www.saucony.com/en/ride-tr3-gtx/61295M.html",
+      "release_audited_at": "2026-10-26"
     },
     {
       "id": "saucony-xodus-ultra-4-gtx-men",
@@ -8558,12 +8745,12 @@
       "source_type": "manufacturer",
       "sourced_at": "2026-10-19",
       "weight_reference_size": null,
-      "source_notes": "Unverified specifications are left blank. The GTX page includes specifications in a panel naming standard Xodus Ultra 4. Those measurements are withheld because GTX applicability is unclear. Cleanup review 2026-10-25: Variant unclear: GTX product page’s numeric panel names standard Xodus Ultra 4; waterproof-version applicability remains unconfirmed.",
+      "source_notes": "Unverified specifications are left blank. The GTX page includes specifications in a panel naming standard Xodus Ultra 4. Those measurements are withheld because GTX applicability is unclear. Cleanup review 2026-10-25: Variant unclear: GTX product page’s numeric panel names standard Xodus Ultra 4; waterproof-version applicability remains unconfirmed. Release review 2026-10-26: Exact waterproof variant’s US page does not state a release date; no official variant-specific launch announcement verified. Standard/non-GTX model dates are not evidence for this variant.",
       "manufacturer_support": null,
       "release_date": null,
       "release_source_url": null,
       "release_source_type": null,
-      "release_notes": "Original model release date has not been verified. Included under the flexible recency policy; current manufacturer listing confirms the model, not its launch date.",
+      "release_notes": "Release review 2026-10-26: Exact waterproof variant’s US page does not state a release date; no official variant-specific launch announcement verified. Standard/non-GTX model dates are not evidence for this variant.",
       "completion_review": {
         "checked_at": "2026-10-19",
         "sources": [
@@ -8588,7 +8775,8 @@
           "Stack: a consistent heel/forefoot pair for this version was not verified in the official sources checked; no laboratory or other-version measurements substituted."
         ]
       },
-      "price_source_url": "https://www.saucony.com/en/xodus-ultra-4-gtx/61297M.html"
+      "price_source_url": "https://www.saucony.com/en/xodus-ultra-4-gtx/61297M.html",
+      "release_audited_at": "2026-10-26"
     },
     {
       "id": "saucony-ride-tr3-gtx-women",
@@ -8611,12 +8799,12 @@
       "source_type": "manufacturer",
       "sourced_at": "2026-10-19",
       "weight_reference_size": null,
-      "source_notes": "Unverified specifications are left blank. Cleanup review 2026-10-25: No applicable numeric value verified in the US product page, UK fallback and manufacturer guide checked; other models/variants and reviewer measurements not substituted.",
+      "source_notes": "Unverified specifications are left blank. Cleanup review 2026-10-25: No applicable numeric value verified in the US product page, UK fallback and manufacturer guide checked; other models/variants and reviewer measurements not substituted. Release review 2026-10-26: Exact waterproof variant’s US page does not state a release date; no official variant-specific launch announcement verified. Standard/non-GTX model dates are not evidence for this variant.",
       "manufacturer_support": null,
       "release_date": null,
       "release_source_url": null,
       "release_source_type": null,
-      "release_notes": "Original model release date has not been verified. Included under the flexible recency policy; current manufacturer listing confirms the model, not its launch date.",
+      "release_notes": "Release review 2026-10-26: Exact waterproof variant’s US page does not state a release date; no official variant-specific launch announcement verified. Standard/non-GTX model dates are not evidence for this variant.",
       "completion_review": {
         "checked_at": "2026-10-19",
         "sources": [
@@ -8641,7 +8829,8 @@
           "Stack: a consistent heel/forefoot pair for this version was not verified in the official sources checked; no laboratory or other-version measurements substituted."
         ]
       },
-      "price_source_url": "https://www.saucony.com/en/ride-tr3-gtx/61303W.html"
+      "price_source_url": "https://www.saucony.com/en/ride-tr3-gtx/61303W.html",
+      "release_audited_at": "2026-10-26"
     },
     {
       "id": "saucony-xodus-ultra-4-gtx-women",
@@ -8664,12 +8853,12 @@
       "source_type": "manufacturer",
       "sourced_at": "2026-10-19",
       "weight_reference_size": null,
-      "source_notes": "Unverified specifications are left blank. The GTX page includes specifications in a panel naming standard Xodus Ultra 4. Those measurements are withheld because GTX applicability is unclear. Cleanup review 2026-10-25: Variant unclear: GTX product page’s numeric panel names standard Xodus Ultra 4; waterproof-version applicability remains unconfirmed.",
+      "source_notes": "Unverified specifications are left blank. The GTX page includes specifications in a panel naming standard Xodus Ultra 4. Those measurements are withheld because GTX applicability is unclear. Cleanup review 2026-10-25: Variant unclear: GTX product page’s numeric panel names standard Xodus Ultra 4; waterproof-version applicability remains unconfirmed. Release review 2026-10-26: Exact waterproof variant’s US page does not state a release date; no official variant-specific launch announcement verified. Standard/non-GTX model dates are not evidence for this variant.",
       "manufacturer_support": null,
       "release_date": null,
       "release_source_url": null,
       "release_source_type": null,
-      "release_notes": "Original model release date has not been verified. Included under the flexible recency policy; current manufacturer listing confirms the model, not its launch date.",
+      "release_notes": "Release review 2026-10-26: Exact waterproof variant’s US page does not state a release date; no official variant-specific launch announcement verified. Standard/non-GTX model dates are not evidence for this variant.",
       "completion_review": {
         "checked_at": "2026-10-19",
         "sources": [
@@ -8694,7 +8883,8 @@
           "Stack: a consistent heel/forefoot pair for this version was not verified in the official sources checked; no laboratory or other-version measurements substituted."
         ]
       },
-      "price_source_url": "https://www.saucony.com/en/xodus-ultra-4-gtx/61305W.html"
+      "price_source_url": "https://www.saucony.com/en/xodus-ultra-4-gtx/61305W.html",
+      "release_audited_at": "2026-10-26"
     },
     {
       "id": "puma-velocity-nitro-trail-women",
@@ -8717,10 +8907,10 @@
       "source_type": "manufacturer",
       "sourced_at": "2026-10-26",
       "weight_reference_size": "UK 8 (manufacturer does not specify gender of reference size)",
-      "source_notes": "Manufacturer US new-shoe page price; not explicitly identified as list price. Price and availability may vary by color and size. Release date not verified. Weight is the value printed on the women’s product page for UK 8; gender of the reference size is unspecified. Stack order is heel/forefoot, consistent with the stated drop. Release review 2026-10-26: manufacturer release date not verified. A men’s version exists on PUMA’s US site, but its addition is held until an official release date is verified. Existing women’s entry retained; no release date invented.",
+      "source_notes": "Manufacturer US new-shoe page price; not explicitly identified as list price. Price and availability may vary by color and size. Release date not verified. Weight is the value printed on the women’s product page for UK 8; gender of the reference size is unspecified. Stack order is heel/forefoot, consistent with the stated drop. Release review 2026-10-26: manufacturer release date not verified. A men’s version exists on PUMA’s US site, but its addition is held until an official release date is verified. Existing women’s entry retained; no release date invented. Release review 2026-10-26: US product page does not state a release date; no manufacturer launch announcement verified. Third-party retailer/resale dates were not accepted.",
       "release_date": null,
       "release_source_url": null,
-      "release_notes": "Manufacturer release date not verified as of 2026-10-26. Existing entry retained; proposed men’s counterpart held under the new release-evidence rule.",
+      "release_notes": "Release review 2026-10-26: US product page does not state a release date; no manufacturer launch announcement verified. Third-party retailer/resale dates were not accepted.",
       "manufacturer_support": {
         "wording": "Pronation: Neutral",
         "source_url": "https://us.puma.com/us/en/pd/velocity-nitro-trail-running-shoes-women-womens-trail-running-shoes/312951",
@@ -8746,7 +8936,8 @@
             "note": "Manufacturer’s explicit cushion-level field: Medium; original description otherwise unchanged."
           }
         ]
-      }
+      },
+      "release_audited_at": "2026-10-26"
     },
     {
       "id": "puma-voyage-nitro-4-women",
@@ -8769,10 +8960,10 @@
       "source_type": "manufacturer",
       "sourced_at": "2026-10-26",
       "weight_reference_size": null,
-      "source_notes": "Manufacturer US new-shoe page price; not explicitly identified as list price. Price and availability may vary by color and size. Release date not verified. Weight not supplied on the verified page. Stack order is heel/forefoot, consistent with the stated drop. Release review 2026-10-26: manufacturer release date not verified. A men’s version exists on PUMA’s US site, but its addition is held until an official release date is verified. Existing women’s entry retained; no release date invented.",
+      "source_notes": "Manufacturer US new-shoe page price; not explicitly identified as list price. Price and availability may vary by color and size. Release date not verified. Weight not supplied on the verified page. Stack order is heel/forefoot, consistent with the stated drop. Release review 2026-10-26: manufacturer release date not verified. A men’s version exists on PUMA’s US site, but its addition is held until an official release date is verified. Existing women’s entry retained; no release date invented. Release review 2026-10-26: US product page does not state a release date; no manufacturer launch announcement verified. Third-party retailer/resale dates were not accepted.",
       "release_date": null,
       "release_source_url": null,
-      "release_notes": "Manufacturer release date not verified as of 2026-10-26. Existing entry retained; proposed men’s counterpart held under the new release-evidence rule.",
+      "release_notes": "Release review 2026-10-26: US product page does not state a release date; no manufacturer launch announcement verified. Third-party retailer/resale dates were not accepted.",
       "manufacturer_support": {
         "wording": "Recommended for neutral pronators",
         "source_url": "https://us.puma.com/us/en/pd/voyage-nitro-4-womens-trail-running-shoes/311042",
@@ -8790,7 +8981,8 @@
             "note": "Exact PUMA field wording, including its field label; consistent quoted presentation without normalizing different manufacturer labels."
           }
         ]
-      }
+      },
+      "release_audited_at": "2026-10-26"
     },
     {
       "id": "asics-gel-kayano-33-men",
@@ -9063,7 +9255,7 @@
       "sourced_at": "2026-10-26",
       "weight_reference_size": null,
       "price_type": "US store listing",
-      "source_notes": "US product-page retrieval blocked. Specifications use the exact gender-specific HOKA Australia page; weight converted from published grams to ounces, reference size unspecified there. Gender-specific stack and toe-box classification not verified. Cushion-scale selection could not be established confidently from the retrieved page, so no rating added. Price is HOKA’s own Melrose US brand-store offer, not MSRP or an independent dealer price; local availability and price may vary. Regional weight discrepancy: Australia lists 283 g without reference size; Deckers Japan lists 282 g at 28 cm. Neither value is represented as a US measurement.",
+      "source_notes": "US product-page retrieval blocked. Specifications use the exact gender-specific HOKA Australia page; weight converted from published grams to ounces, reference size unspecified there. Gender-specific stack and toe-box classification not verified. Cushion-scale selection could not be established confidently from the retrieved page, so no rating added. Price is HOKA’s own Melrose US brand-store offer, not MSRP or an independent dealer price; local availability and price may vary. Regional weight discrepancy: Australia lists 283 g without reference size; Deckers Japan lists 282 g at 28 cm. Neither value is represented as a US measurement. Cushion review 2026-10-26: HOKA US product-page retrieval blocked; selected Speedy / Mix of Both / Plush scale position could not be verified. No translation from the Australian scale or other-gender rating substituted.",
       "manufacturer_support": null,
       "release_date": "2026-07-01",
       "release_source_url": "https://prtimes.jp/main/html/rd/p/000000767.000003434.html",
@@ -9107,7 +9299,7 @@
       "sourced_at": "2026-10-26",
       "weight_reference_size": null,
       "price_type": "US store listing",
-      "source_notes": "US product-page retrieval blocked. Specifications use the exact gender-specific HOKA Australia page; weight converted from published grams to ounces, reference size unspecified there. Gender-specific stack and toe-box classification not verified. Cushion-scale selection could not be established confidently from the retrieved page, so no rating added. Price is HOKA’s own Melrose US brand-store offer, not MSRP or an independent dealer price; local availability and price may vary. Deckers Japan also lists 236 g at 24.5 cm; this is regional evidence, not a verified US reference size.",
+      "source_notes": "US product-page retrieval blocked. Specifications use the exact gender-specific HOKA Australia page; weight converted from published grams to ounces, reference size unspecified there. Gender-specific stack and toe-box classification not verified. Cushion-scale selection could not be established confidently from the retrieved page, so no rating added. Price is HOKA’s own Melrose US brand-store offer, not MSRP or an independent dealer price; local availability and price may vary. Deckers Japan also lists 236 g at 24.5 cm; this is regional evidence, not a verified US reference size. Cushion review 2026-10-26: HOKA US product-page retrieval blocked; selected Speedy / Mix of Both / Plush scale position could not be verified. No translation from the Australian scale or other-gender rating substituted.",
       "manufacturer_support": null,
       "release_date": "2026-07-01",
       "release_source_url": "https://prtimes.jp/main/html/rd/p/000000767.000003434.html",
