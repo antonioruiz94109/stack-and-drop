@@ -113,7 +113,7 @@
       "use_case": "Daily road running / Walking",
       "foam": "ZipFoam",
       "price_usd": 150,
-      "verdict": "A neutral daily trainer with a 35 mm heel platform and ZipFoam cushioning. Topo also lists walking as an intended use.",
+      "verdict": "A neutral daily trainer with a 35 mm heel platform and ZipFoam cushioning. Topo also lists walking as an intended use. Topo Athletic rates its cushioning as “High.”",
       "source_url": "https://www.topoathletic.com/mens-phantom-4",
       "source_type": "manufacturer",
       "sourced_at": "2026-10-18",
@@ -132,7 +132,19 @@
       "release_notes": "First-hand review lists May 12, 2025; contemporary previews also identify May 2025. Month precision retained; model launch applies to both versions.",
       "release_audit_status": "within_window",
       "release_audited_at": "2026-10-19",
-      "price_source_url": "https://www.topoathletic.com/mens-phantom-4"
+      "price_source_url": "https://www.topoathletic.com/mens-phantom-4",
+      "completion_review": {
+        "checked_at": "2026-10-26",
+        "sources": [
+          {
+            "fields": [
+              "verdict"
+            ],
+            "url": "https://www.topoathletic.com/mens-phantom-4",
+            "note": "Manufacturer’s explicit cushion-level field: High; original description otherwise unchanged."
+          }
+        ]
+      }
     },
     {
       "id": "topo-pursuit-3-men",
@@ -148,7 +160,7 @@
       "foam": "ZipFoam",
       "price_usd": 155,
       "price_type": "US list price",
-      "verdict": "A zero-drop trail shoe with a Vibram Megagrip outsole and a quick-draining FKT insole.",
+      "verdict": "A zero-drop trail shoe with a Vibram Megagrip outsole and a quick-draining FKT insole. Topo Athletic rates its cushioning as “Medium.”",
       "source_url": "https://www.topoathletic.com/mens-pursuit-3",
       "source_type": "manufacturer",
       "sourced_at": "2026-10-19",
@@ -165,7 +177,19 @@
       "release_notes": "Brand-contact launch calendar lists March 2026; current manufacturer pages confirm the released model. Month-level release evidence; no exact global first-sale day asserted.",
       "release_audit_status": "within_window",
       "release_audited_at": "2026-10-19",
-      "price_source_url": "https://www.topoathletic.com/mens-pursuit-3"
+      "price_source_url": "https://www.topoathletic.com/mens-pursuit-3",
+      "completion_review": {
+        "checked_at": "2026-10-26",
+        "sources": [
+          {
+            "fields": [
+              "verdict"
+            ],
+            "url": "https://www.topoathletic.com/mens-pursuit-3",
+            "note": "Manufacturer’s explicit cushion-level field: Medium; original description otherwise unchanged."
+          }
+        ]
+      }
     },
     {
       "id": "topo-mtn-racer-4",
@@ -179,7 +203,7 @@
       "use_case": "Trail running / Racing",
       "foam": "ZipFoam",
       "price_usd": 155,
-      "verdict": "A technical-trail shoe with a Vibram Megagrip outsole, a drainage-focused FKT insole and gaiter attachments.",
+      "verdict": "A technical-trail shoe with a Vibram Megagrip outsole, a drainage-focused FKT insole and gaiter attachments. Topo Athletic rates its cushioning as “High.”",
       "source_url": "https://www.topoathletic.com/mens-mtn-racer-4",
       "source_type": "manufacturer",
       "sourced_at": "2026-10-18",
@@ -198,7 +222,19 @@
       "release_notes": "Running Event 2024 model preview states May 2025; Topo’s MTN Racer 4 press page lists May 2025 reviews. Month-level model launch, not later regional launches.",
       "release_audit_status": "within_window",
       "release_audited_at": "2026-10-19",
-      "price_source_url": "https://www.topoathletic.com/mens-mtn-racer-4"
+      "price_source_url": "https://www.topoathletic.com/mens-mtn-racer-4",
+      "completion_review": {
+        "checked_at": "2026-10-26",
+        "sources": [
+          {
+            "fields": [
+              "verdict"
+            ],
+            "url": "https://www.topoathletic.com/mens-mtn-racer-4",
+            "note": "Manufacturer’s explicit cushion-level field: High; original description otherwise unchanged."
+          }
+        ]
+      }
     },
     {
       "id": "nike-pegasus-42",
@@ -350,7 +386,7 @@
       "price_type": "US list price",
       "toe_box": "Anatomical / roomy",
       "use_case": "Daily road running / Tempo runs / Gym & training",
-      "verdict": "A low-stack trainer intended for running, tempo sessions and gym workouts.",
+      "verdict": "A low-stack trainer intended for running, tempo sessions and gym workouts. Topo Athletic rates its cushioning as “Low.”",
       "source_url": "https://www.topoathletic.com/mens-fli-lyte-6",
       "source_type": "manufacturer",
       "sourced_at": "2026-10-19",
@@ -367,7 +403,19 @@
       "release_notes": "August 8, 2025 first-hand review specifies August 2025 availability. Month-level model release.",
       "release_audit_status": "within_window",
       "release_audited_at": "2026-10-19",
-      "price_source_url": "https://www.topoathletic.com/mens-fli-lyte-6"
+      "price_source_url": "https://www.topoathletic.com/mens-fli-lyte-6",
+      "completion_review": {
+        "checked_at": "2026-10-26",
+        "sources": [
+          {
+            "fields": [
+              "verdict"
+            ],
+            "url": "https://www.topoathletic.com/mens-fli-lyte-6",
+            "note": "Manufacturer’s explicit cushion-level field: Low; original description otherwise unchanged."
+          }
+        ]
+      }
     },
     {
       "id": "topo-cyclone-3",
@@ -381,7 +429,7 @@
       "use_case": "Tempo runs / Racing",
       "foam": "Pebax Powered",
       "price_usd": 155,
-      "verdict": "A lightweight road performance trainer with Pebax cushioning, a rocker profile and a ventilated mesh upper, listed for tempo runs and racing.",
+      "verdict": "A lightweight road performance trainer with Pebax cushioning, a rocker profile and a ventilated mesh upper, listed for tempo runs and racing. Topo Athletic rates its cushioning as “Medium.”",
       "source_type": "manufacturer",
       "sourced_at": "2026-10-18",
       "weight_reference_size": "Men's US 9",
@@ -400,40 +448,19 @@
       "release_notes": "January 24, 2025 first-hand review specifies February 2025 retail availability. Topo’s regional March 2025 introduction corroborates the model generation.",
       "release_audit_status": "within_window",
       "release_audited_at": "2026-10-19",
-      "price_source_url": "https://www.topoathletic.com/mens-cyclone-3"
-    },
-    {
-      "id": "altra-torin-8",
-      "brand": "Altra",
-      "model": "Torin 8",
-      "drop_mm": 0,
-      "weight_oz": 10.15,
-      "stack_heel_mm": 30,
-      "stack_forefoot_mm": 30,
-      "toe_box": "Standard FootShape",
-      "use_case": "Daily road running / Walking",
-      "foam": "Altra EGO MAX",
-      "price_usd": 160,
-      "verdict": "A zero-drop daily road shoe with a 30 mm platform, Altra EGO MAX cushioning and a jacquard-mesh upper.",
-      "source_type": "manufacturer",
-      "sourced_at": "2026-10-18",
-      "weight_reference_size": null,
-      "price_type": "US list price",
-      "source_url": "https://www.altrarunning.com/en-us/products/mens-torin-8-al0a85qe",
-      "source_notes": "Manufacturer lists 287.7 g / 10.15 oz; reference size is not specified. US list price shown; selected color was $128.",
-      "gender": "men",
-      "manufacturer_support": {
-        "wording": "Neutral",
-        "source_url": "https://www.altrarunning.com/en-us/products/mens-torin-8-al0a85qe",
-        "scope": "model",
-        "checked_at": "2026-10-18"
-      },
-      "release_date": "2025-02",
-      "release_source_url": "https://www.endurancesportswire.com/altra-running-unveils-the-new-torin-8-and-torin-8-gtx/",
-      "release_notes": "Altra’s February 3, 2025 launch announcement confirms retail availability. Month precision avoids claiming the announcement was the exact first-sale day.",
-      "release_audit_status": "within_window",
-      "release_audited_at": "2026-10-19",
-      "price_source_url": "https://www.altrarunning.com/en-us/products/mens-torin-8-al0a85qe"
+      "price_source_url": "https://www.topoathletic.com/mens-cyclone-3",
+      "completion_review": {
+        "checked_at": "2026-10-26",
+        "sources": [
+          {
+            "fields": [
+              "verdict"
+            ],
+            "url": "https://www.topoathletic.com/mens-cyclone-3",
+            "note": "Manufacturer’s explicit cushion-level field: Medium; original description otherwise unchanged."
+          }
+        ]
+      }
     },
     {
       "id": "altra-torin-9",
@@ -522,7 +549,7 @@
       "price_type": "US list price",
       "toe_box": "Anatomical / roomy",
       "use_case": "Daily road running / Walking / Support",
-      "verdict": "A stability trainer with a medial post that wraps around the heel.",
+      "verdict": "A stability trainer with a medial post that wraps around the heel. Topo Athletic rates its cushioning as “High.”",
       "source_url": "https://www.topoathletic.com/mens-ultrafly-6",
       "source_type": "manufacturer",
       "sourced_at": "2026-10-19",
@@ -539,7 +566,19 @@
       "release_notes": "Brand-contact release calendar lists February 2026; Topo’s press page corroborates February reviews. Exact first-sale day not established; later new colors are not a new model release.",
       "release_audit_status": "within_window",
       "release_audited_at": "2026-10-19",
-      "price_source_url": "https://www.topoathletic.com/mens-ultrafly-6"
+      "price_source_url": "https://www.topoathletic.com/mens-ultrafly-6",
+      "completion_review": {
+        "checked_at": "2026-10-26",
+        "sources": [
+          {
+            "fields": [
+              "verdict"
+            ],
+            "url": "https://www.topoathletic.com/mens-ultrafly-6",
+            "note": "Manufacturer’s explicit cushion-level field: High; original description otherwise unchanged."
+          }
+        ]
+      }
     },
     {
       "id": "topo-atmos-2-men",
@@ -555,7 +594,7 @@
       "price_type": "US list price",
       "toe_box": "Anatomical / roomy",
       "use_case": "Daily road running / Walking",
-      "verdict": "A high-cushion road trainer with a 40 mm heel platform and an engineered-mesh upper.",
+      "verdict": "A high-cushion road trainer with a 40 mm heel platform and an engineered-mesh upper. Topo Athletic rates its cushioning as “Max.”",
       "source_url": "https://www.topoathletic.com/mens-atmos-2",
       "source_type": "manufacturer",
       "sourced_at": "2026-10-19",
@@ -572,7 +611,19 @@
       "release_notes": "Release calendar compiled from brand contacts lists December 2025. Topo’s December press coverage corroborates this generation; exact global first-sale day is not established and some sources say November. Either month is within the window.",
       "release_audit_status": "within_window",
       "release_audited_at": "2026-10-19",
-      "price_source_url": "https://www.topoathletic.com/mens-atmos-2"
+      "price_source_url": "https://www.topoathletic.com/mens-atmos-2",
+      "completion_review": {
+        "checked_at": "2026-10-26",
+        "sources": [
+          {
+            "fields": [
+              "verdict"
+            ],
+            "url": "https://www.topoathletic.com/mens-atmos-2",
+            "note": "Manufacturer’s explicit cushion-level field: Max; original description otherwise unchanged."
+          }
+        ]
+      }
     },
     {
       "id": "topo-phantom-4-women",
@@ -588,7 +639,7 @@
       "price_type": "US list price",
       "toe_box": "Anatomical / roomy",
       "use_case": "Daily road running / Walking",
-      "verdict": "A neutral road trainer with ZipFoam cushioning for daily running and walking.",
+      "verdict": "A neutral road trainer with ZipFoam cushioning for daily running and walking. Topo Athletic rates its cushioning as “High.”",
       "source_url": "https://www.topoathletic.com/womens-phantom-4",
       "source_type": "manufacturer",
       "sourced_at": "2026-10-18",
@@ -605,7 +656,19 @@
       "release_notes": "First-hand review lists May 12, 2025; contemporary previews also identify May 2025. Month precision retained; model launch applies to both versions.",
       "release_audit_status": "within_window",
       "release_audited_at": "2026-10-19",
-      "price_source_url": "https://www.topoathletic.com/womens-phantom-4"
+      "price_source_url": "https://www.topoathletic.com/womens-phantom-4",
+      "completion_review": {
+        "checked_at": "2026-10-26",
+        "sources": [
+          {
+            "fields": [
+              "verdict"
+            ],
+            "url": "https://www.topoathletic.com/womens-phantom-4",
+            "note": "Manufacturer’s explicit cushion-level field: High; original description otherwise unchanged."
+          }
+        ]
+      }
     },
     {
       "id": "topo-cyclone-3-women",
@@ -621,7 +684,7 @@
       "price_type": "US list price",
       "toe_box": "Anatomical / roomy",
       "use_case": "Tempo runs / Racing",
-      "verdict": "A lightweight road performance trainer with a Pebax midsole and rocker geometry.",
+      "verdict": "A lightweight road performance trainer with a Pebax midsole and rocker geometry. Topo Athletic rates its cushioning as “Medium.”",
       "source_url": "https://www.topoathletic.com/womens-cyclone-3",
       "source_type": "manufacturer",
       "sourced_at": "2026-10-18",
@@ -638,7 +701,19 @@
       "release_notes": "January 24, 2025 first-hand review specifies February 2025 retail availability. Topo’s regional March 2025 introduction corroborates the model generation.",
       "release_audit_status": "within_window",
       "release_audited_at": "2026-10-19",
-      "price_source_url": "https://www.topoathletic.com/womens-cyclone-3"
+      "price_source_url": "https://www.topoathletic.com/womens-cyclone-3",
+      "completion_review": {
+        "checked_at": "2026-10-26",
+        "sources": [
+          {
+            "fields": [
+              "verdict"
+            ],
+            "url": "https://www.topoathletic.com/womens-cyclone-3",
+            "note": "Manufacturer’s explicit cushion-level field: Medium; original description otherwise unchanged."
+          }
+        ]
+      }
     },
     {
       "id": "topo-pursuit-3-women",
@@ -654,7 +729,7 @@
       "foam": "ZipFoam",
       "price_usd": 155,
       "price_type": "US list price",
-      "verdict": "A zero-drop trail shoe with a Vibram Megagrip outsole and a quick-draining FKT insole.",
+      "verdict": "A zero-drop trail shoe with a Vibram Megagrip outsole and a quick-draining FKT insole. Topo Athletic rates its cushioning as “Medium.”",
       "source_url": "https://www.topoathletic.com/womens-pursuit-3",
       "source_type": "manufacturer",
       "sourced_at": "2026-10-19",
@@ -671,7 +746,19 @@
       "release_notes": "Brand-contact launch calendar lists March 2026; current manufacturer pages confirm the released model. Month-level release evidence; no exact global first-sale day asserted.",
       "release_audit_status": "within_window",
       "release_audited_at": "2026-10-19",
-      "price_source_url": "https://www.topoathletic.com/womens-pursuit-3"
+      "price_source_url": "https://www.topoathletic.com/womens-pursuit-3",
+      "completion_review": {
+        "checked_at": "2026-10-26",
+        "sources": [
+          {
+            "fields": [
+              "verdict"
+            ],
+            "url": "https://www.topoathletic.com/womens-pursuit-3",
+            "note": "Manufacturer’s explicit cushion-level field: Medium; original description otherwise unchanged."
+          }
+        ]
+      }
     },
     {
       "id": "topo-mtn-racer-4-women",
@@ -687,7 +774,7 @@
       "price_type": "US list price",
       "toe_box": "Anatomical / roomy",
       "use_case": "Trail running / Racing",
-      "verdict": "A technical-trail shoe with a Vibram Megagrip outsole and a drainage-focused FKT insole.",
+      "verdict": "A technical-trail shoe with a Vibram Megagrip outsole and a drainage-focused FKT insole. Topo Athletic rates its cushioning as “High.”",
       "source_url": "https://www.topoathletic.com/womens-mtn-racer-4",
       "source_type": "manufacturer",
       "sourced_at": "2026-10-18",
@@ -704,7 +791,19 @@
       "release_notes": "Running Event 2024 model preview states May 2025; Topo’s MTN Racer 4 press page lists May 2025 reviews. Month-level model launch, not later regional launches.",
       "release_audit_status": "within_window",
       "release_audited_at": "2026-10-19",
-      "price_source_url": "https://www.topoathletic.com/womens-mtn-racer-4"
+      "price_source_url": "https://www.topoathletic.com/womens-mtn-racer-4",
+      "completion_review": {
+        "checked_at": "2026-10-26",
+        "sources": [
+          {
+            "fields": [
+              "verdict"
+            ],
+            "url": "https://www.topoathletic.com/womens-mtn-racer-4",
+            "note": "Manufacturer’s explicit cushion-level field: High; original description otherwise unchanged."
+          }
+        ]
+      }
     },
     {
       "id": "topo-atmos-2-women",
@@ -720,7 +819,7 @@
       "price_type": "US list price",
       "toe_box": "Anatomical / roomy",
       "use_case": "Daily road running / Walking",
-      "verdict": "A high-cushion road trainer with a 40 mm heel platform and an engineered-mesh upper.",
+      "verdict": "A high-cushion road trainer with a 40 mm heel platform and an engineered-mesh upper. Topo Athletic rates its cushioning as “Max.”",
       "source_url": "https://www.topoathletic.com/womens-atmos-2",
       "source_type": "manufacturer",
       "sourced_at": "2026-10-18",
@@ -737,7 +836,19 @@
       "release_notes": "Release calendar compiled from brand contacts lists December 2025. Topo’s December press coverage corroborates this generation; exact global first-sale day is not established and some sources say November. Either month is within the window.",
       "release_audit_status": "within_window",
       "release_audited_at": "2026-10-19",
-      "price_source_url": "https://www.topoathletic.com/womens-atmos-2"
+      "price_source_url": "https://www.topoathletic.com/womens-atmos-2",
+      "completion_review": {
+        "checked_at": "2026-10-26",
+        "sources": [
+          {
+            "fields": [
+              "verdict"
+            ],
+            "url": "https://www.topoathletic.com/womens-atmos-2",
+            "note": "Manufacturer’s explicit cushion-level field: Max; original description otherwise unchanged."
+          }
+        ]
+      }
     },
     {
       "id": "topo-fli-lyte-6-women",
@@ -753,7 +864,7 @@
       "price_type": "US list price",
       "toe_box": "Anatomical / roomy",
       "use_case": "Daily road running / Tempo runs / Gym & training",
-      "verdict": "A low-stack trainer intended for running, tempo sessions and gym workouts.",
+      "verdict": "A low-stack trainer intended for running, tempo sessions and gym workouts. Topo Athletic rates its cushioning as “Low.”",
       "source_url": "https://www.topoathletic.com/womens-fli-lyte-6",
       "source_type": "manufacturer",
       "sourced_at": "2026-10-18",
@@ -770,7 +881,19 @@
       "release_notes": "August 8, 2025 first-hand review specifies August 2025 availability. Month-level model release.",
       "release_audit_status": "within_window",
       "release_audited_at": "2026-10-19",
-      "price_source_url": "https://www.topoathletic.com/womens-fli-lyte-6"
+      "price_source_url": "https://www.topoathletic.com/womens-fli-lyte-6",
+      "completion_review": {
+        "checked_at": "2026-10-26",
+        "sources": [
+          {
+            "fields": [
+              "verdict"
+            ],
+            "url": "https://www.topoathletic.com/womens-fli-lyte-6",
+            "note": "Manufacturer’s explicit cushion-level field: Low; original description otherwise unchanged."
+          }
+        ]
+      }
     },
     {
       "id": "topo-ultrafly-6-women",
@@ -786,7 +909,7 @@
       "price_type": "US list price",
       "toe_box": "Anatomical / roomy",
       "use_case": "Daily road running / Walking / Support",
-      "verdict": "A stability trainer with a medial post that wraps around the heel.",
+      "verdict": "A stability trainer with a medial post that wraps around the heel. Topo Athletic rates its cushioning as “High.”",
       "source_url": "https://www.topoathletic.com/womens-ultrafly-6",
       "source_type": "manufacturer",
       "sourced_at": "2026-10-18",
@@ -803,7 +926,19 @@
       "release_notes": "Brand-contact release calendar lists February 2026; Topo’s press page corroborates February reviews. Exact first-sale day not established; later new colors are not a new model release.",
       "release_audit_status": "within_window",
       "release_audited_at": "2026-10-19",
-      "price_source_url": "https://www.topoathletic.com/womens-ultrafly-6"
+      "price_source_url": "https://www.topoathletic.com/womens-ultrafly-6",
+      "completion_review": {
+        "checked_at": "2026-10-26",
+        "sources": [
+          {
+            "fields": [
+              "verdict"
+            ],
+            "url": "https://www.topoathletic.com/womens-ultrafly-6",
+            "note": "Manufacturer’s explicit cushion-level field: High; original description otherwise unchanged."
+          }
+        ]
+      }
     },
     {
       "id": "altra-lone-peak-9-women",
@@ -936,39 +1071,6 @@
       "release_audit_status": "within_window",
       "release_audited_at": "2026-10-19",
       "price_source_url": "https://www.altrarunning.com/en-us/products/womens-fwd-via-2-al0a85tw"
-    },
-    {
-      "id": "altra-torin-8-women",
-      "brand": "Altra",
-      "model": "Torin 8",
-      "gender": "women",
-      "drop_mm": 0,
-      "weight_oz": 8.4,
-      "stack_heel_mm": 30,
-      "stack_forefoot_mm": 30,
-      "foam": "Altra EGO MAX",
-      "price_usd": 160,
-      "price_type": "US list price",
-      "toe_box": "Standard FootShape",
-      "use_case": "Daily road running / Walking",
-      "verdict": "A zero-drop road trainer with a jacquard-mesh upper and EGO MAX foam.",
-      "source_url": "https://www.altrarunning.com/en-us/products/womens-torin-8-al0a85qf",
-      "source_type": "manufacturer",
-      "sourced_at": "2026-10-18",
-      "weight_reference_size": null,
-      "source_notes": "Women’s manufacturer specifications. List price rather than any color-specific sale price. Weight reference size not supplied.",
-      "manufacturer_support": {
-        "wording": "Neutral",
-        "source_url": "https://www.altrarunning.com/en-us/products/mens-torin-8-al0a85qe",
-        "scope": "model",
-        "checked_at": "2026-10-18"
-      },
-      "release_date": "2025-02",
-      "release_source_url": "https://www.endurancesportswire.com/altra-running-unveils-the-new-torin-8-and-torin-8-gtx/",
-      "release_notes": "Altra’s February 3, 2025 launch announcement confirms retail availability. Month precision avoids claiming the announcement was the exact first-sale day.",
-      "release_audit_status": "within_window",
-      "release_audited_at": "2026-10-19",
-      "price_source_url": "https://www.altrarunning.com/en-us/products/womens-torin-8-al0a85qf"
     },
     {
       "id": "altra-torin-9-women",
@@ -1541,492 +1643,6 @@
       "price_source_url": "https://www.nike.com/t/vaporfly-4-womens-road-racing-shoes-hVz16nSu"
     },
     {
-      "id": "asics-novablast-5-men",
-      "brand": "ASICS",
-      "model": "NOVABLAST 5",
-      "gender": "men",
-      "drop_mm": 8,
-      "weight_oz": 9,
-      "stack_heel_mm": 41.5,
-      "stack_forefoot_mm": 33.5,
-      "toe_box": null,
-      "use_case": "Daily road running / Tempo",
-      "foam": "FF BLAST MAX",
-      "price_usd": 150,
-      "verdict": "A neutral road trainer with FF BLAST MAX cushioning and a jacquard mesh upper.",
-      "source_url": "https://www.asics.com/us/en-us/novablast--5/p/ANA_20058504299.html",
-      "source_type": "manufacturer",
-      "sourced_at": "2026-10-18",
-      "weight_reference_size": null,
-      "price_type": "US list price",
-      "source_notes": "Weight reference size, stack heights and toe-box shape not stated on these US pages.",
-      "release_date": "2024-12-01",
-      "release_source_url": "https://corp.asics.com/en/press/article/experience-the-unique-combination-of-speed-and-bounce-in-the-new-novablasttm-5-running-shoe",
-      "release_notes": "Global launch.",
-      "manufacturer_support": {
-        "wording": "Designed for Neutral / Underpronation",
-        "source_url": "https://me.asics.com/en-ae/novablast-5-1011b974-406.html",
-        "scope": "model",
-        "checked_at": "2026-10-18"
-      },
-      "completion_review": {
-        "checked_at": "2026-10-19",
-        "sources": [
-          {
-            "fields": [
-              "stack_heel_mm",
-              "stack_forefoot_mm"
-            ],
-            "url": "https://www.asics.com/nz/en-nz/novablast-5-mens-1011b974-800",
-            "note": "Heel/forefoot stack from ASICS New Zealand’s gender-specific model page; reference size not specified. Other measurements retain their original sources."
-          }
-        ]
-      },
-      "price_source_url": "https://www.asics.com/us/en-us/novablast--5/p/ANA_20058504299.html"
-    },
-    {
-      "id": "asics-novablast-5-women",
-      "brand": "ASICS",
-      "model": "NOVABLAST 5",
-      "gender": "women",
-      "drop_mm": 8,
-      "weight_oz": 7.9,
-      "stack_heel_mm": 40.5,
-      "stack_forefoot_mm": 32.5,
-      "toe_box": null,
-      "use_case": "Daily road running / Tempo",
-      "foam": "FF BLAST MAX",
-      "price_usd": 150,
-      "verdict": "A neutral road trainer with FF BLAST MAX cushioning and a jacquard mesh upper.",
-      "source_url": "https://www.asics.com/us/en-us/novablast--5/p/ANA_20058506040.html",
-      "source_type": "manufacturer",
-      "sourced_at": "2026-10-18",
-      "weight_reference_size": null,
-      "price_type": "US list price",
-      "source_notes": "Weight reference size, stack heights and toe-box shape not stated on these US pages.",
-      "release_date": "2024-12-01",
-      "release_source_url": "https://corp.asics.com/en/press/article/experience-the-unique-combination-of-speed-and-bounce-in-the-new-novablasttm-5-running-shoe",
-      "release_notes": "Global launch.",
-      "manufacturer_support": {
-        "wording": "Designed for Neutral / Underpronation",
-        "source_url": "https://me.asics.com/en-ae/novablast-5-1011b974-406.html",
-        "scope": "model",
-        "checked_at": "2026-10-18"
-      },
-      "completion_review": {
-        "checked_at": "2026-10-19",
-        "sources": [
-          {
-            "fields": [
-              "stack_heel_mm",
-              "stack_forefoot_mm"
-            ],
-            "url": "https://www.asics.com/nz/en-nz/novablast-5-womens-1012b765-002",
-            "note": "Heel/forefoot stack from ASICS New Zealand’s gender-specific model page; reference size not specified. Other measurements retain their original sources."
-          }
-        ]
-      },
-      "price_source_url": "https://www.asics.com/us/en-us/novablast--5/p/ANA_20058506040.html"
-    },
-    {
-      "id": "asics-gel-kayano-32-men",
-      "brand": "ASICS",
-      "model": "GEL-KAYANO 32",
-      "gender": "men",
-      "drop_mm": 8,
-      "weight_oz": 10.58,
-      "stack_heel_mm": null,
-      "stack_forefoot_mm": null,
-      "toe_box": null,
-      "use_case": "Daily road running / Long runs / Support",
-      "foam": "FF BLAST PLUS + PureGEL",
-      "price_usd": 165,
-      "verdict": "A cushioned road trainer with adaptive 4D GUIDANCE stability.",
-      "source_url": "https://www.asics.com/ie/en-ie/gel-kayano-32/p/4570158860864.html",
-      "source_type": "manufacturer",
-      "sourced_at": "2026-10-18",
-      "weight_reference_size": null,
-      "price_type": "US list price",
-      "source_notes": "Listed ounces rounded to two decimals. Weight reference size and stack heights not specified. Men’s source is the manufacturer’s Irish site. ",
-      "release_date": "2025-06-01",
-      "release_source_url": "https://news-emea.asics.com/latest-News/feel-comfort--find-calm--asics-introduces-the-new-gel-kayano--32-shoe/s/44d391ba-1363-4c8c-a620-964a9b8f66ad",
-      "release_notes": "Manufacturer launch date.",
-      "manufacturer_support": {
-        "wording": "Neutral, Stability",
-        "source_url": "https://www.asics.com/on/demandware.store/Sites-asics-au-Site/en_AU/Product-Variation?dwvar_AOP__1011C052-400_color=AOP_1011C052.400&dwvar_AOP__1011C052-400_size=&dwvar_AOP__1011C052-400_width=Standard&pid=AOP_1011C052-400",
-        "scope": "model",
-        "checked_at": "2026-10-18"
-      },
-      "completion_review": {
-        "checked_at": "2026-10-19",
-        "sources": [
-          {
-            "fields": [
-              "price_usd",
-              "price_type"
-            ],
-            "url": "https://www.asics.com/us/en-us/race-ready/c/aa90000244/",
-            "note": "US regular/list price from the linked manufacturer page; sale price excluded."
-          }
-        ],
-        "remaining_gaps": [
-          "Stack: a consistent heel/forefoot pair for this version was not verified in the official sources checked; no laboratory or other-version measurements substituted."
-        ]
-      },
-      "price_source_url": "https://www.asics.com/us/en-us/race-ready/c/aa90000244/"
-    },
-    {
-      "id": "asics-gel-kayano-32-women",
-      "brand": "ASICS",
-      "model": "GEL-KAYANO 32",
-      "gender": "women",
-      "drop_mm": 8,
-      "weight_oz": 9.17,
-      "stack_heel_mm": null,
-      "stack_forefoot_mm": null,
-      "toe_box": null,
-      "use_case": "Daily road running / Long runs / Support",
-      "foam": "FF BLAST PLUS + PureGEL",
-      "price_usd": 165,
-      "verdict": "A cushioned road trainer with adaptive 4D GUIDANCE stability.",
-      "source_url": "https://www.asics.com/us/en-us/gel-kayano-32/p/ANA_20061417179.html",
-      "source_type": "manufacturer",
-      "sourced_at": "2026-10-18",
-      "weight_reference_size": null,
-      "price_type": "US list price",
-      "source_notes": "Listed ounces rounded to two decimals. Weight reference size and stack heights not specified. Men’s source is the manufacturer’s Irish site. ",
-      "release_date": "2025-06-01",
-      "release_source_url": "https://news-emea.asics.com/latest-News/feel-comfort--find-calm--asics-introduces-the-new-gel-kayano--32-shoe/s/44d391ba-1363-4c8c-a620-964a9b8f66ad",
-      "release_notes": "Manufacturer launch date.",
-      "manufacturer_support": {
-        "wording": "Neutral, Stability",
-        "source_url": "https://www.asics.com/on/demandware.store/Sites-asics-au-Site/en_AU/Product-Variation?dwvar_AOP__1011C052-400_color=AOP_1011C052.400&dwvar_AOP__1011C052-400_size=&dwvar_AOP__1011C052-400_width=Standard&pid=AOP_1011C052-400",
-        "scope": "model",
-        "checked_at": "2026-10-18"
-      },
-      "completion_review": {
-        "checked_at": "2026-10-19",
-        "sources": [
-          {
-            "fields": [
-              "price_usd",
-              "price_type"
-            ],
-            "url": "https://www.asics.com/us/en-us/race-ready/c/aa90000244/",
-            "note": "US regular/list price from the linked manufacturer page; sale price excluded."
-          }
-        ],
-        "remaining_gaps": [
-          "Stack: a consistent heel/forefoot pair for this version was not verified in the official sources checked; no laboratory or other-version measurements substituted."
-        ]
-      },
-      "price_source_url": "https://www.asics.com/us/en-us/race-ready/c/aa90000244/"
-    },
-    {
-      "id": "saucony-ride-18-men",
-      "brand": "Saucony",
-      "model": "Ride 18",
-      "gender": "men",
-      "drop_mm": 8,
-      "weight_oz": 9.1,
-      "stack_heel_mm": 35,
-      "stack_forefoot_mm": 27,
-      "toe_box": null,
-      "use_case": "Daily road running",
-      "foam": "PWRRUN+",
-      "price_usd": null,
-      "verdict": "A neutral everyday trainer with PWRRUN+ foam and a flexible rubber outsole.",
-      "source_url": "https://www.saucony.com/AD/en_AD/ride-18/59943M.html",
-      "source_type": "manufacturer",
-      "sourced_at": "2026-10-18",
-      "weight_reference_size": null,
-      "price_type": null,
-      "source_notes": "Weight reference size and toe-box shape not specified by this source. US list price not confirmed. Cleanup review 2026-10-25: US product retrieval returned 404; regional prices are not US prices. No verified exact new-shoe US price source established.",
-      "release_date": "2025-01-01",
-      "release_source_url": "https://weartesters.com/saucony-ride-18-performance-review/",
-      "release_notes": "Release date reported by WearTesters; manufacturer source lists both gender weights.",
-      "manufacturer_support": {
-        "wording": "Neutral",
-        "source_url": "https://www.saucony.com/UK/en_GB/ride-18-wide/59946W.html",
-        "scope": "model",
-        "checked_at": "2026-10-18"
-      },
-      "completion_review": {
-        "checked_at": "2026-10-19",
-        "sources": [],
-        "remaining_gaps": [
-          "US price: no unambiguous price for this version verified in the official pages and alternative listings checked."
-        ]
-      }
-    },
-    {
-      "id": "saucony-ride-18-women",
-      "brand": "Saucony",
-      "model": "Ride 18",
-      "gender": "women",
-      "drop_mm": 8,
-      "weight_oz": 8,
-      "stack_heel_mm": 35,
-      "stack_forefoot_mm": 27,
-      "toe_box": null,
-      "use_case": "Daily road running",
-      "foam": "PWRRUN+",
-      "price_usd": null,
-      "verdict": "A neutral everyday trainer with PWRRUN+ foam and a flexible rubber outsole.",
-      "source_url": "https://www.saucony.com/AD/en_AD/ride-18/59943M.html",
-      "source_type": "manufacturer",
-      "sourced_at": "2026-10-18",
-      "weight_reference_size": null,
-      "price_type": null,
-      "source_notes": "Weight reference size and toe-box shape not specified by this source. US list price not confirmed. Cleanup review 2026-10-25: Recorded source URL points to the men’s page; no exact women’s new-shoe US price source verified. Regional women’s weight text does not establish a US price; no cross-gender price transfer.",
-      "release_date": "2025-01-01",
-      "release_source_url": "https://weartesters.com/saucony-ride-18-performance-review/",
-      "release_notes": "Release date reported by WearTesters; manufacturer source lists both gender weights.",
-      "manufacturer_support": {
-        "wording": "Neutral",
-        "source_url": "https://www.saucony.com/UK/en_GB/ride-18-wide/59946W.html",
-        "scope": "model",
-        "checked_at": "2026-10-18"
-      },
-      "completion_review": {
-        "checked_at": "2026-10-19",
-        "sources": [],
-        "remaining_gaps": [
-          "US price: no unambiguous price for this version verified in the official pages and alternative listings checked."
-        ]
-      }
-    },
-    {
-      "id": "saucony-guide-18-men",
-      "brand": "Saucony",
-      "model": "Guide 18",
-      "gender": "men",
-      "drop_mm": 6,
-      "weight_oz": 9.7,
-      "stack_heel_mm": 35,
-      "stack_forefoot_mm": 29,
-      "toe_box": null,
-      "use_case": "Daily road running / Support",
-      "foam": "PWRRUN",
-      "price_usd": null,
-      "verdict": "A road trainer using a broad platform and raised sidewalls for guided support.",
-      "source_url": "https://www.saucony.com/UK/en_GB/guide-18/59947M.html?details=complete&dwvar_59947M_color=S20998-240&isProductSetPage=false",
-      "source_type": "manufacturer",
-      "sourced_at": "2026-10-18",
-      "weight_reference_size": null,
-      "price_type": null,
-      "source_notes": "Reference size unspecified. Manufacturer pairs men’s 9.7 oz with 272 g, which do not convert exactly; listed ounces retained. US list price not confirmed. Cleanup review 2026-10-25: US product retrieval returned 404; regional prices are not US prices. No verified exact new-shoe US price source established.",
-      "release_date": "2025-02-01",
-      "release_source_url": "https://weartesters.com/saucony-guide-18-performance-review/",
-      "release_notes": "Release date reported by WearTesters; manufacturer source lists both gender weights.",
-      "manufacturer_support": {
-        "wording": "Maximal",
-        "source_url": "https://www.saucony.com/UK/en_GB/guide-18/59947M.html?details=complete&dwvar_59947M_color=S20998-240&isProductSetPage=false",
-        "scope": "model",
-        "checked_at": "2026-10-18"
-      },
-      "completion_review": {
-        "checked_at": "2026-10-19",
-        "sources": [],
-        "remaining_gaps": [
-          "US price: no unambiguous price for this version verified in the official pages and alternative listings checked."
-        ]
-      }
-    },
-    {
-      "id": "saucony-guide-18-women",
-      "brand": "Saucony",
-      "model": "Guide 18",
-      "gender": "women",
-      "drop_mm": 6,
-      "weight_oz": 8.6,
-      "stack_heel_mm": 35,
-      "stack_forefoot_mm": 29,
-      "toe_box": null,
-      "use_case": "Daily road running / Support",
-      "foam": "PWRRUN",
-      "price_usd": null,
-      "verdict": "A road trainer using a broad platform and raised sidewalls for guided support.",
-      "source_url": "https://www.saucony.com/UK/en_GB/guide-18/59947M.html?details=complete&dwvar_59947M_color=S20998-240&isProductSetPage=false",
-      "source_type": "manufacturer",
-      "sourced_at": "2026-10-18",
-      "weight_reference_size": null,
-      "price_type": null,
-      "source_notes": "Reference size unspecified. Manufacturer pairs men’s 9.7 oz with 272 g, which do not convert exactly; listed ounces retained. US list price not confirmed. Cleanup review 2026-10-25: Recorded source URL points to the men’s page; no exact women’s new-shoe US price source verified. Regional women’s weight text does not establish a US price; no cross-gender price transfer.",
-      "release_date": "2025-02-01",
-      "release_source_url": "https://weartesters.com/saucony-guide-18-performance-review/",
-      "release_notes": "Release date reported by WearTesters; manufacturer source lists both gender weights.",
-      "manufacturer_support": {
-        "wording": "Maximal",
-        "source_url": "https://www.saucony.com/UK/en_GB/guide-18/59947M.html?details=complete&dwvar_59947M_color=S20998-240&isProductSetPage=false",
-        "scope": "model",
-        "checked_at": "2026-10-18"
-      },
-      "completion_review": {
-        "checked_at": "2026-10-19",
-        "sources": [],
-        "remaining_gaps": [
-          "US price: no unambiguous price for this version verified in the official pages and alternative listings checked."
-        ]
-      }
-    },
-    {
-      "id": "saucony-endorphin-speed-5-men",
-      "brand": "Saucony",
-      "model": "Endorphin Speed 5",
-      "gender": "men",
-      "drop_mm": 8,
-      "weight_oz": 8.3,
-      "stack_heel_mm": 36,
-      "stack_forefoot_mm": 28,
-      "toe_box": null,
-      "use_case": "Tempo / Speedwork / Road racing",
-      "foam": "PWRRUN PB + nylon plate",
-      "price_usd": 175.0,
-      "verdict": "A nylon-plated trainer for faster workouts and racing.",
-      "source_url": "https://www.saucony.com/en/endorphin-speed-5-wide/60707M.html?dwvar_60707M_color=S21008-01",
-      "source_type": "manufacturer",
-      "sourced_at": "2026-10-18",
-      "weight_reference_size": null,
-      "price_type": "US list price",
-      "source_notes": "Weight reference size and toe-box shape not specified by this source. ",
-      "release_date": "2025-06",
-      "release_source_url": "https://www.youtube.com/watch?v=asIfOX8zuRU",
-      "release_notes": "Month-level launch reported at The Running Event; current manufacturer pages confirm release. Wide product pages supply the brand’s model specifications; width is not counted as another entry.",
-      "manufacturer_support": null,
-      "completion_review": {
-        "checked_at": "2026-10-19",
-        "sources": [
-          {
-            "fields": [
-              "price_usd",
-              "price_type"
-            ],
-            "url": "https://www.saucony.com/en/endorphin-speed-5-wide/60707M.html?dwvar_60707M_color=S21008-01",
-            "note": "US regular/list price from the linked manufacturer page; sale price excluded. Price reference is the wide version."
-          }
-        ]
-      },
-      "price_source_url": "https://www.saucony.com/en/endorphin-speed-5-wide/60707M.html?dwvar_60707M_color=S21008-01"
-    },
-    {
-      "id": "saucony-endorphin-speed-5-women",
-      "brand": "Saucony",
-      "model": "Endorphin Speed 5",
-      "gender": "women",
-      "drop_mm": 8,
-      "weight_oz": 7.2,
-      "stack_heel_mm": 36,
-      "stack_forefoot_mm": 28,
-      "toe_box": null,
-      "use_case": "Tempo / Speedwork / Road racing",
-      "foam": "PWRRUN PB + nylon plate",
-      "price_usd": 175.0,
-      "verdict": "A nylon-plated trainer for faster workouts and racing.",
-      "source_url": "https://www.saucony.com/en/endorphin-speed-5-wide/60709W.html",
-      "source_type": "manufacturer",
-      "sourced_at": "2026-10-18",
-      "weight_reference_size": null,
-      "price_type": "US list price",
-      "source_notes": "Weight reference size and toe-box shape not specified by this source. ",
-      "release_date": "2025-06",
-      "release_source_url": "https://www.youtube.com/watch?v=asIfOX8zuRU",
-      "release_notes": "Month-level launch reported at The Running Event; current manufacturer pages confirm release. Wide product pages supply the brand’s model specifications; width is not counted as another entry.",
-      "manufacturer_support": null,
-      "completion_review": {
-        "checked_at": "2026-10-19",
-        "sources": [
-          {
-            "fields": [
-              "price_usd",
-              "price_type"
-            ],
-            "url": "https://www.saucony.com/en/endorphin-speed-5-wide/60709W.html",
-            "note": "US regular/list price from the linked manufacturer page; sale price excluded. Price reference is the wide version."
-          }
-        ]
-      },
-      "price_source_url": "https://www.saucony.com/en/endorphin-speed-5-wide/60709W.html"
-    },
-    {
-      "id": "saucony-triumph-23-men",
-      "brand": "Saucony",
-      "model": "Triumph 23",
-      "gender": "men",
-      "drop_mm": 10,
-      "weight_oz": 9.2,
-      "stack_heel_mm": 37,
-      "stack_forefoot_mm": 27,
-      "toe_box": null,
-      "use_case": "Daily road running / Long runs / Recovery",
-      "foam": "PWRRUN PB",
-      "price_usd": 170,
-      "verdict": "A cushioned neutral trainer with PWRRUN PB foam and a responsive sockliner.",
-      "source_url": "https://www.saucony.com/UK/en_GB/triumph-23-wide/60314W.html?details=complete&dwvar_60314W_color=S11024-200&dwvar_60314W_size=5&isProductSetPage=false",
-      "source_type": "manufacturer",
-      "sourced_at": "2026-10-18",
-      "weight_reference_size": null,
-      "price_type": "US list price",
-      "source_notes": "Weight reference size and toe-box shape not specified by this source. ",
-      "release_date": "2025-06",
-      "release_source_url": "https://www.ukrunchat.co.uk/saucony-introduces-triumph-23/",
-      "release_notes": "June 2025 launch coverage confirms global availability by June 3; exact first-sale day not established.",
-      "manufacturer_support": null,
-      "completion_review": {
-        "checked_at": "2026-10-19",
-        "sources": [
-          {
-            "fields": [
-              "price_usd",
-              "price_type"
-            ],
-            "url": "https://www.saucony.com/en/running/?prefn1=size&prefv1=11.5",
-            "note": "US regular/list price from the linked manufacturer page; sale price excluded."
-          }
-        ]
-      },
-      "price_source_url": "https://www.saucony.com/en/running/?prefn1=size&prefv1=11.5"
-    },
-    {
-      "id": "saucony-triumph-23-women",
-      "brand": "Saucony",
-      "model": "Triumph 23",
-      "gender": "women",
-      "drop_mm": 10,
-      "weight_oz": 8.4,
-      "stack_heel_mm": 37,
-      "stack_forefoot_mm": 27,
-      "toe_box": null,
-      "use_case": "Daily road running / Long runs / Recovery",
-      "foam": "PWRRUN PB",
-      "price_usd": 170,
-      "verdict": "A cushioned neutral trainer with PWRRUN PB foam and a responsive sockliner.",
-      "source_url": "https://www.saucony.com/CA/en_CA/triumph-23/60313W.html",
-      "source_type": "manufacturer",
-      "sourced_at": "2026-10-18",
-      "weight_reference_size": null,
-      "price_type": "US list price",
-      "source_notes": "Weight reference size and toe-box shape not specified by this source. ",
-      "release_date": "2025-06",
-      "release_source_url": "https://www.ukrunchat.co.uk/saucony-introduces-triumph-23/",
-      "release_notes": "June 2025 launch coverage confirms global availability by June 3; exact first-sale day not established.",
-      "manufacturer_support": null,
-      "completion_review": {
-        "checked_at": "2026-10-19",
-        "sources": [
-          {
-            "fields": [
-              "price_usd",
-              "price_type"
-            ],
-            "url": "https://www.saucony.com/en/running/?prefn1=size&prefv1=11.5",
-            "note": "US regular/list price from the linked manufacturer page; sale price excluded."
-          }
-        ]
-      },
-      "price_source_url": "https://www.saucony.com/en/running/?prefn1=size&prefv1=11.5"
-    },
-    {
       "id": "saucony-xodus-ultra-4-men",
       "brand": "Saucony",
       "model": "Xodus Ultra 4",
@@ -2305,194 +1921,6 @@
         ]
       },
       "price_source_url": "https://www.saucony.com/en/peregrine-16/60850W.html?dwvar_60850W_color=S11066-130"
-    },
-    {
-      "id": "brooks-glycerin-22-men",
-      "brand": "Brooks",
-      "model": "Glycerin 22",
-      "gender": "men",
-      "drop_mm": 10,
-      "weight_oz": 10.2,
-      "stack_heel_mm": null,
-      "stack_forefoot_mm": null,
-      "toe_box": null,
-      "use_case": "Daily road running / Long runs",
-      "foam": "DNA Tuned",
-      "price_usd": 165,
-      "verdict": "A cushioned neutral road trainer with nitrogen-infused foam.",
-      "source_url": "https://www.brooksrunning.com/en_us/mens/shoes/road-running-shoes/glycerin-22/1104451D235.110.html",
-      "source_type": "manufacturer",
-      "sourced_at": "2026-10-18",
-      "weight_reference_size": null,
-      "price_type": "US list price",
-      "source_notes": "Manufacturer-listed weights; reference size, total stack heights and toe-box shape not specified. Cleanup review 2026-10-25: US page retrieval blocked; no manufacturer heel/forefoot pair clearly assigned to this version verified in the sources checked.",
-      "release_date": "2025-02-01",
-      "release_source_url": "https://weartesters.com/brooks-glycerin-22-performance-review/",
-      "release_notes": "Reported model launch; regional availability may differ.",
-      "manufacturer_support": {
-        "wording": "Balanced support",
-        "source_url": "https://www.brooksrunning.com/en_us/mens/shoes/road-running-shoes/glycerin-22/1104452E090.115.html",
-        "scope": "model",
-        "checked_at": "2026-10-18"
-      },
-      "completion_review": {
-        "checked_at": "2026-10-19",
-        "sources": [
-          {
-            "fields": [
-              "price_usd",
-              "price_type"
-            ],
-            "url": "https://www.brooksrunning.com/en_us/mens/shoes/road-running-shoes/glycerin-22/1104451D235.110.html",
-            "note": "US regular/list price from the linked manufacturer page; sale price excluded."
-          }
-        ],
-        "remaining_gaps": [
-          "Stack: a consistent heel/forefoot pair for this version was not verified in the official sources checked; no laboratory or other-version measurements substituted."
-        ]
-      },
-      "price_source_url": "https://www.brooksrunning.com/en_us/mens/shoes/road-running-shoes/glycerin-22/1104451D235.110.html"
-    },
-    {
-      "id": "brooks-glycerin-22-women",
-      "brand": "Brooks",
-      "model": "Glycerin 22",
-      "gender": "women",
-      "drop_mm": 10,
-      "weight_oz": 9.1,
-      "stack_heel_mm": null,
-      "stack_forefoot_mm": null,
-      "toe_box": null,
-      "use_case": "Daily road running / Long runs",
-      "foam": "DNA Tuned",
-      "price_usd": 165,
-      "verdict": "A cushioned neutral road trainer with nitrogen-infused foam.",
-      "source_url": "https://www.brooksrunning.com/en_us/womens/shoes/road-running-shoes/glycerin-22/1204341B110.065.html",
-      "source_type": "manufacturer",
-      "sourced_at": "2026-10-18",
-      "weight_reference_size": null,
-      "price_type": "US list price",
-      "source_notes": "Manufacturer-listed weights; reference size, total stack heights and toe-box shape not specified. Cleanup review 2026-10-25: US page retrieval blocked; no manufacturer heel/forefoot pair clearly assigned to this version verified in the sources checked.",
-      "release_date": "2025-02-01",
-      "release_source_url": "https://weartesters.com/brooks-glycerin-22-performance-review/",
-      "release_notes": "Reported model launch; regional availability may differ.",
-      "manufacturer_support": {
-        "wording": "Balanced support",
-        "source_url": "https://www.brooksrunning.com/en_us/mens/shoes/road-running-shoes/glycerin-22/1104452E090.115.html",
-        "scope": "model",
-        "checked_at": "2026-10-18"
-      },
-      "completion_review": {
-        "checked_at": "2026-10-19",
-        "sources": [
-          {
-            "fields": [
-              "price_usd",
-              "price_type"
-            ],
-            "url": "https://www.brooksrunning.com/en_us/womens/shoes/road-running-shoes/glycerin-22/1204341B110.065.html",
-            "note": "US regular/list price from the linked manufacturer page; sale price excluded."
-          }
-        ],
-        "remaining_gaps": [
-          "Stack: a consistent heel/forefoot pair for this version was not verified in the official sources checked; no laboratory or other-version measurements substituted."
-        ]
-      },
-      "price_source_url": "https://www.brooksrunning.com/en_us/womens/shoes/road-running-shoes/glycerin-22/1204341B110.065.html"
-    },
-    {
-      "id": "brooks-glycerin-gts-22-men",
-      "brand": "Brooks",
-      "model": "Glycerin GTS 22",
-      "gender": "men",
-      "drop_mm": 10,
-      "weight_oz": 10.7,
-      "stack_heel_mm": null,
-      "stack_forefoot_mm": null,
-      "toe_box": null,
-      "use_case": "Daily road running / Long runs / Support",
-      "foam": "DNA Tuned + GuideRails",
-      "price_usd": 165,
-      "verdict": "A cushioned road trainer with GuideRails support.",
-      "source_url": "https://www.brooksrunning.com/en_us/mens/shoes/road-running-shoes/glycerin-gts-22/1104461D821.090.html",
-      "source_type": "manufacturer",
-      "sourced_at": "2026-10-18",
-      "weight_reference_size": null,
-      "price_type": "US list price",
-      "source_notes": "Manufacturer-listed weights; reference size, total stack heights and toe-box shape not specified. Cleanup review 2026-10-25: US page retrieval blocked; no manufacturer heel/forefoot pair clearly assigned to this version verified in the sources checked.",
-      "release_date": "2025-02",
-      "release_source_url": "https://www.roadtrailrun.com/2024/11/brooks-2025-road-and-trail-run-previews.html?amp=1&m=0",
-      "release_notes": "February 2025 launch preview includes the GTS version; manufacturer pages confirm release.",
-      "manufacturer_support": {
-        "wording": "Structured support",
-        "source_url": "https://www.brooksrunning.com/en_us/mens/shoes/road-running-shoes/glycerin-gts-22/1104461D821.090.html",
-        "scope": "model",
-        "checked_at": "2026-10-18"
-      },
-      "completion_review": {
-        "checked_at": "2026-10-19",
-        "sources": [
-          {
-            "fields": [
-              "price_usd",
-              "price_type"
-            ],
-            "url": "https://www.brooksrunning.com/en_us/mens/shoes/road-running-shoes/glycerin-gts-22/1104461D821.090.html",
-            "note": "US regular/list price from the linked manufacturer page; sale price excluded."
-          }
-        ],
-        "remaining_gaps": [
-          "Stack: a consistent heel/forefoot pair for this version was not verified in the official sources checked; no laboratory or other-version measurements substituted."
-        ]
-      },
-      "price_source_url": "https://www.brooksrunning.com/en_us/mens/shoes/road-running-shoes/glycerin-gts-22/1104461D821.090.html"
-    },
-    {
-      "id": "brooks-glycerin-gts-22-women",
-      "brand": "Brooks",
-      "model": "Glycerin GTS 22",
-      "gender": "women",
-      "drop_mm": 10,
-      "weight_oz": 9.5,
-      "stack_heel_mm": null,
-      "stack_forefoot_mm": null,
-      "toe_box": null,
-      "use_case": "Daily road running / Long runs / Support",
-      "foam": "DNA Tuned + GuideRails",
-      "price_usd": 165,
-      "verdict": "A cushioned road trainer with GuideRails support.",
-      "source_url": "https://www.brooksrunning.com/en_us/womens/shoes/road-running-shoes/glycerin-gts-22/1204351B429.050.html",
-      "source_type": "manufacturer",
-      "sourced_at": "2026-10-18",
-      "weight_reference_size": null,
-      "price_type": "US list price",
-      "source_notes": "Manufacturer-listed weights; reference size, total stack heights and toe-box shape not specified. Cleanup review 2026-10-25: US page retrieval blocked; no manufacturer heel/forefoot pair clearly assigned to this version verified in the sources checked.",
-      "release_date": "2025-02",
-      "release_source_url": "https://www.roadtrailrun.com/2024/11/brooks-2025-road-and-trail-run-previews.html?amp=1&m=0",
-      "release_notes": "February 2025 launch preview includes the GTS version; manufacturer pages confirm release.",
-      "manufacturer_support": {
-        "wording": "Structured support",
-        "source_url": "https://www.brooksrunning.com/en_us/mens/shoes/road-running-shoes/glycerin-gts-22/1104461D821.090.html",
-        "scope": "model",
-        "checked_at": "2026-10-18"
-      },
-      "completion_review": {
-        "checked_at": "2026-10-19",
-        "sources": [
-          {
-            "fields": [
-              "price_usd",
-              "price_type"
-            ],
-            "url": "https://www.brooksrunning.com/en_us/womens/shoes/road-running-shoes/glycerin-gts-22/1204351B429.050.html",
-            "note": "US regular/list price from the linked manufacturer page; sale price excluded."
-          }
-        ],
-        "remaining_gaps": [
-          "Stack: a consistent heel/forefoot pair for this version was not verified in the official sources checked; no laboratory or other-version measurements substituted."
-        ]
-      },
-      "price_source_url": "https://www.brooksrunning.com/en_us/womens/shoes/road-running-shoes/glycerin-gts-22/1204351B429.050.html"
     },
     {
       "id": "brooks-ghost-17-men",
@@ -2926,92 +2354,6 @@
       }
     },
     {
-      "id": "hoka-clifton-10-men",
-      "brand": "HOKA",
-      "model": "Clifton 10",
-      "gender": "men",
-      "drop_mm": 8,
-      "weight_oz": 9.8,
-      "stack_heel_mm": null,
-      "stack_forefoot_mm": null,
-      "toe_box": null,
-      "use_case": "Daily road running / Walking",
-      "foam": "CMEVA",
-      "price_usd": 155,
-      "verdict": "A cushioned road trainer with a rocker profile and jacquard upper.",
-      "source_url": "https://au.hoka.com/blog/introducing-the-clifton-10",
-      "source_type": "manufacturer",
-      "sourced_at": "2026-10-18",
-      "weight_reference_size": null,
-      "price_type": "US store listing",
-      "source_notes": "Weights are from HOKA Australia’s model introduction; reference sizes unspecified. Stack heights omitted because the article does not distinguish gender versions. Cleanup review 2026-10-25: Gender unclear: official NZ launch article gives 42 mm heel / 34 mm forefoot but does not identify which gender that pair describes; retained blank.",
-      "release_date": "2025-04",
-      "release_source_url": "https://weartesters.com/hoka-clifton-10-performance-review/",
-      "release_notes": "April 2025 launch; reported US date is April 15, with earlier regional availability.",
-      "manufacturer_support": null,
-      "completion_review": {
-        "checked_at": "2026-10-19",
-        "sources": [
-          {
-            "fields": [
-              "price_usd",
-              "price_type"
-            ],
-            "url": "https://stores.hoka.com/store/381992/hoka-store-boston-ma",
-            "note": "Price listed by a HOKA Brand Store in the US, checked 2026-10-19; manufacturer store offer, not independently verified MSRP. May vary by store and colorway."
-          }
-        ],
-        "remaining_gaps": [
-          "Stack: a consistent heel/forefoot pair for this version was not verified in the official sources checked; no laboratory or other-version measurements substituted."
-        ]
-      },
-      "price_checked_at": "2026-10-19",
-      "price_source_url": "https://stores.hoka.com/store/381992/hoka-store-boston-ma"
-    },
-    {
-      "id": "hoka-clifton-10-women",
-      "brand": "HOKA",
-      "model": "Clifton 10",
-      "gender": "women",
-      "drop_mm": 8,
-      "weight_oz": 8,
-      "stack_heel_mm": null,
-      "stack_forefoot_mm": null,
-      "toe_box": null,
-      "use_case": "Daily road running / Walking",
-      "foam": "CMEVA",
-      "price_usd": 155,
-      "verdict": "A cushioned road trainer with a rocker profile and jacquard upper.",
-      "source_url": "https://au.hoka.com/blog/introducing-the-clifton-10",
-      "source_type": "manufacturer",
-      "sourced_at": "2026-10-18",
-      "weight_reference_size": null,
-      "price_type": "US store listing",
-      "source_notes": "Weights are from HOKA Australia’s model introduction; reference sizes unspecified. Stack heights omitted because the article does not distinguish gender versions. Cleanup review 2026-10-25: Gender unclear: official NZ launch article gives 42 mm heel / 34 mm forefoot but does not identify which gender that pair describes; retained blank.",
-      "release_date": "2025-04",
-      "release_source_url": "https://weartesters.com/hoka-clifton-10-performance-review/",
-      "release_notes": "April 2025 launch; reported US date is April 15, with earlier regional availability.",
-      "manufacturer_support": null,
-      "completion_review": {
-        "checked_at": "2026-10-19",
-        "sources": [
-          {
-            "fields": [
-              "price_usd",
-              "price_type"
-            ],
-            "url": "https://stores.hoka.com/store/381992/hoka-store-boston-ma",
-            "note": "Price listed by a HOKA Brand Store in the US, checked 2026-10-19; manufacturer store offer, not independently verified MSRP. May vary by store and colorway."
-          }
-        ],
-        "remaining_gaps": [
-          "Stack: a consistent heel/forefoot pair for this version was not verified in the official sources checked; no laboratory or other-version measurements substituted."
-        ]
-      },
-      "price_checked_at": "2026-10-19",
-      "price_source_url": "https://stores.hoka.com/store/381992/hoka-store-boston-ma"
-    },
-    {
       "id": "hoka-bondi-9-men",
       "brand": "HOKA",
       "model": "Bondi 9",
@@ -3222,68 +2564,6 @@
       "price_source_url": "https://news.adidas.com/global/adidas-launches-new-adizero-boston-13---designed-for-fast-training-runs/s/0ca9243c-a53d-47a6-8e7c-31e4e2d77357"
     },
     {
-      "id": "puma-velocity-nitro-4-men",
-      "brand": "PUMA",
-      "model": "Velocity NITRO 4",
-      "gender": "men",
-      "drop_mm": 10,
-      "weight_oz": null,
-      "stack_heel_mm": 36,
-      "stack_forefoot_mm": 26,
-      "toe_box": null,
-      "use_case": "Daily road running / Tempo",
-      "foam": "NITROFOAM",
-      "price_usd": 140,
-      "verdict": "Velocity NITRO 4 is a road running shoe with NITROFOAM cushioning.",
-      "source_url": "https://us.puma.com/us/en/pd/velocity-nitro-4-mens-road-running-shoes/311140?swatch=26",
-      "source_type": "manufacturer",
-      "sourced_at": "2026-10-18",
-      "weight_reference_size": null,
-      "price_type": "US list price",
-      "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. Weight not specified on the cited US product pages. Cleanup review 2026-10-25: US/EU pages omit weight. Official launch article states only 14 g lighter than the predecessor, not an absolute gender-specific weight; no subtraction used.",
-      "release_date": "2025-07-17",
-      "release_source_url": "https://www.about.puma.com/en/newsroom/product-and-brand-news/2025/08-07-2025-puma-unveils-velocity-nitrotm-4-encouraging-you",
-      "release_notes": "Model launch date; regional availability may differ.",
-      "manufacturer_support": {
-        "wording": "Recommended for: neutral pronators",
-        "source_url": "https://us.puma.com/us/en/pd/velocity-nitro-4-mens-road-running-shoes/311140?swatch=26",
-        "scope": "model",
-        "checked_at": "2026-10-18"
-      },
-      "price_source_url": "https://us.puma.com/us/en/pd/velocity-nitro-4-mens-road-running-shoes/311140?swatch=26"
-    },
-    {
-      "id": "puma-velocity-nitro-4-women",
-      "brand": "PUMA",
-      "model": "Velocity NITRO 4",
-      "gender": "women",
-      "drop_mm": 10,
-      "weight_oz": null,
-      "stack_heel_mm": 36,
-      "stack_forefoot_mm": 26,
-      "toe_box": null,
-      "use_case": "Daily road running / Tempo",
-      "foam": "NITROFOAM",
-      "price_usd": 140,
-      "verdict": "Velocity NITRO 4 is a road running shoe with NITROFOAM cushioning.",
-      "source_url": "https://us.puma.com/us/en/pd/velocity_nitro%E2%84%A2%EF%B8%8F_4_women/311141",
-      "source_type": "manufacturer",
-      "sourced_at": "2026-10-18",
-      "weight_reference_size": null,
-      "price_type": "US list price",
-      "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. Weight not specified on the cited US product pages. Cleanup review 2026-10-25: US/EU pages omit weight. Official launch article states only 14 g lighter than the predecessor, not an absolute gender-specific weight; no subtraction used.",
-      "release_date": "2025-07-17",
-      "release_source_url": "https://www.about.puma.com/en/newsroom/product-and-brand-news/2025/08-07-2025-puma-unveils-velocity-nitrotm-4-encouraging-you",
-      "release_notes": "Model launch date; regional availability may differ.",
-      "manufacturer_support": {
-        "wording": "Recommended for: neutral pronators",
-        "source_url": "https://us.puma.com/us/en/pd/velocity-nitro-4-mens-road-running-shoes/311140?swatch=26",
-        "scope": "model",
-        "checked_at": "2026-10-18"
-      },
-      "price_source_url": "https://us.puma.com/us/en/pd/velocity_nitro%E2%84%A2%EF%B8%8F_4_women/311141"
-    },
-    {
       "id": "puma-foreverrun-nitro-2-men",
       "brand": "PUMA",
       "model": "ForeverRun NITRO 2",
@@ -3309,11 +2589,11 @@
       "manufacturer_support": {
         "wording": "Recommended for: overpronators",
         "source_url": "https://us.puma.com/us/en/pd/foreverrun-nitro%E2%84%A2-2-mens-running-shoes/310109",
-        "scope": "model",
-        "checked_at": "2026-10-18"
+        "scope": "gender-specific model",
+        "checked_at": "2026-10-26"
       },
       "completion_review": {
-        "checked_at": "2026-10-19",
+        "checked_at": "2026-10-26",
         "sources": [
           {
             "fields": [
@@ -3322,6 +2602,13 @@
             ],
             "url": "https://us.puma.com/us/en/pd/foreverrun-nitro%E2%84%A2-2-mens-running-shoes/310109",
             "note": "US regular/list price from the linked manufacturer page; sale price excluded."
+          },
+          {
+            "fields": [
+              "manufacturer_support"
+            ],
+            "url": "https://us.puma.com/us/en/pd/foreverrun-nitro%E2%84%A2-2-mens-running-shoes/310109",
+            "note": "Exact PUMA field wording, including its field label; consistent quoted presentation without normalizing different manufacturer labels."
           }
         ],
         "remaining_gaps": [
@@ -3355,12 +2642,12 @@
       "release_notes": "Model launch date; regional availability may differ.",
       "manufacturer_support": {
         "wording": "Recommended for: overpronators",
-        "source_url": "https://us.puma.com/us/en/pd/foreverrun-nitro%E2%84%A2-2-mens-running-shoes/310109",
-        "scope": "model",
-        "checked_at": "2026-10-18"
+        "source_url": "https://us.puma.com/us/en/pd/foreverrun-nitro-2-womens-running-shoes/310471",
+        "scope": "gender-specific model",
+        "checked_at": "2026-10-26"
       },
       "completion_review": {
-        "checked_at": "2026-10-19",
+        "checked_at": "2026-10-26",
         "sources": [
           {
             "fields": [
@@ -3369,6 +2656,13 @@
             ],
             "url": "https://us.puma.com/us/en/pd/foreverrun-nitro-2-womens-running-shoes/310471",
             "note": "US regular/list price from the linked manufacturer page; sale price excluded."
+          },
+          {
+            "fields": [
+              "manufacturer_support"
+            ],
+            "url": "https://us.puma.com/us/en/pd/foreverrun-nitro-2-womens-running-shoes/310471",
+            "note": "Exact PUMA field wording, including its field label; consistent quoted presentation without normalizing different manufacturer labels."
           }
         ],
         "remaining_gaps": [
@@ -3520,7 +2814,7 @@
       "use_case": "Daily road running / Long runs",
       "foam": "NITROFOAM",
       "price_usd": 180,
-      "verdict": "MagMax NITRO 2 is a road running shoe with NITROFOAM cushioning.",
+      "verdict": "MagMax NITRO 2 is a road running shoe with NITROFOAM cushioning. PUMA rates its cushioning as “Max.”",
       "source_url": "https://us.puma.com/us/en/pd/magmax-nitro-2-mens-road-running-shoes/312125?swatch=09",
       "source_type": "manufacturer",
       "sourced_at": "2026-10-18",
@@ -3533,10 +2827,29 @@
       "manufacturer_support": {
         "wording": "Pronation: Overpronation",
         "source_url": "https://us.puma.com/us/en/pd/magmax-nitro-2-mens-road-running-shoes/312125?swatch=09",
-        "scope": "model",
-        "checked_at": "2026-10-18"
+        "scope": "gender-specific model",
+        "checked_at": "2026-10-26"
       },
-      "price_source_url": "https://us.puma.com/us/en/pd/magmax-nitro-2-mens-road-running-shoes/312125?swatch=09"
+      "price_source_url": "https://us.puma.com/us/en/pd/magmax-nitro-2-mens-road-running-shoes/312125?swatch=09",
+      "completion_review": {
+        "checked_at": "2026-10-26",
+        "sources": [
+          {
+            "fields": [
+              "manufacturer_support"
+            ],
+            "url": "https://us.puma.com/us/en/pd/magmax-nitro-2-mens-road-running-shoes/312125?swatch=09",
+            "note": "Exact PUMA field wording, including its field label; consistent quoted presentation without normalizing different manufacturer labels."
+          },
+          {
+            "fields": [
+              "verdict"
+            ],
+            "url": "https://us.puma.com/us/en/pd/magmax-nitro-2-mens-road-running-shoes/312125?swatch=09",
+            "note": "Manufacturer’s explicit cushion-level field: Max; original description otherwise unchanged."
+          }
+        ]
+      }
     },
     {
       "id": "puma-magmax-nitro-2-women",
@@ -3551,7 +2864,7 @@
       "use_case": "Daily road running / Long runs",
       "foam": "NITROFOAM",
       "price_usd": 180,
-      "verdict": "MagMax NITRO 2 is a road running shoe with NITROFOAM cushioning.",
+      "verdict": "MagMax NITRO 2 is a road running shoe with NITROFOAM cushioning. PUMA rates its cushioning as “Max.”",
       "source_url": "https://us.puma.com/us/en/pd/magmax-nitro-2-womens-road-running-shoes/312126?swatch=01",
       "source_type": "manufacturer",
       "sourced_at": "2026-10-18",
@@ -3563,96 +2876,30 @@
       "release_notes": "Model launch date; regional availability may differ.",
       "manufacturer_support": {
         "wording": "Pronation: Overpronation",
-        "source_url": "https://us.puma.com/us/en/pd/magmax-nitro-2-mens-road-running-shoes/312125?swatch=09",
-        "scope": "model",
-        "checked_at": "2026-10-18"
+        "source_url": "https://us.puma.com/us/en/pd/magmax-nitro-2-womens-road-running-shoes/312126?swatch=01",
+        "scope": "gender-specific model",
+        "checked_at": "2026-10-26"
       },
-      "price_source_url": "https://us.puma.com/us/en/pd/magmax-nitro-2-womens-road-running-shoes/312126?swatch=01"
-    },
-    {
-      "id": "asics-gel-nimbus-27-men",
-      "brand": "ASICS",
-      "model": "GEL-NIMBUS 27",
-      "gender": "men",
-      "drop_mm": 8,
-      "weight_oz": 10.76,
-      "stack_heel_mm": null,
-      "stack_forefoot_mm": null,
-      "toe_box": null,
-      "use_case": "Daily road running / Long runs",
-      "foam": "FF BLAST PLUS + PureGEL",
-      "price_usd": null,
-      "verdict": "GEL-NIMBUS 27 is a road running shoe with FF BLAST PLUS + PureGEL cushioning.",
-      "source_url": "https://www.asics.com/us/en-us/gel-nimbus-27-luxe/p/ANA_1011C030-020.html?size=10&width=Standard",
-      "source_type": "manufacturer",
-      "sourced_at": "2026-10-18",
-      "weight_reference_size": null,
-      "price_type": null,
-      "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. Japan online release date. Men’s source is the LUXE colorway; women’s source is Narrow. Listed figures are those source variants; no extra colorway or width entries are counted. Reference weight sizes unspecified. Cleanup review 2026-10-25: Exact men’s LUXE US page is readable through web retrieval but displays no price; raw retrieval was blocked. Search/category snippets are insufficient to confirm the exact current offer.",
-      "release_date": "2025-01-30",
-      "release_source_url": "https://corp.asics.com/jp/press/article/2025-01-23",
-      "release_notes": "Model launch date; regional availability may differ.",
-      "manufacturer_support": {
-        "wording": "Neutral",
-        "source_url": "https://www.asics.com/us/en-us/gel-nimbus-27-luxe/p/ANA_1011C030-020.html?size=10&width=Standard",
-        "scope": "model",
-        "checked_at": "2026-10-18"
-      },
+      "price_source_url": "https://us.puma.com/us/en/pd/magmax-nitro-2-womens-road-running-shoes/312126?swatch=01",
       "completion_review": {
-        "checked_at": "2026-10-19",
-        "sources": [],
-        "remaining_gaps": [
-          "US price: no unambiguous price for this version verified in the official pages and alternative listings checked.",
-          "Stack: a consistent heel/forefoot pair for this version was not verified in the official sources checked; no laboratory or other-version measurements substituted."
-        ]
-      }
-    },
-    {
-      "id": "asics-gel-nimbus-27-women",
-      "brand": "ASICS",
-      "model": "GEL-NIMBUS 27",
-      "gender": "women",
-      "drop_mm": 8,
-      "weight_oz": 9.35,
-      "stack_heel_mm": null,
-      "stack_forefoot_mm": null,
-      "toe_box": null,
-      "use_case": "Daily road running / Long runs",
-      "foam": "FF BLAST PLUS + PureGEL",
-      "price_usd": 165,
-      "verdict": "GEL-NIMBUS 27 is a road running shoe with FF BLAST PLUS + PureGEL cushioning.",
-      "source_url": "https://www.asics.com/us/en-us/gel-nimbus-27-narrow/p/1012B819-002.html?size=6",
-      "source_type": "manufacturer",
-      "sourced_at": "2026-10-18",
-      "weight_reference_size": null,
-      "price_type": "US list price",
-      "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. Japan online release date. Men’s source is the LUXE colorway; women’s source is Narrow. Listed figures are those source variants; no extra colorway or width entries are counted. Reference weight sizes unspecified.",
-      "release_date": "2025-01-30",
-      "release_source_url": "https://corp.asics.com/jp/press/article/2025-01-23",
-      "release_notes": "Model launch date; regional availability may differ.",
-      "manufacturer_support": {
-        "wording": "Neutral",
-        "source_url": "https://www.asics.com/us/en-us/gel-nimbus-27-luxe/p/ANA_1011C030-020.html?size=10&width=Standard",
-        "scope": "model",
-        "checked_at": "2026-10-18"
-      },
-      "completion_review": {
-        "checked_at": "2026-10-20",
+        "checked_at": "2026-10-26",
         "sources": [
           {
             "fields": [
-              "price_usd"
+              "manufacturer_support"
             ],
-            "url": "https://www.asics.com/us/en-us/gel-nimbus-27-narrow/p/ANA_1012B819-002.html",
-            "note": "ASICS US women’s GEL-NIMBUS 27 Narrow Black/Lake Grey page displays regular $165 and reduced $124.95. Retain Narrow reference caveat; not evidence for every width/color. Retrieved manufacturer content is cached (tool reports roughly eight months); current checkout price and stock not confirmed."
+            "url": "https://us.puma.com/us/en/pd/magmax-nitro-2-womens-road-running-shoes/312126?swatch=01",
+            "note": "Exact PUMA field wording, including its field label; consistent quoted presentation without normalizing different manufacturer labels."
+          },
+          {
+            "fields": [
+              "verdict"
+            ],
+            "url": "https://us.puma.com/us/en/pd/magmax-nitro-2-womens-road-running-shoes/312126?swatch=01",
+            "note": "Manufacturer’s explicit cushion-level field: Max; original description otherwise unchanged."
           }
-        ],
-        "remaining_gaps": [
-          "Stack: a consistent heel/forefoot pair for this version was not verified in the official sources checked; no laboratory or other-version measurements substituted."
         ]
-      },
-      "price_source_url": "https://www.asics.com/us/en-us/gel-nimbus-27-narrow/p/ANA_1012B819-002.html",
-      "price_checked_at": "2026-10-20"
+      }
     },
     {
       "id": "asics-gel-nimbus-28-men",
@@ -3759,72 +3006,6 @@
       "price_source_url": "https://www.asics.com/us/en-us/gel-nimbus/c/aa50102000/running/"
     },
     {
-      "id": "asics-gel-cumulus-27-men",
-      "brand": "ASICS",
-      "model": "GEL-CUMULUS 27",
-      "gender": "men",
-      "drop_mm": 8,
-      "weight_oz": 9.35,
-      "stack_heel_mm": null,
-      "stack_forefoot_mm": null,
-      "toe_box": null,
-      "use_case": "Daily road running",
-      "foam": "FF BLAST PLUS + PureGEL",
-      "price_usd": 140,
-      "verdict": "GEL-CUMULUS 27 is a road running shoe with FF BLAST PLUS + PureGEL cushioning.",
-      "source_url": "https://www.asics.com/us/en-us/gel-cumulus-27/p/ANA_1011B960-300.html",
-      "source_type": "manufacturer",
-      "sourced_at": "2026-10-18",
-      "weight_reference_size": null,
-      "price_type": "US list price",
-      "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. Australian release date. Product URL size selections are not weight reference sizes.",
-      "release_date": "2025-02-01",
-      "release_source_url": "https://www.asics.com/au/en-au/gel-cumulus/c/au70127000/?start=24",
-      "release_notes": "Model launch date; regional availability may differ.",
-      "manufacturer_support": null,
-      "completion_review": {
-        "checked_at": "2026-10-19",
-        "sources": [],
-        "remaining_gaps": [
-          "Stack: a consistent heel/forefoot pair for this version was not verified in the official sources checked; no laboratory or other-version measurements substituted."
-        ]
-      },
-      "price_source_url": "https://www.asics.com/us/en-us/gel-cumulus-27/p/ANA_1011B960-300.html"
-    },
-    {
-      "id": "asics-gel-cumulus-27-women",
-      "brand": "ASICS",
-      "model": "GEL-CUMULUS 27",
-      "gender": "women",
-      "drop_mm": 8,
-      "weight_oz": 8.11,
-      "stack_heel_mm": null,
-      "stack_forefoot_mm": null,
-      "toe_box": null,
-      "use_case": "Daily road running",
-      "foam": "FF BLAST PLUS + PureGEL",
-      "price_usd": 140,
-      "verdict": "GEL-CUMULUS 27 is a road running shoe with FF BLAST PLUS + PureGEL cushioning.",
-      "source_url": "https://www.asics.com/us/en-us/gel-cumulus--27/p/1012B772-101.html?size=9",
-      "source_type": "manufacturer",
-      "sourced_at": "2026-10-18",
-      "weight_reference_size": null,
-      "price_type": "US list price",
-      "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. Australian release date. Product URL size selections are not weight reference sizes.",
-      "release_date": "2025-02-01",
-      "release_source_url": "https://www.asics.com/au/en-au/gel-cumulus/c/au70127000/?start=24",
-      "release_notes": "Model launch date; regional availability may differ.",
-      "manufacturer_support": null,
-      "completion_review": {
-        "checked_at": "2026-10-19",
-        "sources": [],
-        "remaining_gaps": [
-          "Stack: a consistent heel/forefoot pair for this version was not verified in the official sources checked; no laboratory or other-version measurements substituted."
-        ]
-      },
-      "price_source_url": "https://www.asics.com/us/en-us/gel-cumulus--27/p/1012B772-101.html?size=9"
-    },
-    {
       "id": "asics-gel-cumulus-28-men",
       "brand": "ASICS",
       "model": "GEL-CUMULUS 28",
@@ -3911,82 +3092,6 @@
         ]
       },
       "price_source_url": "https://www.asics.com/us/en-us/gel-cumulus-28/p/ANA_1012B916-004.html"
-    },
-    {
-      "id": "asics-gt-2000-14-men",
-      "brand": "ASICS",
-      "model": "GT-2000 14",
-      "gender": "men",
-      "drop_mm": 8,
-      "weight_oz": 9.52,
-      "stack_heel_mm": null,
-      "stack_forefoot_mm": null,
-      "toe_box": null,
-      "use_case": "Daily road running / Support",
-      "foam": "FF BLAST MAX",
-      "price_usd": 140,
-      "verdict": "GT-2000 14 is a road running shoe with FF BLAST MAX cushioning.",
-      "source_url": "https://www.asics.com/us/en-us/gt-2000-14/p/ANA_20061428290.html",
-      "source_type": "manufacturer",
-      "sourced_at": "2026-10-18",
-      "weight_reference_size": null,
-      "price_type": "US list price",
-      "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. ",
-      "release_date": "2025-09-01",
-      "release_source_url": "https://www.al.com/shopping/2025/08/asics-new-gt-2000-14-running-shoe-is-now-available-for-preorder.html",
-      "release_notes": "Model launch date; regional availability may differ.",
-      "manufacturer_support": {
-        "wording": "Neutral, Stability",
-        "source_url": "https://www.asics.com/us/en-us/gt-2000-14/p/ANA_20061428290.html",
-        "scope": "model",
-        "checked_at": "2026-10-18"
-      },
-      "completion_review": {
-        "checked_at": "2026-10-19",
-        "sources": [],
-        "remaining_gaps": [
-          "Stack: a consistent heel/forefoot pair for this version was not verified in the official sources checked; no laboratory or other-version measurements substituted."
-        ]
-      },
-      "price_source_url": "https://www.asics.com/us/en-us/gt-2000-14/p/ANA_20061428290.html"
-    },
-    {
-      "id": "asics-gt-2000-14-women",
-      "brand": "ASICS",
-      "model": "GT-2000 14",
-      "gender": "women",
-      "drop_mm": 8,
-      "weight_oz": 8.47,
-      "stack_heel_mm": null,
-      "stack_forefoot_mm": null,
-      "toe_box": null,
-      "use_case": "Daily road running / Support",
-      "foam": "FF BLAST MAX",
-      "price_usd": 140,
-      "verdict": "GT-2000 14 is a road running shoe with FF BLAST MAX cushioning.",
-      "source_url": "https://www.asics.com/us/en-us/gt-2000-14/p/ANA_1012B843-100.html",
-      "source_type": "manufacturer",
-      "sourced_at": "2026-10-18",
-      "weight_reference_size": null,
-      "price_type": "US list price",
-      "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. ",
-      "release_date": "2025-09-01",
-      "release_source_url": "https://www.al.com/shopping/2025/08/asics-new-gt-2000-14-running-shoe-is-now-available-for-preorder.html",
-      "release_notes": "Model launch date; regional availability may differ.",
-      "manufacturer_support": {
-        "wording": "Neutral, Stability",
-        "source_url": "https://www.asics.com/us/en-us/gt-2000-14/p/ANA_20061428290.html",
-        "scope": "model",
-        "checked_at": "2026-10-18"
-      },
-      "completion_review": {
-        "checked_at": "2026-10-19",
-        "sources": [],
-        "remaining_gaps": [
-          "Stack: a consistent heel/forefoot pair for this version was not verified in the official sources checked; no laboratory or other-version measurements substituted."
-        ]
-      },
-      "price_source_url": "https://www.asics.com/us/en-us/gt-2000-14/p/ANA_1012B843-100.html"
     },
     {
       "id": "hoka-arahi-8-men",
@@ -4977,94 +4082,6 @@
       }
     },
     {
-      "id": "saucony-hurricane-25-men",
-      "brand": "Saucony",
-      "model": "Hurricane 25",
-      "gender": "men",
-      "drop_mm": 6,
-      "weight_oz": 10.05,
-      "stack_heel_mm": 38,
-      "stack_forefoot_mm": 32,
-      "toe_box": null,
-      "use_case": "Daily road running / Support",
-      "foam": "PWRRUN PB + PWRRUN Frame / CenterPath",
-      "price_usd": 170,
-      "verdict": "Hurricane 25 is a road running shoe with PWRRUN PB + PWRRUN Frame / CenterPath cushioning.",
-      "source_url": "https://www.saucony.com/en/hurricane-25/60323M.html",
-      "source_type": "manufacturer",
-      "sourced_at": "2026-10-18",
-      "weight_reference_size": null,
-      "price_type": "US list price",
-      "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. ",
-      "release_date": "2025-07-01",
-      "release_source_url": "https://weartesters.com/saucony-hurricane-25-performance-review/",
-      "release_notes": "Model launch date; regional availability may differ.",
-      "manufacturer_support": {
-        "wording": "CenterPath Technology™",
-        "source_url": "https://www.saucony.com/CA/en_CA/hurricane-25-wide/60327W.html?dwvar_60327W_color=S11027-200",
-        "scope": "model",
-        "checked_at": "2026-10-18"
-      },
-      "completion_review": {
-        "checked_at": "2026-10-19",
-        "sources": [
-          {
-            "fields": [
-              "price_usd",
-              "price_type"
-            ],
-            "url": "https://www.saucony.com/en/mens-sale/",
-            "note": "US regular/list price from the linked manufacturer page; sale price excluded."
-          }
-        ]
-      },
-      "price_source_url": "https://www.saucony.com/en/mens-sale/"
-    },
-    {
-      "id": "saucony-hurricane-25-women",
-      "brand": "Saucony",
-      "model": "Hurricane 25",
-      "gender": "women",
-      "drop_mm": 6,
-      "weight_oz": 8.89,
-      "stack_heel_mm": 38,
-      "stack_forefoot_mm": 32,
-      "toe_box": null,
-      "use_case": "Daily road running / Support",
-      "foam": "PWRRUN PB + PWRRUN Frame / CenterPath",
-      "price_usd": 170,
-      "verdict": "Hurricane 25 is a road running shoe with PWRRUN PB + PWRRUN Frame / CenterPath cushioning.",
-      "source_url": "https://www.saucony.com/en/hurricane-25/60325W.html",
-      "source_type": "manufacturer",
-      "sourced_at": "2026-10-18",
-      "weight_reference_size": null,
-      "price_type": "US list price",
-      "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. ",
-      "release_date": "2025-07-01",
-      "release_source_url": "https://weartesters.com/saucony-hurricane-25-performance-review/",
-      "release_notes": "Model launch date; regional availability may differ.",
-      "manufacturer_support": {
-        "wording": "CenterPath Technology™",
-        "source_url": "https://www.saucony.com/CA/en_CA/hurricane-25-wide/60327W.html?dwvar_60327W_color=S11027-200",
-        "scope": "model",
-        "checked_at": "2026-10-18"
-      },
-      "completion_review": {
-        "checked_at": "2026-10-19",
-        "sources": [
-          {
-            "fields": [
-              "price_usd",
-              "price_type"
-            ],
-            "url": "https://www.saucony.com/en/womens-sale/",
-            "note": "US regular/list price from the linked manufacturer page; sale price excluded."
-          }
-        ]
-      },
-      "price_source_url": "https://www.saucony.com/en/womens-sale/"
-    },
-    {
       "id": "hoka-challenger-8-men",
       "brand": "HOKA",
       "model": "Challenger 8",
@@ -5516,7 +4533,7 @@
       "foam": "ZipFoam",
       "price_usd": 175.0,
       "price_type": "US list price",
-      "verdict": "A cushioned daily trainer with a Y-Frame guidance system and breathable mesh upper.",
+      "verdict": "A cushioned daily trainer with a Y-Frame guidance system and breathable mesh upper. Topo Athletic rates its cushioning as “Max.”",
       "source_url": "https://www.topoathletic.com/mens-aura",
       "source_type": "manufacturer",
       "sourced_at": "2026-10-19",
@@ -5531,7 +4548,19 @@
       "release_date": "2026-08",
       "release_source_url": "https://slrc.com/topo-aura-2-mens/",
       "release_notes": "Retailer release field August 1, 2026; official Swedish brand article confirms September regional availability. This is Aura 2, not Aura.",
-      "price_source_url": "https://www.topoathletic.com/mens-aura"
+      "price_source_url": "https://www.topoathletic.com/mens-aura",
+      "completion_review": {
+        "checked_at": "2026-10-26",
+        "sources": [
+          {
+            "fields": [
+              "verdict"
+            ],
+            "url": "https://www.topoathletic.com/mens-aura",
+            "note": "Manufacturer’s explicit cushion-level field: Max; original description otherwise unchanged."
+          }
+        ]
+      }
     },
     {
       "id": "topo-athletic-vista-men",
@@ -5547,7 +4576,7 @@
       "foam": "ZipFoam",
       "price_usd": 175.0,
       "price_type": "US list price",
-      "verdict": "A cushioned trail shoe with a rockered midsole and Vibram Megagrip outsole.",
+      "verdict": "A cushioned trail shoe with a rockered midsole and Vibram Megagrip outsole. Topo Athletic rates its cushioning as “Max.”",
       "source_url": "https://www.topoathletic.com/mens-vista",
       "source_type": "manufacturer",
       "sourced_at": "2026-10-19",
@@ -5562,7 +4591,19 @@
       "release_date": "2025-06",
       "release_source_url": "https://weartesters.com/topo-vista-performance-review/",
       "release_notes": "First-hand 2025 review lists June 2025 release; Topo press archive also includes June 2025 Vista reviews. Later new colors do not reset age.",
-      "price_source_url": "https://www.topoathletic.com/mens-vista"
+      "price_source_url": "https://www.topoathletic.com/mens-vista",
+      "completion_review": {
+        "checked_at": "2026-10-26",
+        "sources": [
+          {
+            "fields": [
+              "verdict"
+            ],
+            "url": "https://www.topoathletic.com/mens-vista",
+            "note": "Manufacturer’s explicit cushion-level field: Max; original description otherwise unchanged."
+          }
+        ]
+      }
     },
     {
       "id": "topo-athletic-specter-3-men",
@@ -5578,7 +4619,7 @@
       "foam": "RevFoam ATPU",
       "price_usd": 170.0,
       "price_type": "US list price",
-      "verdict": "An up-tempo road trainer with a RevFoam ATPU midsole and redesigned rocker.",
+      "verdict": "An up-tempo road trainer with a RevFoam ATPU midsole and redesigned rocker. Topo Athletic rates its cushioning as “Max.”",
       "source_url": "https://www.topoathletic.com/mens-specter",
       "source_type": "manufacturer",
       "sourced_at": "2026-10-19",
@@ -5593,7 +4634,19 @@
       "release_date": "2026",
       "release_source_url": "https://api.einpresswire.com/article/926682148/topo-athletic-expands-the-pro-series-with-the-new-specter-elite",
       "release_notes": "July 14, 2026 manufacturer press release says Specter 3 launched earlier that summer. Generic Specter URL currently identifies SKU M102/W102, Specter 3.",
-      "price_source_url": "https://www.topoathletic.com/mens-specter"
+      "price_source_url": "https://www.topoathletic.com/mens-specter",
+      "completion_review": {
+        "checked_at": "2026-10-26",
+        "sources": [
+          {
+            "fields": [
+              "verdict"
+            ],
+            "url": "https://www.topoathletic.com/mens-specter",
+            "note": "Manufacturer’s explicit cushion-level field: Max; original description otherwise unchanged."
+          }
+        ]
+      }
     },
     {
       "id": "topo-athletic-specter-elite-men",
@@ -5609,7 +4662,7 @@
       "foam": "RevFoam ATPU",
       "price_usd": 250.0,
       "price_type": "US list price",
-      "verdict": "A carbon-plated road racer with a RevFoam ATPU midsole and an anatomical toe box.",
+      "verdict": "A carbon-plated road racer with a RevFoam ATPU midsole and an anatomical toe box. Topo Athletic rates its cushioning as “Max.”",
       "source_url": "https://www.topoathletic.com/mens-specter-elite",
       "source_type": "manufacturer",
       "sourced_at": "2026-10-19",
@@ -5624,7 +4677,19 @@
       "release_date": "2026",
       "release_source_url": "https://api.einpresswire.com/article/926682148/topo-athletic-expands-the-pro-series-with-the-new-specter-elite",
       "release_notes": "July 2026 manufacturer announcement and current official pages identify released model sold through selected retailers. Spring 2027 notice concerns a NEW COLOR, not the original model.",
-      "price_source_url": "https://www.topoathletic.com/mens-specter-elite"
+      "price_source_url": "https://www.topoathletic.com/mens-specter-elite",
+      "completion_review": {
+        "checked_at": "2026-10-26",
+        "sources": [
+          {
+            "fields": [
+              "verdict"
+            ],
+            "url": "https://www.topoathletic.com/mens-specter-elite",
+            "note": "Manufacturer’s explicit cushion-level field: Max; original description otherwise unchanged."
+          }
+        ]
+      }
     },
     {
       "id": "topo-athletic-ultraventure-5-gtx-men",
@@ -5640,7 +4705,7 @@
       "foam": "ZipFoam",
       "price_usd": 180.0,
       "price_type": "US list price",
-      "verdict": "A waterproof trail shoe with a GORE-TEX Invisible Fit upper and Vibram Megagrip outsole.",
+      "verdict": "A waterproof trail shoe with a GORE-TEX Invisible Fit upper and Vibram Megagrip outsole. Topo Athletic rates its cushioning as “High.”",
       "source_url": "https://www.topoathletic.com/mens-ultraventure-5-GTX",
       "source_type": "manufacturer",
       "sourced_at": "2026-10-19",
@@ -5655,7 +4720,19 @@
       "release_date": "2026",
       "release_source_url": "https://www.therunningclub.it/2025/12/30/ultraventure-5-gtx-terraventure-5-gtx-e-trailventure-3-gtx-la-gamma-gtx-di-topo-athletic-the-running-event/",
       "release_notes": "Trade-show coverage announces September; first-hand RoadTrailRun review expected August 2026. Current manufacturer page confirms released GTX version. Year precision retained.",
-      "price_source_url": "https://www.topoathletic.com/mens-ultraventure-5-GTX"
+      "price_source_url": "https://www.topoathletic.com/mens-ultraventure-5-GTX",
+      "completion_review": {
+        "checked_at": "2026-10-26",
+        "sources": [
+          {
+            "fields": [
+              "verdict"
+            ],
+            "url": "https://www.topoathletic.com/mens-ultraventure-5-GTX",
+            "note": "Manufacturer’s explicit cushion-level field: High; original description otherwise unchanged."
+          }
+        ]
+      }
     },
     {
       "id": "topo-athletic-magnifly-6-men",
@@ -5671,7 +4748,7 @@
       "foam": "ZipFoam",
       "price_usd": 140.0,
       "price_type": "US list price",
-      "verdict": "A zero-drop daily trainer with a 26 mm platform and updated ZipFoam cushioning.",
+      "verdict": "A zero-drop daily trainer with a 26 mm platform and updated ZipFoam cushioning. Topo Athletic rates its cushioning as “Medium.”",
       "source_url": "https://www.topoathletic.com/mens-magnifly",
       "source_type": "manufacturer",
       "sourced_at": "2026-10-19",
@@ -5686,7 +4763,19 @@
       "release_date": "2026",
       "release_source_url": "https://slrc.com/topo-magnifly-6-mens/",
       "release_notes": "Retailer release field May 1, 2026; Topo press archive includes March 2026 review. Year precision avoids asserting a global first-sale month. Generic Magnifly URL is generation 6, not 5.",
-      "price_source_url": "https://www.topoathletic.com/mens-magnifly"
+      "price_source_url": "https://www.topoathletic.com/mens-magnifly",
+      "completion_review": {
+        "checked_at": "2026-10-26",
+        "sources": [
+          {
+            "fields": [
+              "verdict"
+            ],
+            "url": "https://www.topoathletic.com/mens-magnifly",
+            "note": "Manufacturer’s explicit cushion-level field: Medium; original description otherwise unchanged."
+          }
+        ]
+      }
     },
     {
       "id": "topo-athletic-terraventure-5-gtx-men",
@@ -5702,7 +4791,7 @@
       "foam": "ZipFoam",
       "price_usd": 175.0,
       "price_type": "US list price",
-      "verdict": "A waterproof technical trail shoe with a forefoot rock plate and Vibram Megagrip outsole.",
+      "verdict": "A waterproof technical trail shoe with a forefoot rock plate and Vibram Megagrip outsole. Topo Athletic rates its cushioning as “Low.”",
       "source_url": "https://www.topoathletic.com/mens-terraventure-gtx",
       "source_type": "manufacturer",
       "sourced_at": "2026-10-19",
@@ -5717,7 +4806,19 @@
       "release_date": "2026-09",
       "release_source_url": "https://www.therunningclub.it/2025/12/30/ultraventure-5-gtx-terraventure-5-gtx-e-trailventure-3-gtx-la-gamma-gtx-di-topo-athletic-the-running-event/",
       "release_notes": "First-hand trade-show coverage announces September 2026 for exact GTX model; current manufacturer pages confirm it. Generic mens-terraventure-gtx identifies M105, generation 5.",
-      "price_source_url": "https://www.topoathletic.com/mens-terraventure-gtx"
+      "price_source_url": "https://www.topoathletic.com/mens-terraventure-gtx",
+      "completion_review": {
+        "checked_at": "2026-10-26",
+        "sources": [
+          {
+            "fields": [
+              "verdict"
+            ],
+            "url": "https://www.topoathletic.com/mens-terraventure-gtx",
+            "note": "Manufacturer’s explicit cushion-level field: Low; original description otherwise unchanged."
+          }
+        ]
+      }
     },
     {
       "id": "topo-athletic-vista-women",
@@ -5733,7 +4834,7 @@
       "foam": "ZipFoam",
       "price_usd": 175.0,
       "price_type": "US list price",
-      "verdict": "A cushioned trail shoe with a rockered midsole and Vibram Megagrip outsole.",
+      "verdict": "A cushioned trail shoe with a rockered midsole and Vibram Megagrip outsole. Topo Athletic rates its cushioning as “Max.”",
       "source_url": "https://www.topoathletic.com/womens-vista",
       "source_type": "manufacturer",
       "sourced_at": "2026-10-19",
@@ -5748,7 +4849,19 @@
       "release_date": "2025-06",
       "release_source_url": "https://weartesters.com/topo-vista-performance-review/",
       "release_notes": "First-hand 2025 review lists June 2025 release; Topo press archive also includes June 2025 Vista reviews. Later new colors do not reset age.",
-      "price_source_url": "https://www.topoathletic.com/womens-vista"
+      "price_source_url": "https://www.topoathletic.com/womens-vista",
+      "completion_review": {
+        "checked_at": "2026-10-26",
+        "sources": [
+          {
+            "fields": [
+              "verdict"
+            ],
+            "url": "https://www.topoathletic.com/womens-vista",
+            "note": "Manufacturer’s explicit cushion-level field: Max; original description otherwise unchanged."
+          }
+        ]
+      }
     },
     {
       "id": "topo-athletic-specter-3-women",
@@ -5764,7 +4877,7 @@
       "foam": "RevFoam ATPU",
       "price_usd": 170.0,
       "price_type": "US list price",
-      "verdict": "An up-tempo road trainer with a RevFoam ATPU midsole and redesigned rocker.",
+      "verdict": "An up-tempo road trainer with a RevFoam ATPU midsole and redesigned rocker. Topo Athletic rates its cushioning as “Max.”",
       "source_url": "https://www.topoathletic.com/womens-specter",
       "source_type": "manufacturer",
       "sourced_at": "2026-10-19",
@@ -5779,7 +4892,19 @@
       "release_date": "2026",
       "release_source_url": "https://api.einpresswire.com/article/926682148/topo-athletic-expands-the-pro-series-with-the-new-specter-elite",
       "release_notes": "July 14, 2026 manufacturer press release says Specter 3 launched earlier that summer. Generic Specter URL currently identifies SKU M102/W102, Specter 3.",
-      "price_source_url": "https://www.topoathletic.com/womens-specter"
+      "price_source_url": "https://www.topoathletic.com/womens-specter",
+      "completion_review": {
+        "checked_at": "2026-10-26",
+        "sources": [
+          {
+            "fields": [
+              "verdict"
+            ],
+            "url": "https://www.topoathletic.com/womens-specter",
+            "note": "Manufacturer’s explicit cushion-level field: Max; original description otherwise unchanged."
+          }
+        ]
+      }
     },
     {
       "id": "topo-athletic-specter-elite-women",
@@ -5795,7 +4920,7 @@
       "foam": "RevFoam ATPU",
       "price_usd": 250.0,
       "price_type": "US list price",
-      "verdict": "A carbon-plated road racer with a RevFoam ATPU midsole and an anatomical toe box.",
+      "verdict": "A carbon-plated road racer with a RevFoam ATPU midsole and an anatomical toe box. Topo Athletic rates its cushioning as “Max.”",
       "source_url": "https://www.topoathletic.com/womens-specter-elite",
       "source_type": "manufacturer",
       "sourced_at": "2026-10-19",
@@ -5810,7 +4935,19 @@
       "release_date": "2026",
       "release_source_url": "https://api.einpresswire.com/article/926682148/topo-athletic-expands-the-pro-series-with-the-new-specter-elite",
       "release_notes": "July 2026 manufacturer announcement and current official pages identify released model sold through selected retailers. Spring 2027 notice concerns a NEW COLOR, not the original model.",
-      "price_source_url": "https://www.topoathletic.com/womens-specter-elite"
+      "price_source_url": "https://www.topoathletic.com/womens-specter-elite",
+      "completion_review": {
+        "checked_at": "2026-10-26",
+        "sources": [
+          {
+            "fields": [
+              "verdict"
+            ],
+            "url": "https://www.topoathletic.com/womens-specter-elite",
+            "note": "Manufacturer’s explicit cushion-level field: Max; original description otherwise unchanged."
+          }
+        ]
+      }
     },
     {
       "id": "topo-athletic-magnifly-6-women",
@@ -5826,7 +4963,7 @@
       "foam": "ZipFoam",
       "price_usd": 140.0,
       "price_type": "US list price",
-      "verdict": "A zero-drop daily trainer with a 26 mm platform and updated ZipFoam cushioning.",
+      "verdict": "A zero-drop daily trainer with a 26 mm platform and updated ZipFoam cushioning. Topo Athletic rates its cushioning as “Medium.”",
       "source_url": "https://www.topoathletic.com/womens-magnifly",
       "source_type": "manufacturer",
       "sourced_at": "2026-10-19",
@@ -5841,7 +4978,19 @@
       "release_date": "2026",
       "release_source_url": "https://slrc.com/topo-magnifly-6-mens/",
       "release_notes": "Retailer release field May 1, 2026; Topo press archive includes March 2026 review. Year precision avoids asserting a global first-sale month. Generic Magnifly URL is generation 6, not 5.",
-      "price_source_url": "https://www.topoathletic.com/womens-magnifly"
+      "price_source_url": "https://www.topoathletic.com/womens-magnifly",
+      "completion_review": {
+        "checked_at": "2026-10-26",
+        "sources": [
+          {
+            "fields": [
+              "verdict"
+            ],
+            "url": "https://www.topoathletic.com/womens-magnifly",
+            "note": "Manufacturer’s explicit cushion-level field: Medium; original description otherwise unchanged."
+          }
+        ]
+      }
     },
     {
       "id": "topo-athletic-ultraventure-5-gtx-women",
@@ -5857,7 +5006,7 @@
       "foam": "ZipFoam",
       "price_usd": 180.0,
       "price_type": "US list price",
-      "verdict": "A waterproof trail shoe with a GORE-TEX Invisible Fit upper and Vibram Megagrip outsole.",
+      "verdict": "A waterproof trail shoe with a GORE-TEX Invisible Fit upper and Vibram Megagrip outsole. Topo Athletic rates its cushioning as “High.”",
       "source_url": "https://www.topoathletic.com/womens-ultraventure-5-GTX",
       "source_type": "manufacturer",
       "sourced_at": "2026-10-19",
@@ -5872,7 +5021,19 @@
       "release_date": "2026",
       "release_source_url": "https://www.therunningclub.it/2025/12/30/ultraventure-5-gtx-terraventure-5-gtx-e-trailventure-3-gtx-la-gamma-gtx-di-topo-athletic-the-running-event/",
       "release_notes": "Trade-show coverage announces September; first-hand RoadTrailRun review expected August 2026. Current manufacturer page confirms released GTX version. Year precision retained.",
-      "price_source_url": "https://www.topoathletic.com/womens-ultraventure-5-GTX"
+      "price_source_url": "https://www.topoathletic.com/womens-ultraventure-5-GTX",
+      "completion_review": {
+        "checked_at": "2026-10-26",
+        "sources": [
+          {
+            "fields": [
+              "verdict"
+            ],
+            "url": "https://www.topoathletic.com/womens-ultraventure-5-GTX",
+            "note": "Manufacturer’s explicit cushion-level field: High; original description otherwise unchanged."
+          }
+        ]
+      }
     },
     {
       "id": "topo-athletic-terraventure-5-gtx-women",
@@ -5888,7 +5049,7 @@
       "foam": "ZipFoam",
       "price_usd": 175.0,
       "price_type": "US list price",
-      "verdict": "A waterproof technical trail shoe with a forefoot rock plate and Vibram Megagrip outsole.",
+      "verdict": "A waterproof technical trail shoe with a forefoot rock plate and Vibram Megagrip outsole. Topo Athletic rates its cushioning as “Low.”",
       "source_url": "https://www.topoathletic.com/womens-terraventure-5-GTX",
       "source_type": "manufacturer",
       "sourced_at": "2026-10-19",
@@ -5903,7 +5064,19 @@
       "release_date": "2026-09",
       "release_source_url": "https://www.therunningclub.it/2025/12/30/ultraventure-5-gtx-terraventure-5-gtx-e-trailventure-3-gtx-la-gamma-gtx-di-topo-athletic-the-running-event/",
       "release_notes": "First-hand trade-show coverage announces September 2026 for exact GTX model; current manufacturer pages confirm it. Generic mens-terraventure-gtx identifies M105, generation 5.",
-      "price_source_url": "https://www.topoathletic.com/womens-terraventure-5-GTX"
+      "price_source_url": "https://www.topoathletic.com/womens-terraventure-5-GTX",
+      "completion_review": {
+        "checked_at": "2026-10-26",
+        "sources": [
+          {
+            "fields": [
+              "verdict"
+            ],
+            "url": "https://www.topoathletic.com/womens-terraventure-5-GTX",
+            "note": "Manufacturer’s explicit cushion-level field: Low; original description otherwise unchanged."
+          }
+        ]
+      }
     },
     {
       "id": "nike-wildhorse-10-women",
@@ -6729,20 +5902,20 @@
       "foam": "NITROFOAM",
       "price_usd": 170.0,
       "price_type": "US list price",
-      "verdict": "A road trainer with nitrogen-infused cushioning and a carbon PWRPLATE, plus a mesh upper and PUMAGRIP outsole for traction.",
+      "verdict": "A road trainer with nitrogen-infused cushioning and a carbon PWRPLATE, plus a mesh upper and PUMAGRIP outsole for traction. PUMA rates its cushioning as “Max.”",
       "source_url": "https://us.puma.com/us/en/pd/deviate-nitro-4-mens-road-running-shoes/312123",
       "spec_source_url": "https://mediahub.puma.com/articles/puma-unveils-new-levels-of-fast-with-deviate-nitro-4-deviate-nitro-elite-4",
       "source_type": "manufacturer",
       "sourced_at": "2026-10-19",
       "weight_reference_size": "UK 8 (men)",
-      "source_notes": "",
+      "source_notes": "Support review 2026-10-26: no explicit pronation/support classification verified in this gender’s US product details; no label inferred from other shoes or comparison tables.",
       "manufacturer_support": null,
       "release_date": "2026-01-23",
       "release_source_url": "https://mediahub.puma.com/articles/puma-unveils-new-levels-of-fast-with-deviate-nitro-4-deviate-nitro-elite-4",
       "release_source_type": "manufacturer",
       "release_notes": "Limited initial release January 23; global release February 26, 2026.",
       "completion_review": {
-        "checked_at": "2026-10-19",
+        "checked_at": "2026-10-26",
         "sources": [
           {
             "fields": [
@@ -6759,6 +5932,13 @@
             ],
             "url": "https://us.puma.com/us/en/pd/deviate-nitro-4-mens-road-running-shoes/312123",
             "note": "Midsole and summary checked against this version’s manufacturer description."
+          },
+          {
+            "fields": [
+              "verdict"
+            ],
+            "url": "https://us.puma.com/us/en/pd/deviate-nitro-4-mens-road-running-shoes/312123",
+            "note": "Manufacturer’s explicit cushion-level field: Max; original description otherwise unchanged."
           }
         ]
       },
@@ -6779,20 +5959,20 @@
       "foam": "NITROFOAM",
       "price_usd": 170.0,
       "price_type": "US list price",
-      "verdict": "A road trainer with nitrogen-infused cushioning and a carbon PWRPLATE, plus a mesh upper and PUMAGRIP outsole for traction.",
+      "verdict": "A road trainer with nitrogen-infused cushioning and a carbon PWRPLATE, plus a mesh upper and PUMAGRIP outsole for traction. PUMA rates its cushioning as “Max.”",
       "source_url": "https://us.puma.com/us/en/pd/deviate-nitro-4-womens-road-running-shoes/312124",
       "spec_source_url": "https://mediahub.puma.com/articles/puma-unveils-new-levels-of-fast-with-deviate-nitro-4-deviate-nitro-elite-4",
       "source_type": "manufacturer",
       "sourced_at": "2026-10-19",
       "weight_reference_size": "UK 4.5 (women)",
-      "source_notes": "Women’s product page repeats 250g at UK8. Use the launch announcement’s explicitly separate women’s value: 205g at UK4.5; disclose the discrepancy. ",
+      "source_notes": "Women’s product page repeats 250g at UK8. Use the launch announcement’s explicitly separate women’s value: 205g at UK4.5; disclose the discrepancy.  Support review 2026-10-26: no explicit pronation/support classification verified in this gender’s US product details; no label inferred from other shoes or comparison tables.",
       "manufacturer_support": null,
       "release_date": "2026-01-23",
       "release_source_url": "https://mediahub.puma.com/articles/puma-unveils-new-levels-of-fast-with-deviate-nitro-4-deviate-nitro-elite-4",
       "release_source_type": "manufacturer",
       "release_notes": "Limited initial release January 23; global release February 26, 2026.",
       "completion_review": {
-        "checked_at": "2026-10-19",
+        "checked_at": "2026-10-26",
         "sources": [
           {
             "fields": [
@@ -6809,6 +5989,13 @@
             ],
             "url": "https://us.puma.com/us/en/pd/deviate-nitro-4-womens-road-running-shoes/312124",
             "note": "Midsole and summary checked against this version’s manufacturer description."
+          },
+          {
+            "fields": [
+              "verdict"
+            ],
+            "url": "https://us.puma.com/us/en/pd/deviate-nitro-4-womens-road-running-shoes/312124",
+            "note": "Manufacturer’s explicit cushion-level field: Max; original description otherwise unchanged."
           }
         ]
       },
@@ -6829,20 +6016,25 @@
       "foam": "NITROFOAM Elite",
       "price_usd": 250.0,
       "price_type": "US list price",
-      "verdict": "A road racer combining NITROFOAM Elite, a carbon PWRPLATE and a lightweight ULTRAWEAVE upper. PUMAGRIP rubber provides outsole traction.",
+      "verdict": "A road racer combining NITROFOAM Elite, a carbon PWRPLATE and a lightweight ULTRAWEAVE upper. PUMAGRIP rubber provides outsole traction. PUMA rates its cushioning as “Max.”",
       "source_url": "https://us.puma.com/us/en/pd/deviate-nitro-elite-4-mens-road-running-shoes/312127",
       "spec_source_url": "https://mediahub.puma.com/articles/puma-unveils-new-levels-of-fast-with-deviate-nitro-4-deviate-nitro-elite-4",
       "source_type": "manufacturer",
       "sourced_at": "2026-10-19",
       "weight_reference_size": "UK 8 (men)",
       "source_notes": "",
-      "manufacturer_support": null,
+      "manufacturer_support": {
+        "wording": "Pronation: Neutral",
+        "source_url": "https://us.puma.com/us/en/pd/deviate-nitro-elite-4-mens-road-running-shoes/312127",
+        "scope": "gender-specific model",
+        "checked_at": "2026-10-26"
+      },
       "release_date": "2026-02-12",
       "release_source_url": "https://mediahub.puma.com/articles/puma-unveils-new-levels-of-fast-with-deviate-nitro-4-deviate-nitro-elite-4",
       "release_source_type": "manufacturer",
       "release_notes": "Limited initial release February 12; global release February 26, 2026.",
       "completion_review": {
-        "checked_at": "2026-10-19",
+        "checked_at": "2026-10-26",
         "sources": [
           {
             "fields": [
@@ -6859,6 +6051,20 @@
             ],
             "url": "https://us.puma.com/us/en/pd/deviate-nitro-elite-4-mens-road-running-shoes/312127",
             "note": "Midsole and summary checked against this version’s manufacturer description."
+          },
+          {
+            "fields": [
+              "manufacturer_support"
+            ],
+            "url": "https://us.puma.com/us/en/pd/deviate-nitro-elite-4-mens-road-running-shoes/312127",
+            "note": "Exact PUMA field wording, including its field label; consistent quoted presentation without normalizing different manufacturer labels."
+          },
+          {
+            "fields": [
+              "verdict"
+            ],
+            "url": "https://us.puma.com/us/en/pd/deviate-nitro-elite-4-mens-road-running-shoes/312127",
+            "note": "Manufacturer’s explicit cushion-level field: Max; original description otherwise unchanged."
           }
         ]
       },
@@ -6879,20 +6085,25 @@
       "foam": "NITROFOAM Elite",
       "price_usd": 250.0,
       "price_type": "US list price",
-      "verdict": "A road racer combining NITROFOAM Elite, a carbon PWRPLATE and a lightweight ULTRAWEAVE upper. PUMAGRIP rubber provides outsole traction.",
+      "verdict": "A road racer combining NITROFOAM Elite, a carbon PWRPLATE and a lightweight ULTRAWEAVE upper. PUMAGRIP rubber provides outsole traction. PUMA rates its cushioning as “Max.”",
       "source_url": "https://us.puma.com/us/en/pd/deviate-nitro-elite-4-womens-road-running-shoes/312128",
       "spec_source_url": "https://mediahub.puma.com/articles/puma-unveils-new-levels-of-fast-with-deviate-nitro-4-deviate-nitro-elite-4",
       "source_type": "manufacturer",
       "sourced_at": "2026-10-19",
       "weight_reference_size": "UK 4.5 (women)",
       "source_notes": "",
-      "manufacturer_support": null,
+      "manufacturer_support": {
+        "wording": "Pronation: Neutral",
+        "source_url": "https://us.puma.com/us/en/pd/deviate-nitro-elite-4-womens-road-running-shoes/312128",
+        "scope": "gender-specific model",
+        "checked_at": "2026-10-26"
+      },
       "release_date": "2026-02-12",
       "release_source_url": "https://mediahub.puma.com/articles/puma-unveils-new-levels-of-fast-with-deviate-nitro-4-deviate-nitro-elite-4",
       "release_source_type": "manufacturer",
       "release_notes": "Limited initial release February 12; global release February 26, 2026.",
       "completion_review": {
-        "checked_at": "2026-10-19",
+        "checked_at": "2026-10-26",
         "sources": [
           {
             "fields": [
@@ -6909,6 +6120,20 @@
             ],
             "url": "https://us.puma.com/us/en/pd/deviate-nitro-elite-4-womens-road-running-shoes/312128",
             "note": "Midsole and summary checked against this version’s manufacturer description."
+          },
+          {
+            "fields": [
+              "manufacturer_support"
+            ],
+            "url": "https://us.puma.com/us/en/pd/deviate-nitro-elite-4-womens-road-running-shoes/312128",
+            "note": "Exact PUMA field wording, including its field label; consistent quoted presentation without normalizing different manufacturer labels."
+          },
+          {
+            "fields": [
+              "verdict"
+            ],
+            "url": "https://us.puma.com/us/en/pd/deviate-nitro-elite-4-womens-road-running-shoes/312128",
+            "note": "Manufacturer’s explicit cushion-level field: Max; original description otherwise unchanged."
           }
         ]
       },
@@ -6929,20 +6154,25 @@
       "foam": "NITROFOAM",
       "price_usd": 150.0,
       "price_type": "US list price",
-      "verdict": "A plate-free road trainer for daily runs and faster sessions, with nitrogen-infused cushioning and an engineered mesh upper.",
+      "verdict": "A plate-free road trainer for daily runs and faster sessions, with nitrogen-infused cushioning and an engineered mesh upper. PUMA rates its cushioning as “Medium.”",
       "source_url": "https://us.puma.com/us/en/pd/deviate-pure-nitro-mens-running-shoes/313904",
       "spec_source_url": "https://mediahub.puma.com/articles/puma-introduce-all-new-deviate-pure-nitro",
       "source_type": "manufacturer",
       "sourced_at": "2026-10-19",
       "weight_reference_size": "UK 8 (men)",
       "source_notes": "",
-      "manufacturer_support": null,
+      "manufacturer_support": {
+        "wording": "Pronation: Neutral",
+        "source_url": "https://us.puma.com/us/en/pd/deviate-pure-nitro-mens-running-shoes/313904",
+        "scope": "gender-specific model",
+        "checked_at": "2026-10-26"
+      },
       "release_date": "2026-06-04",
       "release_source_url": "https://mediahub.puma.com/articles/puma-introduce-all-new-deviate-pure-nitro",
       "release_source_type": "manufacturer",
       "release_notes": "Manufacturer global launch.",
       "completion_review": {
-        "checked_at": "2026-10-19",
+        "checked_at": "2026-10-26",
         "sources": [
           {
             "fields": [
@@ -6959,6 +6189,20 @@
             ],
             "url": "https://us.puma.com/us/en/pd/deviate-pure-nitro-mens-running-shoes/313904",
             "note": "Midsole and summary checked against this version’s manufacturer description."
+          },
+          {
+            "fields": [
+              "manufacturer_support"
+            ],
+            "url": "https://us.puma.com/us/en/pd/deviate-pure-nitro-mens-running-shoes/313904",
+            "note": "Exact PUMA field wording, including its field label; consistent quoted presentation without normalizing different manufacturer labels."
+          },
+          {
+            "fields": [
+              "verdict"
+            ],
+            "url": "https://us.puma.com/us/en/pd/deviate-pure-nitro-mens-running-shoes/313904",
+            "note": "Manufacturer’s explicit cushion-level field: Medium; original description otherwise unchanged."
           }
         ]
       },
@@ -6979,20 +6223,25 @@
       "foam": "NITROFOAM",
       "price_usd": 150.0,
       "price_type": "US list price",
-      "verdict": "A plate-free road trainer for daily runs and faster sessions, with nitrogen-infused cushioning and an engineered mesh upper.",
+      "verdict": "A plate-free road trainer for daily runs and faster sessions, with nitrogen-infused cushioning and an engineered mesh upper. PUMA rates its cushioning as “Medium.”",
       "source_url": "https://us.puma.com/us/en/pd/deviate-pure-nitro-womens-running-shoes/313905",
       "spec_source_url": "https://mediahub.puma.com/articles/puma-introduce-all-new-deviate-pure-nitro",
       "source_type": "manufacturer",
       "sourced_at": "2026-10-19",
       "weight_reference_size": "UK 4.5 (women)",
       "source_notes": "",
-      "manufacturer_support": null,
+      "manufacturer_support": {
+        "wording": "Pronation: Neutral",
+        "source_url": "https://us.puma.com/us/en/pd/deviate-pure-nitro-womens-running-shoes/313905",
+        "scope": "gender-specific model",
+        "checked_at": "2026-10-26"
+      },
       "release_date": "2026-06-04",
       "release_source_url": "https://mediahub.puma.com/articles/puma-introduce-all-new-deviate-pure-nitro",
       "release_source_type": "manufacturer",
       "release_notes": "Manufacturer global launch.",
       "completion_review": {
-        "checked_at": "2026-10-19",
+        "checked_at": "2026-10-26",
         "sources": [
           {
             "fields": [
@@ -7009,6 +6258,20 @@
             ],
             "url": "https://us.puma.com/us/en/pd/deviate-pure-nitro-womens-running-shoes/313905",
             "note": "Midsole and summary checked against this version’s manufacturer description."
+          },
+          {
+            "fields": [
+              "manufacturer_support"
+            ],
+            "url": "https://us.puma.com/us/en/pd/deviate-pure-nitro-womens-running-shoes/313905",
+            "note": "Exact PUMA field wording, including its field label; consistent quoted presentation without normalizing different manufacturer labels."
+          },
+          {
+            "fields": [
+              "verdict"
+            ],
+            "url": "https://us.puma.com/us/en/pd/deviate-pure-nitro-womens-running-shoes/313905",
+            "note": "Manufacturer’s explicit cushion-level field: Medium; original description otherwise unchanged."
           }
         ]
       },
@@ -7029,20 +6292,25 @@
       "foam": "NITROFOAM",
       "price_usd": 140.0,
       "price_type": "US list price",
-      "verdict": "A daily road trainer with nitrogen-infused cushioning, an engineered mesh upper and a PUMAGRIP rubber outsole.",
+      "verdict": "A daily road trainer with nitrogen-infused cushioning, an engineered mesh upper and a PUMAGRIP rubber outsole. PUMA rates its cushioning as “Medium.”",
       "source_url": "https://us.puma.com/us/en/pd/velocity-nitro-5-running-shoes-women-womens-road-running-shoes/312945",
       "spec_source_url": "https://mediahub.puma.com/articles/puma-introduces-the-velocity-5-the-way-running-should-feel",
       "source_type": "manufacturer",
       "sourced_at": "2026-10-19",
       "weight_reference_size": "UK 4.5 (women)",
       "source_notes": "",
-      "manufacturer_support": null,
+      "manufacturer_support": {
+        "wording": "Pronation: Neutral",
+        "source_url": "https://us.puma.com/us/en/pd/velocity-nitro-5-running-shoes-women-womens-road-running-shoes/312945",
+        "scope": "gender-specific model",
+        "checked_at": "2026-10-26"
+      },
       "release_date": "2026-07-09",
       "release_source_url": "https://mediahub.puma.com/articles/puma-introduces-the-velocity-5-the-way-running-should-feel",
       "release_source_type": "manufacturer",
       "release_notes": "Manufacturer release announcement.",
       "completion_review": {
-        "checked_at": "2026-10-19",
+        "checked_at": "2026-10-26",
         "sources": [
           {
             "fields": [
@@ -7059,6 +6327,20 @@
             ],
             "url": "https://us.puma.com/us/en/pd/velocity-nitro-5-running-shoes-women-womens-road-running-shoes/312945",
             "note": "Midsole and summary checked against this version’s manufacturer description."
+          },
+          {
+            "fields": [
+              "manufacturer_support"
+            ],
+            "url": "https://us.puma.com/us/en/pd/velocity-nitro-5-running-shoes-women-womens-road-running-shoes/312945",
+            "note": "Exact PUMA field wording, including its field label; consistent quoted presentation without normalizing different manufacturer labels."
+          },
+          {
+            "fields": [
+              "verdict"
+            ],
+            "url": "https://us.puma.com/us/en/pd/velocity-nitro-5-running-shoes-women-womens-road-running-shoes/312945",
+            "note": "Manufacturer’s explicit cushion-level field: Medium; original description otherwise unchanged."
           }
         ]
       },
@@ -8303,13 +7585,13 @@
         "wording": "Recommended for neutral pronators",
         "source_url": "https://us.puma.com/us/en/pd/magnify-nitro-3-womens-road-running-shoes/311047",
         "scope": "gender-specific model",
-        "checked_at": "2026-10-19"
+        "checked_at": "2026-10-26"
       },
       "release_supporting_sources": [
         "https://www.prorunners.pt/equipamento/36/2908/puma-lanca-magnify-nitro-3"
       ],
       "completion_review": {
-        "checked_at": "2026-10-19",
+        "checked_at": "2026-10-26",
         "sources": [
           {
             "fields": [
@@ -8333,6 +7615,13 @@
             ],
             "url": "https://us.puma.com/us/en/pd/magnify-nitro-3-womens-road-running-shoes/311047",
             "note": "Manufacturer wording checked for this gender and model; no independent fit or gait measurement inferred."
+          },
+          {
+            "fields": [
+              "manufacturer_support"
+            ],
+            "url": "https://us.puma.com/us/en/pd/magnify-nitro-3-womens-road-running-shoes/311047",
+            "note": "Exact PUMA field wording, including its field label; consistent quoted presentation without normalizing different manufacturer labels."
           }
         ]
       },
@@ -8990,59 +8279,6 @@
       "price_source_url": "https://www.nike.com/t/pegasus-42-gore-tex-womens-waterproof-road-running-shoes-2yqPS6pc/IQ0465-001"
     },
     {
-      "id": "saucony-echelon-10-men",
-      "brand": "Saucony",
-      "model": "Echelon 10",
-      "gender": "men",
-      "drop_mm": null,
-      "weight_g": null,
-      "weight_oz": null,
-      "stack_heel_mm": null,
-      "stack_forefoot_mm": null,
-      "toe_box": null,
-      "use_case": "Daily road running / Walking",
-      "foam": "PWRRUN",
-      "price_usd": 155.0,
-      "price_type": "US list price",
-      "verdict": "A running and walking shoe with a broad, straight-shaped base, PWRRUN cushioning and a soft sockliner. A mesh upper and XT-900 rubber add comfort and durability.",
-      "source_url": "https://www.saucony.com/en/echelon-10-wide/59956M.html",
-      "spec_source_url": "https://www.saucony.com/en/echelon-10-wide/59956M.html",
-      "source_type": "manufacturer",
-      "sourced_at": "2026-10-19",
-      "weight_reference_size": null,
-      "source_notes": "Unverified specifications are left blank. Source is the men’s Wide version; widths are not counted as separate models. Cleanup review 2026-10-25: Exact recorded men’s Wide source returned 404; standard-version data not transferred without clear applicability.",
-      "manufacturer_support": null,
-      "release_date": null,
-      "release_source_url": null,
-      "release_source_type": null,
-      "release_notes": "Original model release date has not been verified. Included under the flexible recency policy; current manufacturer listing confirms the model, not its launch date.",
-      "completion_review": {
-        "checked_at": "2026-10-19",
-        "sources": [
-          {
-            "fields": [
-              "price_usd",
-              "price_type"
-            ],
-            "url": "https://www.saucony.com/en/echelon-10-wide/59956M.html",
-            "note": "US regular/list price from the linked manufacturer page; sale price excluded. Price reference is the wide version."
-          },
-          {
-            "fields": [
-              "foam",
-              "verdict"
-            ],
-            "url": "https://www.saucony.com/en/echelon-10-wide/59956M.html",
-            "note": "Midsole and summary checked against this version’s manufacturer description."
-          }
-        ],
-        "remaining_gaps": [
-          "Stack: a consistent heel/forefoot pair for this version was not verified in the official sources checked; no laboratory or other-version measurements substituted."
-        ]
-      },
-      "price_source_url": "https://www.saucony.com/en/echelon-10-wide/59956M.html"
-    },
-    {
       "id": "saucony-cohesion-19-men",
       "brand": "Saucony",
       "model": "Cohesion 19",
@@ -9461,253 +8697,6 @@
       "price_source_url": "https://www.saucony.com/en/xodus-ultra-4-gtx/61305W.html"
     },
     {
-      "id": "nike-alphafly-3-men",
-      "brand": "Nike",
-      "model": "Alphafly 3",
-      "gender": "men",
-      "drop_mm": 8,
-      "weight_g": 218,
-      "weight_oz": 7.69,
-      "stack_heel_mm": null,
-      "stack_forefoot_mm": null,
-      "weight_reference_size": "Men US 10",
-      "toe_box": null,
-      "use_case": "Road racing / Speedwork",
-      "foam": "ZoomX",
-      "price_usd": 305.0,
-      "price_type": "US list price",
-      "verdict": "Marathon-oriented road racer with a carbon plate and forefoot air units.",
-      "source_url": "https://www.nike.com/t/alphafly-3-mens-road-racing-shoes-5gZBgL/IR0076-100",
-      "spec_source_url": "https://www.nike.com/t/alphafly-3-mens-road-racing-shoes-5gZBgL/IR0076-100",
-      "source_type": "manufacturer",
-      "sourced_at": "2026-10-19",
-      "source_notes": "Weight in ounces is converted from manufacturer grams.  Stack heights are not specified on this product page. Cleanup review 2026-10-25: Retrieved exact US product text does not supply a verified heel/forefoot pair for this version; no forefoot value calculated from drop.",
-      "manufacturer_support": null,
-      "release_date": "2024-01-04",
-      "release_source_url": "https://about.nike.com/en/newsroom/releases/nike-alphafly-3-official-images-release-date",
-      "release_source_type": "manufacturer_announcement",
-      "release_notes": "Nike dates the initial Prototype release to January 4, 2024; the current colorway is later. Included under the flexible recency policy.",
-      "completion_review": {
-        "checked_at": "2026-10-19",
-        "sources": [
-          {
-            "fields": [
-              "price_usd",
-              "price_type"
-            ],
-            "url": "https://www.nike.com/t/alphafly-3-mens-road-racing-shoes-5gZBgL/IR0076-100",
-            "note": "US regular/list price from the linked manufacturer page; sale price excluded. Price is for the linked colorway; other colorways may differ."
-          }
-        ],
-        "remaining_gaps": [
-          "Stack: a consistent heel/forefoot pair for this version was not verified in the official sources checked; no laboratory or other-version measurements substituted."
-        ]
-      },
-      "price_source_url": "https://www.nike.com/t/alphafly-3-mens-road-racing-shoes-5gZBgL/IR0076-100"
-    },
-    {
-      "id": "nike-alphafly-3-women",
-      "brand": "Nike",
-      "model": "Alphafly 3",
-      "gender": "women",
-      "drop_mm": 8,
-      "weight_g": 174,
-      "weight_oz": 6.14,
-      "stack_heel_mm": null,
-      "stack_forefoot_mm": null,
-      "weight_reference_size": "Women US 8",
-      "toe_box": null,
-      "use_case": "Road racing / Speedwork",
-      "foam": "ZoomX",
-      "price_usd": 295.0,
-      "price_type": "US list price",
-      "verdict": "Marathon-oriented road racer with a carbon plate and forefoot air units.",
-      "source_url": "https://www.nike.com/t/alphafly-3-womens-road-racing-shoes-LQX5b4/FD8315-500",
-      "spec_source_url": "https://www.nike.com/t/alphafly-3-womens-road-racing-shoes-LQX5b4/FD8315-500",
-      "source_type": "manufacturer",
-      "sourced_at": "2026-10-19",
-      "source_notes": "Weight in ounces is converted from manufacturer grams.  Stack heights are not specified on this product page. Cleanup review 2026-10-25: Retrieved exact US product text does not supply a verified heel/forefoot pair for this version; no forefoot value calculated from drop.",
-      "manufacturer_support": null,
-      "release_date": "2024-01-04",
-      "release_source_url": "https://about.nike.com/en/newsroom/releases/nike-alphafly-3-official-images-release-date",
-      "release_source_type": "manufacturer_announcement",
-      "release_notes": "Nike dates the initial Prototype release to January 4, 2024; the current colorway is later. Included under the flexible recency policy.",
-      "completion_review": {
-        "checked_at": "2026-10-19",
-        "sources": [
-          {
-            "fields": [
-              "price_usd",
-              "price_type"
-            ],
-            "url": "https://www.nike.com/t/alphafly-3-womens-road-racing-shoes-LQX5b4/FD8315-500",
-            "note": "US regular/list price from the linked manufacturer page; sale price excluded. Price is for the linked colorway; other colorways may differ."
-          }
-        ],
-        "remaining_gaps": [
-          "Stack: a consistent heel/forefoot pair for this version was not verified in the official sources checked; no laboratory or other-version measurements substituted."
-        ]
-      },
-      "price_source_url": "https://www.nike.com/t/alphafly-3-womens-road-racing-shoes-LQX5b4/FD8315-500"
-    },
-    {
-      "id": "puma-deviate-nitro-elite-3-men",
-      "brand": "PUMA",
-      "model": "Deviate NITRO Elite 3",
-      "gender": "men",
-      "drop_mm": 8,
-      "weight_g": 194,
-      "weight_oz": 6.84,
-      "stack_heel_mm": 40,
-      "stack_forefoot_mm": 32,
-      "weight_reference_size": "Men UK 8",
-      "toe_box": null,
-      "use_case": "Road racing / Speedwork",
-      "foam": "NITROFOAM ELITE",
-      "price_usd": 230.0,
-      "price_type": "US list price",
-      "verdict": "Road racing shoe combining a carbon plate with lightweight cushioning.",
-      "source_url": "https://us.puma.com/us/en/pd/deviate-nitro-elite-3-mens-road-running-shoes/309809",
-      "spec_source_url": "https://us.puma.com/us/en/pd/deviate-nitro-elite-3-mens-road-running-shoes/309809",
-      "source_type": "manufacturer",
-      "sourced_at": "2026-10-19",
-      "source_notes": "Weight in ounces is converted from manufacturer grams. ",
-      "manufacturer_support": {
-        "wording": "Recommended for: neutral pronators",
-        "source_url": "https://us.puma.com/us/en/pd/deviate-nitro-elite-3-mens-road-running-shoes/309809",
-        "scope": "gender-specific model",
-        "checked_at": "2026-10-19"
-      },
-      "release_date": "2024-06-17",
-      "release_source_url": "https://mediahub.puma.com/articles/puma-drops-two-new-deviate-shoes-destined-to-deliver-your-personal-best",
-      "release_source_type": "manufacturer_announcement",
-      "release_notes": "PUMA dates the limited Prototype release to June 17, 2024 and the global Fireglow launch to July 1, 2024. Included under the flexible recency policy.",
-      "completion_review": {
-        "checked_at": "2026-10-19",
-        "sources": [
-          {
-            "fields": [
-              "price_usd",
-              "price_type"
-            ],
-            "url": "https://us.puma.com/us/en/pd/deviate-nitro-elite-3-mens-road-running-shoes/309809",
-            "note": "US regular/list price from the linked manufacturer page; sale price excluded."
-          },
-          {
-            "fields": [
-              "manufacturer_support"
-            ],
-            "url": "https://us.puma.com/us/en/pd/deviate-nitro-elite-3-mens-road-running-shoes/309809",
-            "note": "Manufacturer wording checked for this gender and model; no independent fit or gait measurement inferred."
-          }
-        ]
-      },
-      "price_source_url": "https://us.puma.com/us/en/pd/deviate-nitro-elite-3-mens-road-running-shoes/309809"
-    },
-    {
-      "id": "saucony-ride-tr2-gtx-men",
-      "brand": "Saucony",
-      "model": "Ride TR2 GTX",
-      "gender": "men",
-      "drop_mm": 8,
-      "weight_g": 296,
-      "weight_oz": 10.44,
-      "stack_heel_mm": 35,
-      "stack_forefoot_mm": 27,
-      "weight_reference_size": null,
-      "toe_box": null,
-      "use_case": "Daily road running / Trail running",
-      "foam": "PWRRUN+",
-      "price_usd": 165.0,
-      "price_type": "US list price",
-      "verdict": "Waterproof road-to-trail running shoe with moderate outsole lugs.",
-      "source_url": "https://www.saucony.com/en/ride-tr2-gtx/57941M.html",
-      "spec_source_url": "https://www.saucony.com/en/ride-tr2-gtx/57941M.html",
-      "source_type": "manufacturer",
-      "sourced_at": "2026-10-19",
-      "source_notes": "Weight in ounces is converted from manufacturer grams.  Manufacturer weight reference size is not specified.",
-      "manufacturer_support": null,
-      "release_date": "2024-10-01",
-      "release_source_url": "https://www.prnewswire.com/news-releases/saucony-launches-new-gore-tex-collection-302262681.html",
-      "release_source_type": "manufacturer_announcement",
-      "release_notes": "Original model launch; subsequent colorways do not reset this date. Included under the flexible recency policy.",
-      "completion_review": {
-        "checked_at": "2026-10-19",
-        "sources": [
-          {
-            "fields": [
-              "price_usd",
-              "price_type"
-            ],
-            "url": "https://www.saucony.com/en/ride-tr2-gtx/57941M.html",
-            "note": "US regular/list price from the linked manufacturer page; sale price excluded."
-          }
-        ]
-      },
-      "price_source_url": "https://www.saucony.com/en/ride-tr2-gtx/57941M.html"
-    },
-    {
-      "id": "nike-zoom-rival-xc-7-unisex",
-      "brand": "Nike",
-      "model": "Zoom Rival XC 7",
-      "gender": "unisex",
-      "drop_mm": null,
-      "weight_oz": 6.17,
-      "stack_heel_mm": null,
-      "stack_forefoot_mm": null,
-      "toe_box": null,
-      "use_case": "Racing / Cross-country",
-      "foam": null,
-      "price_usd": 80,
-      "price_type": "US store listing",
-      "price_source_url": "https://www.nike.com/t/zoom-rival-xc-7-cross-country-spikes-zfQoBPlB/II7399-100",
-      "price_checked_at": "2026-10-26",
-      "verdict": "Cross-country spikes with breathable mesh, a waffle outsole and six removable spikes.",
-      "source_url": "https://www.nike.com/t/zoom-rival-xc-7-cross-country-spikes-zfQoBPlB/II7399-100",
-      "source_type": "manufacturer",
-      "sourced_at": "2026-10-26",
-      "weight_reference_size": "US men’s 8.5 / women’s 10",
-      "source_notes": "Manufacturer US new-shoe page price; not explicitly identified as list price. Price and availability may vary by color and size. Release date not verified. Unisex sizing explicitly pairs men’s and women’s sizes. Drop and stack heights are not supplied; no zero-drop assumption. Foam name not specified.",
-      "release_date": null,
-      "release_source_url": null,
-      "release_notes": "Exact release date not verified; current manufacturer product page identifies the available model.",
-      "manufacturer_support": null,
-      "weight_g": 175
-    },
-    {
-      "id": "puma-deviate-nitro-3-women",
-      "brand": "PUMA",
-      "model": "Deviate NITRO 3",
-      "gender": "women",
-      "drop_mm": 10,
-      "weight_oz": 8.82,
-      "stack_heel_mm": 39,
-      "stack_forefoot_mm": 29,
-      "toe_box": null,
-      "use_case": "Daily road running / Speedwork",
-      "foam": "NITROFOAM",
-      "price_usd": 160,
-      "price_type": "US store listing",
-      "price_source_url": "https://us.puma.com/us/en/pd/deviate-nitro-3-womens-road-running-shoes/309708",
-      "price_checked_at": "2026-10-26",
-      "verdict": "A road trainer combining nitrogen-infused cushioning with a carbon-fiber PWRPLATE.",
-      "source_url": "https://us.puma.com/us/en/pd/deviate-nitro-3-womens-road-running-shoes/309708",
-      "source_type": "manufacturer",
-      "sourced_at": "2026-10-26",
-      "weight_reference_size": "UK 8 (manufacturer does not specify gender of reference size)",
-      "source_notes": "Manufacturer US new-shoe page price; not explicitly identified as list price. Price and availability may vary by color and size. Release date not verified. Weight is the value printed on the women’s product page for UK 8; gender of the reference size is unspecified. Stack order is heel/forefoot, consistent with the stated drop.",
-      "release_date": null,
-      "release_source_url": null,
-      "release_notes": "Exact release date not verified; current manufacturer product page identifies the available model.",
-      "manufacturer_support": {
-        "wording": "Recommended for: neutral pronators",
-        "source_url": "https://us.puma.com/us/en/pd/deviate-nitro-3-womens-road-running-shoes/309708",
-        "scope": "women",
-        "checked_at": "2026-10-26"
-      },
-      "weight_g": 250
-    },
-    {
       "id": "puma-velocity-nitro-trail-women",
       "brand": "PUMA",
       "model": "Velocity NITRO Trail",
@@ -9723,22 +8712,41 @@
       "price_type": "US store listing",
       "price_source_url": "https://us.puma.com/us/en/pd/velocity-nitro-trail-running-shoes-women-womens-trail-running-shoes/312951",
       "price_checked_at": "2026-10-26",
-      "verdict": "A trail shoe with nitrogen-infused cushioning and a protective mesh upper.",
+      "verdict": "A trail shoe with nitrogen-infused cushioning and a protective mesh upper. PUMA rates its cushioning as “Medium.”",
       "source_url": "https://us.puma.com/us/en/pd/velocity-nitro-trail-running-shoes-women-womens-trail-running-shoes/312951",
       "source_type": "manufacturer",
       "sourced_at": "2026-10-26",
       "weight_reference_size": "UK 8 (manufacturer does not specify gender of reference size)",
-      "source_notes": "Manufacturer US new-shoe page price; not explicitly identified as list price. Price and availability may vary by color and size. Release date not verified. Weight is the value printed on the women’s product page for UK 8; gender of the reference size is unspecified. Stack order is heel/forefoot, consistent with the stated drop.",
+      "source_notes": "Manufacturer US new-shoe page price; not explicitly identified as list price. Price and availability may vary by color and size. Release date not verified. Weight is the value printed on the women’s product page for UK 8; gender of the reference size is unspecified. Stack order is heel/forefoot, consistent with the stated drop. Release review 2026-10-26: manufacturer release date not verified. A men’s version exists on PUMA’s US site, but its addition is held until an official release date is verified. Existing women’s entry retained; no release date invented.",
       "release_date": null,
       "release_source_url": null,
-      "release_notes": "Exact release date not verified; current manufacturer product page identifies the available model.",
+      "release_notes": "Manufacturer release date not verified as of 2026-10-26. Existing entry retained; proposed men’s counterpart held under the new release-evidence rule.",
       "manufacturer_support": {
-        "wording": "Neutral",
+        "wording": "Pronation: Neutral",
         "source_url": "https://us.puma.com/us/en/pd/velocity-nitro-trail-running-shoes-women-womens-trail-running-shoes/312951",
-        "scope": "women",
+        "scope": "gender-specific model",
         "checked_at": "2026-10-26"
       },
-      "weight_g": 255
+      "weight_g": 255,
+      "completion_review": {
+        "checked_at": "2026-10-26",
+        "sources": [
+          {
+            "fields": [
+              "manufacturer_support"
+            ],
+            "url": "https://us.puma.com/us/en/pd/velocity-nitro-trail-running-shoes-women-womens-trail-running-shoes/312951",
+            "note": "Exact PUMA field wording, including its field label; consistent quoted presentation without normalizing different manufacturer labels."
+          },
+          {
+            "fields": [
+              "verdict"
+            ],
+            "url": "https://us.puma.com/us/en/pd/velocity-nitro-trail-running-shoes-women-womens-trail-running-shoes/312951",
+            "note": "Manufacturer’s explicit cushion-level field: Medium; original description otherwise unchanged."
+          }
+        ]
+      }
     },
     {
       "id": "puma-voyage-nitro-4-women",
@@ -9761,15 +8769,367 @@
       "source_type": "manufacturer",
       "sourced_at": "2026-10-26",
       "weight_reference_size": null,
-      "source_notes": "Manufacturer US new-shoe page price; not explicitly identified as list price. Price and availability may vary by color and size. Release date not verified. Weight not supplied on the verified page. Stack order is heel/forefoot, consistent with the stated drop.",
+      "source_notes": "Manufacturer US new-shoe page price; not explicitly identified as list price. Price and availability may vary by color and size. Release date not verified. Weight not supplied on the verified page. Stack order is heel/forefoot, consistent with the stated drop. Release review 2026-10-26: manufacturer release date not verified. A men’s version exists on PUMA’s US site, but its addition is held until an official release date is verified. Existing women’s entry retained; no release date invented.",
       "release_date": null,
       "release_source_url": null,
-      "release_notes": "Exact release date not verified; current manufacturer product page identifies the available model.",
+      "release_notes": "Manufacturer release date not verified as of 2026-10-26. Existing entry retained; proposed men’s counterpart held under the new release-evidence rule.",
       "manufacturer_support": {
         "wording": "Recommended for neutral pronators",
         "source_url": "https://us.puma.com/us/en/pd/voyage-nitro-4-womens-trail-running-shoes/311042",
-        "scope": "women",
+        "scope": "gender-specific model",
         "checked_at": "2026-10-26"
+      },
+      "completion_review": {
+        "checked_at": "2026-10-26",
+        "sources": [
+          {
+            "fields": [
+              "manufacturer_support"
+            ],
+            "url": "https://us.puma.com/us/en/pd/voyage-nitro-4-womens-trail-running-shoes/311042",
+            "note": "Exact PUMA field wording, including its field label; consistent quoted presentation without normalizing different manufacturer labels."
+          }
+        ]
+      }
+    },
+    {
+      "id": "asics-gel-kayano-33-men",
+      "brand": "ASICS",
+      "model": "GEL-KAYANO 33",
+      "gender": "men",
+      "drop_mm": 8,
+      "weight_oz": 10.5,
+      "stack_heel_mm": null,
+      "stack_forefoot_mm": null,
+      "toe_box": null,
+      "use_case": "Daily road running",
+      "foam": "FF BLAST PLUS + FF BLAST MAX",
+      "price_usd": 170,
+      "verdict": "A road trainer combining dual-foam cushioning with FLUIDSUPPORT guidance. ASICS rates its cushioning as “Maximum.”",
+      "source_url": "https://www.asics.com/us/en-us/gel-kayano-33/p/ANA_1011C167-001.html",
+      "source_type": "manufacturer",
+      "sourced_at": "2026-10-26",
+      "weight_reference_size": null,
+      "price_type": "US store listing",
+      "source_notes": "Gender-specific heel/forefoot stack heights, toe-box classification and weight reference size were not verified; left blank. Price is the current linked US store offer, not a verified list price; colorway and availability may vary.",
+      "manufacturer_support": {
+        "wording": "Neutral, Stability",
+        "source_url": "https://www.asics.com/us/en-us/gel-kayano-33/p/ANA_1011C167-001.html",
+        "scope": "gender-specific model",
+        "checked_at": "2026-10-26"
+      },
+      "release_date": "2026-06-01",
+      "release_source_url": "https://corp.asics.com/en/press/article/the-new-gel-kayanotm-33-shoe-introduces-fluidsupporttm-technology-for-a-new-era-of-plush-stability-and-comfort",
+      "release_source_type": "manufacturer",
+      "release_notes": "ASICS states global availability from June 1, 2026; exact US product page separately verified.",
+      "release_audit_status": "within_window",
+      "release_audited_at": "2026-10-26",
+      "price_source_url": "https://www.asics.com/us/en-us/gel-kayano-33/p/ANA_1011C167-001.html",
+      "price_checked_at": "2026-10-26",
+      "weight_g": 298
+    },
+    {
+      "id": "asics-gel-kayano-33-women",
+      "brand": "ASICS",
+      "model": "GEL-KAYANO 33",
+      "gender": "women",
+      "drop_mm": 8,
+      "weight_oz": 9.1,
+      "stack_heel_mm": null,
+      "stack_forefoot_mm": null,
+      "toe_box": null,
+      "use_case": "Daily road running",
+      "foam": "FF BLAST PLUS + FF BLAST MAX",
+      "price_usd": 170,
+      "verdict": "A road trainer combining dual-foam cushioning with FLUIDSUPPORT guidance. ASICS rates its cushioning as “Maximum.”",
+      "source_url": "https://www.asics.com/us/en-us/gel-kayano-33/p/ANA_1012B939-001.html",
+      "source_type": "manufacturer",
+      "sourced_at": "2026-10-26",
+      "weight_reference_size": null,
+      "price_type": "US store listing",
+      "source_notes": "Gender-specific heel/forefoot stack heights, toe-box classification and weight reference size were not verified; left blank. Price is the current linked US store offer, not a verified list price; colorway and availability may vary.",
+      "manufacturer_support": {
+        "wording": "Neutral, Stability",
+        "source_url": "https://www.asics.com/us/en-us/gel-kayano-33/p/ANA_1012B939-001.html",
+        "scope": "gender-specific model",
+        "checked_at": "2026-10-26"
+      },
+      "release_date": "2026-06-01",
+      "release_source_url": "https://corp.asics.com/en/press/article/the-new-gel-kayanotm-33-shoe-introduces-fluidsupporttm-technology-for-a-new-era-of-plush-stability-and-comfort",
+      "release_source_type": "manufacturer",
+      "release_notes": "ASICS states global availability from June 1, 2026; exact US product page separately verified.",
+      "release_audit_status": "within_window",
+      "release_audited_at": "2026-10-26",
+      "price_source_url": "https://www.asics.com/us/en-us/gel-kayano-33/p/ANA_1012B939-001.html",
+      "price_checked_at": "2026-10-26",
+      "weight_g": 259
+    },
+    {
+      "id": "asics-novablast-6-men",
+      "brand": "ASICS",
+      "model": "NOVABLAST 6",
+      "gender": "men",
+      "drop_mm": 8,
+      "weight_oz": 8.9,
+      "stack_heel_mm": null,
+      "stack_forefoot_mm": null,
+      "toe_box": null,
+      "use_case": "Daily road running",
+      "foam": "FF BLAST MAX + FF TURBO SQUARED",
+      "price_usd": 155,
+      "verdict": "A road trainer with FF BLAST MAX foam and an FF TURBO SQUARED forefoot pod. ASICS rates its cushioning as “High.”",
+      "source_url": "https://www.asics.com/us/en-us/novablast-6/p/ANA_1011C243-102.html",
+      "source_type": "manufacturer",
+      "sourced_at": "2026-10-26",
+      "weight_reference_size": null,
+      "price_type": "US store listing",
+      "source_notes": "Gender-specific heel/forefoot stack heights, toe-box classification and weight reference size were not verified; left blank. Price is the current linked US store offer, not a verified list price; colorway and availability may vary.",
+      "manufacturer_support": {
+        "wording": "Neutral",
+        "source_url": "https://www.asics.com/us/en-us/novablast-6/p/ANA_1011C243-102.html",
+        "scope": "gender-specific model",
+        "checked_at": "2026-10-26"
+      },
+      "release_date": "2026-07-01",
+      "release_source_url": "https://news-emea.asics.com/latest-news/the-new-novablast--6-shoe-is-here--delivering-more-energy-for-body---mind/s/1f08301f-4526-45a2-aff1-197fff83a6f4",
+      "release_source_type": "manufacturer",
+      "release_notes": "ASICS states global availability from July 1, 2026; exact US product page separately verified.",
+      "release_audit_status": "within_window",
+      "release_audited_at": "2026-10-26",
+      "price_source_url": "https://www.asics.com/us/en-us/novablast-6/p/ANA_1011C243-102.html",
+      "price_checked_at": "2026-10-26",
+      "weight_g": 253
+    },
+    {
+      "id": "asics-novablast-6-women",
+      "brand": "ASICS",
+      "model": "NOVABLAST 6",
+      "gender": "women",
+      "drop_mm": 8,
+      "weight_oz": 7.6,
+      "stack_heel_mm": null,
+      "stack_forefoot_mm": null,
+      "toe_box": null,
+      "use_case": "Daily road running",
+      "foam": "FF BLAST MAX + FF TURBO SQUARED",
+      "price_usd": 155,
+      "verdict": "A road trainer with FF BLAST MAX foam and an FF TURBO SQUARED forefoot pod. ASICS rates its cushioning as “High.”",
+      "source_url": "https://www.asics.com/us/en-us/novablast-6/p/ANA_1012C008-102.html",
+      "source_type": "manufacturer",
+      "sourced_at": "2026-10-26",
+      "weight_reference_size": null,
+      "price_type": "US store listing",
+      "source_notes": "Gender-specific heel/forefoot stack heights, toe-box classification and weight reference size were not verified; left blank. Price is the current linked US store offer, not a verified list price; colorway and availability may vary.",
+      "manufacturer_support": {
+        "wording": "Neutral",
+        "source_url": "https://www.asics.com/us/en-us/novablast-6/p/ANA_1012C008-102.html",
+        "scope": "gender-specific model",
+        "checked_at": "2026-10-26"
+      },
+      "release_date": "2026-07-01",
+      "release_source_url": "https://news-emea.asics.com/latest-news/the-new-novablast--6-shoe-is-here--delivering-more-energy-for-body---mind/s/1f08301f-4526-45a2-aff1-197fff83a6f4",
+      "release_source_type": "manufacturer",
+      "release_notes": "ASICS states global availability from July 1, 2026; exact US product page separately verified.",
+      "release_audit_status": "within_window",
+      "release_audited_at": "2026-10-26",
+      "price_source_url": "https://www.asics.com/us/en-us/novablast-6/p/ANA_1012C008-102.html",
+      "price_checked_at": "2026-10-26",
+      "weight_g": 215
+    },
+    {
+      "id": "asics-gt-2000-15-men",
+      "brand": "ASICS",
+      "model": "GT-2000 15",
+      "gender": "men",
+      "drop_mm": 8,
+      "weight_oz": 8.9,
+      "stack_heel_mm": null,
+      "stack_forefoot_mm": null,
+      "toe_box": null,
+      "use_case": "Daily road running",
+      "foam": "FF BLAST MAX",
+      "price_usd": 150,
+      "verdict": "A road trainer with FF BLAST MAX foam and the 3D GUIDANCE SYSTEM. ASICS rates its cushioning as “High.”",
+      "source_url": "https://www.asics.com/us/en-us/gt-2000-15/p/ANA_1011C235-750.html",
+      "source_type": "manufacturer",
+      "sourced_at": "2026-10-26",
+      "weight_reference_size": null,
+      "price_type": "US store listing",
+      "source_notes": "Gender-specific heel/forefoot stack heights, toe-box classification and weight reference size were not verified; left blank. Price is the current linked US store offer, not a verified list price; colorway and availability may vary.",
+      "manufacturer_support": {
+        "wording": "Neutral, Stability",
+        "source_url": "https://www.asics.com/us/en-us/gt-2000-15/p/ANA_1011C235-750.html",
+        "scope": "gender-specific model",
+        "checked_at": "2026-10-26"
+      },
+      "release_date": "2026-08-06",
+      "release_source_url": "https://corp.asics.com/jp/press/article/2026-07-29_gt-2000_15",
+      "release_source_type": "manufacturer",
+      "release_notes": "Manufacturer announces August 6, 2026 release in Japan. US product availability verified separately; US first-sale date not verified.",
+      "release_audit_status": "within_window",
+      "release_audited_at": "2026-10-26",
+      "price_source_url": "https://www.asics.com/us/en-us/gt-2000-15/p/ANA_1011C235-750.html",
+      "price_checked_at": "2026-10-26",
+      "weight_g": 252
+    },
+    {
+      "id": "asics-gt-2000-15-women",
+      "brand": "ASICS",
+      "model": "GT-2000 15",
+      "gender": "women",
+      "drop_mm": 8,
+      "weight_oz": 7.8,
+      "stack_heel_mm": null,
+      "stack_forefoot_mm": null,
+      "toe_box": null,
+      "use_case": "Daily road running",
+      "foam": "FF BLAST MAX",
+      "price_usd": 150,
+      "verdict": "A road trainer with FF BLAST MAX foam and the 3D GUIDANCE SYSTEM. ASICS rates its cushioning as “High.”",
+      "source_url": "https://www.asics.com/us/en-us/gt-2000-15/p/ANA_1012B998-001.html",
+      "source_type": "manufacturer",
+      "sourced_at": "2026-10-26",
+      "weight_reference_size": null,
+      "price_type": "US store listing",
+      "source_notes": "Gender-specific heel/forefoot stack heights, toe-box classification and weight reference size were not verified; left blank. Price is the current linked US store offer, not a verified list price; colorway and availability may vary.",
+      "manufacturer_support": {
+        "wording": "Neutral, Stability",
+        "source_url": "https://www.asics.com/us/en-us/gt-2000-15/p/ANA_1012B998-001.html",
+        "scope": "gender-specific model",
+        "checked_at": "2026-10-26"
+      },
+      "release_date": "2026-08-06",
+      "release_source_url": "https://corp.asics.com/jp/press/article/2026-07-29_gt-2000_15",
+      "release_source_type": "manufacturer",
+      "release_notes": "Manufacturer announces August 6, 2026 release in Japan. US product availability verified separately; US first-sale date not verified.",
+      "release_audit_status": "within_window",
+      "release_audited_at": "2026-10-26",
+      "price_source_url": "https://www.asics.com/us/en-us/gt-2000-15/p/ANA_1012B998-001.html",
+      "price_checked_at": "2026-10-26",
+      "weight_g": 221
+    },
+    {
+      "id": "puma-velocity-nitro-5-men",
+      "brand": "PUMA",
+      "model": "Velocity NITRO 5",
+      "gender": "men",
+      "drop_mm": 8,
+      "weight_oz": null,
+      "stack_heel_mm": 35,
+      "stack_forefoot_mm": 27,
+      "toe_box": null,
+      "use_case": "Daily road running",
+      "foam": "NITROFOAM",
+      "price_usd": 140,
+      "verdict": "A daily road trainer with an engineered mesh upper and PUMAGRIP outsole. PUMA rates its cushioning as “Medium.”",
+      "source_url": "https://us.puma.com/us/en/pd/velocity-nitro-5-mens-road-running-shoes/312944",
+      "source_type": "manufacturer",
+      "sourced_at": "2026-10-26",
+      "weight_reference_size": null,
+      "price_type": "US store listing",
+      "source_notes": "Model-level stack 35/27 mm from PUMA’s launch announcement. Weight left blank: announcement lists 230 g (UK 8) and 190 g (UK 4.5) without explicit gender labels, and the checked men’s US page does not supply a weight. Toe-box classification not verified. Price is the US store offer, not a verified list price.",
+      "manufacturer_support": {
+        "wording": "Pronation: Neutral",
+        "source_url": "https://us.puma.com/us/en/pd/velocity-nitro-5-mens-road-running-shoes/312944",
+        "scope": "gender-specific model",
+        "checked_at": "2026-10-26"
+      },
+      "release_date": "2026-07-09",
+      "release_source_url": "https://mediahub.puma.com/articles/puma-introduces-the-velocity-5-the-way-running-should-feel",
+      "release_source_type": "manufacturer",
+      "release_notes": "PUMA announces availability from July 9, 2026 worldwide.",
+      "release_audit_status": "within_window",
+      "release_audited_at": "2026-10-26",
+      "price_source_url": "https://us.puma.com/us/en/pd/velocity-nitro-5-mens-road-running-shoes/312944",
+      "price_checked_at": "2026-10-26",
+      "spec_source_url": "https://mediahub.puma.com/articles/puma-introduces-the-velocity-5-the-way-running-should-feel"
+    },
+    {
+      "id": "hoka-clifton-11-men",
+      "brand": "HOKA",
+      "model": "Clifton 11",
+      "gender": "men",
+      "drop_mm": 8,
+      "weight_oz": 9.98,
+      "stack_heel_mm": null,
+      "stack_forefoot_mm": null,
+      "toe_box": null,
+      "use_case": "Daily road running",
+      "foam": "Compression-molded EVA",
+      "price_usd": 155,
+      "verdict": "A daily road trainer with an engineered mesh upper, MetaRocker and rearfoot-focused Active Foot Frame.",
+      "source_url": "https://au.hoka.com/products/clifton-11-1176572-flck-flck",
+      "source_type": "manufacturer",
+      "sourced_at": "2026-10-26",
+      "weight_reference_size": null,
+      "price_type": "US store listing",
+      "source_notes": "US product-page retrieval blocked. Specifications use the exact gender-specific HOKA Australia page; weight converted from published grams to ounces, reference size unspecified there. Gender-specific stack and toe-box classification not verified. Cushion-scale selection could not be established confidently from the retrieved page, so no rating added. Price is HOKA’s own Melrose US brand-store offer, not MSRP or an independent dealer price; local availability and price may vary. Regional weight discrepancy: Australia lists 283 g without reference size; Deckers Japan lists 282 g at 28 cm. Neither value is represented as a US measurement.",
+      "manufacturer_support": null,
+      "release_date": "2026-07-01",
+      "release_source_url": "https://prtimes.jp/main/html/rd/p/000000767.000003434.html",
+      "release_source_type": "manufacturer",
+      "release_notes": "Deckers Japan’s official announcement specifies July 1, 2026 in Japan. US availability separately confirmed at HOKA’s own Melrose brand store; US first-sale date unverified.",
+      "release_audit_status": "within_window",
+      "release_audited_at": "2026-10-26",
+      "price_source_url": "https://stores.hoka.com/store/223487/hoka-store-melrose-ca",
+      "price_checked_at": "2026-10-26",
+      "weight_g": 283,
+      "completion_review": {
+        "checked_at": "2026-10-26",
+        "sources": [
+          {
+            "fields": [
+              "price_usd",
+              "price_type"
+            ],
+            "url": "https://stores.hoka.com/store/223487/hoka-store-melrose-ca",
+            "note": "Exact gender/model listing at HOKA Brand Store Melrose: $155; store offer, checked 2026-10-26."
+          }
+        ]
+      }
+    },
+    {
+      "id": "hoka-clifton-11-women",
+      "brand": "HOKA",
+      "model": "Clifton 11",
+      "gender": "women",
+      "drop_mm": 8,
+      "weight_oz": 8.32,
+      "stack_heel_mm": null,
+      "stack_forefoot_mm": null,
+      "toe_box": null,
+      "use_case": "Daily road running",
+      "foam": "Compression-molded EVA",
+      "price_usd": 155,
+      "verdict": "A daily road trainer with an engineered mesh upper, MetaRocker and rearfoot-focused Active Foot Frame.",
+      "source_url": "https://au.hoka.com/products/clifton-11-1176573-fmm-fmm",
+      "source_type": "manufacturer",
+      "sourced_at": "2026-10-26",
+      "weight_reference_size": null,
+      "price_type": "US store listing",
+      "source_notes": "US product-page retrieval blocked. Specifications use the exact gender-specific HOKA Australia page; weight converted from published grams to ounces, reference size unspecified there. Gender-specific stack and toe-box classification not verified. Cushion-scale selection could not be established confidently from the retrieved page, so no rating added. Price is HOKA’s own Melrose US brand-store offer, not MSRP or an independent dealer price; local availability and price may vary. Deckers Japan also lists 236 g at 24.5 cm; this is regional evidence, not a verified US reference size.",
+      "manufacturer_support": null,
+      "release_date": "2026-07-01",
+      "release_source_url": "https://prtimes.jp/main/html/rd/p/000000767.000003434.html",
+      "release_source_type": "manufacturer",
+      "release_notes": "Deckers Japan’s official announcement specifies July 1, 2026 in Japan. US availability separately confirmed at HOKA’s own Melrose brand store; US first-sale date unverified.",
+      "release_audit_status": "within_window",
+      "release_audited_at": "2026-10-26",
+      "price_source_url": "https://stores.hoka.com/store/223487/hoka-store-melrose-ca",
+      "price_checked_at": "2026-10-26",
+      "weight_g": 236,
+      "completion_review": {
+        "checked_at": "2026-10-26",
+        "sources": [
+          {
+            "fields": [
+              "price_usd",
+              "price_type"
+            ],
+            "url": "https://stores.hoka.com/store/223487/hoka-store-melrose-ca",
+            "note": "Exact gender/model listing at HOKA Brand Store Melrose: $155; store offer, checked 2026-10-26."
+          }
+        ]
       }
     }
   ]
