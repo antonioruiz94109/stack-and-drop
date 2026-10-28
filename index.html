@@ -66,6 +66,7 @@
     dl { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; background: #09090b; border: 1px solid #27272a; border-radius: 8px; padding: 12px 6px; margin: 0 0 8px; text-align: center; }
     dt { font-size: 11px; text-transform: uppercase; color: #a1a1aa; }
     dd { margin: 0; font-size: 14px; font-weight: 600; font-family: ui-monospace, monospace; }
+    .missing-spec { display: block; font: 400 12px/1.35 system-ui, sans-serif; color: #a1a1aa; overflow-wrap: anywhere; }
     .verdict { color: #d4d4d8; font-size: 14px; margin-bottom: 8px; }
     .foam { margin-top: 12px; font-size: 12px; color: #a1a1aa; }
     .foam strong { color: #e4e4e7; }
@@ -117,7 +118,7 @@
       <div class="badge">Community learning project · Catalog updated <span id="last-updated">…</span></div>
       <h1 class="wordmark"><span class="wordmark-text">Stack <span class="wordmark-amp">&amp;</span> Drop</span><svg width="100%" height="24" viewBox="0 0 440 24" preserveAspectRatio="none" aria-hidden="true"><polygon points="0,0 440,17 440,24 0,24" fill="#6ee7b7"/></svg></h1>
       <p class="muted intro">Find your next road or trail shoe.</p>
-      <details class="about"><summary>About the catalog</summary><p class="notice">All entries link to manufacturer sources. Men’s and women’s versions are listed separately, with the version identified on every card. Unisex shoes are listed once and appear under both men’s and women’s filters. Missing specifications and source inconsistencies are noted on each card. Prices are in USD, not live offers. List means a verified manufacturer list price. Price means a manufacturer website or brand-store offer not confirmed as a list price. Dealer means an independent retailer’s price. Price basis and qualifications are in Sources &amp; notes; sizes and colorways may vary. Specifications come from manufacturer sources and have not been independently lab-tested by Stack &amp; Drop.</p></details>
+      <details class="about"><summary>About the catalog</summary><p class="notice">All entries link to manufacturer sources. Men’s and women’s versions are listed separately, with the version identified on every card. Unisex shoes are listed once and appear under both men’s and women’s filters. Missing specifications and source inconsistencies are noted on each card. Prices are in USD, not live offers. List means a verified manufacturer list price. Price means a manufacturer website or brand-store offer not confirmed as a list price. Dealer means an independent retailer’s price. Price basis and qualifications are in Sources &amp; notes; sizes and colorways may vary. Specifications come from manufacturer sources and have not been independently lab-tested by Stack &amp; Drop. “Not published by” means the checked manufacturer page omits the applicable specification; “Not verified” means access or evidence is unresolved.</p><p class="notice catalog-change">2026-10-26: Replaced older generations and removed one cross-country spike; the catalog changed from 231 to 203 versions.</p></details>
     </header>
     <section class="search" aria-label="Search shoes">
       <label for="keyword-search">Search shoes and descriptions</label>
@@ -252,10 +253,27 @@
       return result + escapeHTML(value.slice(start));
     }
 
+    function missingSpecText(shoe, field) {
+      return shoe.spec_availability?.[field]?.status === 'not_published'
+        ? `Not published by ${shoe.brand}` : 'Not verified';
+    }
+
+    function missingSpec(shoe, field) {
+      return `<span class="missing-spec">${escapeHTML(missingSpecText(shoe, field))}</span>`;
+    }
+
+    function reviewLink(rawURL, label) {
+      try {
+        const url = new URL(rawURL);
+        if (url.protocol === 'https:') return `<a href="${escapeHTML(url.href)}" target="_blank" rel="noopener noreferrer">${escapeHTML(label)} ↗</a>`;
+      } catch (_) {}
+      return '';
+    }
+
     function priceSourceURL(shoe) {
       try {
         const url = new URL(shoe.price_source_url);
-        const hosts = ['www.altrarunning.com', 'www.topoathletic.com', 'www.nike.com', 'www.newbalance.com', 'www.asics.com', 'www.saucony.com', 'www.brooksrunning.com', 'stores.brooksrunning.com', 'stores.hoka.com', 'www.adidas.com', 'news.adidas.com', 'us.puma.com'];
+        const hosts = ['www.altrarunning.com', 'www.topoathletic.com', 'www.nike.com', 'www.newbalance.com', 'www.asics.com', 'www.saucony.com', 'www.brooksrunning.com', 'stores.brooksrunning.com', 'stores.hoka.com', 'www.hoka.com', 'www.adidas.com', 'us.puma.com'];
         return url.protocol === 'https:' && hosts.includes(url.hostname) && url.pathname !== '/' ? url.href : null;
       } catch (_) { return null; }
     }
@@ -337,7 +355,7 @@
           }
         } catch (_) {}
         const source = sourceURL
-          ? `<div class="source"><a href="${escapeHTML(sourceURL)}" target="_blank" rel="noopener noreferrer">Manufacturer source ↗</a><small>Sourced ${s.sourced_at}</small><small>Weight reference: ${escapeHTML(shoe.weight_reference_size || 'size not specified')}</small><small>${escapeHTML(shoe.source_notes || '')}</small></div>`
+          ? `<div class="source"><a href="${escapeHTML(sourceURL)}" target="_blank" rel="noopener noreferrer">Manufacturer source ↗</a><small>Sourced ${s.sourced_at}</small><small>Weight reference: ${escapeHTML(shoe.weight_reference_size || missingSpecText(shoe, 'weight_reference_size'))}</small><small>${escapeHTML(shoe.source_notes || '')}</small></div>`
           : '<p class="source">Awaiting source review · provisional entry</p>';
         let release = `<small>Model release: not verified.<br>${escapeHTML(shoe.release_notes || '')}</small>`;
         try {
@@ -376,14 +394,24 @@
         const priceText = Number.isFinite(shoe.price_usd)
           ? `${dealerLabel ? `Dealer $${s.price_usd}<br><small>${dealerLabel}</small>` : `${shoe.price_type === 'US list price' ? 'List' : 'Price'} $${s.price_usd}`}` : 'Price not verified';
 
-        const stack = Number.isFinite(shoe.stack_heel_mm) && Number.isFinite(shoe.stack_forefoot_mm) ? `Heel ${s.stack_heel_mm}<br>Fore ${s.stack_forefoot_mm}` : '—';
+        const gapLabels = {drop_mm: 'Drop', weight_oz: 'Weight', stack: 'Stack', weight_reference_size: 'Weight reference size'};
+        const gaps = new Map();
+        for (const [field, gap] of Object.entries(shoe.spec_availability || {})) {
+          if (!gapLabels[field]) continue;
+          const key = JSON.stringify([gap.source_url, gap.checked_at, gap.note]);
+          if (!gaps.has(key)) gaps.set(key, {gap, fields: []});
+          gaps.get(key).fields.push(gapLabels[field]);
+        }
+        const gapNotes = [...gaps.values()].map(({gap, fields}) => `<div class="source spec-review"><strong>${escapeHTML(fields.join(' / '))}</strong><small>${escapeHTML(gap.note)}</small><small>${reviewLink(gap.source_url, 'Checked source')} · Checked ${escapeHTML(gap.checked_at)}</small></div>`).join('');
+        const priceReview = shoe.price_review ? `<div class="source price-review"><small>${escapeHTML(shoe.price_review.note)}</small><small>${reviewLink(shoe.price_review.source_url, 'Price check')} · Checked ${escapeHTML(shoe.price_review.checked_at)}</small></div>` : '';
+        const stack = Number.isFinite(shoe.stack_heel_mm) && Number.isFinite(shoe.stack_forefoot_mm) ? `Heel ${s.stack_heel_mm}<br>Fore ${s.stack_forefoot_mm}` : missingSpec(shoe, 'stack');
         return `<article class="shoe-card" data-shoe-id="${s.id}">
           <div class="card-top"><span class="brand">${s.brand}</span><span class="price">${priceText}</span></div>
           <h2>${shoe.gender === 'women' ? 'Women’s' : shoe.gender === 'men' ? 'Men’s' : shoe.gender === 'unisex' ? 'Unisex' : 'Version not specified'} ${s.model}</h2>
           <p class="use">${s.use_case}</p>
           <dl>
-            <div><dt>Drop</dt><dd>${Number.isFinite(shoe.drop_mm) ? `${s.drop_mm} mm` : '—'}</dd></div>
-            <div><dt>Weight</dt><dd>${Number.isFinite(shoe.weight_oz) ? `${s.weight_oz} oz` : '—'}</dd></div>
+            <div><dt>Drop</dt><dd>${Number.isFinite(shoe.drop_mm) ? `${s.drop_mm} mm` : missingSpec(shoe, 'drop_mm')}</dd></div>
+            <div><dt>Weight</dt><dd>${Number.isFinite(shoe.weight_oz) ? `${s.weight_oz} oz` : missingSpec(shoe, 'weight_oz')}</dd></div>
             <div><dt>Stack (mm)</dt><dd>${stack}</dd></div>
           </dl>
           <p class="verdict">${s.verdict}</p>
@@ -395,6 +423,8 @@
           <div class="source manufacturer-support"><strong>Manufacturer’s support wording</strong><br>${supportText}</div>
           ${source}
           ${priceLink}
+          ${priceReview}
+          ${gapNotes}
           ${completion}
           <div class="source">${specification}${release}</div>
           </details>
