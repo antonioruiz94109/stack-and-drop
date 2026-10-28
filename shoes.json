@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-27",
+  "last_updated": "2026-10-28",
   "maintained_by": "Stack & Drop — manual review",
   "shoes": [
     {
@@ -2340,15 +2340,15 @@
       "use_case": "Daily road running / Walking",
       "foam": "DNA LOFT v3",
       "price_usd": 150,
-      "price_type": "US store listing",
+      "price_type": "US list price",
       "price_source_url": "https://www.brooksrunning.com/en_us/mens/shoes/road-running-shoes/ghost-18/110493.html",
-      "price_checked_at": "2026-10-26",
+      "price_checked_at": "2026-10-28",
       "verdict": "A daily road trainer with an updated tongue and secure fit. Brooks rates its cushioning as “Balanced.”",
       "source_url": "https://www.brooksrunning.com/en_us/mens/shoes/road-running-shoes/ghost-18/110493.html",
       "source_type": "manufacturer",
-      "sourced_at": "2026-10-27",
+      "sourced_at": "2026-10-28",
       "weight_reference_size": null,
-      "source_notes": "Weight and 10 mm drop verified separately on this gender’s US product page; reference size, heel/forefoot stack and toe-box classification were not verified and remain blank. DNA LOFT v3 is identified in the official Ghost 18 Japan launch announcement linked below. Price is the current $150 US store listing, not a verified list price; availability varies by size/color. Japan release is not represented as the US first-sale date.",
+      "source_notes": "Weight and 10 mm drop verified separately on this gender’s US product page; reference size, heel/forefoot stack and toe-box classification were not verified and remain blank. DNA LOFT v3 is identified in the official Ghost 18 Japan launch announcement linked below. Price is the current $150 US store listing, not a verified list price; availability varies by size/color. Japan release is not represented as the US first-sale date. US-page check supersedes prior stack/reference-size and price uncertainty for the fields reviewed: stack and weight reference size are Not published by Brooks; checked 2026-10-28. See the dated price check for current price evidence.",
       "manufacturer_support": {
         "wording": "Balanced support",
         "source_url": "https://www.brooksrunning.com/en_us/mens/shoes/road-running-shoes/ghost-18/110493.html",
@@ -2363,17 +2363,22 @@
       "release_audited_at": "2026-10-26",
       "spec_availability": {
         "stack": {
-          "status": "unverified",
+          "status": "not_published",
           "source_url": "https://www.brooksrunning.com/en_us/mens/shoes/road-running-shoes/ghost-18/110493.html",
-          "checked_at": "2026-10-27",
-          "note": "Manufacturer page could not be retrieved in this check (HTTP Error 403: Forbidden). This does not establish that the specification is unpublished."
+          "checked_at": "2026-10-28",
+          "note": "Not published by Brooks; checked 2026-10-28. Supplied US-page browser check."
         },
         "weight_reference_size": {
-          "status": "unverified",
+          "status": "not_published",
           "source_url": "https://www.brooksrunning.com/en_us/mens/shoes/road-running-shoes/ghost-18/110493.html",
-          "checked_at": "2026-10-27",
-          "note": "Manufacturer page could not be retrieved in this check (HTTP Error 403: Forbidden). This does not establish that the specification is unpublished."
+          "checked_at": "2026-10-28",
+          "note": "Not published by Brooks; checked 2026-10-28. Supplied US-page browser check."
         }
+      },
+      "price_review": {
+        "source_url": "https://www.brooksrunning.com/en_us/mens/shoes/road-running-shoes/ghost-18/110493.html",
+        "checked_at": "2026-10-28",
+        "note": "Manufacturer US list price confirmed; checked 2026-10-28."
       }
     },
     {
@@ -2390,15 +2395,15 @@
       "use_case": "Daily road running / Walking",
       "foam": "DNA LOFT v3",
       "price_usd": 150,
-      "price_type": "US store listing",
+      "price_type": "US list price",
       "price_source_url": "https://www.brooksrunning.com/en_us/womens/shoes/road-running-shoes/ghost-18/120482.html",
-      "price_checked_at": "2026-10-26",
+      "price_checked_at": "2026-10-28",
       "verdict": "A daily road trainer with an updated tongue and secure fit. Brooks rates its cushioning as “Balanced.”",
       "source_url": "https://www.brooksrunning.com/en_us/womens/shoes/road-running-shoes/ghost-18/120482.html",
       "source_type": "manufacturer",
-      "sourced_at": "2026-10-27",
+      "sourced_at": "2026-10-28",
       "weight_reference_size": null,
-      "source_notes": "Weight and 10 mm drop verified separately on this gender’s US product page; reference size, heel/forefoot stack and toe-box classification were not verified and remain blank. DNA LOFT v3 is identified in the official Ghost 18 Japan launch announcement linked below. Price is the current $150 US store listing, not a verified list price; availability varies by size/color. Japan release is not represented as the US first-sale date.",
+      "source_notes": "Weight and 10 mm drop verified separately on this gender’s US product page; reference size, heel/forefoot stack and toe-box classification were not verified and remain blank. DNA LOFT v3 is identified in the official Ghost 18 Japan launch announcement linked below. Price is the current $150 US store listing, not a verified list price; availability varies by size/color. Japan release is not represented as the US first-sale date. US-page check supersedes prior stack/reference-size and price uncertainty for the fields reviewed: stack and weight reference size are Not published by Brooks; checked 2026-10-28. See the dated price check for current price evidence.",
       "manufacturer_support": {
         "wording": "Balanced support",
         "source_url": "https://www.brooksrunning.com/en_us/womens/shoes/road-running-shoes/ghost-18/120482.html",
@@ -2413,17 +2418,22 @@
       "release_audited_at": "2026-10-26",
       "spec_availability": {
         "stack": {
-          "status": "unverified",
+          "status": "not_published",
           "source_url": "https://www.brooksrunning.com/en_us/womens/shoes/road-running-shoes/ghost-18/120482.html",
-          "checked_at": "2026-10-27",
-          "note": "Manufacturer page could not be retrieved in this check (HTTP Error 403: Forbidden). This does not establish that the specification is unpublished."
+          "checked_at": "2026-10-28",
+          "note": "Not published by Brooks; checked 2026-10-28. Supplied US-page browser check."
         },
         "weight_reference_size": {
-          "status": "unverified",
+          "status": "not_published",
           "source_url": "https://www.brooksrunning.com/en_us/womens/shoes/road-running-shoes/ghost-18/120482.html",
-          "checked_at": "2026-10-27",
-          "note": "Manufacturer page could not be retrieved in this check (HTTP Error 403: Forbidden). This does not establish that the specification is unpublished."
+          "checked_at": "2026-10-28",
+          "note": "Not published by Brooks; checked 2026-10-28. Supplied US-page browser check."
         }
+      },
+      "price_review": {
+        "source_url": "https://www.brooksrunning.com/en_us/womens/shoes/road-running-shoes/ghost-18/120482.html",
+        "checked_at": "2026-10-28",
+        "note": "Manufacturer US list price confirmed; checked 2026-10-28."
       }
     },
     {
@@ -2442,10 +2452,10 @@
       "verdict": "A trail trainer with a flexible rock plate and nitrogen-infused cushioning.",
       "source_url": "https://www.brooksrunning.com/en_us/mens/shoes/trail-shoes/cascadia-19/110457.html",
       "source_type": "manufacturer",
-      "sourced_at": "2026-10-27",
+      "sourced_at": "2026-10-28",
       "weight_reference_size": null,
       "price_type": "US list price",
-      "source_notes": "Manufacturer-listed weights; reference size, total stack heights and toe-box shape not specified. Cleanup review 2026-10-25: US page retrieval blocked; no manufacturer heel/forefoot pair clearly assigned to this version verified in the sources checked.",
+      "source_notes": "Manufacturer-listed weights; reference size, total stack heights and toe-box shape not specified. Cleanup review 2026-10-25: US page retrieval blocked; no manufacturer heel/forefoot pair clearly assigned to this version verified in the sources checked. US-page check supersedes prior stack/reference-size and price uncertainty for the fields reviewed: stack and weight reference size are Not published by Brooks; checked 2026-10-28. See the dated price check for current price evidence.",
       "release_date": "2025-08-01",
       "release_source_url": "https://believeintherun.com/shoe-reviews/brooks-cascadia-19-review/",
       "release_notes": "US release date reported by Believe in the Run; regional launches may differ.",
@@ -2459,27 +2469,44 @@
             ],
             "url": "https://www.brooksrunning.com/en_us/mens/shoes/trail-shoes/cascadia-19/1104572E098.150.html",
             "note": "Brooks own US product page shows regular $150 and sale $119.95 (20% off). Exact reference is wide 2E, Alloy/Ebony/Orange, size 15. Price evidence only; current stock not confirmed."
+          },
+          {
+            "fields": [
+              "price_usd",
+              "price_type",
+              "stack_heel_mm",
+              "stack_forefoot_mm",
+              "weight_reference_size"
+            ],
+            "url": "https://www.brooksrunning.com/en_us/mens/shoes/trail-shoes/cascadia-19/1104572E098.150.html",
+            "checked_at": "2026-10-28",
+            "note": "New check, checked 2026-10-28: Original price $150 on Brooks US variant pages; clearance, some sizes sold out. Previous price, price type and source link restored as requested. User-supplied correction; checked 2026-10-28. Stack and weight reference size: Not published by Brooks. Earlier evidence below/above retains its original date and is historical where superseded by this check."
           }
         ],
         "remaining_gaps": [
           "Stack: a consistent heel/forefoot pair for this version was not verified in the official sources checked; no laboratory or other-version measurements substituted."
         ]
       },
-      "price_checked_at": "2026-10-19",
+      "price_checked_at": "2026-10-28",
       "price_source_url": "https://www.brooksrunning.com/en_us/mens/shoes/trail-shoes/cascadia-19/1104572E098.150.html",
       "spec_availability": {
         "stack": {
-          "status": "unverified",
+          "status": "not_published",
           "source_url": "https://www.brooksrunning.com/en_us/mens/shoes/trail-shoes/cascadia-19/110457.html",
-          "checked_at": "2026-10-27",
-          "note": "Manufacturer page could not be retrieved in this check (HTTP Error 403: Forbidden). This does not establish that the specification is unpublished."
+          "checked_at": "2026-10-28",
+          "note": "Not published by Brooks; checked 2026-10-28. Supplied US-page browser check."
         },
         "weight_reference_size": {
-          "status": "unverified",
+          "status": "not_published",
           "source_url": "https://www.brooksrunning.com/en_us/mens/shoes/trail-shoes/cascadia-19/110457.html",
-          "checked_at": "2026-10-27",
-          "note": "Manufacturer page could not be retrieved in this check (HTTP Error 403: Forbidden). This does not establish that the specification is unpublished."
+          "checked_at": "2026-10-28",
+          "note": "Not published by Brooks; checked 2026-10-28. Supplied US-page browser check."
         }
+      },
+      "price_review": {
+        "source_url": "https://www.brooksrunning.com/en_us/mens/shoes/trail-shoes/cascadia-19/1104572E098.150.html",
+        "checked_at": "2026-10-28",
+        "note": "Original price $150 on Brooks US variant pages; clearance, some sizes sold out. Previous price, price type and source link restored as requested. User-supplied correction; checked 2026-10-28."
       }
     },
     {
@@ -2496,12 +2523,12 @@
       "foam": "DNA LOFT v3",
       "price_usd": 150,
       "verdict": "A trail trainer with a flexible rock plate and nitrogen-infused cushioning.",
-      "source_url": "https://www.brooksrunning.com/en_de/womens/trail-running-shoes/cascadia-19/120446.html?dwvar_120446_color=711",
+      "source_url": "https://www.brooksrunning.com/en_us/womens/shoes/trail-shoes/cascadia-19/120446.html",
       "source_type": "manufacturer",
-      "sourced_at": "2026-10-27",
+      "sourced_at": "2026-10-28",
       "weight_reference_size": null,
       "price_type": "US store listing",
-      "source_notes": "Manufacturer-listed weights; reference size, total stack heights and toe-box shape not specified. Cleanup review 2026-10-25: US page retrieval blocked; no manufacturer heel/forefoot pair clearly assigned to this version verified in the sources checked. Normalized the existing $150 collection offer to US store listing (Price), not verified MSRP. Based on the saved October 20 manufacturer collection evidence. October 25 collection no longer exposes this item in retrieved text, so its price checked date remains October 20; this is not a fresh price verification.",
+      "source_notes": "Manufacturer-listed weights; reference size, total stack heights and toe-box shape not specified. Cleanup review 2026-10-25: US page retrieval blocked; no manufacturer heel/forefoot pair clearly assigned to this version verified in the sources checked. Normalized the existing $150 collection offer to US store listing (Price), not verified MSRP. Based on the saved October 20 manufacturer collection evidence. October 25 collection no longer exposes this item in retrieved text, so its price checked date remains October 20; this is not a fresh price verification. US-page check supersedes prior stack/reference-size and price uncertainty for the fields reviewed: stack and weight reference size are Not published by Brooks; checked 2026-10-28. See the dated price check for current price evidence.",
       "release_date": "2025-08-01",
       "release_source_url": "https://believeintherun.com/shoe-reviews/brooks-cascadia-19-review/",
       "release_notes": "US release date reported by Believe in the Run; regional launches may differ.",
@@ -2522,6 +2549,18 @@
             ],
             "url": "https://www.brooksrunning.com/en_us/featured/trail-running-collection/",
             "note": "Normalized the existing $150 collection offer to US store listing (Price), not verified MSRP. Based on the saved October 20 manufacturer collection evidence. October 25 collection no longer exposes this item in retrieved text, so its price checked date remains October 20; this is not a fresh price verification."
+          },
+          {
+            "fields": [
+              "price_usd",
+              "price_type",
+              "stack_heel_mm",
+              "stack_forefoot_mm",
+              "weight_reference_size"
+            ],
+            "url": "https://www.brooksrunning.com/en_us/featured/trail-running-collection/",
+            "checked_at": "2026-10-28",
+            "note": "New check, checked 2026-10-28: Original price $150 on Brooks US variant pages; clearance, some sizes sold out. Previous price, price type and source link restored as requested. User-supplied correction; checked 2026-10-28. Stack and weight reference size: Not published by Brooks. Earlier evidence below/above retains its original date and is historical where superseded by this check."
           }
         ],
         "remaining_gaps": [
@@ -2529,20 +2568,25 @@
         ]
       },
       "price_source_url": "https://www.brooksrunning.com/en_us/featured/trail-running-collection/",
-      "price_checked_at": "2026-10-20",
+      "price_checked_at": "2026-10-28",
       "spec_availability": {
         "stack": {
-          "status": "unverified",
-          "source_url": "https://www.brooksrunning.com/en_de/womens/trail-running-shoes/cascadia-19/120446.html?dwvar_120446_color=711",
-          "checked_at": "2026-10-27",
-          "note": "Manufacturer page could not be retrieved in this check (HTTP Error 403: Forbidden). This does not establish that the specification is unpublished."
+          "status": "not_published",
+          "source_url": "https://www.brooksrunning.com/en_us/womens/shoes/trail-shoes/cascadia-19/120446.html",
+          "checked_at": "2026-10-28",
+          "note": "Not published by Brooks; checked 2026-10-28. Supplied US-page browser check."
         },
         "weight_reference_size": {
-          "status": "unverified",
-          "source_url": "https://www.brooksrunning.com/en_de/womens/trail-running-shoes/cascadia-19/120446.html?dwvar_120446_color=711",
-          "checked_at": "2026-10-27",
-          "note": "Manufacturer page could not be retrieved in this check (HTTP Error 403: Forbidden). This does not establish that the specification is unpublished."
+          "status": "not_published",
+          "source_url": "https://www.brooksrunning.com/en_us/womens/shoes/trail-shoes/cascadia-19/120446.html",
+          "checked_at": "2026-10-28",
+          "note": "Not published by Brooks; checked 2026-10-28. Supplied US-page browser check."
         }
+      },
+      "price_review": {
+        "source_url": "https://www.brooksrunning.com/en_us/featured/trail-running-collection/",
+        "checked_at": "2026-10-28",
+        "note": "Original price $150 on Brooks US variant pages; clearance, some sizes sold out. Previous price, price type and source link restored as requested. User-supplied correction; checked 2026-10-28."
       }
     },
     {
@@ -2561,10 +2605,10 @@
       "verdict": "A cushioned trail shoe designed for long-distance outings.",
       "source_url": "https://www.brooksrunning.com/en_us/mens/shoes/trail-shoes/caldera-8/1104401D131.080.html",
       "source_type": "manufacturer",
-      "sourced_at": "2026-10-27",
+      "sourced_at": "2026-10-28",
       "weight_reference_size": null,
       "price_type": "US list price",
-      "source_notes": "Manufacturer-listed weights; reference size, total stack heights and toe-box shape not specified. Cleanup review 2026-10-25: US page retrieval blocked; no manufacturer heel/forefoot pair clearly assigned to this version verified in the sources checked.",
+      "source_notes": "Manufacturer-listed weights; reference size, total stack heights and toe-box shape not specified. Cleanup review 2026-10-25: US page retrieval blocked; no manufacturer heel/forefoot pair clearly assigned to this version verified in the sources checked. US-page check supersedes prior stack/reference-size and price uncertainty for the fields reviewed: stack and weight reference size are Not published by Brooks; checked 2026-10-28. See the dated price check for current price evidence.",
       "release_date": "2025-01-01",
       "release_source_url": "https://weartesters.com/brooks-caldera-8-performance-review/",
       "release_notes": "Reported model launch; regional availability may differ.",
@@ -2584,6 +2628,18 @@
             ],
             "url": "https://www.brooksrunning.com/en_us/mens/shoes/trail-shoes/caldera-8/1104401D131.080.html",
             "note": "US regular/list price from the linked manufacturer page; sale price excluded."
+          },
+          {
+            "fields": [
+              "price_usd",
+              "price_type",
+              "stack_heel_mm",
+              "stack_forefoot_mm",
+              "weight_reference_size"
+            ],
+            "url": "https://www.brooksrunning.com/en_us/mens/shoes/trail-shoes/caldera-8/1104401D131.080.html",
+            "checked_at": "2026-10-28",
+            "note": "New check, checked 2026-10-28: Original price $150 on Brooks US variant pages; clearance, some sizes sold out. Previous price, price type and source link restored as requested. User-supplied correction; checked 2026-10-28. Stack and weight reference size: Not published by Brooks. Earlier evidence below/above retains its original date and is historical where superseded by this check."
           }
         ],
         "remaining_gaps": [
@@ -2593,17 +2649,23 @@
       "price_source_url": "https://www.brooksrunning.com/en_us/mens/shoes/trail-shoes/caldera-8/1104401D131.080.html",
       "spec_availability": {
         "stack": {
-          "status": "unverified",
+          "status": "not_published",
           "source_url": "https://www.brooksrunning.com/en_us/mens/shoes/trail-shoes/caldera-8/1104401D131.080.html",
-          "checked_at": "2026-10-27",
-          "note": "Manufacturer page could not be retrieved in this check (HTTP Error 403: Forbidden). This does not establish that the specification is unpublished."
+          "checked_at": "2026-10-28",
+          "note": "Not published by Brooks; checked 2026-10-28. Supplied US-page browser check."
         },
         "weight_reference_size": {
-          "status": "unverified",
+          "status": "not_published",
           "source_url": "https://www.brooksrunning.com/en_us/mens/shoes/trail-shoes/caldera-8/1104401D131.080.html",
-          "checked_at": "2026-10-27",
-          "note": "Manufacturer page could not be retrieved in this check (HTTP Error 403: Forbidden). This does not establish that the specification is unpublished."
+          "checked_at": "2026-10-28",
+          "note": "Not published by Brooks; checked 2026-10-28. Supplied US-page browser check."
         }
+      },
+      "price_checked_at": "2026-10-28",
+      "price_review": {
+        "source_url": "https://www.brooksrunning.com/en_us/mens/shoes/trail-shoes/caldera-8/1104401D131.080.html",
+        "checked_at": "2026-10-28",
+        "note": "Original price $150 on Brooks US variant pages; clearance, some sizes sold out. Previous price, price type and source link restored as requested. User-supplied correction; checked 2026-10-28."
       }
     },
     {
@@ -2622,10 +2684,10 @@
       "verdict": "A cushioned trail shoe designed for long-distance outings.",
       "source_url": "https://www.brooksrunning.com/en_us/womens/shoes/trail-shoes/caldera-8/120429.html",
       "source_type": "manufacturer",
-      "sourced_at": "2026-10-27",
+      "sourced_at": "2026-10-28",
       "weight_reference_size": null,
       "price_type": null,
-      "source_notes": "Manufacturer-listed weights; reference size, total stack heights and toe-box shape not specified. US list price not confirmed. Cleanup review 2026-10-25: US page retrieval blocked; no manufacturer heel/forefoot pair clearly assigned to this version verified in the sources checked. No usable exact US new-shoe price was verified: direct retrieval was blocked or unavailable; Caldera’s readable page has no price. Search/dealer snippets could not be verified on an accessible exact offer page. Resale evidence excluded.",
+      "source_notes": "Manufacturer-listed weights; reference size, total stack heights and toe-box shape not specified. US list price not confirmed. Cleanup review 2026-10-25: US page retrieval blocked; no manufacturer heel/forefoot pair clearly assigned to this version verified in the sources checked. No usable exact US new-shoe price was verified: direct retrieval was blocked or unavailable; Caldera’s readable page has no price. Search/dealer snippets could not be verified on an accessible exact offer page. Resale evidence excluded. US-page check supersedes prior stack/reference-size and price uncertainty for the fields reviewed: stack and weight reference size are Not published by Brooks; checked 2026-10-28. See the dated price check for current price evidence.",
       "release_date": "2025-01-01",
       "release_source_url": "https://weartesters.com/brooks-caldera-8-performance-review/",
       "release_notes": "Reported model launch; regional availability may differ.",
@@ -2637,7 +2699,20 @@
       },
       "completion_review": {
         "checked_at": "2026-10-19",
-        "sources": [],
+        "sources": [
+          {
+            "fields": [
+              "price_usd",
+              "price_type",
+              "stack_heel_mm",
+              "stack_forefoot_mm",
+              "weight_reference_size"
+            ],
+            "url": "https://www.brooksrunning.com/en_us/womens/shoes/trail-shoes/caldera-8/120429.html",
+            "checked_at": "2026-10-28",
+            "note": "New check, checked 2026-10-28: Price not verified. No previous price existed; left unchanged as requested. User-supplied correction; checked 2026-10-28. Stack and weight reference size: Not published by Brooks. Earlier evidence below/above retains its original date and is historical where superseded by this check."
+          }
+        ],
         "remaining_gaps": [
           "US price: no unambiguous price for this version verified in the official pages and alternative listings checked.",
           "Stack: a consistent heel/forefoot pair for this version was not verified in the official sources checked; no laboratory or other-version measurements substituted."
@@ -2645,17 +2720,23 @@
       },
       "spec_availability": {
         "stack": {
-          "status": "unverified",
+          "status": "not_published",
           "source_url": "https://www.brooksrunning.com/en_us/womens/shoes/trail-shoes/caldera-8/120429.html",
-          "checked_at": "2026-10-27",
-          "note": "Manufacturer page could not be retrieved in this check (HTTP Error 403: Forbidden). This does not establish that the specification is unpublished."
+          "checked_at": "2026-10-28",
+          "note": "Not published by Brooks; checked 2026-10-28. Supplied US-page browser check."
         },
         "weight_reference_size": {
-          "status": "unverified",
+          "status": "not_published",
           "source_url": "https://www.brooksrunning.com/en_us/womens/shoes/trail-shoes/caldera-8/120429.html",
-          "checked_at": "2026-10-27",
-          "note": "Manufacturer page could not be retrieved in this check (HTTP Error 403: Forbidden). This does not establish that the specification is unpublished."
+          "checked_at": "2026-10-28",
+          "note": "Not published by Brooks; checked 2026-10-28. Supplied US-page browser check."
         }
+      },
+      "price_checked_at": "2026-10-28",
+      "price_review": {
+        "source_url": "https://www.brooksrunning.com/en_us/womens/shoes/trail-shoes/caldera-8/120429.html",
+        "checked_at": "2026-10-28",
+        "note": "Price not verified. No previous price existed; left unchanged as requested. User-supplied correction; checked 2026-10-28."
       }
     },
     {
@@ -2698,9 +2779,9 @@
       "spec_availability": {
         "stack": {
           "status": "unverified",
-          "source_url": "https://www.brooksrunning.com/en_gb/mens/road-running-shoes/launch-11/110450.html",
-          "checked_at": "2026-10-27",
-          "note": "Manufacturer page could not be retrieved in this check (HTTP Error 403: Forbidden). This does not establish that the specification is unpublished."
+          "source_url": "https://www.brooksrunning.com/en_us",
+          "checked_at": "2026-10-28",
+          "note": "Not verified. No US product page; superseded model, retained pending separate refresh; checked 2026-10-28."
         },
         "weight_reference_size": {
           "status": "unverified",
@@ -2708,6 +2789,12 @@
           "checked_at": "2026-10-27",
           "note": "Manufacturer page could not be retrieved in this check (HTTP Error 403: Forbidden). This does not establish that the specification is unpublished."
         }
+      },
+      "catalog_status": "superseded",
+      "catalog_status_review": {
+        "source_url": "https://www.brooksrunning.com/en_us",
+        "checked_at": "2026-10-28",
+        "note": "Superseded — no US product page; the US store now sells newer versions. Retained pending a separate refresh; checked 2026-10-28."
       }
     },
     {
@@ -2722,13 +2809,13 @@
       "toe_box": null,
       "use_case": "Daily road running / Speedwork",
       "foam": "DNA FLASH + DNA FLASH v2 forefoot",
-      "price_usd": 120,
+      "price_usd": null,
       "verdict": "A lightweight road trainer with responsive forefoot cushioning.",
       "source_url": "https://www.brooksrunning.com/en_es/womens/road-running-shoes/launch-11/120439.html",
       "source_type": "manufacturer",
       "sourced_at": "2026-10-27",
       "weight_reference_size": null,
-      "price_type": "US list price",
+      "price_type": null,
       "source_notes": "Manufacturer-listed weights; reference size, total stack heights and toe-box shape not specified. Cleanup review 2026-10-25: US page retrieval blocked; no manufacturer heel/forefoot pair clearly assigned to this version verified in the sources checked.",
       "release_date": "2025-01",
       "release_source_url": "https://brooksrunning-sa.co.za/product/mens-launch-11/",
@@ -2755,13 +2842,13 @@
           "Stack: a consistent heel/forefoot pair for this version was not verified in the official sources checked; no laboratory or other-version measurements substituted."
         ]
       },
-      "price_source_url": "https://www.brooksrunning.com/en_us/launch-11/1204391B087.100.html",
+      "price_source_url": null,
       "spec_availability": {
         "stack": {
           "status": "unverified",
-          "source_url": "https://www.brooksrunning.com/en_es/womens/road-running-shoes/launch-11/120439.html",
-          "checked_at": "2026-10-27",
-          "note": "Manufacturer page could not be retrieved in this check (HTTP Error 403: Forbidden). This does not establish that the specification is unpublished."
+          "source_url": "https://www.brooksrunning.com/en_us",
+          "checked_at": "2026-10-28",
+          "note": "Not verified. No US product page; superseded model, retained pending separate refresh; checked 2026-10-28."
         },
         "weight_reference_size": {
           "status": "unverified",
@@ -2769,6 +2856,19 @@
           "checked_at": "2026-10-27",
           "note": "Manufacturer page could not be retrieved in this check (HTTP Error 403: Forbidden). This does not establish that the specification is unpublished."
         }
+      },
+      "catalog_status": "superseded",
+      "catalog_status_review": {
+        "source_url": "https://www.brooksrunning.com/en_us",
+        "checked_at": "2026-10-28",
+        "note": "Superseded — no US product page; the US store now sells newer versions. Retained pending a separate refresh; checked 2026-10-28."
+      },
+      "price_checked_at": "2026-10-28",
+      "price_unverified_label": "Price not verified (no US product page, checked 2026-10-28)",
+      "price_review": {
+        "source_url": "https://www.brooksrunning.com/en_us",
+        "checked_at": "2026-10-28",
+        "note": "No US product page; previous price link is dead. Previous price evidence is historical and does not support a current price. User-supplied correction; checked 2026-10-28."
       }
     },
     {
@@ -2811,9 +2911,9 @@
       "spec_availability": {
         "stack": {
           "status": "unverified",
-          "source_url": "https://www.brooksrunning.com/en_gb/mens/road-running-shoes/hyperion-max-3/1104671D449.110.html",
-          "checked_at": "2026-10-27",
-          "note": "Manufacturer page could not be retrieved in this check (HTTP Error 403: Forbidden). This does not establish that the specification is unpublished."
+          "source_url": "https://www.brooksrunning.com/en_us",
+          "checked_at": "2026-10-28",
+          "note": "Not verified. No US product page; superseded model, retained pending separate refresh; checked 2026-10-28."
         },
         "weight_reference_size": {
           "status": "unverified",
@@ -2821,6 +2921,12 @@
           "checked_at": "2026-10-27",
           "note": "Manufacturer page could not be retrieved in this check (HTTP Error 403: Forbidden). This does not establish that the specification is unpublished."
         }
+      },
+      "catalog_status": "superseded",
+      "catalog_status_review": {
+        "source_url": "https://www.brooksrunning.com/en_us",
+        "checked_at": "2026-10-28",
+        "note": "Superseded — no US product page; the US store now sells newer versions. Retained pending a separate refresh; checked 2026-10-28."
       }
     },
     {
@@ -2863,9 +2969,9 @@
       "spec_availability": {
         "stack": {
           "status": "unverified",
-          "source_url": "https://www.brooksrunning.com/en_gb/womens/road-running-shoes/hyperion-max-3/1204551B013.080.html",
-          "checked_at": "2026-10-27",
-          "note": "Manufacturer page could not be retrieved in this check (HTTP Error 403: Forbidden). This does not establish that the specification is unpublished."
+          "source_url": "https://www.brooksrunning.com/en_us",
+          "checked_at": "2026-10-28",
+          "note": "Not verified. No US product page; superseded model, retained pending separate refresh; checked 2026-10-28."
         },
         "weight_reference_size": {
           "status": "unverified",
@@ -2873,6 +2979,12 @@
           "checked_at": "2026-10-27",
           "note": "Manufacturer page could not be retrieved in this check (HTTP Error 403: Forbidden). This does not establish that the specification is unpublished."
         }
+      },
+      "catalog_status": "superseded",
+      "catalog_status_review": {
+        "source_url": "https://www.brooksrunning.com/en_us",
+        "checked_at": "2026-10-28",
+        "note": "Superseded — no US product page; the US store now sells newer versions. Retained pending a separate refresh; checked 2026-10-28."
       }
     },
     {
@@ -2887,14 +2999,14 @@
       "toe_box": null,
       "use_case": "Daily road running / Walking",
       "foam": "Supercritical EVA",
-      "price_usd": null,
+      "price_usd": 175,
       "verdict": "A cushioned everyday shoe with a structured upper and rearfoot support frame.",
-      "source_url": "https://vn.hoka.com/en/products/giay-chay-bo-nam-hoka-bondi-9-1162011-bkvr-black-ve",
+      "source_url": "https://www.hoka.com/en/us/mens-everyday-running-shoes/bondi-9/1162011.html",
       "source_type": "manufacturer",
-      "sourced_at": "2026-10-27",
+      "sourced_at": "2026-10-28",
       "weight_reference_size": null,
-      "price_type": null,
-      "source_notes": "Specifications from HOKA Vietnam. Reference size, total stack heights and toe-box shape unspecified; no regional price converted to USD. Cleanup review 2026-10-25: US retrieval blocked; no gender-specific heel/forefoot pair verified in the regional sources checked. Missing data is not evidence of zero stack. Cushion review 2026-10-26: HOKA US product-page retrieval blocked; selected Speedy / Mix of Both / Plush scale position could not be verified. No translation from the Australian scale or other-gender rating substituted. Price review 2026-10-27: US product page access blocked; a direct manufacturer US price was not verified. The previous store-location price is withdrawn; no independently verified exact dealer fallback established. Historical regional specification evidence is retained until the US page can be checked.",
+      "price_type": "US list price",
+      "source_notes": "US price, drop and weight from supplied US-page browser check; checked 2026-10-28. Stack height and weight reference size: Not published by HOKA. Prior regional price/weight and access-failure notes are superseded for these fields. Release and support evidence retain their separately recorded sources and dates. Cushion level and toe-box classification were not supplied in this check.",
       "release_date": "2025-01-15",
       "release_source_url": "https://www.fleetfeet.com/s/hartford/news/foamy-shoes-brews-hoka-bondi-9-pub-run",
       "release_notes": "Fleet Feet launch-day event explicitly identifies January 15, 2025 as worldwide launch.",
@@ -2905,40 +3017,41 @@
         "checked_at": "2026-10-18"
       },
       "completion_review": {
-        "checked_at": "2026-10-19",
+        "checked_at": "2026-10-28",
         "sources": [
           {
             "fields": [
-              "price_type"
+              "price_usd",
+              "price_type",
+              "drop_mm",
+              "weight_oz"
             ],
-            "url": "https://stores.hoka.com/store/381992/hoka-store-boston-ma",
-            "note": "Historical specification evidence. The prior price annotation is superseded by the price review dated 2026-10-27."
+            "url": "https://www.hoka.com/en/us/mens-everyday-running-shoes/bondi-9/1162011.html",
+            "note": "Manufacturer US list price; Price inferred: page shows $140–175 range; checked 2026-10-28. Weight is the supplied US ounces value; no gram conversion or reference size inferred."
           }
         ],
-        "remaining_gaps": [
-          "Stack: a consistent heel/forefoot pair for this version was not verified in the official sources checked; no laboratory or other-version measurements substituted."
-        ]
+        "remaining_gaps": []
       },
-      "price_checked_at": "2026-10-27",
-      "price_source_url": null,
+      "price_checked_at": "2026-10-28",
+      "price_source_url": "https://www.hoka.com/en/us/mens-everyday-running-shoes/bondi-9/1162011.html",
       "spec_availability": {
         "stack": {
-          "status": "unverified",
-          "source_url": "https://www.hoka.com/en/us/mens-road/bondi-9/1162011.html",
-          "checked_at": "2026-10-27",
-          "note": "Manufacturer page could not be retrieved in this check (HTTP Error 406: Not Acceptable). This does not establish that the specification is unpublished."
+          "status": "not_published",
+          "source_url": "https://www.hoka.com/en/us/mens-everyday-running-shoes/bondi-9/1162011.html",
+          "checked_at": "2026-10-28",
+          "note": "Not published by HOKA; checked 2026-10-28. Supplied US-page browser check."
         },
         "weight_reference_size": {
-          "status": "unverified",
-          "source_url": "https://www.hoka.com/en/us/mens-road/bondi-9/1162011.html",
-          "checked_at": "2026-10-27",
-          "note": "Manufacturer page could not be retrieved in this check (HTTP Error 406: Not Acceptable). This does not establish that the specification is unpublished."
+          "status": "not_published",
+          "source_url": "https://www.hoka.com/en/us/mens-everyday-running-shoes/bondi-9/1162011.html",
+          "checked_at": "2026-10-28",
+          "note": "Not published by HOKA; checked 2026-10-28. Supplied US-page browser check."
         }
       },
       "price_review": {
-        "checked_at": "2026-10-27",
-        "source_url": "https://www.hoka.com/en/us/mens-road/bondi-9/1162011.html",
-        "note": "US product page access blocked; a direct manufacturer US price was not verified. The previous store-location price is withdrawn; no independently verified exact dealer fallback established. Historical regional specification evidence is retained until the US page can be checked."
+        "source_url": "https://www.hoka.com/en/us/mens-everyday-running-shoes/bondi-9/1162011.html",
+        "checked_at": "2026-10-28",
+        "note": "Manufacturer US list price; Price inferred: page shows $140–175 range; checked 2026-10-28."
       }
     },
     {
@@ -2953,14 +3066,14 @@
       "toe_box": null,
       "use_case": "Daily road running / Walking",
       "foam": "Supercritical EVA",
-      "price_usd": null,
+      "price_usd": 175,
       "verdict": "A cushioned everyday shoe with a structured upper and rearfoot support frame.",
-      "source_url": "https://vn.hoka.com/en/products/giay-chay-bo-nu-hoka-bondi-9-1162012-brgl-brgl",
+      "source_url": "https://www.hoka.com/en/us/womens-everyday-running-shoes/bondi-9/1162012.html",
       "source_type": "manufacturer",
-      "sourced_at": "2026-10-27",
+      "sourced_at": "2026-10-28",
       "weight_reference_size": null,
-      "price_type": null,
-      "source_notes": "Specifications from HOKA Vietnam. Reference size, total stack heights and toe-box shape unspecified; no regional price converted to USD. Cleanup review 2026-10-25: US retrieval blocked; no gender-specific heel/forefoot pair verified in the regional sources checked. Missing data is not evidence of zero stack. Cushion review 2026-10-26: HOKA US product-page retrieval blocked; selected Speedy / Mix of Both / Plush scale position could not be verified. No translation from the Australian scale or other-gender rating substituted. Price review 2026-10-27: US product page access blocked; a direct manufacturer US price was not verified. The previous store-location price is withdrawn; no independently verified exact dealer fallback established. Historical regional specification evidence is retained until the US page can be checked.",
+      "price_type": "US list price",
+      "source_notes": "US price, drop and weight from supplied US-page browser check; checked 2026-10-28. Stack height and weight reference size: Not published by HOKA. Prior regional price/weight and access-failure notes are superseded for these fields. Release and support evidence retain their separately recorded sources and dates. Cushion level and toe-box classification were not supplied in this check.",
       "release_date": "2025-01-15",
       "release_source_url": "https://www.fleetfeet.com/s/hartford/news/foamy-shoes-brews-hoka-bondi-9-pub-run",
       "release_notes": "Fleet Feet launch-day event explicitly identifies January 15, 2025 as worldwide launch.",
@@ -2971,40 +3084,41 @@
         "checked_at": "2026-10-18"
       },
       "completion_review": {
-        "checked_at": "2026-10-19",
+        "checked_at": "2026-10-28",
         "sources": [
           {
             "fields": [
-              "price_type"
+              "price_usd",
+              "price_type",
+              "drop_mm",
+              "weight_oz"
             ],
-            "url": "https://stores.hoka.com/store/381992/hoka-store-boston-ma",
-            "note": "Historical specification evidence. The prior price annotation is superseded by the price review dated 2026-10-27."
+            "url": "https://www.hoka.com/en/us/womens-everyday-running-shoes/bondi-9/1162012.html",
+            "note": "Manufacturer US list price; Price inferred: page shows $140–175 range; checked 2026-10-28. Weight is the supplied US ounces value; no gram conversion or reference size inferred."
           }
         ],
-        "remaining_gaps": [
-          "Stack: a consistent heel/forefoot pair for this version was not verified in the official sources checked; no laboratory or other-version measurements substituted."
-        ]
+        "remaining_gaps": []
       },
-      "price_checked_at": "2026-10-27",
-      "price_source_url": null,
+      "price_checked_at": "2026-10-28",
+      "price_source_url": "https://www.hoka.com/en/us/womens-everyday-running-shoes/bondi-9/1162012.html",
       "spec_availability": {
         "stack": {
-          "status": "unverified",
-          "source_url": "https://www.hoka.com/en/us/womens-road/bondi-9/1162012.html",
-          "checked_at": "2026-10-27",
-          "note": "Manufacturer page could not be retrieved in this check (HTTP Error 406: Not Acceptable). This does not establish that the specification is unpublished."
+          "status": "not_published",
+          "source_url": "https://www.hoka.com/en/us/womens-everyday-running-shoes/bondi-9/1162012.html",
+          "checked_at": "2026-10-28",
+          "note": "Not published by HOKA; checked 2026-10-28. Supplied US-page browser check."
         },
         "weight_reference_size": {
-          "status": "unverified",
-          "source_url": "https://www.hoka.com/en/us/womens-road/bondi-9/1162012.html",
-          "checked_at": "2026-10-27",
-          "note": "Manufacturer page could not be retrieved in this check (HTTP Error 406: Not Acceptable). This does not establish that the specification is unpublished."
+          "status": "not_published",
+          "source_url": "https://www.hoka.com/en/us/womens-everyday-running-shoes/bondi-9/1162012.html",
+          "checked_at": "2026-10-28",
+          "note": "Not published by HOKA; checked 2026-10-28. Supplied US-page browser check."
         }
       },
       "price_review": {
-        "checked_at": "2026-10-27",
-        "source_url": "https://www.hoka.com/en/us/womens-road/bondi-9/1162012.html",
-        "note": "US product page access blocked; a direct manufacturer US price was not verified. The previous store-location price is withdrawn; no independently verified exact dealer fallback established. Historical regional specification evidence is retained until the US page can be checked."
+        "source_url": "https://www.hoka.com/en/us/womens-everyday-running-shoes/bondi-9/1162012.html",
+        "checked_at": "2026-10-28",
+        "note": "Manufacturer US list price; Price inferred: page shows $140–175 range; checked 2026-10-28."
       }
     },
     {
@@ -3769,20 +3883,20 @@
       "model": "Arahi 8",
       "gender": "men",
       "drop_mm": 8,
-      "weight_oz": 9.74,
+      "weight_oz": 9.8,
       "stack_heel_mm": null,
       "stack_forefoot_mm": null,
       "toe_box": null,
       "use_case": "Daily road running / Support",
       "foam": "Dual-density EVA / H-Frame",
-      "price_usd": null,
+      "price_usd": 150,
       "verdict": "Arahi 8 is a road running shoe with Dual-density EVA / H-Frame cushioning.",
-      "source_url": "https://au.hoka.com/products/m-arahi-8-1168690-bwht-bwht",
+      "source_url": "https://www.hoka.com/en/us/mens-everyday-running-shoes/arahi-8/1168690.html",
       "source_type": "manufacturer",
-      "sourced_at": "2026-10-27",
+      "sourced_at": "2026-10-28",
       "weight_reference_size": null,
-      "price_type": null,
-      "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. Weights follow HOKA Australia; reference sizes unspecified. Cleanup review 2026-10-25: US retrieval blocked; no gender-specific heel/forefoot pair verified in the regional sources checked. Missing data is not evidence of zero stack. Cushion review 2026-10-26: HOKA US product-page retrieval blocked; selected Speedy / Mix of Both / Plush scale position could not be verified. No translation from the Australian scale or other-gender rating substituted. Price review 2026-10-27: US product page access blocked; a direct manufacturer US price was not verified. The previous store-location price is withdrawn; no independently verified exact dealer fallback established. Historical regional specification evidence is retained until the US page can be checked.",
+      "price_type": "US list price",
+      "source_notes": "US price, drop and weight from supplied US-page browser check; checked 2026-10-28. Stack height and weight reference size: Not published by HOKA. Prior regional price/weight and access-failure notes are superseded for these fields. Release and support evidence retain their separately recorded sources and dates. Cushion level and toe-box classification were not supplied in this check.",
       "release_date": "2025-07-01",
       "release_source_url": "https://weartesters.com/hoka-arahi-8-performance-review/",
       "release_notes": "Model launch date; regional availability may differ.",
@@ -3793,40 +3907,41 @@
         "checked_at": "2026-10-18"
       },
       "completion_review": {
-        "checked_at": "2026-10-19",
+        "checked_at": "2026-10-28",
         "sources": [
           {
             "fields": [
-              "price_type"
+              "price_usd",
+              "price_type",
+              "drop_mm",
+              "weight_oz"
             ],
-            "url": "https://stores.hoka.com/store/381992/hoka-store-boston-ma",
-            "note": "Historical specification evidence. The prior price annotation is superseded by the price review dated 2026-10-27."
+            "url": "https://www.hoka.com/en/us/mens-everyday-running-shoes/arahi-8/1168690.html",
+            "note": "Manufacturer US list price; page shows original $150, sale $120; original price retained; checked 2026-10-28. Weight is the supplied US ounces value; no gram conversion or reference size inferred."
           }
         ],
-        "remaining_gaps": [
-          "Stack: a consistent heel/forefoot pair for this version was not verified in the official sources checked; no laboratory or other-version measurements substituted."
-        ]
+        "remaining_gaps": []
       },
-      "price_checked_at": "2026-10-27",
-      "price_source_url": null,
+      "price_checked_at": "2026-10-28",
+      "price_source_url": "https://www.hoka.com/en/us/mens-everyday-running-shoes/arahi-8/1168690.html",
       "spec_availability": {
         "stack": {
-          "status": "unverified",
-          "source_url": "https://www.hoka.com/en/us/mens-road/arahi-8/1168690.html",
-          "checked_at": "2026-10-27",
-          "note": "Manufacturer page could not be retrieved in this check (HTTP Error 406: Not Acceptable). This does not establish that the specification is unpublished."
+          "status": "not_published",
+          "source_url": "https://www.hoka.com/en/us/mens-everyday-running-shoes/arahi-8/1168690.html",
+          "checked_at": "2026-10-28",
+          "note": "Not published by HOKA; checked 2026-10-28. Supplied US-page browser check."
         },
         "weight_reference_size": {
-          "status": "unverified",
-          "source_url": "https://www.hoka.com/en/us/mens-road/arahi-8/1168690.html",
-          "checked_at": "2026-10-27",
-          "note": "Manufacturer page could not be retrieved in this check (HTTP Error 406: Not Acceptable). This does not establish that the specification is unpublished."
+          "status": "not_published",
+          "source_url": "https://www.hoka.com/en/us/mens-everyday-running-shoes/arahi-8/1168690.html",
+          "checked_at": "2026-10-28",
+          "note": "Not published by HOKA; checked 2026-10-28. Supplied US-page browser check."
         }
       },
       "price_review": {
-        "checked_at": "2026-10-27",
-        "source_url": "https://www.hoka.com/en/us/mens-road/arahi-8/1168690.html",
-        "note": "US product page access blocked; a direct manufacturer US price was not verified. The previous store-location price is withdrawn; no independently verified exact dealer fallback established. Historical regional specification evidence is retained until the US page can be checked."
+        "source_url": "https://www.hoka.com/en/us/mens-everyday-running-shoes/arahi-8/1168690.html",
+        "checked_at": "2026-10-28",
+        "note": "Manufacturer US list price; page shows original $150, sale $120; original price retained; checked 2026-10-28."
       }
     },
     {
@@ -3835,20 +3950,20 @@
       "model": "Arahi 8",
       "gender": "women",
       "drop_mm": 8,
-      "weight_oz": 7.72,
+      "weight_oz": 7.7,
       "stack_heel_mm": null,
       "stack_forefoot_mm": null,
       "toe_box": null,
       "use_case": "Daily road running / Support",
       "foam": "Dual-density EVA / H-Frame",
-      "price_usd": null,
+      "price_usd": 150,
       "verdict": "Arahi 8 is a road running shoe with Dual-density EVA / H-Frame cushioning.",
-      "source_url": "https://au.hoka.com/products/w-arahi-8-1168691-wwh-wwh",
+      "source_url": "https://www.hoka.com/en/us/womens-everyday-running-shoes/arahi-8/1168691.html",
       "source_type": "manufacturer",
-      "sourced_at": "2026-10-27",
+      "sourced_at": "2026-10-28",
       "weight_reference_size": null,
-      "price_type": null,
-      "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. Weights follow HOKA Australia; reference sizes unspecified. Cleanup review 2026-10-25: US retrieval blocked; no gender-specific heel/forefoot pair verified in the regional sources checked. Missing data is not evidence of zero stack. Cushion review 2026-10-26: HOKA US product-page retrieval blocked; selected Speedy / Mix of Both / Plush scale position could not be verified. No translation from the Australian scale or other-gender rating substituted. Price review 2026-10-27: US product page access blocked; a direct manufacturer US price was not verified. The previous store-location price is withdrawn; no independently verified exact dealer fallback established. Historical regional specification evidence is retained until the US page can be checked.",
+      "price_type": "US list price",
+      "source_notes": "US price, drop and weight from supplied US-page browser check; checked 2026-10-28. Stack height and weight reference size: Not published by HOKA. Prior regional price/weight and access-failure notes are superseded for these fields. Release and support evidence retain their separately recorded sources and dates. Cushion level and toe-box classification were not supplied in this check.",
       "release_date": "2025-07-01",
       "release_source_url": "https://weartesters.com/hoka-arahi-8-performance-review/",
       "release_notes": "Model launch date; regional availability may differ.",
@@ -3859,40 +3974,41 @@
         "checked_at": "2026-10-18"
       },
       "completion_review": {
-        "checked_at": "2026-10-19",
+        "checked_at": "2026-10-28",
         "sources": [
           {
             "fields": [
-              "price_type"
+              "price_usd",
+              "price_type",
+              "drop_mm",
+              "weight_oz"
             ],
-            "url": "https://stores.hoka.com/store/381992/hoka-store-boston-ma",
-            "note": "Historical specification evidence. The prior price annotation is superseded by the price review dated 2026-10-27."
+            "url": "https://www.hoka.com/en/us/womens-everyday-running-shoes/arahi-8/1168691.html",
+            "note": "Manufacturer US list price; page shows original $150, sale $120; original price retained; checked 2026-10-28. Weight is the supplied US ounces value; no gram conversion or reference size inferred."
           }
         ],
-        "remaining_gaps": [
-          "Stack: a consistent heel/forefoot pair for this version was not verified in the official sources checked; no laboratory or other-version measurements substituted."
-        ]
+        "remaining_gaps": []
       },
-      "price_checked_at": "2026-10-27",
-      "price_source_url": null,
+      "price_checked_at": "2026-10-28",
+      "price_source_url": "https://www.hoka.com/en/us/womens-everyday-running-shoes/arahi-8/1168691.html",
       "spec_availability": {
         "stack": {
-          "status": "unverified",
-          "source_url": "https://www.hoka.com/en/us/womens-road/arahi-8/1168691.html",
-          "checked_at": "2026-10-27",
-          "note": "Manufacturer page could not be retrieved in this check (HTTP Error 406: Not Acceptable). This does not establish that the specification is unpublished."
+          "status": "not_published",
+          "source_url": "https://www.hoka.com/en/us/womens-everyday-running-shoes/arahi-8/1168691.html",
+          "checked_at": "2026-10-28",
+          "note": "Not published by HOKA; checked 2026-10-28. Supplied US-page browser check."
         },
         "weight_reference_size": {
-          "status": "unverified",
-          "source_url": "https://www.hoka.com/en/us/womens-road/arahi-8/1168691.html",
-          "checked_at": "2026-10-27",
-          "note": "Manufacturer page could not be retrieved in this check (HTTP Error 406: Not Acceptable). This does not establish that the specification is unpublished."
+          "status": "not_published",
+          "source_url": "https://www.hoka.com/en/us/womens-everyday-running-shoes/arahi-8/1168691.html",
+          "checked_at": "2026-10-28",
+          "note": "Not published by HOKA; checked 2026-10-28. Supplied US-page browser check."
         }
       },
       "price_review": {
-        "checked_at": "2026-10-27",
-        "source_url": "https://www.hoka.com/en/us/womens-road/arahi-8/1168691.html",
-        "note": "US product page access blocked; a direct manufacturer US price was not verified. The previous store-location price is withdrawn; no independently verified exact dealer fallback established. Historical regional specification evidence is retained until the US page can be checked."
+        "source_url": "https://www.hoka.com/en/us/womens-everyday-running-shoes/arahi-8/1168691.html",
+        "checked_at": "2026-10-28",
+        "note": "Manufacturer US list price; page shows original $150, sale $120; original price retained; checked 2026-10-28."
       }
     },
     {
@@ -3901,59 +4017,60 @@
       "model": "Mach X 3",
       "gender": "men",
       "drop_mm": 5,
-      "weight_oz": 10.16,
+      "weight_oz": 10.2,
       "stack_heel_mm": null,
       "stack_forefoot_mm": null,
       "toe_box": null,
       "use_case": "Tempo / Speedwork",
       "foam": "Dual-density foam with PEBA top layer / Pebax plate",
-      "price_usd": null,
+      "price_usd": 190,
       "verdict": "Mach X 3 is a road running shoe with Dual-density foam with PEBA top layer / Pebax plate cushioning.",
-      "source_url": "https://au.hoka.com/products/m-mach-x-3-1168720-nnhk-nnhk",
+      "source_url": "https://www.hoka.com/en/us/mens-everyday-running-shoes/mach-x-3/1168720.html",
       "source_type": "manufacturer",
-      "sourced_at": "2026-10-27",
+      "sourced_at": "2026-10-28",
       "weight_reference_size": null,
-      "price_type": null,
-      "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. Cleanup review 2026-10-25: US retrieval blocked; no gender-specific heel/forefoot pair verified in the regional sources checked. Missing data is not evidence of zero stack. Cushion review 2026-10-26: HOKA US product-page retrieval blocked; selected Speedy / Mix of Both / Plush scale position could not be verified. No translation from the Australian scale or other-gender rating substituted. Price review 2026-10-27: US product page access blocked; a direct manufacturer US price was not verified. The previous store-location price is withdrawn; no independently verified exact dealer fallback established. Historical regional specification evidence is retained until the US page can be checked.",
+      "price_type": "US list price",
+      "source_notes": "US price, drop and weight from supplied US-page browser check; checked 2026-10-28. Stack height and weight reference size: Not published by HOKA. Prior regional price/weight and access-failure notes are superseded for these fields. Release and support evidence retain their separately recorded sources and dates. Cushion level and toe-box classification were not supplied in this check.",
       "release_date": "2025-09-01",
       "release_source_url": "https://weartesters.com/hoka-mach-x-3-performance-review/",
       "release_notes": "Model launch date; regional availability may differ.",
       "manufacturer_support": null,
       "completion_review": {
-        "checked_at": "2026-10-19",
+        "checked_at": "2026-10-28",
         "sources": [
           {
             "fields": [
-              "price_type"
+              "price_usd",
+              "price_type",
+              "drop_mm",
+              "weight_oz"
             ],
-            "url": "https://stores.hoka.com/store/381992/hoka-store-boston-ma",
-            "note": "Historical specification evidence. The prior price annotation is superseded by the price review dated 2026-10-27."
+            "url": "https://www.hoka.com/en/us/mens-everyday-running-shoes/mach-x-3/1168720.html",
+            "note": "Manufacturer US list price; checked 2026-10-28. Weight is the supplied US ounces value; no gram conversion or reference size inferred."
           }
         ],
-        "remaining_gaps": [
-          "Stack: a consistent heel/forefoot pair for this version was not verified in the official sources checked; no laboratory or other-version measurements substituted."
-        ]
+        "remaining_gaps": []
       },
-      "price_checked_at": "2026-10-27",
-      "price_source_url": null,
+      "price_checked_at": "2026-10-28",
+      "price_source_url": "https://www.hoka.com/en/us/mens-everyday-running-shoes/mach-x-3/1168720.html",
       "spec_availability": {
         "stack": {
-          "status": "unverified",
-          "source_url": "https://www.hoka.com/en/us/mens-road/mach-x-3/1168720.html",
-          "checked_at": "2026-10-27",
-          "note": "Manufacturer page could not be retrieved in this check (HTTP Error 406: Not Acceptable). This does not establish that the specification is unpublished."
+          "status": "not_published",
+          "source_url": "https://www.hoka.com/en/us/mens-everyday-running-shoes/mach-x-3/1168720.html",
+          "checked_at": "2026-10-28",
+          "note": "Not published by HOKA; checked 2026-10-28. Supplied US-page browser check."
         },
         "weight_reference_size": {
-          "status": "unverified",
-          "source_url": "https://www.hoka.com/en/us/mens-road/mach-x-3/1168720.html",
-          "checked_at": "2026-10-27",
-          "note": "Manufacturer page could not be retrieved in this check (HTTP Error 406: Not Acceptable). This does not establish that the specification is unpublished."
+          "status": "not_published",
+          "source_url": "https://www.hoka.com/en/us/mens-everyday-running-shoes/mach-x-3/1168720.html",
+          "checked_at": "2026-10-28",
+          "note": "Not published by HOKA; checked 2026-10-28. Supplied US-page browser check."
         }
       },
       "price_review": {
-        "checked_at": "2026-10-27",
-        "source_url": "https://www.hoka.com/en/us/mens-road/mach-x-3/1168720.html",
-        "note": "US product page access blocked; a direct manufacturer US price was not verified. The previous store-location price is withdrawn; no independently verified exact dealer fallback established. Historical regional specification evidence is retained until the US page can be checked."
+        "source_url": "https://www.hoka.com/en/us/mens-everyday-running-shoes/mach-x-3/1168720.html",
+        "checked_at": "2026-10-28",
+        "note": "Manufacturer US list price; checked 2026-10-28."
       }
     },
     {
@@ -3962,59 +4079,60 @@
       "model": "Mach X 3",
       "gender": "women",
       "drop_mm": 5,
-      "weight_oz": 8.54,
+      "weight_oz": 8.6,
       "stack_heel_mm": null,
       "stack_forefoot_mm": null,
       "toe_box": null,
       "use_case": "Tempo / Speedwork",
       "foam": "Dual-density foam with PEBA top layer / Pebax plate",
-      "price_usd": null,
+      "price_usd": 190,
       "verdict": "Mach X 3 is a road running shoe with Dual-density foam with PEBA top layer / Pebax plate cushioning.",
-      "source_url": "https://au.hoka.com/products/w-mach-x-3-1168721-wnl-wnl",
+      "source_url": "https://www.hoka.com/en/us/womens-everyday-running-shoes/mach-x-3/1168721.html",
       "source_type": "manufacturer",
-      "sourced_at": "2026-10-27",
+      "sourced_at": "2026-10-28",
       "weight_reference_size": null,
-      "price_type": null,
-      "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. Cleanup review 2026-10-25: US retrieval blocked; no gender-specific heel/forefoot pair verified in the regional sources checked. Missing data is not evidence of zero stack. Cushion review 2026-10-26: HOKA US product-page retrieval blocked; selected Speedy / Mix of Both / Plush scale position could not be verified. No translation from the Australian scale or other-gender rating substituted. Price review 2026-10-27: US product page access blocked; a direct manufacturer US price was not verified. The previous store-location price is withdrawn; no independently verified exact dealer fallback established. Historical regional specification evidence is retained until the US page can be checked.",
+      "price_type": "US list price",
+      "source_notes": "US price, drop and weight from supplied US-page browser check; checked 2026-10-28. Stack height and weight reference size: Not published by HOKA. Prior regional price/weight and access-failure notes are superseded for these fields. Release and support evidence retain their separately recorded sources and dates. Cushion level and toe-box classification were not supplied in this check.",
       "release_date": "2025-09-01",
       "release_source_url": "https://weartesters.com/hoka-mach-x-3-performance-review/",
       "release_notes": "Model launch date; regional availability may differ.",
       "manufacturer_support": null,
       "completion_review": {
-        "checked_at": "2026-10-19",
+        "checked_at": "2026-10-28",
         "sources": [
           {
             "fields": [
-              "price_type"
+              "price_usd",
+              "price_type",
+              "drop_mm",
+              "weight_oz"
             ],
-            "url": "https://stores.hoka.com/store/19558/the-running-shop",
-            "note": "Historical specification evidence. The prior price annotation is superseded by the price review dated 2026-10-27."
+            "url": "https://www.hoka.com/en/us/womens-everyday-running-shoes/mach-x-3/1168721.html",
+            "note": "Manufacturer US list price; checked 2026-10-28. Weight is the supplied US ounces value; no gram conversion or reference size inferred."
           }
         ],
-        "remaining_gaps": [
-          "Stack: a consistent heel/forefoot pair for this version was not verified in the official sources checked; no laboratory or other-version measurements substituted."
-        ]
+        "remaining_gaps": []
       },
-      "price_checked_at": "2026-10-27",
-      "price_source_url": null,
+      "price_checked_at": "2026-10-28",
+      "price_source_url": "https://www.hoka.com/en/us/womens-everyday-running-shoes/mach-x-3/1168721.html",
       "spec_availability": {
         "stack": {
-          "status": "unverified",
-          "source_url": "https://www.hoka.com/en/us/womens-road/mach-x-3/1168721.html",
-          "checked_at": "2026-10-27",
-          "note": "Manufacturer page could not be retrieved in this check (HTTP Error 406: Not Acceptable). This does not establish that the specification is unpublished."
+          "status": "not_published",
+          "source_url": "https://www.hoka.com/en/us/womens-everyday-running-shoes/mach-x-3/1168721.html",
+          "checked_at": "2026-10-28",
+          "note": "Not published by HOKA; checked 2026-10-28. Supplied US-page browser check."
         },
         "weight_reference_size": {
-          "status": "unverified",
-          "source_url": "https://www.hoka.com/en/us/womens-road/mach-x-3/1168721.html",
-          "checked_at": "2026-10-27",
-          "note": "Manufacturer page could not be retrieved in this check (HTTP Error 406: Not Acceptable). This does not establish that the specification is unpublished."
+          "status": "not_published",
+          "source_url": "https://www.hoka.com/en/us/womens-everyday-running-shoes/mach-x-3/1168721.html",
+          "checked_at": "2026-10-28",
+          "note": "Not published by HOKA; checked 2026-10-28. Supplied US-page browser check."
         }
       },
       "price_review": {
-        "checked_at": "2026-10-27",
-        "source_url": "https://www.hoka.com/en/us/womens-road/mach-x-3/1168721.html",
-        "note": "US product page access blocked; a direct manufacturer US price was not verified. The previous store-location price is withdrawn; no independently verified exact dealer fallback established. Historical regional specification evidence is retained until the US page can be checked."
+        "source_url": "https://www.hoka.com/en/us/womens-everyday-running-shoes/mach-x-3/1168721.html",
+        "checked_at": "2026-10-28",
+        "note": "Manufacturer US list price; checked 2026-10-28."
       }
     },
     {
@@ -4023,59 +4141,60 @@
       "model": "Mafate 5",
       "gender": "men",
       "drop_mm": 8,
-      "weight_oz": 11.71,
+      "weight_oz": 11.7,
       "stack_heel_mm": null,
       "stack_forefoot_mm": null,
       "toe_box": null,
       "use_case": "Trail running / Long runs",
       "foam": "Dual-density foam with supercritical top layer",
-      "price_usd": null,
+      "price_usd": 185,
       "verdict": "Mafate 5 is a trail running shoe with Dual-density foam with supercritical top layer cushioning.",
-      "source_url": "https://au.hoka.com/products/m-mafate-5-1168722-nnr-nnr",
+      "source_url": "https://www.hoka.com/en/us/mens-trail/mafate-5/1168722.html",
       "source_type": "manufacturer",
-      "sourced_at": "2026-10-27",
+      "sourced_at": "2026-10-28",
       "weight_reference_size": null,
-      "price_type": null,
-      "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. Women’s weight withheld: Australian product page lists 230 g, while HOKA’s launch announcement reproduced by ACTIVE lists 285 g in women’s US 8. Men’s product page reference size unspecified. Cleanup review 2026-10-25: US retrieval blocked; no gender-specific heel/forefoot pair verified in the regional sources checked. Missing data is not evidence of zero stack. Cushion review 2026-10-26: HOKA US product-page retrieval blocked; selected Speedy / Mix of Both / Plush scale position could not be verified. No translation from the Australian scale or other-gender rating substituted. Price review 2026-10-27: US product page access blocked; a direct manufacturer US price was not verified. The previous store-location price is withdrawn; no independently verified exact dealer fallback established. Historical regional specification evidence is retained until the US page can be checked.",
+      "price_type": "US list price",
+      "source_notes": "US price, drop and weight from supplied US-page browser check; checked 2026-10-28. Stack height and weight reference size: Not published by HOKA. Prior regional price/weight and access-failure notes are superseded for these fields. Release and support evidence retain their separately recorded sources and dates. Cushion level and toe-box classification were not supplied in this check.",
       "release_date": "2025-08-01",
       "release_source_url": "https://www.active.com/trail-running/articles/hoka-launches-the-mafate-5",
       "release_notes": "Model launch date; regional availability may differ.",
       "manufacturer_support": null,
       "completion_review": {
-        "checked_at": "2026-10-19",
+        "checked_at": "2026-10-28",
         "sources": [
           {
             "fields": [
-              "price_type"
+              "price_usd",
+              "price_type",
+              "drop_mm",
+              "weight_oz"
             ],
-            "url": "https://stores.hoka.com/store/381992/hoka-store-boston-ma",
-            "note": "Historical specification evidence. The prior price annotation is superseded by the price review dated 2026-10-27."
+            "url": "https://www.hoka.com/en/us/mens-trail/mafate-5/1168722.html",
+            "note": "Manufacturer US list price; checked 2026-10-28. Weight is the supplied US ounces value; no gram conversion or reference size inferred."
           }
         ],
-        "remaining_gaps": [
-          "Stack: a consistent heel/forefoot pair for this version was not verified in the official sources checked; no laboratory or other-version measurements substituted."
-        ]
+        "remaining_gaps": []
       },
-      "price_checked_at": "2026-10-27",
-      "price_source_url": null,
+      "price_checked_at": "2026-10-28",
+      "price_source_url": "https://www.hoka.com/en/us/mens-trail/mafate-5/1168722.html",
       "spec_availability": {
         "stack": {
-          "status": "unverified",
+          "status": "not_published",
           "source_url": "https://www.hoka.com/en/us/mens-trail/mafate-5/1168722.html",
-          "checked_at": "2026-10-27",
-          "note": "Manufacturer page could not be retrieved in this check (HTTP Error 406: Not Acceptable). This does not establish that the specification is unpublished."
+          "checked_at": "2026-10-28",
+          "note": "Not published by HOKA; checked 2026-10-28. Supplied US-page browser check."
         },
         "weight_reference_size": {
-          "status": "unverified",
+          "status": "not_published",
           "source_url": "https://www.hoka.com/en/us/mens-trail/mafate-5/1168722.html",
-          "checked_at": "2026-10-27",
-          "note": "Manufacturer page could not be retrieved in this check (HTTP Error 406: Not Acceptable). This does not establish that the specification is unpublished."
+          "checked_at": "2026-10-28",
+          "note": "Not published by HOKA; checked 2026-10-28. Supplied US-page browser check."
         }
       },
       "price_review": {
-        "checked_at": "2026-10-27",
         "source_url": "https://www.hoka.com/en/us/mens-trail/mafate-5/1168722.html",
-        "note": "US product page access blocked; a direct manufacturer US price was not verified. The previous store-location price is withdrawn; no independently verified exact dealer fallback established. Historical regional specification evidence is retained until the US page can be checked."
+        "checked_at": "2026-10-28",
+        "note": "Manufacturer US list price; checked 2026-10-28."
       }
     },
     {
@@ -4084,65 +4203,60 @@
       "model": "Mafate 5",
       "gender": "women",
       "drop_mm": 8,
-      "weight_oz": null,
+      "weight_oz": 8.1,
       "stack_heel_mm": null,
       "stack_forefoot_mm": null,
       "toe_box": null,
       "use_case": "Trail running / Long runs",
       "foam": "Dual-density foam with supercritical top layer",
-      "price_usd": null,
+      "price_usd": 185,
       "verdict": "Mafate 5 is a trail running shoe with Dual-density foam with supercritical top layer cushioning.",
-      "source_url": "https://au.hoka.com/products/w-mafate-5-1168723-swrd-swrd",
+      "source_url": "https://www.hoka.com/en/us/womens-trail/mafate-5/1168723.html",
       "source_type": "manufacturer",
-      "sourced_at": "2026-10-27",
+      "sourced_at": "2026-10-28",
       "weight_reference_size": null,
-      "price_type": null,
-      "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. Women’s weight withheld: Australian product page lists 230 g, while HOKA’s launch announcement reproduced by ACTIVE lists 285 g in women’s US 8. Men’s product page reference size unspecified. Cleanup review 2026-10-25: US retrieval blocked; no gender-specific heel/forefoot pair verified in the regional sources checked. Missing data is not evidence of zero stack. Manufacturer conflict: two HOKA Vietnam women’s Mafate 5 pages give 286 g and 8.10 oz (about 230 g); no explanation or reference size resolves the difference. Cushion review 2026-10-26: HOKA US product-page retrieval blocked; selected Speedy / Mix of Both / Plush scale position could not be verified. No translation from the Australian scale or other-gender rating substituted. Price review 2026-10-27: US product page access blocked; a direct manufacturer US price was not verified. The previous store-location price is withdrawn; no independently verified exact dealer fallback established. Historical regional specification evidence is retained until the US page can be checked.",
+      "price_type": "US list price",
+      "source_notes": "US price, drop and weight from supplied US-page browser check; checked 2026-10-28. Stack height and weight reference size: Not published by HOKA. Prior regional price/weight and access-failure notes are superseded for these fields. Release and support evidence retain their separately recorded sources and dates. Cushion level and toe-box classification were not supplied in this check.",
       "release_date": "2025-08-01",
       "release_source_url": "https://www.active.com/trail-running/articles/hoka-launches-the-mafate-5",
       "release_notes": "Model launch date; regional availability may differ.",
       "manufacturer_support": null,
       "completion_review": {
-        "checked_at": "2026-10-19",
+        "checked_at": "2026-10-28",
         "sources": [
           {
             "fields": [
-              "price_type"
+              "price_usd",
+              "price_type",
+              "drop_mm",
+              "weight_oz"
             ],
-            "url": "https://stores.hoka.com/store/19558/the-running-shop",
-            "note": "Historical specification evidence. The prior price annotation is superseded by the price review dated 2026-10-27."
+            "url": "https://www.hoka.com/en/us/womens-trail/mafate-5/1168723.html",
+            "note": "Manufacturer US list price; checked 2026-10-28. Weight is the supplied US ounces value; no gram conversion or reference size inferred."
           }
         ],
-        "remaining_gaps": [
-          "Stack: a consistent heel/forefoot pair for this version was not verified in the official sources checked; no laboratory or other-version measurements substituted."
-        ]
+        "remaining_gaps": []
       },
-      "price_checked_at": "2026-10-27",
-      "price_source_url": null,
+      "price_checked_at": "2026-10-28",
+      "price_source_url": "https://www.hoka.com/en/us/womens-trail/mafate-5/1168723.html",
       "spec_availability": {
-        "weight_oz": {
-          "status": "unverified",
-          "source_url": "https://www.hoka.com/en/us/womens-trail/mafate-5/1168723.html",
-          "checked_at": "2026-10-27",
-          "note": "Manufacturer page could not be retrieved in this check (HTTP Error 406: Not Acceptable). This does not establish that the specification is unpublished."
-        },
         "stack": {
-          "status": "unverified",
+          "status": "not_published",
           "source_url": "https://www.hoka.com/en/us/womens-trail/mafate-5/1168723.html",
-          "checked_at": "2026-10-27",
-          "note": "Manufacturer page could not be retrieved in this check (HTTP Error 406: Not Acceptable). This does not establish that the specification is unpublished."
+          "checked_at": "2026-10-28",
+          "note": "Not published by HOKA; checked 2026-10-28. Supplied US-page browser check."
         },
         "weight_reference_size": {
-          "status": "unverified",
+          "status": "not_published",
           "source_url": "https://www.hoka.com/en/us/womens-trail/mafate-5/1168723.html",
-          "checked_at": "2026-10-27",
-          "note": "Manufacturer page could not be retrieved in this check (HTTP Error 406: Not Acceptable). This does not establish that the specification is unpublished."
+          "checked_at": "2026-10-28",
+          "note": "Not published by HOKA; checked 2026-10-28. Supplied US-page browser check."
         }
       },
       "price_review": {
-        "checked_at": "2026-10-27",
         "source_url": "https://www.hoka.com/en/us/womens-trail/mafate-5/1168723.html",
-        "note": "US product page access blocked; a direct manufacturer US price was not verified. The previous store-location price is withdrawn; no independently verified exact dealer fallback established. Historical regional specification evidence is retained until the US page can be checked."
+        "checked_at": "2026-10-28",
+        "note": "Manufacturer US list price; checked 2026-10-28."
       }
     },
     {
@@ -4157,60 +4271,54 @@
       "toe_box": null,
       "use_case": "Daily road running / Speedwork",
       "foam": "Supercritical EVA",
-      "price_usd": null,
+      "price_usd": 145,
       "verdict": "Mach 7 is a road running shoe with Supercritical EVA cushioning.",
-      "source_url": "https://au.hoka.com/products/mach-7-1171904-ptyg-ptyg",
+      "source_url": "https://www.hoka.com/en/us/mens-road/mach-7/1171904.html",
       "source_type": "manufacturer",
-      "sourced_at": "2026-10-27",
+      "sourced_at": "2026-10-28",
       "weight_reference_size": null,
-      "price_type": null,
-      "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. Release calendar marks March 2026 as released; day unspecified. HOKA Vietnam exact men’s Mach 7 product page states 8.37 oz; reference size is not specified. US retrieval was blocked; the earlier Australian source reported N/A. Regional source used for weight only, not US price. Checked 2026-10-25. Cleanup review 2026-10-25: US retrieval blocked; no gender-specific heel/forefoot pair verified in the regional sources checked. Missing data is not evidence of zero stack. Cushion review 2026-10-26: HOKA US product-page retrieval blocked; selected Speedy / Mix of Both / Plush scale position could not be verified. No translation from the Australian scale or other-gender rating substituted. Price review 2026-10-27: US product page access blocked; a direct manufacturer US price was not verified. The previous store-location price is withdrawn; no independently verified exact dealer fallback established. Historical regional specification evidence is retained until the US page can be checked.",
+      "price_type": "US list price",
+      "source_notes": "US price, drop and weight from supplied US-page browser check; checked 2026-10-28. Stack height and weight reference size: Not published by HOKA. Prior regional price/weight and access-failure notes are superseded for these fields. Release and support evidence retain their separately recorded sources and dates. Cushion level and toe-box classification were not supplied in this check.",
       "release_date": "2026-03",
       "release_source_url": "https://www.solereview.com/release-date-calendar-for-running-shoes/",
       "release_notes": "Model launch date; regional availability may differ.",
       "manufacturer_support": null,
       "completion_review": {
-        "checked_at": "2026-10-25",
+        "checked_at": "2026-10-28",
         "sources": [
           {
             "fields": [
-              "price_type"
-            ],
-            "url": "https://stores.hoka.com/store/420966/hoka-store-las-vegas-nv",
-            "note": "Historical specification evidence. The prior price annotation is superseded by the price review dated 2026-10-27."
-          },
-          {
-            "fields": [
+              "price_usd",
+              "price_type",
+              "drop_mm",
               "weight_oz"
             ],
-            "url": "https://vn.hoka.com/en/products/giay-chay-bo-nam-hoka-mach-7-1171904-sby-sage-bay",
-            "note": "HOKA Vietnam exact men’s Mach 7 product page states 8.37 oz; reference size is not specified. US retrieval was blocked; the earlier Australian source reported N/A. Regional source used for weight only, not US price. Checked 2026-10-25."
+            "url": "https://www.hoka.com/en/us/mens-road/mach-7/1171904.html",
+            "note": "Manufacturer US list price; checked 2026-10-28. Weight is the supplied US ounces value; no gram conversion or reference size inferred."
           }
         ],
-        "remaining_gaps": [
-          "Stack: a consistent heel/forefoot pair for this version was not verified in the official sources checked; no laboratory or other-version measurements substituted."
-        ]
+        "remaining_gaps": []
       },
-      "price_checked_at": "2026-10-27",
-      "price_source_url": null,
+      "price_checked_at": "2026-10-28",
+      "price_source_url": "https://www.hoka.com/en/us/mens-road/mach-7/1171904.html",
       "spec_availability": {
         "stack": {
-          "status": "unverified",
+          "status": "not_published",
           "source_url": "https://www.hoka.com/en/us/mens-road/mach-7/1171904.html",
-          "checked_at": "2026-10-27",
-          "note": "Manufacturer page could not be retrieved in this check (HTTP Error 406: Not Acceptable). This does not establish that the specification is unpublished."
+          "checked_at": "2026-10-28",
+          "note": "Not published by HOKA; checked 2026-10-28. Supplied US-page browser check."
         },
         "weight_reference_size": {
-          "status": "unverified",
+          "status": "not_published",
           "source_url": "https://www.hoka.com/en/us/mens-road/mach-7/1171904.html",
-          "checked_at": "2026-10-27",
-          "note": "Manufacturer page could not be retrieved in this check (HTTP Error 406: Not Acceptable). This does not establish that the specification is unpublished."
+          "checked_at": "2026-10-28",
+          "note": "Not published by HOKA; checked 2026-10-28. Supplied US-page browser check."
         }
       },
       "price_review": {
-        "checked_at": "2026-10-27",
         "source_url": "https://www.hoka.com/en/us/mens-road/mach-7/1171904.html",
-        "note": "US product page access blocked; a direct manufacturer US price was not verified. The previous store-location price is withdrawn; no independently verified exact dealer fallback established. Historical regional specification evidence is retained until the US page can be checked."
+        "checked_at": "2026-10-28",
+        "note": "Manufacturer US list price; checked 2026-10-28."
       }
     },
     {
@@ -4225,60 +4333,54 @@
       "toe_box": null,
       "use_case": "Daily road running / Speedwork",
       "foam": "Supercritical EVA",
-      "price_usd": null,
+      "price_usd": 145,
       "verdict": "Mach 7 is a road running shoe with Supercritical EVA cushioning.",
-      "source_url": "https://au.hoka.com/products/w-mach-7-1171938-bwht-bwht",
+      "source_url": "https://www.hoka.com/en/us/womens-road/mach-7/1171938.html",
       "source_type": "manufacturer",
-      "sourced_at": "2026-10-27",
+      "sourced_at": "2026-10-28",
       "weight_reference_size": null,
-      "price_type": null,
-      "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. Release calendar marks March 2026 as released; day unspecified. HOKA Vietnam exact women’s Mach 7 product page states 7.15 oz; reference size is not specified. US retrieval was blocked; the earlier Australian source reported N/A. Regional source used for weight only, not US price. Checked 2026-10-25. Cleanup review 2026-10-25: US retrieval blocked; no gender-specific heel/forefoot pair verified in the regional sources checked. Missing data is not evidence of zero stack. Cushion review 2026-10-26: HOKA US product-page retrieval blocked; selected Speedy / Mix of Both / Plush scale position could not be verified. No translation from the Australian scale or other-gender rating substituted. Price review 2026-10-27: US product page access blocked; a direct manufacturer US price was not verified. The previous store-location price is withdrawn; no independently verified exact dealer fallback established. Historical regional specification evidence is retained until the US page can be checked.",
+      "price_type": "US list price",
+      "source_notes": "US price, drop and weight from supplied US-page browser check; checked 2026-10-28. Stack height and weight reference size: Not published by HOKA. Prior regional price/weight and access-failure notes are superseded for these fields. Release and support evidence retain their separately recorded sources and dates. Cushion level and toe-box classification were not supplied in this check.",
       "release_date": "2026-03",
       "release_source_url": "https://www.solereview.com/release-date-calendar-for-running-shoes/",
       "release_notes": "Model launch date; regional availability may differ.",
       "manufacturer_support": null,
       "completion_review": {
-        "checked_at": "2026-10-25",
+        "checked_at": "2026-10-28",
         "sources": [
           {
             "fields": [
-              "price_type"
-            ],
-            "url": "https://stores.hoka.com/store/420966/hoka-store-las-vegas-nv",
-            "note": "Historical specification evidence. The prior price annotation is superseded by the price review dated 2026-10-27."
-          },
-          {
-            "fields": [
+              "price_usd",
+              "price_type",
+              "drop_mm",
               "weight_oz"
             ],
-            "url": "https://vn.hoka.com/en/products/giay-chay-bo-nu-hoka-mach-7-1171938-lyc-lingonberr",
-            "note": "HOKA Vietnam exact women’s Mach 7 product page states 7.15 oz; reference size is not specified. US retrieval was blocked; the earlier Australian source reported N/A. Regional source used for weight only, not US price. Checked 2026-10-25."
+            "url": "https://www.hoka.com/en/us/womens-road/mach-7/1171938.html",
+            "note": "Manufacturer US list price; Price inferred: page shows $116–145 range; checked 2026-10-28. Weight is the supplied US ounces value; no gram conversion or reference size inferred."
           }
         ],
-        "remaining_gaps": [
-          "Stack: a consistent heel/forefoot pair for this version was not verified in the official sources checked; no laboratory or other-version measurements substituted."
-        ]
+        "remaining_gaps": []
       },
-      "price_checked_at": "2026-10-27",
-      "price_source_url": null,
+      "price_checked_at": "2026-10-28",
+      "price_source_url": "https://www.hoka.com/en/us/womens-road/mach-7/1171938.html",
       "spec_availability": {
         "stack": {
-          "status": "unverified",
+          "status": "not_published",
           "source_url": "https://www.hoka.com/en/us/womens-road/mach-7/1171938.html",
-          "checked_at": "2026-10-27",
-          "note": "Manufacturer page could not be retrieved in this check (HTTP Error 406: Not Acceptable). This does not establish that the specification is unpublished."
+          "checked_at": "2026-10-28",
+          "note": "Not published by HOKA; checked 2026-10-28. Supplied US-page browser check."
         },
         "weight_reference_size": {
-          "status": "unverified",
+          "status": "not_published",
           "source_url": "https://www.hoka.com/en/us/womens-road/mach-7/1171938.html",
-          "checked_at": "2026-10-27",
-          "note": "Manufacturer page could not be retrieved in this check (HTTP Error 406: Not Acceptable). This does not establish that the specification is unpublished."
+          "checked_at": "2026-10-28",
+          "note": "Not published by HOKA; checked 2026-10-28. Supplied US-page browser check."
         }
       },
       "price_review": {
-        "checked_at": "2026-10-27",
         "source_url": "https://www.hoka.com/en/us/womens-road/mach-7/1171938.html",
-        "note": "US product page access blocked; a direct manufacturer US price was not verified. The previous store-location price is withdrawn; no independently verified exact dealer fallback established. Historical regional specification evidence is retained until the US page can be checked."
+        "checked_at": "2026-10-28",
+        "note": "Manufacturer US list price; Price inferred: page shows $116–145 range; checked 2026-10-28."
       }
     },
     {
@@ -4293,53 +4395,54 @@
       "toe_box": null,
       "use_case": "Trail running / Long runs",
       "foam": "Supercritical EVA",
-      "price_usd": null,
+      "price_usd": 165,
       "verdict": "Speedgoat 7 is a trail running shoe with Supercritical EVA cushioning.",
-      "source_url": "https://au.hoka.com/products/m-speedgoat-7-1171928-bckt-bckt",
+      "source_url": "https://www.hoka.com/en/us/mens-trail/speedgoat-7/1171928.html",
       "source_type": "manufacturer",
-      "sourced_at": "2026-10-27",
+      "sourced_at": "2026-10-28",
       "weight_reference_size": null,
-      "price_type": null,
-      "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. Australian women’s page repeats the men’s 275 g figure without a reference size; women’s weight withheld pending clarification. Release calendar marks February 2026 as released; day unspecified. Cleanup review 2026-10-25: US retrieval blocked; no gender-specific heel/forefoot pair verified in the regional sources checked. Missing data is not evidence of zero stack. Cushion review 2026-10-26: HOKA US product-page retrieval blocked; selected Speedy / Mix of Both / Plush scale position could not be verified. No translation from the Australian scale or other-gender rating substituted. Price review 2026-10-27: US product page access blocked; a direct manufacturer US price was not verified. The previous store-location price is withdrawn; no independently verified exact dealer fallback established. Historical regional specification evidence is retained until the US page can be checked.",
+      "price_type": "US list price",
+      "source_notes": "US price, drop and weight from supplied US-page browser check; checked 2026-10-28. Stack height and weight reference size: Not published by HOKA. Prior regional price/weight and access-failure notes are superseded for these fields. Release and support evidence retain their separately recorded sources and dates. Cushion level and toe-box classification were not supplied in this check.",
       "release_date": "2026-02",
       "release_source_url": "https://www.solereview.com/release-date-calendar-for-running-shoes/",
       "release_notes": "Model launch date; regional availability may differ.",
       "manufacturer_support": null,
       "completion_review": {
-        "checked_at": "2026-10-19",
+        "checked_at": "2026-10-28",
         "sources": [
           {
             "fields": [
-              "price_type"
+              "price_usd",
+              "price_type",
+              "drop_mm",
+              "weight_oz"
             ],
-            "url": "https://stores.hoka.com/store/381992/hoka-store-boston-ma",
-            "note": "Historical specification evidence. The prior price annotation is superseded by the price review dated 2026-10-27."
+            "url": "https://www.hoka.com/en/us/mens-trail/speedgoat-7/1171928.html",
+            "note": "Manufacturer US list price; checked 2026-10-28. Weight is the supplied US ounces value; no gram conversion or reference size inferred."
           }
         ],
-        "remaining_gaps": [
-          "Stack: a consistent heel/forefoot pair for this version was not verified in the official sources checked; no laboratory or other-version measurements substituted."
-        ]
+        "remaining_gaps": []
       },
-      "price_checked_at": "2026-10-27",
-      "price_source_url": null,
+      "price_checked_at": "2026-10-28",
+      "price_source_url": "https://www.hoka.com/en/us/mens-trail/speedgoat-7/1171928.html",
       "spec_availability": {
         "stack": {
-          "status": "unverified",
+          "status": "not_published",
           "source_url": "https://www.hoka.com/en/us/mens-trail/speedgoat-7/1171928.html",
-          "checked_at": "2026-10-27",
-          "note": "Manufacturer page could not be retrieved in this check (HTTP Error 406: Not Acceptable). This does not establish that the specification is unpublished."
+          "checked_at": "2026-10-28",
+          "note": "Not published by HOKA; checked 2026-10-28. Supplied US-page browser check."
         },
         "weight_reference_size": {
-          "status": "unverified",
+          "status": "not_published",
           "source_url": "https://www.hoka.com/en/us/mens-trail/speedgoat-7/1171928.html",
-          "checked_at": "2026-10-27",
-          "note": "Manufacturer page could not be retrieved in this check (HTTP Error 406: Not Acceptable). This does not establish that the specification is unpublished."
+          "checked_at": "2026-10-28",
+          "note": "Not published by HOKA; checked 2026-10-28. Supplied US-page browser check."
         }
       },
       "price_review": {
-        "checked_at": "2026-10-27",
         "source_url": "https://www.hoka.com/en/us/mens-trail/speedgoat-7/1171928.html",
-        "note": "US product page access blocked; a direct manufacturer US price was not verified. The previous store-location price is withdrawn; no independently verified exact dealer fallback established. Historical regional specification evidence is retained until the US page can be checked."
+        "checked_at": "2026-10-28",
+        "note": "Manufacturer US list price; checked 2026-10-28."
       }
     },
     {
@@ -4348,65 +4451,60 @@
       "model": "Speedgoat 7",
       "gender": "women",
       "drop_mm": 5,
-      "weight_oz": null,
+      "weight_oz": 8.3,
       "stack_heel_mm": null,
       "stack_forefoot_mm": null,
       "toe_box": null,
       "use_case": "Trail running / Long runs",
       "foam": "Supercritical EVA",
-      "price_usd": null,
+      "price_usd": 165,
       "verdict": "Speedgoat 7 is a trail running shoe with Supercritical EVA cushioning.",
-      "source_url": "https://au.hoka.com/products/w-speedgoat-7-1171929-bckt-bckt",
+      "source_url": "https://www.hoka.com/en/us/womens-trail/speedgoat-7/1171929.html",
       "source_type": "manufacturer",
-      "sourced_at": "2026-10-27",
+      "sourced_at": "2026-10-28",
       "weight_reference_size": null,
-      "price_type": null,
-      "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. Australian women’s page repeats the men’s 275 g figure without a reference size; women’s weight withheld pending clarification. Release calendar marks February 2026 as released; day unspecified. Cleanup review 2026-10-25: US retrieval blocked; no gender-specific heel/forefoot pair verified in the regional sources checked. Missing data is not evidence of zero stack. Manufacturer conflict remains: previously recorded Australian women’s page gives 275 g; HOKA Vietnam women’s page gives 235 g. Australian recheck was rate-limited, so the conflict cannot be resolved. Cushion review 2026-10-26: HOKA US product-page retrieval blocked; selected Speedy / Mix of Both / Plush scale position could not be verified. No translation from the Australian scale or other-gender rating substituted. Price review 2026-10-27: US product page access blocked; a direct manufacturer US price was not verified. The previous store-location price is withdrawn; no independently verified exact dealer fallback established. Historical regional specification evidence is retained until the US page can be checked.",
+      "price_type": "US list price",
+      "source_notes": "US price, drop and weight from supplied US-page browser check; checked 2026-10-28. Stack height and weight reference size: Not published by HOKA. Prior regional price/weight and access-failure notes are superseded for these fields. Release and support evidence retain their separately recorded sources and dates. Cushion level and toe-box classification were not supplied in this check.",
       "release_date": "2026-02",
       "release_source_url": "https://www.solereview.com/release-date-calendar-for-running-shoes/",
       "release_notes": "Model launch date; regional availability may differ.",
       "manufacturer_support": null,
       "completion_review": {
-        "checked_at": "2026-10-19",
+        "checked_at": "2026-10-28",
         "sources": [
           {
             "fields": [
-              "price_type"
+              "price_usd",
+              "price_type",
+              "drop_mm",
+              "weight_oz"
             ],
-            "url": "https://stores.hoka.com/store/381992/hoka-store-boston-ma",
-            "note": "Historical specification evidence. The prior price annotation is superseded by the price review dated 2026-10-27."
+            "url": "https://www.hoka.com/en/us/womens-trail/speedgoat-7/1171929.html",
+            "note": "Manufacturer US list price; checked 2026-10-28. Weight is the supplied US ounces value; no gram conversion or reference size inferred."
           }
         ],
-        "remaining_gaps": [
-          "Stack: a consistent heel/forefoot pair for this version was not verified in the official sources checked; no laboratory or other-version measurements substituted."
-        ]
+        "remaining_gaps": []
       },
-      "price_checked_at": "2026-10-27",
-      "price_source_url": null,
+      "price_checked_at": "2026-10-28",
+      "price_source_url": "https://www.hoka.com/en/us/womens-trail/speedgoat-7/1171929.html",
       "spec_availability": {
-        "weight_oz": {
-          "status": "unverified",
-          "source_url": "https://www.hoka.com/en/us/womens-trail/speedgoat-7/1171929.html",
-          "checked_at": "2026-10-27",
-          "note": "Manufacturer page could not be retrieved in this check (HTTP Error 406: Not Acceptable). This does not establish that the specification is unpublished."
-        },
         "stack": {
-          "status": "unverified",
+          "status": "not_published",
           "source_url": "https://www.hoka.com/en/us/womens-trail/speedgoat-7/1171929.html",
-          "checked_at": "2026-10-27",
-          "note": "Manufacturer page could not be retrieved in this check (HTTP Error 406: Not Acceptable). This does not establish that the specification is unpublished."
+          "checked_at": "2026-10-28",
+          "note": "Not published by HOKA; checked 2026-10-28. Supplied US-page browser check."
         },
         "weight_reference_size": {
-          "status": "unverified",
+          "status": "not_published",
           "source_url": "https://www.hoka.com/en/us/womens-trail/speedgoat-7/1171929.html",
-          "checked_at": "2026-10-27",
-          "note": "Manufacturer page could not be retrieved in this check (HTTP Error 406: Not Acceptable). This does not establish that the specification is unpublished."
+          "checked_at": "2026-10-28",
+          "note": "Not published by HOKA; checked 2026-10-28. Supplied US-page browser check."
         }
       },
       "price_review": {
-        "checked_at": "2026-10-27",
         "source_url": "https://www.hoka.com/en/us/womens-trail/speedgoat-7/1171929.html",
-        "note": "US product page access blocked; a direct manufacturer US price was not verified. The previous store-location price is withdrawn; no independently verified exact dealer fallback established. Historical regional specification evidence is retained until the US page can be checked."
+        "checked_at": "2026-10-28",
+        "note": "Manufacturer US list price; checked 2026-10-28."
       }
     },
     {
@@ -4425,10 +4523,10 @@
       "verdict": "Glycerin 23 is a road running shoe with DNA TUNED cushioning.",
       "source_url": "https://www.brooksrunning.com/en_us/mens/shoes/road-running-shoes/glycerin-23/1104761D844.090.html",
       "source_type": "manufacturer",
-      "sourced_at": "2026-10-27",
+      "sourced_at": "2026-10-28",
       "weight_reference_size": null,
       "price_type": "US list price",
-      "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. Cleanup review 2026-10-25: US page retrieval blocked; no manufacturer heel/forefoot pair clearly assigned to this version verified in the sources checked.",
+      "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. Cleanup review 2026-10-25: US page retrieval blocked; no manufacturer heel/forefoot pair clearly assigned to this version verified in the sources checked. US-page check supersedes prior stack/reference-size and price uncertainty for the fields reviewed: stack and weight reference size are Not published by Brooks; checked 2026-10-28. See the dated price check for current price evidence.",
       "release_date": "2026-02-01",
       "release_source_url": "https://www.fleetfeet.com/blog/brooks-glycerin-23-review-legacy-meets-luxury",
       "release_notes": "Model launch date; regional availability may differ.",
@@ -4448,6 +4546,18 @@
             ],
             "url": "https://www.brooksrunning.com/en_us/mens/shoes/road-running-shoes/glycerin-23/1104761D844.090.html",
             "note": "US regular/list price from the linked manufacturer page; sale price excluded."
+          },
+          {
+            "fields": [
+              "price_usd",
+              "price_type",
+              "stack_heel_mm",
+              "stack_forefoot_mm",
+              "weight_reference_size"
+            ],
+            "url": "https://www.brooksrunning.com/en_us/mens/shoes/road-running-shoes/glycerin-23/1104761D844.090.html",
+            "checked_at": "2026-10-28",
+            "note": "New check, checked 2026-10-28: Manufacturer US list price confirmed; checked 2026-10-28. Stack and weight reference size: Not published by Brooks. Earlier evidence below/above retains its original date and is historical where superseded by this check."
           }
         ],
         "remaining_gaps": [
@@ -4457,17 +4567,23 @@
       "price_source_url": "https://www.brooksrunning.com/en_us/mens/shoes/road-running-shoes/glycerin-23/1104761D844.090.html",
       "spec_availability": {
         "stack": {
-          "status": "unverified",
+          "status": "not_published",
           "source_url": "https://www.brooksrunning.com/en_us/mens/shoes/road-running-shoes/glycerin-23/1104761D844.090.html",
-          "checked_at": "2026-10-27",
-          "note": "Manufacturer page could not be retrieved in this check (HTTP Error 403: Forbidden). This does not establish that the specification is unpublished."
+          "checked_at": "2026-10-28",
+          "note": "Not published by Brooks; checked 2026-10-28. Supplied US-page browser check."
         },
         "weight_reference_size": {
-          "status": "unverified",
+          "status": "not_published",
           "source_url": "https://www.brooksrunning.com/en_us/mens/shoes/road-running-shoes/glycerin-23/1104761D844.090.html",
-          "checked_at": "2026-10-27",
-          "note": "Manufacturer page could not be retrieved in this check (HTTP Error 403: Forbidden). This does not establish that the specification is unpublished."
+          "checked_at": "2026-10-28",
+          "note": "Not published by Brooks; checked 2026-10-28. Supplied US-page browser check."
         }
+      },
+      "price_checked_at": "2026-10-28",
+      "price_review": {
+        "source_url": "https://www.brooksrunning.com/en_us/mens/shoes/road-running-shoes/glycerin-23/1104761D844.090.html",
+        "checked_at": "2026-10-28",
+        "note": "Manufacturer US list price confirmed; checked 2026-10-28."
       }
     },
     {
@@ -4484,12 +4600,12 @@
       "foam": "DNA TUNED",
       "price_usd": 175,
       "verdict": "Glycerin 23 is a road running shoe with DNA TUNED cushioning.",
-      "source_url": "https://www.brooksrunning.com/en_gb/womens/road-running-shoes/glycerin-23/1204651B020.050.html",
+      "source_url": "https://www.brooksrunning.com/en_us/womens/shoes/road-running-shoes/glycerin-23/1204651B020.050.html",
       "source_type": "manufacturer",
-      "sourced_at": "2026-10-27",
+      "sourced_at": "2026-10-28",
       "weight_reference_size": null,
       "price_type": "US list price",
-      "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. Cleanup review 2026-10-25: US page retrieval blocked; no manufacturer heel/forefoot pair clearly assigned to this version verified in the sources checked.",
+      "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. Cleanup review 2026-10-25: US page retrieval blocked; no manufacturer heel/forefoot pair clearly assigned to this version verified in the sources checked. US-page check supersedes prior stack/reference-size and price uncertainty for the fields reviewed: stack and weight reference size are Not published by Brooks; checked 2026-10-28. See the dated price check for current price evidence.",
       "release_date": "2026-02-01",
       "release_source_url": "https://www.fleetfeet.com/blog/brooks-glycerin-23-review-legacy-meets-luxury",
       "release_notes": "Model launch date; regional availability may differ.",
@@ -4509,6 +4625,18 @@
             ],
             "url": "https://www.brooksrunning.com/en_us/womens/shoes/road-running-shoes/glycerin-23/1204651B020.050.html",
             "note": "US regular/list price from the linked manufacturer page; sale price excluded."
+          },
+          {
+            "fields": [
+              "price_usd",
+              "price_type",
+              "stack_heel_mm",
+              "stack_forefoot_mm",
+              "weight_reference_size"
+            ],
+            "url": "https://www.brooksrunning.com/en_us/womens/shoes/road-running-shoes/glycerin-23/1204651B020.050.html",
+            "checked_at": "2026-10-28",
+            "note": "New check, checked 2026-10-28: Manufacturer US list price confirmed; checked 2026-10-28. Stack and weight reference size: Not published by Brooks. Earlier evidence below/above retains its original date and is historical where superseded by this check."
           }
         ],
         "remaining_gaps": [
@@ -4518,17 +4646,23 @@
       "price_source_url": "https://www.brooksrunning.com/en_us/womens/shoes/road-running-shoes/glycerin-23/1204651B020.050.html",
       "spec_availability": {
         "stack": {
-          "status": "unverified",
-          "source_url": "https://www.brooksrunning.com/en_gb/womens/road-running-shoes/glycerin-23/1204651B020.050.html",
-          "checked_at": "2026-10-27",
-          "note": "Manufacturer page could not be retrieved in this check (HTTP Error 403: Forbidden). This does not establish that the specification is unpublished."
+          "status": "not_published",
+          "source_url": "https://www.brooksrunning.com/en_us/womens/shoes/road-running-shoes/glycerin-23/1204651B020.050.html",
+          "checked_at": "2026-10-28",
+          "note": "Not published by Brooks; checked 2026-10-28. Supplied US-page browser check."
         },
         "weight_reference_size": {
-          "status": "unverified",
-          "source_url": "https://www.brooksrunning.com/en_gb/womens/road-running-shoes/glycerin-23/1204651B020.050.html",
-          "checked_at": "2026-10-27",
-          "note": "Manufacturer page could not be retrieved in this check (HTTP Error 403: Forbidden). This does not establish that the specification is unpublished."
+          "status": "not_published",
+          "source_url": "https://www.brooksrunning.com/en_us/womens/shoes/road-running-shoes/glycerin-23/1204651B020.050.html",
+          "checked_at": "2026-10-28",
+          "note": "Not published by Brooks; checked 2026-10-28. Supplied US-page browser check."
         }
+      },
+      "price_checked_at": "2026-10-28",
+      "price_review": {
+        "source_url": "https://www.brooksrunning.com/en_us/womens/shoes/road-running-shoes/glycerin-23/1204651B020.050.html",
+        "checked_at": "2026-10-28",
+        "note": "Manufacturer US list price confirmed; checked 2026-10-28."
       }
     },
     {
@@ -4547,10 +4681,10 @@
       "verdict": "Glycerin GTS 23 is a road running shoe with DNA TUNED / GuideRails cushioning.",
       "source_url": "https://www.brooksrunning.com/en_us/mens/shoes/road-running-shoes/glycerin-gts-23/1105031D259.080.html",
       "source_type": "manufacturer",
-      "sourced_at": "2026-10-27",
+      "sourced_at": "2026-10-28",
       "weight_reference_size": null,
       "price_type": "US list price",
-      "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. Release calendar marks February 2026 as released; exact day unspecified. Cleanup review 2026-10-25: US page retrieval blocked; no manufacturer heel/forefoot pair clearly assigned to this version verified in the sources checked.",
+      "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. Release calendar marks February 2026 as released; exact day unspecified. Cleanup review 2026-10-25: US page retrieval blocked; no manufacturer heel/forefoot pair clearly assigned to this version verified in the sources checked. US-page check supersedes prior stack/reference-size and price uncertainty for the fields reviewed: stack and weight reference size are Not published by Brooks; checked 2026-10-28. See the dated price check for current price evidence.",
       "release_date": "2026-02",
       "release_source_url": "https://www.solereview.com/release-date-calendar-for-running-shoes/",
       "release_notes": "Model launch date; regional availability may differ.",
@@ -4570,6 +4704,18 @@
             ],
             "url": "https://www.brooksrunning.com/en_us/mens/shoes/road-running-shoes/glycerin-gts-23/1105031D259.080.html",
             "note": "US regular/list price from the linked manufacturer page; sale price excluded."
+          },
+          {
+            "fields": [
+              "price_usd",
+              "price_type",
+              "stack_heel_mm",
+              "stack_forefoot_mm",
+              "weight_reference_size"
+            ],
+            "url": "https://www.brooksrunning.com/en_us/mens/shoes/road-running-shoes/glycerin-gts-23/1105031D259.080.html",
+            "checked_at": "2026-10-28",
+            "note": "New check, checked 2026-10-28: Manufacturer US list price confirmed; checked 2026-10-28. Stack and weight reference size: Not published by Brooks. Earlier evidence below/above retains its original date and is historical where superseded by this check."
           }
         ],
         "remaining_gaps": [
@@ -4579,17 +4725,23 @@
       "price_source_url": "https://www.brooksrunning.com/en_us/mens/shoes/road-running-shoes/glycerin-gts-23/1105031D259.080.html",
       "spec_availability": {
         "stack": {
-          "status": "unverified",
+          "status": "not_published",
           "source_url": "https://www.brooksrunning.com/en_us/mens/shoes/road-running-shoes/glycerin-gts-23/1105031D259.080.html",
-          "checked_at": "2026-10-27",
-          "note": "Manufacturer page could not be retrieved in this check (HTTP Error 403: Forbidden). This does not establish that the specification is unpublished."
+          "checked_at": "2026-10-28",
+          "note": "Not published by Brooks; checked 2026-10-28. Supplied US-page browser check."
         },
         "weight_reference_size": {
-          "status": "unverified",
+          "status": "not_published",
           "source_url": "https://www.brooksrunning.com/en_us/mens/shoes/road-running-shoes/glycerin-gts-23/1105031D259.080.html",
-          "checked_at": "2026-10-27",
-          "note": "Manufacturer page could not be retrieved in this check (HTTP Error 403: Forbidden). This does not establish that the specification is unpublished."
+          "checked_at": "2026-10-28",
+          "note": "Not published by Brooks; checked 2026-10-28. Supplied US-page browser check."
         }
+      },
+      "price_checked_at": "2026-10-28",
+      "price_review": {
+        "source_url": "https://www.brooksrunning.com/en_us/mens/shoes/road-running-shoes/glycerin-gts-23/1105031D259.080.html",
+        "checked_at": "2026-10-28",
+        "note": "Manufacturer US list price confirmed; checked 2026-10-28."
       }
     },
     {
@@ -4608,10 +4760,10 @@
       "verdict": "Glycerin GTS 23 is a road running shoe with DNA TUNED / GuideRails cushioning.",
       "source_url": "https://www.brooksrunning.com/en_us/womens/shoes/road-running-shoes/glycerin-gts-23/1204921B453.100.html",
       "source_type": "manufacturer",
-      "sourced_at": "2026-10-27",
+      "sourced_at": "2026-10-28",
       "weight_reference_size": null,
       "price_type": "US list price",
-      "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. Release calendar marks February 2026 as released; exact day unspecified. Cleanup review 2026-10-25: US page retrieval blocked; no manufacturer heel/forefoot pair clearly assigned to this version verified in the sources checked.",
+      "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. Release calendar marks February 2026 as released; exact day unspecified. Cleanup review 2026-10-25: US page retrieval blocked; no manufacturer heel/forefoot pair clearly assigned to this version verified in the sources checked. US-page check supersedes prior stack/reference-size and price uncertainty for the fields reviewed: stack and weight reference size are Not published by Brooks; checked 2026-10-28. See the dated price check for current price evidence.",
       "release_date": "2026-02",
       "release_source_url": "https://www.solereview.com/release-date-calendar-for-running-shoes/",
       "release_notes": "Model launch date; regional availability may differ.",
@@ -4631,6 +4783,18 @@
             ],
             "url": "https://www.brooksrunning.com/en_us/womens/shoes/road-running-shoes/glycerin-gts-23/1204921B453.100.html",
             "note": "US regular/list price from the linked manufacturer page; sale price excluded."
+          },
+          {
+            "fields": [
+              "price_usd",
+              "price_type",
+              "stack_heel_mm",
+              "stack_forefoot_mm",
+              "weight_reference_size"
+            ],
+            "url": "https://www.brooksrunning.com/en_us/womens/shoes/road-running-shoes/glycerin-gts-23/1204921B453.100.html",
+            "checked_at": "2026-10-28",
+            "note": "New check, checked 2026-10-28: Manufacturer US list price confirmed; checked 2026-10-28. Stack and weight reference size: Not published by Brooks. Earlier evidence below/above retains its original date and is historical where superseded by this check."
           }
         ],
         "remaining_gaps": [
@@ -4640,17 +4804,23 @@
       "price_source_url": "https://www.brooksrunning.com/en_us/womens/shoes/road-running-shoes/glycerin-gts-23/1204921B453.100.html",
       "spec_availability": {
         "stack": {
-          "status": "unverified",
+          "status": "not_published",
           "source_url": "https://www.brooksrunning.com/en_us/womens/shoes/road-running-shoes/glycerin-gts-23/1204921B453.100.html",
-          "checked_at": "2026-10-27",
-          "note": "Manufacturer page could not be retrieved in this check (HTTP Error 403: Forbidden). This does not establish that the specification is unpublished."
+          "checked_at": "2026-10-28",
+          "note": "Not published by Brooks; checked 2026-10-28. Supplied US-page browser check."
         },
         "weight_reference_size": {
-          "status": "unverified",
+          "status": "not_published",
           "source_url": "https://www.brooksrunning.com/en_us/womens/shoes/road-running-shoes/glycerin-gts-23/1204921B453.100.html",
-          "checked_at": "2026-10-27",
-          "note": "Manufacturer page could not be retrieved in this check (HTTP Error 403: Forbidden). This does not establish that the specification is unpublished."
+          "checked_at": "2026-10-28",
+          "note": "Not published by Brooks; checked 2026-10-28. Supplied US-page browser check."
         }
+      },
+      "price_checked_at": "2026-10-28",
+      "price_review": {
+        "source_url": "https://www.brooksrunning.com/en_us/womens/shoes/road-running-shoes/glycerin-gts-23/1204921B453.100.html",
+        "checked_at": "2026-10-28",
+        "note": "Manufacturer US list price confirmed; checked 2026-10-28."
       }
     },
     {
@@ -4669,10 +4839,10 @@
       "verdict": "Adrenaline GTS 25 is a road running shoe with Nitrogen-infused cushioning / GuideRails cushioning.",
       "source_url": "https://www.brooksrunning.com/en_us/mens/shoes/road-running-shoes/adrenaline-gts-25/1104541D033.090.html",
       "source_type": "manufacturer",
-      "sourced_at": "2026-10-27",
+      "sourced_at": "2026-10-28",
       "weight_reference_size": null,
       "price_type": "US list price",
-      "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. Cleanup review 2026-10-25: US page retrieval blocked; no manufacturer heel/forefoot pair clearly assigned to this version verified in the sources checked.",
+      "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. Cleanup review 2026-10-25: US page retrieval blocked; no manufacturer heel/forefoot pair clearly assigned to this version verified in the sources checked. US-page check supersedes prior stack/reference-size and price uncertainty for the fields reviewed: stack and weight reference size are Not published by Brooks; checked 2026-10-28. See the dated price check for current price evidence.",
       "release_date": "2025-11-01",
       "release_source_url": "https://weartesters.com/brooks-adrenaline-gts-25-performance-review/",
       "release_notes": "Model launch date; regional availability may differ.",
@@ -4692,6 +4862,18 @@
             ],
             "url": "https://www.brooksrunning.com/en_us/mens/shoes/road-running-shoes/adrenaline-gts-25/1104541D033.090.html",
             "note": "US regular/list price from the linked manufacturer page; sale price excluded."
+          },
+          {
+            "fields": [
+              "price_usd",
+              "price_type",
+              "stack_heel_mm",
+              "stack_forefoot_mm",
+              "weight_reference_size"
+            ],
+            "url": "https://www.brooksrunning.com/en_us/mens/shoes/road-running-shoes/adrenaline-gts-25/1104541D033.090.html",
+            "checked_at": "2026-10-28",
+            "note": "New check, checked 2026-10-28: Manufacturer US list price confirmed; original $155 retained, sale $124.95 excluded; checked 2026-10-28. Stack and weight reference size: Not published by Brooks. Earlier evidence below/above retains its original date and is historical where superseded by this check."
           }
         ],
         "remaining_gaps": [
@@ -4701,17 +4883,23 @@
       "price_source_url": "https://www.brooksrunning.com/en_us/mens/shoes/road-running-shoes/adrenaline-gts-25/1104541D033.090.html",
       "spec_availability": {
         "stack": {
-          "status": "unverified",
+          "status": "not_published",
           "source_url": "https://www.brooksrunning.com/en_us/mens/shoes/road-running-shoes/adrenaline-gts-25/1104541D033.090.html",
-          "checked_at": "2026-10-27",
-          "note": "Manufacturer page could not be retrieved in this check (HTTP Error 403: Forbidden). This does not establish that the specification is unpublished."
+          "checked_at": "2026-10-28",
+          "note": "Not published by Brooks; checked 2026-10-28. Supplied US-page browser check."
         },
         "weight_reference_size": {
-          "status": "unverified",
+          "status": "not_published",
           "source_url": "https://www.brooksrunning.com/en_us/mens/shoes/road-running-shoes/adrenaline-gts-25/1104541D033.090.html",
-          "checked_at": "2026-10-27",
-          "note": "Manufacturer page could not be retrieved in this check (HTTP Error 403: Forbidden). This does not establish that the specification is unpublished."
+          "checked_at": "2026-10-28",
+          "note": "Not published by Brooks; checked 2026-10-28. Supplied US-page browser check."
         }
+      },
+      "price_checked_at": "2026-10-28",
+      "price_review": {
+        "source_url": "https://www.brooksrunning.com/en_us/mens/shoes/road-running-shoes/adrenaline-gts-25/1104541D033.090.html",
+        "checked_at": "2026-10-28",
+        "note": "Manufacturer US list price confirmed; original $155 retained, sale $124.95 excluded; checked 2026-10-28."
       }
     },
     {
@@ -4730,10 +4918,10 @@
       "verdict": "Adrenaline GTS 25 is a road running shoe with Nitrogen-infused cushioning / GuideRails cushioning.",
       "source_url": "https://www.brooksrunning.com/en_us/adrenaline-gts-25/1204431B032.120.html",
       "source_type": "manufacturer",
-      "sourced_at": "2026-10-27",
+      "sourced_at": "2026-10-28",
       "weight_reference_size": null,
       "price_type": "US list price",
-      "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. Cleanup review 2026-10-25: US page retrieval blocked; no manufacturer heel/forefoot pair clearly assigned to this version verified in the sources checked.",
+      "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. Cleanup review 2026-10-25: US page retrieval blocked; no manufacturer heel/forefoot pair clearly assigned to this version verified in the sources checked. US-page check supersedes prior stack/reference-size and price uncertainty for the fields reviewed: stack and weight reference size are Not published by Brooks; checked 2026-10-28. See the dated price check for current price evidence.",
       "release_date": "2025-11-01",
       "release_source_url": "https://weartesters.com/brooks-adrenaline-gts-25-performance-review/",
       "release_notes": "Model launch date; regional availability may differ.",
@@ -4753,6 +4941,18 @@
             ],
             "url": "https://www.brooksrunning.com/en_us/adrenaline-gts-25/1204431B032.120.html",
             "note": "US regular/list price from the linked manufacturer page; sale price excluded."
+          },
+          {
+            "fields": [
+              "price_usd",
+              "price_type",
+              "stack_heel_mm",
+              "stack_forefoot_mm",
+              "weight_reference_size"
+            ],
+            "url": "https://www.brooksrunning.com/en_us/adrenaline-gts-25/1204431B032.120.html",
+            "checked_at": "2026-10-28",
+            "note": "New check, checked 2026-10-28: Manufacturer US list price confirmed; original $155 retained, sale $124.95 excluded; checked 2026-10-28. Stack and weight reference size: Not published by Brooks. Earlier evidence below/above retains its original date and is historical where superseded by this check."
           }
         ],
         "remaining_gaps": [
@@ -4762,17 +4962,23 @@
       "price_source_url": "https://www.brooksrunning.com/en_us/adrenaline-gts-25/1204431B032.120.html",
       "spec_availability": {
         "stack": {
-          "status": "unverified",
+          "status": "not_published",
           "source_url": "https://www.brooksrunning.com/en_us/adrenaline-gts-25/1204431B032.120.html",
-          "checked_at": "2026-10-27",
-          "note": "Manufacturer page could not be retrieved in this check (HTTP Error 403: Forbidden). This does not establish that the specification is unpublished."
+          "checked_at": "2026-10-28",
+          "note": "Not published by Brooks; checked 2026-10-28. Supplied US-page browser check."
         },
         "weight_reference_size": {
-          "status": "unverified",
+          "status": "not_published",
           "source_url": "https://www.brooksrunning.com/en_us/adrenaline-gts-25/1204431B032.120.html",
-          "checked_at": "2026-10-27",
-          "note": "Manufacturer page could not be retrieved in this check (HTTP Error 403: Forbidden). This does not establish that the specification is unpublished."
+          "checked_at": "2026-10-28",
+          "note": "Not published by Brooks; checked 2026-10-28. Supplied US-page browser check."
         }
+      },
+      "price_checked_at": "2026-10-28",
+      "price_review": {
+        "source_url": "https://www.brooksrunning.com/en_us/adrenaline-gts-25/1204431B032.120.html",
+        "checked_at": "2026-10-28",
+        "note": "Manufacturer US list price confirmed; original $155 retained, sale $124.95 excluded; checked 2026-10-28."
       }
     },
     {
@@ -4787,13 +4993,13 @@
       "toe_box": null,
       "use_case": "Daily road running / Walking",
       "foam": "DNA LOFT v3",
-      "price_usd": 160,
+      "price_usd": null,
       "verdict": "Ghost Max 3 is a road running shoe with DNA LOFT v3 cushioning.",
       "source_url": "https://www.brooksrunning.com/en_us/mens/shoes/road-running-shoes/ghost-max-3/1104641D162.100.html",
       "source_type": "manufacturer",
       "sourced_at": "2026-10-27",
       "weight_reference_size": null,
-      "price_type": "US list price",
+      "price_type": null,
       "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. Weights follow manufacturer product pages, which differ from pre-release review figures. Cleanup review 2026-10-25: Gender and measurement scope unclear: official Ghost comparison gives midsole-only ratios without gender assignment; not a verified total heel/forefoot stack pair.",
       "release_date": "2025-08-01",
       "release_source_url": "https://weartesters.com/brooks-ghost-max-3-performance-review/",
@@ -4820,13 +5026,13 @@
           "Stack: a consistent heel/forefoot pair for this version was not verified in the official sources checked; no laboratory or other-version measurements substituted."
         ]
       },
-      "price_source_url": "https://www.brooksrunning.com/en_us/mens/shoes/road-running-shoes/ghost-max-3/1104641D162.100.html",
+      "price_source_url": null,
       "spec_availability": {
         "stack": {
           "status": "unverified",
-          "source_url": "https://www.brooksrunning.com/en_us/mens/shoes/road-running-shoes/ghost-max-3/1104641D162.100.html",
-          "checked_at": "2026-10-27",
-          "note": "Manufacturer page could not be retrieved in this check (HTTP Error 403: Forbidden). This does not establish that the specification is unpublished."
+          "source_url": "https://www.brooksrunning.com/en_us",
+          "checked_at": "2026-10-28",
+          "note": "Not verified. No US product page; superseded model, retained pending separate refresh; checked 2026-10-28."
         },
         "weight_reference_size": {
           "status": "unverified",
@@ -4834,6 +5040,19 @@
           "checked_at": "2026-10-27",
           "note": "Manufacturer page could not be retrieved in this check (HTTP Error 403: Forbidden). This does not establish that the specification is unpublished."
         }
+      },
+      "catalog_status": "superseded",
+      "catalog_status_review": {
+        "source_url": "https://www.brooksrunning.com/en_us",
+        "checked_at": "2026-10-28",
+        "note": "Superseded — no US product page; the US store now sells newer versions. Retained pending a separate refresh; checked 2026-10-28."
+      },
+      "price_checked_at": "2026-10-28",
+      "price_unverified_label": "Price not verified (no US product page, checked 2026-10-28)",
+      "price_review": {
+        "source_url": "https://www.brooksrunning.com/en_us",
+        "checked_at": "2026-10-28",
+        "note": "No US product page; previous price link is dead. Previous price evidence is historical and does not support a current price. User-supplied correction; checked 2026-10-28."
       }
     },
     {
@@ -4848,13 +5067,13 @@
       "toe_box": null,
       "use_case": "Daily road running / Walking",
       "foam": "DNA LOFT v3",
-      "price_usd": 160,
+      "price_usd": null,
       "verdict": "Ghost Max 3 is a road running shoe with DNA LOFT v3 cushioning.",
       "source_url": "https://www.brooksrunning.com/en_us/womens/shoes/road-running-shoes/ghost-max-3/1204571B043.050.html",
       "source_type": "manufacturer",
       "sourced_at": "2026-10-27",
       "weight_reference_size": null,
-      "price_type": "US list price",
+      "price_type": null,
       "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. Weights follow manufacturer product pages, which differ from pre-release review figures. Cleanup review 2026-10-25: Gender and measurement scope unclear: official Ghost comparison gives midsole-only ratios without gender assignment; not a verified total heel/forefoot stack pair.",
       "release_date": "2025-08-01",
       "release_source_url": "https://weartesters.com/brooks-ghost-max-3-performance-review/",
@@ -4881,13 +5100,13 @@
           "Stack: a consistent heel/forefoot pair for this version was not verified in the official sources checked; no laboratory or other-version measurements substituted."
         ]
       },
-      "price_source_url": "https://www.brooksrunning.com/en_us/ghost-17/1104421D112.110.html",
+      "price_source_url": null,
       "spec_availability": {
         "stack": {
           "status": "unverified",
-          "source_url": "https://www.brooksrunning.com/en_us/womens/shoes/road-running-shoes/ghost-max-3/1204571B043.050.html",
-          "checked_at": "2026-10-27",
-          "note": "Manufacturer page could not be retrieved in this check (HTTP Error 403: Forbidden). This does not establish that the specification is unpublished."
+          "source_url": "https://www.brooksrunning.com/en_us",
+          "checked_at": "2026-10-28",
+          "note": "Not verified. No US product page; superseded model, retained pending separate refresh; checked 2026-10-28."
         },
         "weight_reference_size": {
           "status": "unverified",
@@ -4895,6 +5114,19 @@
           "checked_at": "2026-10-27",
           "note": "Manufacturer page could not be retrieved in this check (HTTP Error 403: Forbidden). This does not establish that the specification is unpublished."
         }
+      },
+      "catalog_status": "superseded",
+      "catalog_status_review": {
+        "source_url": "https://www.brooksrunning.com/en_us",
+        "checked_at": "2026-10-28",
+        "note": "Superseded — no US product page; the US store now sells newer versions. Retained pending a separate refresh; checked 2026-10-28."
+      },
+      "price_checked_at": "2026-10-28",
+      "price_unverified_label": "Price not verified (no US product page, checked 2026-10-28)",
+      "price_review": {
+        "source_url": "https://www.brooksrunning.com/en_us",
+        "checked_at": "2026-10-28",
+        "note": "Previous price link points to Ghost 17, not Ghost Max 3; no US product page. Previous price evidence is historical and does not support a current price. User-supplied correction; checked 2026-10-28."
       }
     },
     {
@@ -4913,10 +5145,10 @@
       "verdict": "Catamount 4 is a trail running shoe with DNA FLASH v2 / SkyVault plate cushioning.",
       "source_url": "https://www.brooksrunning.com/en_us/mens/shoes/trail-shoes/catamount-4/1104411D407.075.html",
       "source_type": "manufacturer",
-      "sourced_at": "2026-10-27",
+      "sourced_at": "2026-10-28",
       "weight_reference_size": null,
       "price_type": "US list price",
-      "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. Cleanup review 2026-10-25: US page retrieval blocked; no manufacturer heel/forefoot pair clearly assigned to this version verified in the sources checked.",
+      "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. Cleanup review 2026-10-25: US page retrieval blocked; no manufacturer heel/forefoot pair clearly assigned to this version verified in the sources checked. US-page check supersedes prior stack/reference-size and price uncertainty for the fields reviewed: stack and weight reference size are Not published by Brooks; checked 2026-10-28. See the dated price check for current price evidence.",
       "release_date": "2025-01",
       "release_source_url": "https://meta-endurance.com/brooks-catamount-4-review/",
       "release_notes": "Model launch date; regional availability may differ.",
@@ -4931,6 +5163,18 @@
             ],
             "url": "https://www.brooksrunning.com/en_us/mens/shoes/trail-shoes/catamount-4/1104411D407.075.html",
             "note": "US regular/list price from the linked manufacturer page; sale price excluded."
+          },
+          {
+            "fields": [
+              "price_usd",
+              "price_type",
+              "stack_heel_mm",
+              "stack_forefoot_mm",
+              "weight_reference_size"
+            ],
+            "url": "https://www.brooksrunning.com/en_us/mens/shoes/trail-shoes/catamount-4/1104411D407.075.html",
+            "checked_at": "2026-10-28",
+            "note": "New check, checked 2026-10-28: Original price $170 on Brooks US variant pages; clearance, some sizes sold out. Previous price, price type and source link restored as requested. User-supplied correction; checked 2026-10-28. Stack and weight reference size: Not published by Brooks. Earlier evidence below/above retains its original date and is historical where superseded by this check."
           }
         ],
         "remaining_gaps": [
@@ -4940,17 +5184,23 @@
       "price_source_url": "https://www.brooksrunning.com/en_us/mens/shoes/trail-shoes/catamount-4/1104411D407.075.html",
       "spec_availability": {
         "stack": {
-          "status": "unverified",
+          "status": "not_published",
           "source_url": "https://www.brooksrunning.com/en_us/mens/shoes/trail-shoes/catamount-4/1104411D407.075.html",
-          "checked_at": "2026-10-27",
-          "note": "Manufacturer page could not be retrieved in this check (HTTP Error 403: Forbidden). This does not establish that the specification is unpublished."
+          "checked_at": "2026-10-28",
+          "note": "Not published by Brooks; checked 2026-10-28. Supplied US-page browser check."
         },
         "weight_reference_size": {
-          "status": "unverified",
+          "status": "not_published",
           "source_url": "https://www.brooksrunning.com/en_us/mens/shoes/trail-shoes/catamount-4/1104411D407.075.html",
-          "checked_at": "2026-10-27",
-          "note": "Manufacturer page could not be retrieved in this check (HTTP Error 403: Forbidden). This does not establish that the specification is unpublished."
+          "checked_at": "2026-10-28",
+          "note": "Not published by Brooks; checked 2026-10-28. Supplied US-page browser check."
         }
+      },
+      "price_checked_at": "2026-10-28",
+      "price_review": {
+        "source_url": "https://www.brooksrunning.com/en_us/mens/shoes/trail-shoes/catamount-4/1104411D407.075.html",
+        "checked_at": "2026-10-28",
+        "note": "Original price $170 on Brooks US variant pages; clearance, some sizes sold out. Previous price, price type and source link restored as requested. User-supplied correction; checked 2026-10-28."
       }
     },
     {
@@ -4967,12 +5217,12 @@
       "foam": "DNA FLASH v2 / SkyVault plate",
       "price_usd": 170,
       "verdict": "Catamount 4 is a trail running shoe with DNA FLASH v2 / SkyVault plate cushioning.",
-      "source_url": "https://www.brooksrunning.com/en_gb/womens/trail-running-shoes/catamount-4/1204301B823.060.html",
+      "source_url": "https://www.brooksrunning.com/en_us/womens/shoes/trail-shoes/catamount-4/1204301B188.050.html?dwvar_1204301B188.050_color=188",
       "source_type": "manufacturer",
-      "sourced_at": "2026-10-27",
+      "sourced_at": "2026-10-28",
       "weight_reference_size": null,
       "price_type": "US list price",
-      "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. Cleanup review 2026-10-25: US page retrieval blocked; no manufacturer heel/forefoot pair clearly assigned to this version verified in the sources checked.",
+      "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. Cleanup review 2026-10-25: US page retrieval blocked; no manufacturer heel/forefoot pair clearly assigned to this version verified in the sources checked. US-page check supersedes prior stack/reference-size and price uncertainty for the fields reviewed: stack and weight reference size are Not published by Brooks; checked 2026-10-28. See the dated price check for current price evidence.",
       "release_date": "2025-01",
       "release_source_url": "https://meta-endurance.com/brooks-catamount-4-review/",
       "release_notes": "Model launch date; regional availability may differ.",
@@ -4986,27 +5236,44 @@
             ],
             "url": "https://www.brooksrunning.com/en_us/womens/shoes/trail-shoes/catamount-4/1204301B188.050.html?dwvar_1204301B188.050_color=188",
             "note": "Brooks own US product page shows regular $170 and sale $119.95 (29% off). Exact reference is women’s medium (1B), color 188, size 5. Price evidence only; current stock not confirmed."
+          },
+          {
+            "fields": [
+              "price_usd",
+              "price_type",
+              "stack_heel_mm",
+              "stack_forefoot_mm",
+              "weight_reference_size"
+            ],
+            "url": "https://www.brooksrunning.com/en_us/womens/shoes/trail-shoes/catamount-4/1204301B188.050.html?dwvar_1204301B188.050_color=188",
+            "checked_at": "2026-10-28",
+            "note": "New check, checked 2026-10-28: Original price $170 on Brooks US variant pages; clearance, some sizes sold out. Previous price, price type and source link restored as requested. User-supplied correction; checked 2026-10-28. Stack and weight reference size: Not published by Brooks. Earlier evidence below/above retains its original date and is historical where superseded by this check."
           }
         ],
         "remaining_gaps": [
           "Stack: a consistent heel/forefoot pair for this version was not verified in the official sources checked; no laboratory or other-version measurements substituted."
         ]
       },
-      "price_checked_at": "2026-10-19",
+      "price_checked_at": "2026-10-28",
       "price_source_url": "https://www.brooksrunning.com/en_us/womens/shoes/trail-shoes/catamount-4/1204301B188.050.html?dwvar_1204301B188.050_color=188",
       "spec_availability": {
         "stack": {
-          "status": "unverified",
-          "source_url": "https://www.brooksrunning.com/en_gb/womens/trail-running-shoes/catamount-4/1204301B823.060.html",
-          "checked_at": "2026-10-27",
-          "note": "Manufacturer page could not be retrieved in this check (HTTP Error 403: Forbidden). This does not establish that the specification is unpublished."
+          "status": "not_published",
+          "source_url": "https://www.brooksrunning.com/en_us/womens/shoes/trail-shoes/catamount-4/1204301B188.050.html?dwvar_1204301B188.050_color=188",
+          "checked_at": "2026-10-28",
+          "note": "Not published by Brooks; checked 2026-10-28. Supplied US-page browser check."
         },
         "weight_reference_size": {
-          "status": "unverified",
-          "source_url": "https://www.brooksrunning.com/en_gb/womens/trail-running-shoes/catamount-4/1204301B823.060.html",
-          "checked_at": "2026-10-27",
-          "note": "Manufacturer page could not be retrieved in this check (HTTP Error 403: Forbidden). This does not establish that the specification is unpublished."
+          "status": "not_published",
+          "source_url": "https://www.brooksrunning.com/en_us/womens/shoes/trail-shoes/catamount-4/1204301B188.050.html?dwvar_1204301B188.050_color=188",
+          "checked_at": "2026-10-28",
+          "note": "Not published by Brooks; checked 2026-10-28. Supplied US-page browser check."
         }
+      },
+      "price_review": {
+        "source_url": "https://www.brooksrunning.com/en_us/womens/shoes/trail-shoes/catamount-4/1204301B188.050.html?dwvar_1204301B188.050_color=188",
+        "checked_at": "2026-10-28",
+        "note": "Original price $170 on Brooks US variant pages; clearance, some sizes sold out. Previous price, price type and source link restored as requested. User-supplied correction; checked 2026-10-28."
       }
     },
     {
@@ -5111,59 +5378,60 @@
       "model": "Challenger 8",
       "gender": "men",
       "drop_mm": 8,
-      "weight_oz": 10.12,
+      "weight_oz": 9.7,
       "stack_heel_mm": null,
       "stack_forefoot_mm": null,
       "toe_box": null,
       "use_case": "Trail running / Daily road running",
       "foam": "Compression-molded EVA",
-      "price_usd": null,
+      "price_usd": 155,
       "verdict": "Challenger 8 is a trail running shoe with Compression-molded EVA cushioning.",
-      "source_url": "https://au.hoka.com/products/m-challenger-8-1168716-bckt-bckt",
+      "source_url": "https://www.hoka.com/en/us/mens-trail/challenger-8/1168716.html",
       "source_type": "manufacturer",
-      "sourced_at": "2026-10-27",
+      "sourced_at": "2026-10-28",
       "weight_reference_size": null,
-      "price_type": null,
-      "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. Japanese launch coverage in July 2025 establishes availability that month; exact first-sale day is not confirmed. Manufacturer weight reference sizes unspecified. Cleanup review 2026-10-25: US retrieval blocked; no gender-specific heel/forefoot pair verified in the regional sources checked. Missing data is not evidence of zero stack. Cushion review 2026-10-26: HOKA US product-page retrieval blocked; selected Speedy / Mix of Both / Plush scale position could not be verified. No translation from the Australian scale or other-gender rating substituted. Price review 2026-10-27: US product page access blocked; a direct manufacturer US price was not verified. The previous store-location price is withdrawn; no independently verified exact dealer fallback established. Historical regional specification evidence is retained until the US page can be checked.",
+      "price_type": "US list price",
+      "source_notes": "US price, drop and weight from supplied US-page browser check; checked 2026-10-28. Stack height and weight reference size: Not published by HOKA. Prior regional price/weight and access-failure notes are superseded for these fields. Release and support evidence retain their separately recorded sources and dates. Cushion level and toe-box classification were not supplied in this check.",
       "release_date": "2025-07",
       "release_source_url": "https://trailrunner.jp/55805",
       "release_notes": "Japanese July 2025 launch coverage; exact first-sale day unspecified and regional timing may differ.",
       "manufacturer_support": null,
       "completion_review": {
-        "checked_at": "2026-10-19",
+        "checked_at": "2026-10-28",
         "sources": [
           {
             "fields": [
-              "price_type"
+              "price_usd",
+              "price_type",
+              "drop_mm",
+              "weight_oz"
             ],
-            "url": "https://stores.hoka.com/store/381992/hoka-store-boston-ma",
-            "note": "Historical specification evidence. The prior price annotation is superseded by the price review dated 2026-10-27."
+            "url": "https://www.hoka.com/en/us/mens-trail/challenger-8/1168716.html",
+            "note": "Manufacturer US list price; Price inferred: page shows $124–155 range; checked 2026-10-28. Weight is the supplied US ounces value; no gram conversion or reference size inferred."
           }
         ],
-        "remaining_gaps": [
-          "Stack: a consistent heel/forefoot pair for this version was not verified in the official sources checked; no laboratory or other-version measurements substituted."
-        ]
+        "remaining_gaps": []
       },
-      "price_checked_at": "2026-10-27",
-      "price_source_url": null,
+      "price_checked_at": "2026-10-28",
+      "price_source_url": "https://www.hoka.com/en/us/mens-trail/challenger-8/1168716.html",
       "spec_availability": {
         "stack": {
-          "status": "unverified",
+          "status": "not_published",
           "source_url": "https://www.hoka.com/en/us/mens-trail/challenger-8/1168716.html",
-          "checked_at": "2026-10-27",
-          "note": "Manufacturer page could not be retrieved in this check (HTTP Error 406: Not Acceptable). This does not establish that the specification is unpublished."
+          "checked_at": "2026-10-28",
+          "note": "Not published by HOKA; checked 2026-10-28. Supplied US-page browser check."
         },
         "weight_reference_size": {
-          "status": "unverified",
+          "status": "not_published",
           "source_url": "https://www.hoka.com/en/us/mens-trail/challenger-8/1168716.html",
-          "checked_at": "2026-10-27",
-          "note": "Manufacturer page could not be retrieved in this check (HTTP Error 406: Not Acceptable). This does not establish that the specification is unpublished."
+          "checked_at": "2026-10-28",
+          "note": "Not published by HOKA; checked 2026-10-28. Supplied US-page browser check."
         }
       },
       "price_review": {
-        "checked_at": "2026-10-27",
         "source_url": "https://www.hoka.com/en/us/mens-trail/challenger-8/1168716.html",
-        "note": "US product page access blocked; a direct manufacturer US price was not verified. The previous store-location price is withdrawn; no independently verified exact dealer fallback established. Historical regional specification evidence is retained until the US page can be checked."
+        "checked_at": "2026-10-28",
+        "note": "Manufacturer US list price; Price inferred: page shows $124–155 range; checked 2026-10-28."
       }
     },
     {
@@ -5172,59 +5440,60 @@
       "model": "Challenger 8",
       "gender": "women",
       "drop_mm": 8,
-      "weight_oz": 8.11,
+      "weight_oz": 8.7,
       "stack_heel_mm": null,
       "stack_forefoot_mm": null,
       "toe_box": null,
       "use_case": "Trail running / Daily road running",
       "foam": "Compression-molded EVA",
-      "price_usd": null,
+      "price_usd": 155,
       "verdict": "Challenger 8 is a trail running shoe with Compression-molded EVA cushioning.",
-      "source_url": "https://au.hoka.com/products/w-challenger-8-1168717-bckt-bckt",
+      "source_url": "https://www.hoka.com/en/us/womens-trail/challenger-8/1168717.html",
       "source_type": "manufacturer",
-      "sourced_at": "2026-10-27",
+      "sourced_at": "2026-10-28",
       "weight_reference_size": null,
-      "price_type": null,
-      "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. Japanese launch coverage in July 2025 establishes availability that month; exact first-sale day is not confirmed. Manufacturer weight reference sizes unspecified. Cleanup review 2026-10-25: US retrieval blocked; no gender-specific heel/forefoot pair verified in the regional sources checked. Missing data is not evidence of zero stack. Cushion review 2026-10-26: HOKA US product-page retrieval blocked; selected Speedy / Mix of Both / Plush scale position could not be verified. No translation from the Australian scale or other-gender rating substituted. Price review 2026-10-27: US product page access blocked; a direct manufacturer US price was not verified. The previous store-location price is withdrawn; no independently verified exact dealer fallback established. Historical regional specification evidence is retained until the US page can be checked.",
+      "price_type": "US list price",
+      "source_notes": "US price, drop and weight from supplied US-page browser check; checked 2026-10-28. Stack height and weight reference size: Not published by HOKA. Prior regional price/weight and access-failure notes are superseded for these fields. Release and support evidence retain their separately recorded sources and dates. Cushion level and toe-box classification were not supplied in this check.",
       "release_date": "2025-07",
       "release_source_url": "https://trailrunner.jp/55805",
       "release_notes": "Japanese July 2025 launch coverage; exact first-sale day unspecified and regional timing may differ.",
       "manufacturer_support": null,
       "completion_review": {
-        "checked_at": "2026-10-19",
+        "checked_at": "2026-10-28",
         "sources": [
           {
             "fields": [
-              "price_type"
+              "price_usd",
+              "price_type",
+              "drop_mm",
+              "weight_oz"
             ],
-            "url": "https://stores.hoka.com/store/381992/hoka-store-boston-ma",
-            "note": "Historical specification evidence. The prior price annotation is superseded by the price review dated 2026-10-27."
+            "url": "https://www.hoka.com/en/us/womens-trail/challenger-8/1168717.html",
+            "note": "Manufacturer US list price; checked 2026-10-28. Weight is the supplied US ounces value; no gram conversion or reference size inferred."
           }
         ],
-        "remaining_gaps": [
-          "Stack: a consistent heel/forefoot pair for this version was not verified in the official sources checked; no laboratory or other-version measurements substituted."
-        ]
+        "remaining_gaps": []
       },
-      "price_checked_at": "2026-10-27",
-      "price_source_url": null,
+      "price_checked_at": "2026-10-28",
+      "price_source_url": "https://www.hoka.com/en/us/womens-trail/challenger-8/1168717.html",
       "spec_availability": {
         "stack": {
-          "status": "unverified",
+          "status": "not_published",
           "source_url": "https://www.hoka.com/en/us/womens-trail/challenger-8/1168717.html",
-          "checked_at": "2026-10-27",
-          "note": "Manufacturer page could not be retrieved in this check (HTTP Error 406: Not Acceptable). This does not establish that the specification is unpublished."
+          "checked_at": "2026-10-28",
+          "note": "Not published by HOKA; checked 2026-10-28. Supplied US-page browser check."
         },
         "weight_reference_size": {
-          "status": "unverified",
+          "status": "not_published",
           "source_url": "https://www.hoka.com/en/us/womens-trail/challenger-8/1168717.html",
-          "checked_at": "2026-10-27",
-          "note": "Manufacturer page could not be retrieved in this check (HTTP Error 406: Not Acceptable). This does not establish that the specification is unpublished."
+          "checked_at": "2026-10-28",
+          "note": "Not published by HOKA; checked 2026-10-28. Supplied US-page browser check."
         }
       },
       "price_review": {
-        "checked_at": "2026-10-27",
         "source_url": "https://www.hoka.com/en/us/womens-trail/challenger-8/1168717.html",
-        "note": "US product page access blocked; a direct manufacturer US price was not verified. The previous store-location price is withdrawn; no independently verified exact dealer fallback established. Historical regional specification evidence is retained until the US page can be checked."
+        "checked_at": "2026-10-28",
+        "note": "Manufacturer US list price; checked 2026-10-28."
       }
     },
     {
@@ -11202,20 +11471,20 @@
       "model": "Clifton 11",
       "gender": "men",
       "drop_mm": 8,
-      "weight_oz": 9.98,
+      "weight_oz": 9.97,
       "stack_heel_mm": null,
       "stack_forefoot_mm": null,
       "toe_box": null,
       "use_case": "Daily road running",
       "foam": "Compression-molded EVA",
-      "price_usd": null,
+      "price_usd": 155,
       "verdict": "A daily road trainer with an engineered mesh upper, MetaRocker and rearfoot-focused Active Foot Frame.",
-      "source_url": "https://au.hoka.com/products/clifton-11-1176572-flck-flck",
+      "source_url": "https://www.hoka.com/en/us/mens-everyday-running-gear/clifton-11/1176572.html",
       "source_type": "manufacturer",
-      "sourced_at": "2026-10-27",
+      "sourced_at": "2026-10-28",
       "weight_reference_size": null,
-      "price_type": null,
-      "source_notes": "US product-page retrieval blocked. Specifications use the exact gender-specific HOKA Australia page; weight converted from published grams to ounces, reference size unspecified there. Gender-specific stack and toe-box classification not verified. Cushion-scale selection could not be established confidently from the retrieved page, so no rating added. Price is HOKA’s own Melrose US brand-store offer, not MSRP or an independent dealer price; local availability and price may vary. Regional weight discrepancy: Australia lists 283 g without reference size; Deckers Japan lists 282 g at 28 cm. Neither value is represented as a US measurement. Cushion review 2026-10-26: HOKA US product-page retrieval blocked; selected Speedy / Mix of Both / Plush scale position could not be verified. No translation from the Australian scale or other-gender rating substituted. Price review 2026-10-27: US product page access blocked; a direct manufacturer US price was not verified. The previous store-location price is withdrawn; no independently verified exact dealer fallback established. Historical regional specification evidence is retained until the US page can be checked.",
+      "price_type": "US list price",
+      "source_notes": "US price, drop and weight from supplied US-page browser check; checked 2026-10-28. Stack height and weight reference size: Not published by HOKA. Prior regional price/weight and access-failure notes are superseded for these fields. Release and support evidence retain their separately recorded sources and dates. Cushion level and toe-box classification were not supplied in this check.",
       "manufacturer_support": null,
       "release_date": "2026-07-01",
       "release_source_url": "https://prtimes.jp/main/html/rd/p/000000767.000003434.html",
@@ -11223,39 +11492,43 @@
       "release_notes": "Deckers Japan’s official announcement specifies July 1, 2026 in Japan. US availability separately confirmed at HOKA’s own Melrose brand store; US first-sale date unverified.",
       "release_audit_status": "within_window",
       "release_audited_at": "2026-10-26",
-      "price_source_url": null,
-      "price_checked_at": "2026-10-27",
-      "weight_g": 283,
+      "price_source_url": "https://www.hoka.com/en/us/mens-everyday-running-gear/clifton-11/1176572.html",
+      "price_checked_at": "2026-10-28",
+      "weight_g": null,
       "completion_review": {
-        "checked_at": "2026-10-26",
+        "checked_at": "2026-10-28",
         "sources": [
           {
             "fields": [
-              "price_type"
+              "price_usd",
+              "price_type",
+              "drop_mm",
+              "weight_oz"
             ],
-            "url": "https://stores.hoka.com/store/223487/hoka-store-melrose-ca",
-            "note": "Historical specification evidence. The prior price annotation is superseded by the price review dated 2026-10-27."
+            "url": "https://www.hoka.com/en/us/mens-everyday-running-gear/clifton-11/1176572.html",
+            "note": "Manufacturer US list price; checked 2026-10-28. Weight is the supplied US ounces value; no gram conversion or reference size inferred."
           }
-        ]
+        ],
+        "remaining_gaps": []
       },
       "spec_availability": {
         "stack": {
-          "status": "unverified",
-          "source_url": "https://www.hoka.com/en/us/mens-road/clifton-11/1176572.html",
-          "checked_at": "2026-10-27",
-          "note": "Manufacturer page could not be retrieved in this check (HTTP Error 406: Not Acceptable). This does not establish that the specification is unpublished."
+          "status": "not_published",
+          "source_url": "https://www.hoka.com/en/us/mens-everyday-running-gear/clifton-11/1176572.html",
+          "checked_at": "2026-10-28",
+          "note": "Not published by HOKA; checked 2026-10-28. Supplied US-page browser check."
         },
         "weight_reference_size": {
-          "status": "unverified",
-          "source_url": "https://www.hoka.com/en/us/mens-road/clifton-11/1176572.html",
-          "checked_at": "2026-10-27",
-          "note": "Manufacturer page could not be retrieved in this check (HTTP Error 406: Not Acceptable). This does not establish that the specification is unpublished."
+          "status": "not_published",
+          "source_url": "https://www.hoka.com/en/us/mens-everyday-running-gear/clifton-11/1176572.html",
+          "checked_at": "2026-10-28",
+          "note": "Not published by HOKA; checked 2026-10-28. Supplied US-page browser check."
         }
       },
       "price_review": {
-        "checked_at": "2026-10-27",
-        "source_url": "https://www.hoka.com/en/us/mens-road/clifton-11/1176572.html",
-        "note": "US product page access blocked; a direct manufacturer US price was not verified. The previous store-location price is withdrawn; no independently verified exact dealer fallback established. Historical regional specification evidence is retained until the US page can be checked."
+        "source_url": "https://www.hoka.com/en/us/mens-everyday-running-gear/clifton-11/1176572.html",
+        "checked_at": "2026-10-28",
+        "note": "Manufacturer US list price; checked 2026-10-28."
       }
     },
     {
@@ -11264,20 +11537,20 @@
       "model": "Clifton 11",
       "gender": "women",
       "drop_mm": 8,
-      "weight_oz": 8.32,
+      "weight_oz": 8.34,
       "stack_heel_mm": null,
       "stack_forefoot_mm": null,
       "toe_box": null,
       "use_case": "Daily road running",
       "foam": "Compression-molded EVA",
-      "price_usd": null,
+      "price_usd": 155,
       "verdict": "A daily road trainer with an engineered mesh upper, MetaRocker and rearfoot-focused Active Foot Frame.",
-      "source_url": "https://au.hoka.com/products/clifton-11-1176573-fmm-fmm",
+      "source_url": "https://www.hoka.com/en/us/womens-everyday-running-gear/clifton-11/1176573.html",
       "source_type": "manufacturer",
-      "sourced_at": "2026-10-27",
+      "sourced_at": "2026-10-28",
       "weight_reference_size": null,
-      "price_type": null,
-      "source_notes": "US product-page retrieval blocked. Specifications use the exact gender-specific HOKA Australia page; weight converted from published grams to ounces, reference size unspecified there. Gender-specific stack and toe-box classification not verified. Cushion-scale selection could not be established confidently from the retrieved page, so no rating added. Price is HOKA’s own Melrose US brand-store offer, not MSRP or an independent dealer price; local availability and price may vary. Deckers Japan also lists 236 g at 24.5 cm; this is regional evidence, not a verified US reference size. Cushion review 2026-10-26: HOKA US product-page retrieval blocked; selected Speedy / Mix of Both / Plush scale position could not be verified. No translation from the Australian scale or other-gender rating substituted. Price review 2026-10-27: US product page access blocked; a direct manufacturer US price was not verified. The previous store-location price is withdrawn; no independently verified exact dealer fallback established. Historical regional specification evidence is retained until the US page can be checked.",
+      "price_type": "US list price",
+      "source_notes": "US price, drop and weight from supplied US-page browser check; checked 2026-10-28. Stack height and weight reference size: Not published by HOKA. Prior regional price/weight and access-failure notes are superseded for these fields. Release and support evidence retain their separately recorded sources and dates. Cushion level and toe-box classification were not supplied in this check.",
       "manufacturer_support": null,
       "release_date": "2026-07-01",
       "release_source_url": "https://prtimes.jp/main/html/rd/p/000000767.000003434.html",
@@ -11285,39 +11558,43 @@
       "release_notes": "Deckers Japan’s official announcement specifies July 1, 2026 in Japan. US availability separately confirmed at HOKA’s own Melrose brand store; US first-sale date unverified.",
       "release_audit_status": "within_window",
       "release_audited_at": "2026-10-26",
-      "price_source_url": null,
-      "price_checked_at": "2026-10-27",
-      "weight_g": 236,
+      "price_source_url": "https://www.hoka.com/en/us/womens-everyday-running-gear/clifton-11/1176573.html",
+      "price_checked_at": "2026-10-28",
+      "weight_g": null,
       "completion_review": {
-        "checked_at": "2026-10-26",
+        "checked_at": "2026-10-28",
         "sources": [
           {
             "fields": [
-              "price_type"
+              "price_usd",
+              "price_type",
+              "drop_mm",
+              "weight_oz"
             ],
-            "url": "https://stores.hoka.com/store/223487/hoka-store-melrose-ca",
-            "note": "Historical specification evidence. The prior price annotation is superseded by the price review dated 2026-10-27."
+            "url": "https://www.hoka.com/en/us/womens-everyday-running-gear/clifton-11/1176573.html",
+            "note": "Manufacturer US list price; checked 2026-10-28. Weight is the supplied US ounces value; no gram conversion or reference size inferred."
           }
-        ]
+        ],
+        "remaining_gaps": []
       },
       "spec_availability": {
         "stack": {
-          "status": "unverified",
-          "source_url": "https://www.hoka.com/en/us/womens-road/clifton-11/1176573.html",
-          "checked_at": "2026-10-27",
-          "note": "Manufacturer page could not be retrieved in this check (HTTP Error 406: Not Acceptable). This does not establish that the specification is unpublished."
+          "status": "not_published",
+          "source_url": "https://www.hoka.com/en/us/womens-everyday-running-gear/clifton-11/1176573.html",
+          "checked_at": "2026-10-28",
+          "note": "Not published by HOKA; checked 2026-10-28. Supplied US-page browser check."
         },
         "weight_reference_size": {
-          "status": "unverified",
-          "source_url": "https://www.hoka.com/en/us/womens-road/clifton-11/1176573.html",
-          "checked_at": "2026-10-27",
-          "note": "Manufacturer page could not be retrieved in this check (HTTP Error 406: Not Acceptable). This does not establish that the specification is unpublished."
+          "status": "not_published",
+          "source_url": "https://www.hoka.com/en/us/womens-everyday-running-gear/clifton-11/1176573.html",
+          "checked_at": "2026-10-28",
+          "note": "Not published by HOKA; checked 2026-10-28. Supplied US-page browser check."
         }
       },
       "price_review": {
-        "checked_at": "2026-10-27",
-        "source_url": "https://www.hoka.com/en/us/womens-road/clifton-11/1176573.html",
-        "note": "US product page access blocked; a direct manufacturer US price was not verified. The previous store-location price is withdrawn; no independently verified exact dealer fallback established. Historical regional specification evidence is retained until the US page can be checked."
+        "source_url": "https://www.hoka.com/en/us/womens-everyday-running-gear/clifton-11/1176573.html",
+        "checked_at": "2026-10-28",
+        "note": "Manufacturer US list price; checked 2026-10-28."
       }
     }
   ]
