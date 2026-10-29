@@ -72,7 +72,11 @@
     .foam { margin-top: 12px; font-size: 12px; color: #a1a1aa; }
     .foam strong { color: #e4e4e7; }
     .source { margin-top: 12px; font-size: 12px; color: #a1a1aa; overflow-wrap: anywhere; }
-    .source-notes { margin-top: auto; border-top: 1px solid #27272a; padding-top: 4px; }
+    .card-actions { margin-top: auto; position: relative; border-top: 1px solid #27272a; padding-top: 4px; }
+    .source-notes { margin: 0; }
+    .card-actions.has-brand-link .source-notes > summary { max-width: calc(100% - var(--view-space)); }
+    .view-brand { position: absolute; right: 0; top: 4px; display: inline-flex; align-items: center; min-height: 44px; padding: 10px 0 10px 6px; font-size: 12px; color: #6ee7b7; text-decoration: none; white-space: nowrap; }
+    .view-brand:hover { text-decoration: underline; text-underline-offset: 3px; }
     .source-notes > summary, .about > summary { cursor: pointer; color: #6ee7b7; font-size: 13px; padding: 10px 0; min-height: 44px; }
     .source-notes .notice { font-size: 12px; }
     .filter-toggle, .show-results { display: none; }
@@ -229,6 +233,7 @@
     <noscript><p>Enable JavaScript to display and filter the shoe catalog.</p></noscript>
     <footer>Support wording quotes each manufacturer, using a model page that may show a different gender, width or region. These terms are not standardized ratings or recommendations for your gait. “Not verified” means we have not confirmed explicit support wording; it does not mean the shoe has no support. A free project for friends and curious runners. Weights use each manufacturer’s reference size where available, so they are not directly comparable across brands. A dash means the specification is missing or has an unresolved source conflict. Descriptions summarize manufacturer information, not hands-on reviews. Brand and product names belong to their respective owners. No brand affiliation is implied.</footer>
   </main>
+  <script src="./card-links.js"></script>
   <script>
     let allShoes = [];
     const count = document.getElementById('result-count');
@@ -406,6 +411,10 @@
         const gapNotes = [...gaps.values()].map(({gap, fields}) => `<div class="source spec-review"><strong>${escapeHTML(fields.join(' / '))}</strong><small>${escapeHTML(gap.note)}</small><small>${reviewLink(gap.source_url, 'Checked source')} · checked ${escapeHTML(gap.checked_at)}</small></div>`).join('');
         const priceReview = shoe.price_review ? `<div class="source price-review"><small>${escapeHTML(shoe.price_review.note)}</small><small>${reviewLink(shoe.price_review.source_url, 'Price check')} · checked ${escapeHTML(shoe.price_review.checked_at)}</small></div>` : '';
         const stack = Number.isFinite(shoe.stack_heel_mm) && Number.isFinite(shoe.stack_forefoot_mm) ? `Heel ${s.stack_heel_mm}<br>Fore ${s.stack_forefoot_mm}` : missingSpec(shoe, 'stack');
+        const viewURL = typeof verifiedManufacturerLinks !== 'undefined' ? verifiedManufacturerLinks[shoe.id] : null;
+        const viewBrand = shoe.brand === 'Topo Athletic' ? 'Topo' : shoe.brand;
+        const viewSpace = viewBrand === 'New Balance' ? '144px' : '120px';
+        const viewLink = viewURL ? `<a class="view-brand" href="${escapeHTML(viewURL)}" target="_blank" rel="noopener noreferrer" aria-label="View ${s.model} at ${escapeHTML(viewBrand)} (opens in a new tab)">View at ${escapeHTML(viewBrand)} ↗</a>` : '';
         return `<article class="shoe-card" data-shoe-id="${s.id}">
           <div class="card-top"><span class="brand">${s.brand}</span><span class="price${shoe.price_unverified_label ? ' price-unverified' : ''}">${priceText}</span></div>
           <h2>${shoe.gender === 'women' ? 'Women’s' : shoe.gender === 'men' ? 'Men’s' : shoe.gender === 'unisex' ? 'Unisex' : 'Version not specified'} ${s.model}</h2>
@@ -417,6 +426,7 @@
             <div><dt>Stack (mm)</dt><dd>${stack}</dd></div>
           </dl>
           <p class="verdict">${s.verdict}</p>
+          <div class="card-actions${viewURL ? ' has-brand-link' : ''}" style="--view-space: ${viewSpace}">
           <details class="source-notes"><summary>Sources &amp; notes${query ? ' · Matches' : ''}</summary>
           <p class="foam">Midsole: <strong>${escapeHTML(shoe.foam || '—')}</strong></p>
           <p class="source">Toe box: ${escapeHTML(shoe.toe_box || 'not specified')}</p>
@@ -431,6 +441,8 @@
           ${completion}
           <div class="source">${specification}${release}</div>
           </details>
+          ${viewLink}
+          </div>
         </article>`;
       }).join('') : '<p class="empty">No shoes match this search and these filters. Try a shorter phrase, a different keyword, or reset search and filters.</p>';
     }
