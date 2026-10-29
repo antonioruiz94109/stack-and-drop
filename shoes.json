@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-28",
+  "last_updated": "2026-10-29",
   "maintained_by": "Stack & Drop — manual review",
   "shoes": [
     {
@@ -2088,14 +2088,14 @@
       "toe_box": null,
       "use_case": "Daily road running / Speedwork",
       "foam": "PWRRUN",
-      "price_usd": 130,
+      "price_usd": null,
       "verdict": "A lightweight, flexible road trainer with PWRRUN cushioning.",
       "source_url": "https://www.saucony.com/en/buyers-guide/#kinvara-16",
       "source_type": "manufacturer",
-      "sourced_at": "2026-10-27",
+      "sourced_at": "2026-10-29",
       "weight_reference_size": null,
-      "price_type": "US list price",
-      "source_notes": "Weight reference size and toe-box shape not specified by this source.",
+      "price_type": null,
+      "source_notes": "Weight reference size and toe-box shape not specified by this source. Price-source review 2026-10-29: Manufacturer guide identifies the model but does not display its price; the existing amount is not supported by this price-source URL. Price not verified.",
       "release_date": "2025-06",
       "release_source_url": "https://www.youtube.com/watch?v=V2ODH7HluUk",
       "release_notes": "Month-level launch reported by Running Warehouse; current manufacturer listing confirms release.",
@@ -2105,7 +2105,7 @@
         "scope": "model",
         "checked_at": "2026-10-18"
       },
-      "price_source_url": "https://www.saucony.com/en/buyers-guide/#kinvara-16",
+      "price_source_url": null,
       "spec_availability": {
         "weight_reference_size": {
           "status": "not_published",
@@ -2113,6 +2113,12 @@
           "checked_at": "2026-10-27",
           "note": "The checked manufacturer page does not publish this specification for this version."
         }
+      },
+      "price_checked_at": "2026-10-29",
+      "price_review": {
+        "source_url": "https://www.saucony.com/en/buyers-guide/#kinvara-16",
+        "checked_at": "2026-10-29",
+        "note": "Manufacturer guide identifies the model but does not display its price; the existing amount is not supported by this price-source URL. Historical evidence is retained; the active price is withdrawn."
       }
     },
     {
@@ -2127,14 +2133,14 @@
       "toe_box": null,
       "use_case": "Daily road running / Speedwork",
       "foam": "PWRRUN",
-      "price_usd": 130,
+      "price_usd": null,
       "verdict": "A lightweight, flexible road trainer with PWRRUN cushioning.",
       "source_url": "https://www.saucony.com/en/buyers-guide/#kinvara-16",
       "source_type": "manufacturer",
-      "sourced_at": "2026-10-27",
+      "sourced_at": "2026-10-29",
       "weight_reference_size": null,
-      "price_type": "US list price",
-      "source_notes": "Weight reference size and toe-box shape not specified by this source.",
+      "price_type": null,
+      "source_notes": "Weight reference size and toe-box shape not specified by this source. Price-source review 2026-10-29: Manufacturer guide identifies the model but does not display its price; the existing amount is not supported by this price-source URL. Price not verified.",
       "release_date": "2025-06",
       "release_source_url": "https://www.youtube.com/watch?v=V2ODH7HluUk",
       "release_notes": "Month-level launch reported by Running Warehouse; current manufacturer listing confirms release.",
@@ -2144,7 +2150,7 @@
         "scope": "model",
         "checked_at": "2026-10-18"
       },
-      "price_source_url": "https://www.saucony.com/en/buyers-guide/#kinvara-16",
+      "price_source_url": null,
       "spec_availability": {
         "weight_reference_size": {
           "status": "not_published",
@@ -2152,6 +2158,12 @@
           "checked_at": "2026-10-27",
           "note": "The checked manufacturer page does not publish this specification for this version."
         }
+      },
+      "price_checked_at": "2026-10-29",
+      "price_review": {
+        "source_url": "https://www.saucony.com/en/buyers-guide/#kinvara-16",
+        "checked_at": "2026-10-29",
+        "note": "Manufacturer guide identifies the model but does not display its price; the existing amount is not supported by this price-source URL. Historical evidence is retained; the active price is withdrawn."
       }
     },
     {
@@ -2166,14 +2178,14 @@
       "toe_box": null,
       "use_case": "Daily road running / Long runs",
       "foam": "PWRRUN+",
-      "price_usd": 145,
+      "price_usd": null,
       "verdict": "A neutral road trainer with revised PWRRUN+ cushioning and an engineered mesh upper.",
       "source_url": "https://www.saucony.com/en/buyers-guide/#ride-19",
       "source_type": "manufacturer",
-      "sourced_at": "2026-10-27",
+      "sourced_at": "2026-10-29",
       "weight_reference_size": null,
-      "price_type": "US list price",
-      "source_notes": "Weight reference size and toe-box shape not specified by this source.",
+      "price_type": null,
+      "source_notes": "Weight reference size and toe-box shape not specified by this source. Price-source review 2026-10-29: Manufacturer guide identifies the model but does not display its price; the existing amount is not supported by this price-source URL. Price not verified.",
       "release_date": "2026-01",
       "release_source_url": "https://www.youtube.com/watch?v=pS36vh1PgXE",
       "release_notes": "Month-level launch reported by Running Warehouse; current manufacturer listing confirms release.",
@@ -2183,7 +2195,7 @@
         "scope": "model",
         "checked_at": "2026-10-18"
       },
-      "price_source_url": "https://www.saucony.com/en/buyers-guide/#ride-19",
+      "price_source_url": null,
       "spec_availability": {
         "weight_reference_size": {
           "status": "not_published",
@@ -2191,6 +2203,12 @@
           "checked_at": "2026-10-27",
           "note": "The checked manufacturer page does not publish this specification for this version."
         }
+      },
+      "price_checked_at": "2026-10-29",
+      "price_review": {
+        "source_url": "https://www.saucony.com/en/buyers-guide/#ride-19",
+        "checked_at": "2026-10-29",
+        "note": "Manufacturer guide identifies the model but does not display its price; the existing amount is not supported by this price-source URL. Historical evidence is retained; the active price is withdrawn."
       }
     },
     {
@@ -2205,14 +2223,14 @@
       "toe_box": null,
       "use_case": "Daily road running / Long runs",
       "foam": "PWRRUN+",
-      "price_usd": 145,
+      "price_usd": null,
       "verdict": "A neutral road trainer with revised PWRRUN+ cushioning and an engineered mesh upper.",
       "source_url": "https://www.saucony.com/en/buyers-guide/#ride-19",
       "source_type": "manufacturer",
-      "sourced_at": "2026-10-27",
+      "sourced_at": "2026-10-29",
       "weight_reference_size": null,
-      "price_type": "US list price",
-      "source_notes": "Weight reference size and toe-box shape not specified by this source.",
+      "price_type": null,
+      "source_notes": "Weight reference size and toe-box shape not specified by this source. Price-source review 2026-10-29: Manufacturer guide identifies the model but does not display its price; the existing amount is not supported by this price-source URL. Price not verified.",
       "release_date": "2026-01",
       "release_source_url": "https://www.youtube.com/watch?v=pS36vh1PgXE",
       "release_notes": "Month-level launch reported by Running Warehouse; current manufacturer listing confirms release.",
@@ -2222,7 +2240,7 @@
         "scope": "model",
         "checked_at": "2026-10-18"
       },
-      "price_source_url": "https://www.saucony.com/en/buyers-guide/#ride-19",
+      "price_source_url": null,
       "spec_availability": {
         "weight_reference_size": {
           "status": "not_published",
@@ -2230,6 +2248,12 @@
           "checked_at": "2026-10-27",
           "note": "The checked manufacturer page does not publish this specification for this version."
         }
+      },
+      "price_checked_at": "2026-10-29",
+      "price_review": {
+        "source_url": "https://www.saucony.com/en/buyers-guide/#ride-19",
+        "checked_at": "2026-10-29",
+        "note": "Manufacturer guide identifies the model but does not display its price; the existing amount is not supported by this price-source URL. Historical evidence is retained; the active price is withdrawn."
       }
     },
     {
@@ -2521,14 +2545,14 @@
       "toe_box": null,
       "use_case": "Trail running / Hiking",
       "foam": "DNA LOFT v3",
-      "price_usd": 150,
+      "price_usd": null,
       "verdict": "A trail trainer with a flexible rock plate and nitrogen-infused cushioning.",
       "source_url": "https://www.brooksrunning.com/en_us/womens/shoes/trail-shoes/cascadia-19/120446.html",
       "source_type": "manufacturer",
-      "sourced_at": "2026-10-28",
+      "sourced_at": "2026-10-29",
       "weight_reference_size": null,
-      "price_type": "US store listing",
-      "source_notes": "Manufacturer-listed weights; reference size, total stack heights and toe-box shape not specified. Cleanup review 2026-10-25: US page retrieval blocked; no manufacturer heel/forefoot pair clearly assigned to this version verified in the sources checked. Normalized the existing $150 collection offer to US store listing (Price), not verified MSRP. Based on the saved October 20 manufacturer collection evidence. October 25 collection no longer exposes this item in retrieved text, so its price checked date remains October 20; this is not a fresh price verification. US-page check supersedes prior stack/reference-size and price uncertainty for the fields reviewed: stack and weight reference size are Not published by Brooks; checked 2026-10-28. See the dated price check for current price evidence.",
+      "price_type": null,
+      "source_notes": "Manufacturer-listed weights; reference size, total stack heights and toe-box shape not specified. Cleanup review 2026-10-25: US page retrieval blocked; no manufacturer heel/forefoot pair clearly assigned to this version verified in the sources checked. Normalized the existing $150 collection offer to US store listing (Price), not verified MSRP. Based on the saved October 20 manufacturer collection evidence. October 25 collection no longer exposes this item in retrieved text, so its price checked date remains October 20; this is not a fresh price verification. US-page check supersedes prior stack/reference-size and price uncertainty for the fields reviewed: stack and weight reference size are Not published by Brooks; checked 2026-10-28. See the dated price check for current price evidence. Price-source review 2026-10-29: The linked manufacturer collection now presents Cascadia 20 and other products, not Cascadia 19; it does not support the card’s price. Price not verified.",
       "release_date": "2025-08-01",
       "release_source_url": "https://believeintherun.com/shoe-reviews/brooks-cascadia-19-review/",
       "release_notes": "US release date reported by Believe in the Run; regional launches may differ.",
@@ -2567,8 +2591,8 @@
           "Stack: a consistent heel/forefoot pair for this version was not verified in the official sources checked; no laboratory or other-version measurements substituted."
         ]
       },
-      "price_source_url": "https://www.brooksrunning.com/en_us/featured/trail-running-collection/",
-      "price_checked_at": "2026-10-28",
+      "price_source_url": null,
+      "price_checked_at": "2026-10-29",
       "spec_availability": {
         "stack": {
           "status": "not_published",
@@ -2585,9 +2609,16 @@
       },
       "price_review": {
         "source_url": "https://www.brooksrunning.com/en_us/featured/trail-running-collection/",
-        "checked_at": "2026-10-28",
-        "note": "Original price $150 on Brooks US variant pages; clearance, some sizes sold out. Previous price, price type and source link restored as requested. User-supplied correction; checked 2026-10-28."
-      }
+        "checked_at": "2026-10-29",
+        "note": "The linked manufacturer collection now presents Cascadia 20 and other products, not Cascadia 19; it does not support the card’s price. Historical evidence is retained; the active price is withdrawn."
+      },
+      "price_review_history": [
+        {
+          "source_url": "https://www.brooksrunning.com/en_us/featured/trail-running-collection/",
+          "checked_at": "2026-10-28",
+          "note": "Original price $150 on Brooks US variant pages; clearance, some sizes sold out. Previous price, price type and source link restored as requested. User-supplied correction; checked 2026-10-28."
+        }
+      ]
     },
     {
       "id": "brooks-caldera-8-men",
