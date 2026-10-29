@@ -3164,14 +3164,14 @@
       "toe_box": null,
       "use_case": "Daily road running",
       "foam": "Dreamstrike+",
-      "price_usd": 120,
+      "price_usd": 150,
       "verdict": "Supernova Rise 2 is a road running shoe with Dreamstrike+ cushioning.",
       "source_url": "https://www.adidas.com/qa/en/supernova-rise-2-running-shoes/IH2504.html",
       "source_type": "manufacturer",
       "sourced_at": "2026-10-27",
       "weight_reference_size": "UK 8.5",
       "price_type": "US store listing",
-      "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted.  Price review 2026-10-27: US product page displays $120 sale price, $150 original price, and Sold out. This is a recorded displayed price, not a claim of availability or MSRP.",
+      "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted.  Price review 2026-10-27: Original price; sale price excluded. Page marked Sold out when checked.",
       "release_date": "2024-12-03",
       "release_source_url": "https://news.adidas.com/running/adidas-launches-supernova-rise-2---built-to-provide-even-more-comfort-all-in-a-lighter-package/s/664bbf38-10a6-449e-b2b9-b9b7d3cdeb86",
       "release_notes": "Model launch date; regional availability may differ.",
@@ -3186,7 +3186,7 @@
       "price_review": {
         "checked_at": "2026-10-27",
         "source_url": "https://www.adidas.com/us/supernova-rise-2-running-shoes/IH2504.html",
-        "note": "US product page displays $120 sale price, $150 original price, and Sold out. This is a recorded displayed price, not a claim of availability or MSRP."
+        "note": "Original price; sale price excluded."
       }
     },
     {
@@ -3556,14 +3556,14 @@
       "toe_box": null,
       "use_case": "Daily road running",
       "foam": "Dreamstrike+",
-      "price_usd": 84,
+      "price_usd": 140,
       "verdict": "Supernova Rise 3 Adaptive is a road running shoe with Dreamstrike+ cushioning.",
       "source_url": "https://news.adidas.com/home-of-innovation/people/adidas-unveils-supernova-rise-3-adaptive--its-first-performance-running-shoe-designed-in-partnership/s/9de639ee-b6c2-4b0b-aa90-6a1e856c5605",
       "source_type": "manufacturer",
       "sourced_at": "2026-10-27",
       "weight_reference_size": null,
       "price_type": "US store listing",
-      "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. Adaptive model with easier entry, low-pressure lacing and tactile details; reference weight sizes unspecified. Manufacturer announcement lists a shared stack/drop. Price review 2026-10-27: Women’s US product page displays $84 sale price and $140 original price. Selected color; sizes and colorways may differ.",
+      "source_notes": "Manufacturer specifications; weights converted from grams to ounces where provided. Unconfirmed fields are omitted. Adaptive model with easier entry, low-pressure lacing and tactile details; reference weight sizes unspecified. Manufacturer announcement lists a shared stack/drop. Price review 2026-10-27: Original price; sale price excluded. Selected color; sizes and colorways may differ.",
       "release_date": "2026-03-21",
       "release_source_url": "https://news.adidas.com/home-of-innovation/people/adidas-unveils-supernova-rise-3-adaptive--its-first-performance-running-shoe-designed-in-partnership/s/9de639ee-b6c2-4b0b-aa90-6a1e856c5605",
       "release_notes": "Model launch date; regional availability may differ.",
@@ -3581,7 +3581,7 @@
       "price_review": {
         "checked_at": "2026-10-27",
         "source_url": "https://www.adidas.com/us/supernova-rise-3-adaptive-running-shoes/JQ4353.html",
-        "note": "Women’s US product page displays $84 sale price and $140 original price. Selected color; sizes and colorways may differ."
+        "note": "Original price; sale price excluded."
       }
     },
     {
