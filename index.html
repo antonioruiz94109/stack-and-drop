@@ -29,8 +29,9 @@
     .filters { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; background: #18181b; border: 1px solid #27272a; border-radius: 12px; padding: 16px; }
     .filter-label { display: block; font-size: 12px; text-transform: uppercase; letter-spacing: .05em; color: #a1a1aa; margin-bottom: 8px; }
     .filter-chips { display: flex; flex-wrap: wrap; gap: 8px; min-width: 0; }
-    .filter-chip { min-height: 44px; max-width: 100%; padding: 6px 10px; background: transparent; border-color: #6ee7b7; text-align: left; }
-    .filter-chip[aria-pressed="true"] { background: #6ee7b7; color: #09090b; }
+    .filter-chip { min-height: 44px; max-width: 100%; padding: 6px 10px; background: transparent; border-color: #3f3f46; color: #d4d4d8; text-align: left; }
+    .filter-chip:hover { border-color: #71717a; }
+    .filter-chip[aria-pressed="true"] { background: #6ee7b7; border-color: #6ee7b7; color: #09090b; font-weight: 600; }
     .filter-hint { display: block; margin-top: 8px; color: #a1a1aa; font-size: 12px; }
     .filter-help { margin-top: 8px; font-size: 13px; line-height: 1.55; color: #d4d4d8; }
     .filter-help summary { cursor: pointer; color: #6ee7b7; padding: 6px 0; }
