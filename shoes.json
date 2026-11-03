@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-29",
+  "last_updated": "2026-11-03",
   "maintained_by": "Stack & Drop — manual review",
   "shoes": [
     {
@@ -2088,14 +2088,14 @@
       "toe_box": null,
       "use_case": "Daily road running / Speedwork",
       "foam": "PWRRUN",
-      "price_usd": null,
+      "price_usd": 130,
       "verdict": "A lightweight, flexible road trainer with PWRRUN cushioning.",
       "source_url": "https://www.saucony.com/en/buyers-guide/#kinvara-16",
       "source_type": "manufacturer",
       "sourced_at": "2026-10-29",
       "weight_reference_size": null,
-      "price_type": null,
-      "source_notes": "Weight reference size and toe-box shape not specified by this source. Price-source review 2026-10-29: Manufacturer guide identifies the model but does not display its price; the existing amount is not supported by this price-source URL. Price not verified.",
+      "price_type": "US store listing",
+      "source_notes": "Weight reference size and toe-box shape not specified by this source. Price-source review 2026-10-29: Manufacturer guide identifies the model but does not display its price; the existing amount is not supported by this price-source URL. Price not verified. Price-source follow-up 2026-11-02: Saucony own US new-shoe product page lists $130.00 for Cloud | Storm, regular width, checked 2026-11-02. Recorded as a current store price, not independently established list/MSRP. Other colorways and future offers may differ. Supersedes the prior guide-only price withdrawal; historical review retained.",
       "release_date": "2025-06",
       "release_source_url": "https://www.youtube.com/watch?v=V2ODH7HluUk",
       "release_notes": "Month-level launch reported by Running Warehouse; current manufacturer listing confirms release.",
@@ -2105,7 +2105,7 @@
         "scope": "model",
         "checked_at": "2026-10-18"
       },
-      "price_source_url": null,
+      "price_source_url": "https://www.saucony.com/en/kinvara-16/60309M.html",
       "spec_availability": {
         "weight_reference_size": {
           "status": "not_published",
@@ -2114,12 +2114,19 @@
           "note": "The checked manufacturer page does not publish this specification for this version."
         }
       },
-      "price_checked_at": "2026-10-29",
+      "price_checked_at": "2026-11-02",
       "price_review": {
-        "source_url": "https://www.saucony.com/en/buyers-guide/#kinvara-16",
-        "checked_at": "2026-10-29",
-        "note": "Manufacturer guide identifies the model but does not display its price; the existing amount is not supported by this price-source URL. Historical evidence is retained; the active price is withdrawn."
-      }
+        "source_url": "https://www.saucony.com/en/kinvara-16/60309M.html",
+        "checked_at": "2026-11-02",
+        "note": "Saucony own US new-shoe product page lists $130.00 for Cloud | Storm, regular width, checked 2026-11-02. Recorded as a current store price, not independently established list/MSRP. Other colorways and future offers may differ. Supersedes the prior guide-only price withdrawal; historical review retained."
+      },
+      "price_review_history": [
+        {
+          "source_url": "https://www.saucony.com/en/buyers-guide/#kinvara-16",
+          "checked_at": "2026-10-29",
+          "note": "Manufacturer guide identifies the model but does not display its price; the existing amount is not supported by this price-source URL. Historical evidence is retained; the active price is withdrawn."
+        }
+      ]
     },
     {
       "id": "saucony-kinvara-16-women",
@@ -2133,14 +2140,14 @@
       "toe_box": null,
       "use_case": "Daily road running / Speedwork",
       "foam": "PWRRUN",
-      "price_usd": null,
+      "price_usd": 130,
       "verdict": "A lightweight, flexible road trainer with PWRRUN cushioning.",
       "source_url": "https://www.saucony.com/en/buyers-guide/#kinvara-16",
       "source_type": "manufacturer",
       "sourced_at": "2026-10-29",
       "weight_reference_size": null,
-      "price_type": null,
-      "source_notes": "Weight reference size and toe-box shape not specified by this source. Price-source review 2026-10-29: Manufacturer guide identifies the model but does not display its price; the existing amount is not supported by this price-source URL. Price not verified.",
+      "price_type": "US store listing",
+      "source_notes": "Weight reference size and toe-box shape not specified by this source. Price-source review 2026-10-29: Manufacturer guide identifies the model but does not display its price; the existing amount is not supported by this price-source URL. Price not verified. Price-source follow-up 2026-11-02: Saucony own US new-shoe product page lists $130.00 for Eggplant | Shock, regular width, checked 2026-11-02. Recorded as a current store price, not independently established list/MSRP. Other colorways and future offers may differ. Supersedes the prior guide-only price withdrawal; historical review retained.",
       "release_date": "2025-06",
       "release_source_url": "https://www.youtube.com/watch?v=V2ODH7HluUk",
       "release_notes": "Month-level launch reported by Running Warehouse; current manufacturer listing confirms release.",
@@ -2150,7 +2157,7 @@
         "scope": "model",
         "checked_at": "2026-10-18"
       },
-      "price_source_url": null,
+      "price_source_url": "https://www.saucony.com/en/kinvara-16/60310W.html",
       "spec_availability": {
         "weight_reference_size": {
           "status": "not_published",
@@ -2159,12 +2166,19 @@
           "note": "The checked manufacturer page does not publish this specification for this version."
         }
       },
-      "price_checked_at": "2026-10-29",
+      "price_checked_at": "2026-11-02",
       "price_review": {
-        "source_url": "https://www.saucony.com/en/buyers-guide/#kinvara-16",
-        "checked_at": "2026-10-29",
-        "note": "Manufacturer guide identifies the model but does not display its price; the existing amount is not supported by this price-source URL. Historical evidence is retained; the active price is withdrawn."
-      }
+        "source_url": "https://www.saucony.com/en/kinvara-16/60310W.html",
+        "checked_at": "2026-11-02",
+        "note": "Saucony own US new-shoe product page lists $130.00 for Eggplant | Shock, regular width, checked 2026-11-02. Recorded as a current store price, not independently established list/MSRP. Other colorways and future offers may differ. Supersedes the prior guide-only price withdrawal; historical review retained."
+      },
+      "price_review_history": [
+        {
+          "source_url": "https://www.saucony.com/en/buyers-guide/#kinvara-16",
+          "checked_at": "2026-10-29",
+          "note": "Manufacturer guide identifies the model but does not display its price; the existing amount is not supported by this price-source URL. Historical evidence is retained; the active price is withdrawn."
+        }
+      ]
     },
     {
       "id": "saucony-ride-19-men",
@@ -2178,14 +2192,14 @@
       "toe_box": null,
       "use_case": "Daily road running / Long runs",
       "foam": "PWRRUN+",
-      "price_usd": null,
+      "price_usd": 145,
       "verdict": "A neutral road trainer with revised PWRRUN+ cushioning and an engineered mesh upper.",
       "source_url": "https://www.saucony.com/en/buyers-guide/#ride-19",
       "source_type": "manufacturer",
       "sourced_at": "2026-10-29",
       "weight_reference_size": null,
-      "price_type": null,
-      "source_notes": "Weight reference size and toe-box shape not specified by this source. Price-source review 2026-10-29: Manufacturer guide identifies the model but does not display its price; the existing amount is not supported by this price-source URL. Price not verified.",
+      "price_type": "US store listing",
+      "source_notes": "Weight reference size and toe-box shape not specified by this source. Price-source review 2026-10-29: Manufacturer guide identifies the model but does not display its price; the existing amount is not supported by this price-source URL. Price not verified. Price-source follow-up 2026-11-02: Saucony own US new-shoe product page lists $145.00 for White | Black, regular width, checked 2026-11-02. Recorded as a current store price, not independently established list/MSRP. Other colorways and future offers may differ. Supersedes the prior guide-only price withdrawal; historical review retained.",
       "release_date": "2026-01",
       "release_source_url": "https://www.youtube.com/watch?v=pS36vh1PgXE",
       "release_notes": "Month-level launch reported by Running Warehouse; current manufacturer listing confirms release.",
@@ -2195,7 +2209,7 @@
         "scope": "model",
         "checked_at": "2026-10-18"
       },
-      "price_source_url": null,
+      "price_source_url": "https://www.saucony.com/en/ride-19/60823M.html",
       "spec_availability": {
         "weight_reference_size": {
           "status": "not_published",
@@ -2204,12 +2218,19 @@
           "note": "The checked manufacturer page does not publish this specification for this version."
         }
       },
-      "price_checked_at": "2026-10-29",
+      "price_checked_at": "2026-11-02",
       "price_review": {
-        "source_url": "https://www.saucony.com/en/buyers-guide/#ride-19",
-        "checked_at": "2026-10-29",
-        "note": "Manufacturer guide identifies the model but does not display its price; the existing amount is not supported by this price-source URL. Historical evidence is retained; the active price is withdrawn."
-      }
+        "source_url": "https://www.saucony.com/en/ride-19/60823M.html",
+        "checked_at": "2026-11-02",
+        "note": "Saucony own US new-shoe product page lists $145.00 for White | Black, regular width, checked 2026-11-02. Recorded as a current store price, not independently established list/MSRP. Other colorways and future offers may differ. Supersedes the prior guide-only price withdrawal; historical review retained."
+      },
+      "price_review_history": [
+        {
+          "source_url": "https://www.saucony.com/en/buyers-guide/#ride-19",
+          "checked_at": "2026-10-29",
+          "note": "Manufacturer guide identifies the model but does not display its price; the existing amount is not supported by this price-source URL. Historical evidence is retained; the active price is withdrawn."
+        }
+      ]
     },
     {
       "id": "saucony-ride-19-women",
@@ -2223,14 +2244,14 @@
       "toe_box": null,
       "use_case": "Daily road running / Long runs",
       "foam": "PWRRUN+",
-      "price_usd": null,
+      "price_usd": 145,
       "verdict": "A neutral road trainer with revised PWRRUN+ cushioning and an engineered mesh upper.",
       "source_url": "https://www.saucony.com/en/buyers-guide/#ride-19",
       "source_type": "manufacturer",
       "sourced_at": "2026-10-29",
       "weight_reference_size": null,
-      "price_type": null,
-      "source_notes": "Weight reference size and toe-box shape not specified by this source. Price-source review 2026-10-29: Manufacturer guide identifies the model but does not display its price; the existing amount is not supported by this price-source URL. Price not verified.",
+      "price_type": "US store listing",
+      "source_notes": "Weight reference size and toe-box shape not specified by this source. Price-source review 2026-10-29: Manufacturer guide identifies the model but does not display its price; the existing amount is not supported by this price-source URL. Price not verified. Price-source follow-up 2026-11-02: Saucony own US new-shoe product page lists $145.00 for Plum | Eggplant, regular width, checked 2026-11-02. Recorded as a current store price, not independently established list/MSRP. Other colorways and future offers may differ. Supersedes the prior guide-only price withdrawal; historical review retained.",
       "release_date": "2026-01",
       "release_source_url": "https://www.youtube.com/watch?v=pS36vh1PgXE",
       "release_notes": "Month-level launch reported by Running Warehouse; current manufacturer listing confirms release.",
@@ -2240,7 +2261,7 @@
         "scope": "model",
         "checked_at": "2026-10-18"
       },
-      "price_source_url": null,
+      "price_source_url": "https://www.saucony.com/en/ride-19/60827W.html",
       "spec_availability": {
         "weight_reference_size": {
           "status": "not_published",
@@ -2249,12 +2270,19 @@
           "note": "The checked manufacturer page does not publish this specification for this version."
         }
       },
-      "price_checked_at": "2026-10-29",
+      "price_checked_at": "2026-11-02",
       "price_review": {
-        "source_url": "https://www.saucony.com/en/buyers-guide/#ride-19",
-        "checked_at": "2026-10-29",
-        "note": "Manufacturer guide identifies the model but does not display its price; the existing amount is not supported by this price-source URL. Historical evidence is retained; the active price is withdrawn."
-      }
+        "source_url": "https://www.saucony.com/en/ride-19/60827W.html",
+        "checked_at": "2026-11-02",
+        "note": "Saucony own US new-shoe product page lists $145.00 for Plum | Eggplant, regular width, checked 2026-11-02. Recorded as a current store price, not independently established list/MSRP. Other colorways and future offers may differ. Supersedes the prior guide-only price withdrawal; historical review retained."
+      },
+      "price_review_history": [
+        {
+          "source_url": "https://www.saucony.com/en/buyers-guide/#ride-19",
+          "checked_at": "2026-10-29",
+          "note": "Manufacturer guide identifies the model but does not display its price; the existing amount is not supported by this price-source URL. Historical evidence is retained; the active price is withdrawn."
+        }
+      ]
     },
     {
       "id": "saucony-peregrine-16-men",
