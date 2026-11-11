@@ -62,3 +62,58 @@ class CompletionTests(unittest.TestCase):
   for p in pages.values():p.update(ok=True,text='Please enable JavaScript')
   report,preserved=review([shoe],{'completion_watch':new},pages,'2026-11-02');self.assertEqual(preserved,new);self.assertEqual(report['entries'][0]['sources'][0]['status'],'no_evidence')
   self.assertEqual(shoe['price_usd'],150)
+
+class StructuredDetailsTests(unittest.TestCase):
+ def page(self, url, details):
+  p=c.Page(); data={'props':{'pageProps':{'selectedProduct':{'productInfo':{'canonicalUrl':url,'productDetails':[{'body':details}]}}}}}
+  p.feed('<script id="__NEXT_DATA__" type="application/json">'+json.dumps(data)+'</script>')
+  return p
+ def test_selected_product_only_and_labels(self):
+  u='https://www.nike.com/t/vomero-premium-mens-shoes-abc'
+  p=self.page(u,['Weight: Approx. 351g/12.4 oz (Men’s US 10)','Heel-to-toe drop: 10 mm'])
+  rows=c.structured_details(p,u)
+  self.assertEqual(len(rows),2); self.assertTrue(c.evidence(' '.join(rows)))
+  self.assertEqual(c.structured_details(p,'https://www.nike.com/t/womens-shoes-xyz/SKU'),[])
+  self.assertEqual(c.structured_details(p,'https://other.example/t/vomero-premium-mens-shoes-abc'),[])
+ def test_malformed_json_ignored(self):
+  p=c.Page();p.feed('<script id="__NEXT_DATA__">bad</script>Weight: 8 oz')
+  self.assertEqual(c.structured_details(p,'https://www.nike.com/t/test'),[])
+ def test_no_details_not_fabricated(self):
+  p=self.page('https://www.nike.com/t/test',[])
+  self.assertEqual(c.structured_details(p,'https://www.nike.com/t/test/SKU'),[])
+
+class CoverageStatusTests(unittest.TestCase):
+ def test_unavailable_and_partial_not_green(self):
+  d={'HOKA':dict(entries=16,pages_fetched=0,specs_extracted=0,discovery_pages_fetched=0,discovery_pages=2), 'Nike':dict(entries=2,pages_fetched=2,specs_extracted=1,discovery_pages_fetched=2,discovery_pages=2)}
+  self.assertEqual(c.coverage_summary(d,['failure']),'incomplete')
+  self.assertEqual(d['HOKA']['status'],'unavailable');self.assertEqual(d['Nike']['status'],'incomplete')
+ def test_empty_listing_is_incomplete(self):
+  d={'Nike':dict(entries=1,pages_fetched=1,specs_extracted=1,discovery_pages_fetched=2,discovery_pages=2)}
+  self.assertEqual(c.coverage_summary(d,['Discovery Nike: zero product links extracted']),'incomplete')
+  self.assertEqual(d['Nike']['status'],'incomplete')
+
+class ExactSourceTests(unittest.TestCase):
+ def test_exact_sku_only(self):
+  u='https://www.nike.com/t/test'
+  p=StructuredDetailsTests().page(u,['Weight: 1 oz'])
+  p.next_data['props']['pageProps']['productGroups']=[{'products':{'A-001':{'productInfo':{'canonicalUrl':u,'productDetails':[{'body':['Weight: 12 oz']}]}}}}]
+  self.assertEqual(c.structured_details(p,u+'/A-001'),['Weight: 12 oz'])
+  self.assertEqual(c.structured_details(p,u+'/B-002'),[])
+ def test_announcements_separate_and_official(self):
+  pages={u:{'ok':True,'links':[]} for u in c.ANNOUNCEMENTS.values()}
+  pages[c.ANNOUNCEMENTS['ASICS']]['links']=[('/en/press/article/new-shoe','New shoe'),('/en/press/article/new-shoe',''),('https://other.test/en/press/article/fake','Fake')]
+  rows=c.announcement_watch(pages)
+  self.assertEqual(len(rows[0]['links']),1)
+  self.assertEqual(rows[0]['links'][0]['label'],'New shoe')
+  self.assertEqual(rows[1]['status'],'unavailable_or_empty')
+
+class RedirectIdentityTests(unittest.TestCase):
+ def test_redirect_does_not_substitute_structured_product(self):
+  p=StructuredDetailsTests().page('https://www.nike.com/t/other',['Weight: 99 oz'])
+  body=('<script id="__NEXT_DATA__">'+json.dumps(p.next_data)+'</script>'+('Normal product page. '*30)).encode()
+  from unittest.mock import MagicMock
+  response=MagicMock();response.__enter__.return_value=response;response.read.return_value=body
+  response.url='https://www.nike.com/t/other'
+  with patch.object(c.urllib.request,'urlopen',return_value=response):
+   result=c.fetch('https://www.nike.com/t/requested/SKU')
+  self.assertTrue(result['ok']);self.assertEqual(result['structured_details'],[])

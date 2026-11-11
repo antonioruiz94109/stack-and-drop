@@ -55,3 +55,12 @@ jobs:
         with:
           path: .checker-state
           key: catalog-monitor-v1-${{ github.run_id }}-${{ github.run_attempt }}
+      - name: Flag incomplete coverage (report retained above)
+        run: |
+          python - <<'PYCODE'
+          import json
+          report = json.load(open('checker-report/report.json'))
+          if report['coverage_status'] != 'complete':
+              print('::error title=Incomplete manufacturer coverage::Checker ran, but some sources or specifications could not be checked. Review the saved report; do not interpret this as no changes.')
+              raise SystemExit(1)
+          PYCODE
