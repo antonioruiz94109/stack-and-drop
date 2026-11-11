@@ -19,17 +19,40 @@ BRANDS = {
  'Saucony': ['https://www.saucony.com/en/mens-running/', 'https://www.saucony.com/en/womens-running/'],
  'adidas': ['https://www.adidas.com/us/men-running-shoes', 'https://www.adidas.com/us/women-running-shoes'],
 }
+ANNOUNCEMENTS = {
+ 'ASICS': 'https://corp.asics.com/en/press',
+ 'adidas': 'https://news.adidas.com/running',
+}
+
+def announcement_watch(pages):
+ rows=[]
+ for brand,url in ANNOUNCEMENTS.items():
+  page=pages[url]; links={}
+  if page['ok']:
+   for href,label in page['links']:
+    link=canonical(urljoin(url,href)); path=urlsplit(link).path
+    valid=(brand=='ASICS' and re.search(r'^/en/press/(?:article|release)/',path)) or (brand=='adidas' and '/s/' in path and path.startswith('/running/'))
+    if valid and urlsplit(link).netloc==urlsplit(url).netloc: links[link]=max(links.get(link,''),label.strip(),key=len)
+  rows.append({'brand':brand,'url':url,'status':'review_leads' if links else 'unavailable_or_empty','error':page.get('error'), 'links':[{'url':u,'label':l} for u,l in links.items()], 'limitation':'Supplemental manufacturer announcements only. Not full product coverage or verified model/gender/specifications.'})
+ return rows
+
 class Page(HTMLParser):
  def __init__(self):
-  super().__init__(); self.skip=0; self.parts=[]; self.links=[]; self.href=None; self.label=[]
+  super().__init__(); self.skip=0; self.parts=[]; self.links=[]; self.href=None; self.label=[]; self.json_script=None; self.json_parts=[]; self.next_data=None
  def handle_starttag(self, tag, attrs):
   a=dict(attrs)
+  if tag=='script' and a.get('id')=='__NEXT_DATA__': self.json_script=True; self.json_parts=[]
   if tag in ('script','style','noscript'): self.skip+=1
   if tag=='a': self.href=a.get('href'); self.label=[]
  def handle_endtag(self,tag):
+  if tag=='script' and self.json_script:
+   try: self.next_data=json.loads(''.join(self.json_parts))
+   except (ValueError,TypeError): pass
+   self.json_script=None
   if tag in ('script','style','noscript'): self.skip=max(0,self.skip-1)
   if tag=='a' and self.href: self.links.append((self.href,' '.join(self.label)));self.href=None
  def handle_data(self,s):
+  if self.json_script: self.json_parts.append(s)
   if not self.skip:
    self.parts.append(s)
    if self.href: self.label.append(s.strip())
@@ -49,6 +72,41 @@ def product_link(brand,path):
   'Saucony':r'/[^/]+/\d+[^/]*\.html$', 'adidas':r'/[^/]+/[A-Z0-9]+\.html$'}
  return bool(re.search(patterns[brand],path,re.I))
 
+def structured_details(page, url):
+ # Read manufacturer JSON only; don't execute scripts or scan recommendations.
+ if urlsplit(url).hostname not in ('www.nike.com','nike.com') or not page.next_data: return []
+ try:
+  props=page.next_data['props']['pageProps']
+  product=props['selectedProduct']; info=product['productInfo']
+  requested_path=urlsplit(url).path.rstrip('/')
+  expected=urlsplit(info.get('canonicalUrl','')).path.rstrip('/')
+  if not expected.startswith('/t/') or (requested_path!=expected and requested_path.rsplit('/',1)[0]!=expected): return []
+  # A SKU-specific URL must match that SKU; never substitute a different color.
+  sku=requested_path.rsplit('/',1)[-1]
+  matched=requested_path==expected or info.get('styleColor')==sku
+  for group in props.get('productGroups',[]):
+   candidate=group.get('products',{}).get(sku)
+   if candidate and candidate.get('productInfo',{}).get('canonicalUrl')==info.get('canonicalUrl'): info=candidate['productInfo']; matched=True; break
+  if not matched: return []
+  rows=[]
+  for section in info.get('productDetails',[]):
+   if not isinstance(section,dict): continue
+   for value in section.get('body',[]):
+    if isinstance(value,str): rows.append(value)
+  return rows
+ except (KeyError,TypeError): return []
+
+def coverage_summary(coverage, problems):
+ for brand,c in coverage.items():
+  c['status']='complete' if c['pages_fetched']==c['entries'] and c['specs_extracted']==c['entries'] and c['discovery_pages_fetched']==c['discovery_pages'] else 'incomplete'
+  if not c['pages_fetched'] and c['entries']: c['status']='unavailable'
+ # Even a fetched discovery page can have no product links.
+ for problem in problems:
+  if problem.startswith('Discovery '):
+   brand=problem.split(':',1)[0].removeprefix('Discovery ')
+   if brand in coverage and coverage[brand]['status']=='complete': coverage[brand]['status']='incomplete'
+ return 'incomplete' if problems else 'complete'
+
 def fetch(url):
  try:
   req=urllib.request.Request(url,headers={'User-Agent':'StackAndDropCatalogChecker/1.0 (+https://github.com/antonioruiz94109/stack-and-drop)'})
@@ -57,7 +115,9 @@ def fetch(url):
    if len(body)>20_000_000: raise ValueError('page exceeds 20 MB limit')
    page=Page();page.feed(body.decode('utf-8','replace'));text=re.sub(r'\s+',' ',' '.join(page.parts)).strip()
    if len(text)<300 or re.search(r'access denied|verify you are human|just a moment',text[:700],re.I): raise ValueError('blocked or incomplete page')
-   return {'ok':True,'url':r.url,'text':text,'links':page.links}
+   details=structured_details(page,url)
+   if details: text+=' '+ ' '.join(details)
+   return {'ok':True,'url':r.url,'text':text,'links':page.links,'structured_details':details}
  except Exception as e: return {'ok':False,'error':str(e)[:250]}
 
 def evidence(text):
@@ -79,7 +139,7 @@ def run(catalog,previous,output):
  previous_path=Path(previous)
  if not previous_path.exists(): previous_path=Path(__file__).with_name('catalog-baseline.json')
  old=json.loads(previous_path.read_text()) if previous_path.exists() else {'sources':{},'candidates':[]}
- urls=sorted(set([u for s in shoes for u in completion_sources(s)]+[s['source_url'] for s in shoes]+[u for us in BRANDS.values() for u in us]))
+ urls=sorted(set([u for s in shoes for u in completion_sources(s)]+[s['source_url'] for s in shoes]+[u for us in BRANDS.values() for u in us]+list(ANNOUNCEMENTS.values())))
  with concurrent.futures.ThreadPoolExecutor(max_workers=3) as pool: pages=dict(zip(urls,pool.map(fetch,urls)))
  snapshot={'checked_at':str(today),'sources':dict(old.get('sources',{})),'candidates':[]}; problems=[];changes=[];baseline=[];age=[];candidates={}
  for s in shoes:
@@ -115,18 +175,26 @@ def run(catalog,previous,output):
  for brand,listing_urls in BRANDS.items():
   entries=[s for s in shoes if s['brand']==brand]
   coverage[brand]={'entries':len(entries),'pages_fetched':sum(pages[s['source_url']]['ok'] for s in entries),'specs_extracted':sum(pages[s['source_url']]['ok'] and bool(evidence(pages[s['source_url']]['text'])) for s in entries),'discovery_pages_fetched':sum(pages[u]['ok'] for u in listing_urls),'discovery_pages':len(listing_urls),'pending_candidates':sum(v['brand']==brand for v in candidates.values())}
- report={'checked_at':str(today),'brand_coverage':coverage,'comparison_baseline':old.get('checked_at','none'),'scope':{b:sum(s['brand']==b for s in shoes) for b in BRANDS},'source_checks':len(shoes),'successful_fetches':sum(pages[s['source_url']]['ok'] for s in shoes),'new_candidates':new,'pending_candidates':list(candidates.values()),'possible_spec_changes':changes,'initial_baselines':baseline,'age_flags':age,'coverage_problems':problems}
+ coverage_status=coverage_summary(coverage,problems)
+ report={'coverage_status':coverage_status,'checked_at':str(today),'brand_coverage':coverage,'comparison_baseline':old.get('checked_at','none'),'scope':{b:sum(s['brand']==b for s in shoes) for b in BRANDS},'source_checks':len(shoes),'successful_fetches':sum(pages[s['source_url']]['ok'] for s in shoes),'new_candidates':new,'pending_candidates':list(candidates.values()),'possible_spec_changes':changes,'initial_baselines':baseline,'age_flags':age,'coverage_problems':problems}
+ report['manufacturer_announcements']=announcement_watch(pages)
  completion,completion_state=review_completion(shoes,old,pages,str(today))
  report['data_completion']=completion;snapshot['completion_watch']=completion_state
  held_review,held_snapshot=review_release_holds(shoes,old,fetch)
  snapshot['release_watch']=held_snapshot;report['held_release_review']=held_review
  out=Path(output);out.mkdir(parents=True,exist_ok=True);(out/'report.json').write_text(json.dumps(report,indent=2)+'\n');(out/'snapshot.json').write_text(json.dumps(snapshot,indent=2)+'\n')
- lines=['# Stack & Drop weekly review — '+str(today),'','REPORT ONLY. No catalog edits, commits or publication. Candidates are not verified releases.','',f"Scope: {len(shoes)} existing entries; {len(new)} newly observed candidate links; {len(changes)} possible spec changes; {len(problems)} coverage problems.",'','First successful checks establish a baseline; they do not prove existing specs match. Blocked pages are unknown, never unchanged or discontinued. New colors/widths can still require manual deduplication.','']
- lines+=['## Coverage by brand','','Brand | Entries | Pages fetched | Specs extracted | Discovery pages fetched | Pending candidates','--- | ---: | ---: | ---: | ---: | ---:']
- for brand,c in coverage.items(): lines.append(f"{brand} | {c['entries']} | {c['pages_fetched']} | {c['specs_extracted']} | {c['discovery_pages_fetched']}/{c['discovery_pages']} | {c['pending_candidates']}")
+ lines=['# Stack & Drop weekly review — '+str(today),'','**COVERAGE '+coverage_status.upper()+'**. A completed checker is not a complete catalog review.','', 'REPORT ONLY. No catalog edits, commits or publication. Candidates are not verified releases.','',f"Scope: {len(shoes)} existing entries; {len(new)} newly observed candidate links; {len(changes)} possible spec changes; {len(problems)} coverage problems.",'','First successful checks establish a baseline; they do not prove existing specs match. Blocked pages are unknown, never unchanged or discontinued. New colors/widths can still require manual deduplication.','']
+ lines+=['## Coverage by brand','','Brand | Status | Entries | Pages fetched | Specs extracted | Discovery pages fetched | Pending candidates','--- | --- | ---: | ---: | ---: | ---: | ---:']
+ for brand,c in coverage.items(): lines.append(f"{brand} | {c['status']} | {c['entries']} | {c['pages_fetched']} | {c['specs_extracted']} | {c['discovery_pages_fetched']}/{c['discovery_pages']} | {c['pending_candidates']}")
  lines+=['']
  for title,items in [('Candidates requiring verification',[f"{v['brand']}: [{v['label'].replace('[','').replace(']','')}]({v['url']})" for v in candidates.values()]),('Possible specification changes',[f"{v['id']}: {v['url']}\n  - Before: {'; '.join(v['before'])}\n  - After: {'; '.join(v['after'])}" for v in changes]),('Release age review',age),('Coverage problems',problems),('Initial source baselines',[f"{v['id']}: {'; '.join(v['evidence'])}" for v in baseline])]:
   lines+=['## '+title,'']+(['- '+s for s in items] or ['None.'])+['']
+ lines+=['## Supplemental manufacturer announcements','','These leads do not clear failed product coverage or prove new releases.']
+ for row in report['manufacturer_announcements']:
+  lines += ['',row['brand']+': '+row['status']+' — '+row['url']]
+  if row['error']: lines.append('Error: '+row['error'])
+  for link in row['links']: lines.append('- '+(link['label'] or 'Unlabelled announcement')+' — '+link['url'])
+ lines+=['']
  lines+=['## Prices and missing details','',completion['policy'],'', 'Missing fields: '+json.dumps(completion['missing_counts']), 'Full existing values, evidence excerpts, failures and follow-up queries for every entry are in report.json.','']
  for row in completion['entries']:
   statuses=[x['status'] for x in row['sources']]
