@@ -20,8 +20,8 @@ jobs:
           python-version: '3.12'
       - name: Python syntax and checker tests
         run: |
-          python -m py_compile scripts/check_catalog.py scripts/completion_watch.py scripts/release_watch.py scripts/test_check_catalog.py
-          python -m unittest discover -s scripts -p 'test_check_catalog.py'
+          python -m py_compile scripts/check_catalog.py scripts/completion_watch.py scripts/release_watch.py scripts/test_check_catalog.py scripts/triage_report.py scripts/test_triage_report.py
+          python -m unittest discover -s scripts -p 'test_*.py'
       - name: Catalog JSON parse check
         run: python -m json.tool shoes.json > /dev/null
       - name: Verify published entrypoints exist
